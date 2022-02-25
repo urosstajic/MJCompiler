@@ -1,0 +1,306 @@
+INFO  18:26:11,062 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  18:26:11,138 - #2 program
+INFO  18:26:11,138 - #48 test302
+INFO  18:26:11,138 - #35 const
+INFO  18:26:11,140 - #48 int
+INFO  18:26:11,140 - #48 jedan
+INFO  18:26:11,142 - #7 =
+INFO  18:26:11,142 - #45 1
+INFO  18:26:11,142 - #6 ;
+INFO  18:26:11,144 - #48 int
+INFO  18:26:11,145 - #48 i
+INFO  18:26:11,146 - #6 ;
+INFO  18:26:11,149 - #48 bool
+INFO  18:26:11,150 - #48 ibool
+INFO  18:26:11,150 - #6 ;
+INFO  18:26:11,150 - #48 int
+INFO  18:26:11,150 - #48 niz2
+INFO  18:26:11,150 - #6 ;
+INFO  18:26:11,151 - #31 record
+INFO  18:26:11,151 - #48 Test
+INFO  18:26:11,151 - #16 {
+INFO  18:26:11,152 - #48 int
+INFO  18:26:11,153 - #48 niz
+INFO  18:26:11,153 - #33 [
+INFO  18:26:11,154 - #34 ]
+INFO  18:26:11,154 - #6 ;
+INFO  18:26:11,155 - #48 int
+INFO  18:26:11,156 - #48 a
+INFO  18:26:11,157 - #6 ;
+INFO  18:26:11,157 - #17 }
+INFO  18:26:11,157 - #48 Test
+INFO  18:26:11,158 - #48 t1
+INFO  18:26:11,158 - #22 ,
+INFO  18:26:11,158 - #48 t2
+INFO  18:26:11,158 - #6 ;
+INFO  18:26:11,159 - #16 {
+INFO  18:26:11,159 - #19 void
+INFO  18:26:11,160 - #48 main
+INFO  18:26:11,161 - #3 (
+INFO  18:26:11,161 - #4 )
+INFO  18:26:11,162 - #16 {
+INFO  18:26:11,163 - #48 t1
+INFO  18:26:11,164 - #44 .
+INFO  18:26:11,165 - #48 niz
+INFO  18:26:11,165 - #33 [
+INFO  18:26:11,166 - #48 i
+INFO  18:26:11,166 - #34 ]
+INFO  18:26:11,168 - #7 =
+INFO  18:26:11,168 - #45 0
+INFO  18:26:11,169 - #6 ;
+INFO  18:26:11,169 - #17 }
+INFO  18:26:11,170 - #17 }
+INFO  18:26:11,174 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList4(
+      DeclarationList1(
+        DeclarationList1(
+          DeclarationList1(
+            DeclarationList2(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              ConstDecl(
+                ConstType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [ConstType]
+                ConstIzraz(
+                 jedan
+                  TipConst1(
+                   1
+                  ) [TipConst1]
+                ) [ConstIzraz]
+                DodatnoCD1(
+                ) [DodatnoCD1]
+              ) [ConstDecl]
+            ) [DeclarationList2]
+            GlobalDecl(
+              GlobalType(
+                Type(
+                 int
+                ) [Type]
+              ) [GlobalType]
+              GlobalNakonTipa1(
+                SamoJedno1(
+                  GlobalDeclName(
+                    GlobalDeclImeProm(
+                     i
+                    ) [GlobalDeclImeProm]
+                    Zagrade2(
+                    ) [Zagrade2]
+                  ) [GlobalDeclName]
+                ) [SamoJedno1]
+              ) [GlobalNakonTipa1]
+            ) [GlobalDecl]
+          ) [DeclarationList1]
+          GlobalDecl(
+            GlobalType(
+              Type(
+               bool
+              ) [Type]
+            ) [GlobalType]
+            GlobalNakonTipa1(
+              SamoJedno1(
+                GlobalDeclName(
+                  GlobalDeclImeProm(
+                   ibool
+                  ) [GlobalDeclImeProm]
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [GlobalDeclName]
+              ) [SamoJedno1]
+            ) [GlobalNakonTipa1]
+          ) [GlobalDecl]
+        ) [DeclarationList1]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 niz2
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      RecordDecl(
+        RecordName(
+         Test
+        ) [RecordName]
+        VarDeclarations(
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              VarNameDecl(
+               niz
+                Zagrade1(
+                ) [Zagrade1]
+              ) [VarNameDecl]
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarNameDecl(
+             a
+              Zagrade2(
+              ) [Zagrade2]
+            ) [VarNameDecl]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDecl]
+        ) [VarDeclarations]
+      ) [RecordDecl]
+    ) [DeclarationList4]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         Test
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             t1
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               t2
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 t1
+                ) [DesignatorName]
+                DDodatno2(
+                  DDodatno1(
+                    DDodatno3(
+                    ) [DDodatno3]
+                   niz
+                  ) [DDodatno1]
+                  Expr2(
+                    Term2(
+                      Fac7(
+                        Designator(
+                          DesignatorName(
+                           i
+                          ) [DesignatorName]
+                          DDodatno3(
+                          ) [DDodatno3]
+                        ) [Designator]
+                      ) [Fac7]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DDodatno2]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac1(
+                    TipConst1(
+                     0
+                    ) [TipConst1]
+                  ) [Fac1]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  18:26:11,185 - ===================================
+INFO  18:26:11,193 - Dodat je const simbol sa imenomjedan na liniji 5
+INFO  18:26:11,193 - Deklarisana promenljiva i na liniji 7
+INFO  18:26:11,193 - Deklarisana promenljiva ibool na liniji 8
+INFO  18:26:11,194 - Deklarisana promenljiva niz2 na liniji 10
+INFO  18:26:11,194 - JESTE NIZ na liniji 13
+INFO  18:26:11,194 - 1ovo je dodatno na liniji 14
+INFO  18:26:11,195 - Deklarisana promenljiva t1 na liniji 17
+INFO  18:26:11,195 - Deklarisana promenljiva t2 na liniji 17
+INFO  18:26:11,195 - Obradjuje se funkcija main na liniji 21
+INFO  18:26:11,196 - Uslo dodatno1 na liniji 2
+INFO  18:26:11,196 - 4haha na liniji 2
+INFO  18:26:11,196 - jel naslo type0 na liniji 2
+INFO  18:26:11,196 - uslo ovde                niz na liniji 2
+INFO  18:26:11,196 - 0velicina na liniji 2
+INFO  18:26:11,204 - 2velicina ovo na liniji 2
+INFO  18:26:11,204 - DA PROVERIM STA SAM NASAO           3 na liniji 2
+INFO  18:26:11,204 - Nadjeno polje klase na liniji 2
+INFO  18:26:11,204 - Ispod nadjeno        noObj na liniji 2
+INFO  18:26:11,204 - niz na liniji 2
+INFO  18:26:11,204 - izaslo dodatno3 na liniji 2
+INFO  18:26:11,204 - 3vidi tip na liniji 2
+ERROR 18:26:11,204 - Greska, neterminal Expr mora biti tipa int! odavde je na liniji 2
+INFO  18:26:11,204 - UAAAA0 na liniji 22
+ERROR 18:26:11,204 - Greska, mora biti niz!t1 na liniji 22
+INFO  18:26:11,204 - t1iznad element na liniji 22
+INFO  18:26:11,204 - Jeste null na liniji 22

@@ -1,0 +1,28 @@
+program MojTest1
+const int a=5;
+int f, int c;
+const int d=3;
+int niz[];
+
+
+{
+
+	void main(){
+		niz=new int[7];
+		niz[0]=0;
+		niz[1]=a;
+		niz[2]=a*7*3;
+		niz[0]++;
+		niz[3]=d+a;
+		niz[4]=niz[1];
+		niz[5]=13;
+		niz[6]=1;
+
+		print(niz[2], 2);
+
+
+	}
+
+
+
+}

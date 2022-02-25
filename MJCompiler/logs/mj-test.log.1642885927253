@@ -1,0 +1,179 @@
+INFO  22:11:21,882 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  22:11:21,984 - #2 program
+INFO  22:11:21,984 - #49 test301
+INFO  22:11:21,985 - #49 int
+INFO  22:11:21,988 - #49 a
+INFO  22:11:21,990 - #6 ;
+INFO  22:11:21,993 - #49 int
+INFO  22:11:21,994 - #49 b
+INFO  22:11:21,994 - #6 ;
+INFO  22:11:21,995 - #16 {
+INFO  22:11:21,995 - #19 void
+INFO  22:11:21,996 - #49 main
+INFO  22:11:21,996 - #3 (
+INFO  22:11:21,998 - #4 )
+INFO  22:11:21,998 - #16 {
+INFO  22:11:22,000 - #49 a
+INFO  22:11:22,001 - #7 =
+INFO  22:11:22,008 - #46 2
+INFO  22:11:22,009 - #6 ;
+INFO  22:11:22,011 - #49 b
+INFO  22:11:22,012 - #7 =
+INFO  22:11:22,012 - #46 3
+INFO  22:11:22,013 - #6 ;
+INFO  22:11:22,013 - #28 print
+INFO  22:11:22,013 - #3 (
+INFO  22:11:22,013 - #49 a
+INFO  22:11:22,014 - #49 b
+ERROR 22:11:22,014 - 
+Sintaksna greska na liniji 13
+INFO  22:11:22,014 - #4 )
+INFO  22:11:22,014 - #6 ;
+INFO  22:11:22,014 - #17 }
+INFO  22:11:22,016 - #17 }
+ERROR 22:11:22,016 - Izvrsen oporavak do ; zbog lose dodele u liniji 13
+INFO  22:11:22,023 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             b
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                        TipConst1(
+                         2
+                        ) [TipConst1]
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   b
+                  ) [DesignatorName]
+                  NoDesDodatno(
+                  ) [NoDesDodatno]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst1(
+                       3
+                      ) [TipConst1]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          ErrorStmt3(
+          ) [ErrorStmt3]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  22:11:22,061 - ===================================
+INFO  22:11:22,073 - Deklarisana promenljiva a na liniji 5
+INFO  22:11:22,074 - Deklarisana promenljiva b na liniji 6
+INFO  22:11:22,074 - Obradjuje se funkcija main na liniji 9
+INFO  22:11:22,074 - TIP DESIGNATOR1 na liniji 11
+INFO  22:11:22,075 - a     imeee     1 na liniji 11
+INFO  22:11:22,075 - TIPOVI SU KOMPATIBILNI! na liniji 11
+INFO  22:11:22,075 - TIP DESIGNATOR1 na liniji 12
+INFO  22:11:22,075 - b     imeee     1 na liniji 12
+INFO  22:11:22,076 - TIPOVI SU KOMPATIBILNI! na liniji 12
+INFO  22:11:22,076 - Postoji main
+INFO  22:11:22,076 - ===================================
+ERROR 22:11:22,077 - Parsiranje NIJE uspesno zavrseno!

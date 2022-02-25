@@ -1,0 +1,394 @@
+INFO  14:54:21,518 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  14:54:21,605 - #2 program
+INFO  14:54:21,606 - #48 mojProg
+INFO  14:54:21,606 - #36 class
+INFO  14:54:21,607 - #48 Table
+INFO  14:54:21,607 - #16 {
+INFO  14:54:21,608 - #48 int
+INFO  14:54:21,609 - #48 pos
+INFO  14:54:21,609 - #33 [
+INFO  14:54:21,610 - #34 ]
+INFO  14:54:21,610 - #22 ,
+INFO  14:54:21,611 - #48 neg
+INFO  14:54:21,612 - #33 [
+INFO  14:54:21,612 - #34 ]
+INFO  14:54:21,612 - #6 ;
+INFO  14:54:21,612 - #16 {
+INFO  14:54:21,613 - #19 void
+INFO  14:54:21,615 - #48 putp
+INFO  14:54:21,616 - #3 (
+INFO  14:54:21,616 - #48 int
+INFO  14:54:21,617 - #48 a
+INFO  14:54:21,617 - #22 ,
+INFO  14:54:21,619 - #48 int
+INFO  14:54:21,619 - #48 idx
+INFO  14:54:21,619 - #4 )
+INFO  14:54:21,619 - #16 {
+INFO  14:54:21,620 - #48 this
+INFO  14:54:21,621 - #44 .
+INFO  14:54:21,621 - #48 pos
+INFO  14:54:21,621 - #33 [
+INFO  14:54:21,622 - #48 idx
+INFO  14:54:21,622 - #34 ]
+INFO  14:54:21,622 - #7 =
+INFO  14:54:21,622 - #48 a
+INFO  14:54:21,623 - #6 ;
+INFO  14:54:21,624 - #17 }
+INFO  14:54:21,624 - #19 void
+INFO  14:54:21,625 - #48 putn
+INFO  14:54:21,625 - #3 (
+INFO  14:54:21,625 - #48 int
+INFO  14:54:21,625 - #48 a
+INFO  14:54:21,625 - #22 ,
+INFO  14:54:21,625 - #48 int
+INFO  14:54:21,625 - #48 idx
+INFO  14:54:21,626 - #4 )
+INFO  14:54:21,626 - #16 {
+INFO  14:54:21,626 - #48 this
+INFO  14:54:21,626 - #44 .
+INFO  14:54:21,626 - #48 neg
+INFO  14:54:21,626 - #33 [
+INFO  14:54:21,627 - #48 idx
+INFO  14:54:21,627 - #34 ]
+INFO  14:54:21,627 - #7 =
+INFO  14:54:21,627 - #48 a
+INFO  14:54:21,627 - #6 ;
+INFO  14:54:21,628 - #17 }
+INFO  14:54:21,628 - #48 int
+INFO  14:54:21,628 - #48 getp
+INFO  14:54:21,628 - #3 (
+INFO  14:54:21,628 - #48 int
+INFO  14:54:21,628 - #48 idx
+INFO  14:54:21,628 - #4 )
+INFO  14:54:21,629 - #16 {
+INFO  14:54:21,629 - #26 return
+INFO  14:54:21,629 - #48 pos
+INFO  14:54:21,629 - #33 [
+INFO  14:54:21,629 - #48 idx
+INFO  14:54:21,629 - #34 ]
+INFO  14:54:21,630 - #6 ;
+INFO  14:54:21,630 - #17 }
+INFO  14:54:21,630 - #48 int
+INFO  14:54:21,630 - #48 getn
+INFO  14:54:21,630 - #3 (
+INFO  14:54:21,631 - #48 int
+INFO  14:54:21,631 - #48 idx
+INFO  14:54:21,631 - #4 )
+INFO  14:54:21,631 - #16 {
+INFO  14:54:21,631 - #26 return
+INFO  14:54:21,631 - #48 neg
+INFO  14:54:21,631 - #33 [
+INFO  14:54:21,631 - #48 idx
+INFO  14:54:21,631 - #34 ]
+INFO  14:54:21,632 - #6 ;
+INFO  14:54:21,632 - #17 }
+INFO  14:54:21,632 - #17 }
+INFO  14:54:21,632 - #17 }
+INFO  14:54:21,632 - #16 {
+INFO  14:54:21,633 - #17 }
+INFO  14:54:21,636 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList3(
+    NoDeclList(
+    ) [NoDeclList]
+    ClassDecl1(
+     Table
+      NoIzvodjenje(
+      ) [NoIzvodjenje]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclDerived1(
+          Type(
+           int
+          ) [Type]
+         pos
+          Zagrade1(
+          ) [Zagrade1]
+          ViseVarDeklarisane(
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+           neg
+            Zagrade1(
+            ) [Zagrade1]
+          ) [ViseVarDeklarisane]
+        ) [VarDeclDerived1]
+      ) [VarDeclarations]
+      UnutarKlaseSadrzaj(
+        NoConstructorDecl1(
+        ) [NoConstructorDecl1]
+        MethodDeclarations(
+          MethodDeclarations(
+            MethodDeclarations(
+              MethodDeclarations(
+                NoMethodDecl(
+                ) [NoMethodDecl]
+                Method1(
+                  PovrTip1(
+                  ) [PovrTip1]
+                 putp
+                  FormParams(
+                    FormalParamDecls(
+                      SingleFormalParamDecl(
+                        FormalParamDecl(
+                          Type(
+                           int
+                          ) [Type]
+                         a
+                          Zagrade2(
+                          ) [Zagrade2]
+                        ) [FormalParamDecl]
+                      ) [SingleFormalParamDecl]
+                      FormalParamDecl(
+                        Type(
+                         int
+                        ) [Type]
+                       idx
+                        Zagrade2(
+                        ) [Zagrade2]
+                      ) [FormalParamDecl]
+                    ) [FormalParamDecls]
+                  ) [FormParams]
+                  NoVarDecl(
+                  ) [NoVarDecl]
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Statement3(
+                      SStat1(
+                        DesignatorStatement(
+                          Des1(
+                           this
+                            DDodatno2(
+                              DDodatno1(
+                                DDodatno3(
+                                ) [DDodatno3]
+                               pos
+                              ) [DDodatno1]
+                              Expr3(
+                                Term2(
+                                  Fac7(
+                                    Des1(
+                                     idx
+                                      DDodatno3(
+                                      ) [DDodatno3]
+                                    ) [Des1]
+                                  ) [Fac7]
+                                ) [Term2]
+                              ) [Expr3]
+                            ) [DDodatno2]
+                          ) [Des1]
+                          DesignatorDodatno1(
+                            Assignop(
+                            ) [Assignop]
+                            Expr3(
+                              Term2(
+                                Fac7(
+                                  Des1(
+                                   a
+                                    DDodatno3(
+                                    ) [DDodatno3]
+                                  ) [Des1]
+                                ) [Fac7]
+                              ) [Term2]
+                            ) [Expr3]
+                          ) [DesignatorDodatno1]
+                        ) [DesignatorStatement]
+                      ) [SStat1]
+                    ) [Statement3]
+                  ) [Statements]
+                ) [Method1]
+              ) [MethodDeclarations]
+              Method1(
+                PovrTip1(
+                ) [PovrTip1]
+               putn
+                FormParams(
+                  FormalParamDecls(
+                    SingleFormalParamDecl(
+                      FormalParamDecl(
+                        Type(
+                         int
+                        ) [Type]
+                       a
+                        Zagrade2(
+                        ) [Zagrade2]
+                      ) [FormalParamDecl]
+                    ) [SingleFormalParamDecl]
+                    FormalParamDecl(
+                      Type(
+                       int
+                      ) [Type]
+                     idx
+                      Zagrade2(
+                      ) [Zagrade2]
+                    ) [FormalParamDecl]
+                  ) [FormalParamDecls]
+                ) [FormParams]
+                NoVarDecl(
+                ) [NoVarDecl]
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  Statement3(
+                    SStat1(
+                      DesignatorStatement(
+                        Des1(
+                         this
+                          DDodatno2(
+                            DDodatno1(
+                              DDodatno3(
+                              ) [DDodatno3]
+                             neg
+                            ) [DDodatno1]
+                            Expr3(
+                              Term2(
+                                Fac7(
+                                  Des1(
+                                   idx
+                                    DDodatno3(
+                                    ) [DDodatno3]
+                                  ) [Des1]
+                                ) [Fac7]
+                              ) [Term2]
+                            ) [Expr3]
+                          ) [DDodatno2]
+                        ) [Des1]
+                        DesignatorDodatno1(
+                          Assignop(
+                          ) [Assignop]
+                          Expr3(
+                            Term2(
+                              Fac7(
+                                Des1(
+                                 a
+                                  DDodatno3(
+                                  ) [DDodatno3]
+                                ) [Des1]
+                              ) [Fac7]
+                            ) [Term2]
+                          ) [Expr3]
+                        ) [DesignatorDodatno1]
+                      ) [DesignatorStatement]
+                    ) [SStat1]
+                  ) [Statement3]
+                ) [Statements]
+              ) [Method1]
+            ) [MethodDeclarations]
+            Method1(
+              PovrTip2(
+               int
+              ) [PovrTip2]
+             getp
+              FormParams(
+                SingleFormalParamDecl(
+                  FormalParamDecl(
+                    Type(
+                     int
+                    ) [Type]
+                   idx
+                    Zagrade2(
+                    ) [Zagrade2]
+                  ) [FormalParamDecl]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              NoVarDecl(
+              ) [NoVarDecl]
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                Statement3(
+                  SStat7(
+                    Expr3(
+                      Term2(
+                        Fac7(
+                          Des1(
+                           pos
+                            DDodatno2(
+                              DDodatno3(
+                              ) [DDodatno3]
+                              Expr3(
+                                Term2(
+                                  Fac7(
+                                    Des1(
+                                     idx
+                                      DDodatno3(
+                                      ) [DDodatno3]
+                                    ) [Des1]
+                                  ) [Fac7]
+                                ) [Term2]
+                              ) [Expr3]
+                            ) [DDodatno2]
+                          ) [Des1]
+                        ) [Fac7]
+                      ) [Term2]
+                    ) [Expr3]
+                  ) [SStat7]
+                ) [Statement3]
+              ) [Statements]
+            ) [Method1]
+          ) [MethodDeclarations]
+          Method1(
+            PovrTip2(
+             int
+            ) [PovrTip2]
+           getn
+            FormParams(
+              SingleFormalParamDecl(
+                FormalParamDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 idx
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [FormalParamDecl]
+              ) [SingleFormalParamDecl]
+            ) [FormParams]
+            NoVarDecl(
+            ) [NoVarDecl]
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              Statement3(
+                SStat7(
+                  Expr3(
+                    Term2(
+                      Fac7(
+                        Des1(
+                         neg
+                          DDodatno2(
+                            DDodatno3(
+                            ) [DDodatno3]
+                            Expr3(
+                              Term2(
+                                Fac7(
+                                  Des1(
+                                   idx
+                                    DDodatno3(
+                                    ) [DDodatno3]
+                                  ) [Des1]
+                                ) [Fac7]
+                              ) [Term2]
+                            ) [Expr3]
+                          ) [DDodatno2]
+                        ) [Des1]
+                      ) [Fac7]
+                    ) [Term2]
+                  ) [Expr3]
+                ) [SStat7]
+              ) [Statement3]
+            ) [Statements]
+          ) [Method1]
+        ) [MethodDeclarations]
+      ) [UnutarKlaseSadrzaj]
+    ) [ClassDecl1]
+  ) [DeclarationList3]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  14:54:21,637 - ===================================
+INFO  14:54:21,639 -  Print count calls = 0
+INFO  14:54:21,640 -  Deklarisanih promenljivih ima = 0

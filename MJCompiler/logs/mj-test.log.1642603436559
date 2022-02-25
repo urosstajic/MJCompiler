@@ -1,0 +1,197 @@
+INFO  15:42:58,625 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:42:58,712 - #2 program
+INFO  15:42:58,712 - #48 test302
+INFO  15:42:58,712 - #35 const
+INFO  15:42:58,714 - #48 int
+INFO  15:42:58,714 - #48 c
+INFO  15:42:58,716 - #7 =
+INFO  15:42:58,716 - #45 5
+INFO  15:42:58,717 - #6 ;
+INFO  15:42:58,718 - #16 {
+INFO  15:42:58,719 - #19 void
+INFO  15:42:58,720 - #48 main
+INFO  15:42:58,721 - #3 (
+INFO  15:42:58,722 - #4 )
+INFO  15:42:58,722 - #16 {
+INFO  15:42:58,724 - #10 if
+INFO  15:42:58,725 - #3 (
+INFO  15:42:58,725 - #48 c
+INFO  15:42:58,725 - #37 ==
+INFO  15:42:58,730 - #45 1
+INFO  15:42:58,732 - #4 )
+INFO  15:42:58,734 - #16 {
+INFO  15:42:58,735 - #17 }
+INFO  15:42:58,735 - #11 else
+INFO  15:42:58,736 - #16 {
+INFO  15:42:58,737 - #48 c
+INFO  15:42:58,737 - #8 ++
+INFO  15:42:58,738 - #6 ;
+INFO  15:42:58,738 - #17 }
+INFO  15:42:58,739 - #28 print
+INFO  15:42:58,739 - #3 (
+INFO  15:42:58,739 - #48 c
+INFO  15:42:58,739 - #4 )
+INFO  15:42:58,740 - #6 ;
+INFO  15:42:58,740 - #17 }
+INFO  15:42:58,741 - #17 }
+INFO  15:42:58,746 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList2(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       c
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat2(
+              ZaCond(
+                Cond1(
+                  CondTerm1(
+                    CondFact1(
+                      Expr2(
+                        Term2(
+                          Fac7(
+                            Designator(
+                              DesignatorName(
+                               c
+                              ) [DesignatorName]
+                              NoDesDodatno(
+                              ) [NoDesDodatno]
+                            ) [Designator]
+                          ) [Fac7]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                      Relop1(
+                      ) [Relop1]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst1(
+                             1
+                            ) [TipConst1]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [CondFact1]
+                  ) [CondTerm1]
+                ) [Cond1]
+              ) [ZaCond]
+              Statement2(
+                Statements1(
+                  NoStmt(
+                  ) [NoStmt]
+                ) [Statements1]
+              ) [Statement2]
+              ElseGrana1(
+                ElseRec(
+                ) [ElseRec]
+                Statement2(
+                  Statements1(
+                    Statements(
+                      NoStmt(
+                      ) [NoStmt]
+                      Statement3(
+                        SStat1(
+                          DesignatorStatement4(
+                            Designator(
+                              DesignatorName(
+                               c
+                              ) [DesignatorName]
+                              NoDesDodatno(
+                              ) [NoDesDodatno]
+                            ) [Designator]
+                          ) [DesignatorStatement4]
+                        ) [SStat1]
+                      ) [Statement3]
+                    ) [Statements]
+                  ) [Statements1]
+                ) [Statement2]
+              ) [ElseGrana1]
+            ) [SStat2]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     c
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  15:42:58,773 - ===================================
+INFO  15:42:58,779 - Dodat je const simbol sa imenomc na liniji 2
+INFO  15:42:58,779 - Obradjuje se funkcija main na liniji 6
+INFO  15:42:58,779 - TIP DESIGNATOR1 na liniji 7
+INFO  15:42:58,779 - c na liniji 7
+INFO  15:42:58,779 - dodelio sam u term21 na liniji 7
+INFO  15:42:58,779 - dodelio sam expr1 na liniji 7
+INFO  15:42:58,779 - dodelio sam u term21 na liniji 7
+INFO  15:42:58,780 - dodelio sam expr1 na liniji 7
+INFO  15:42:58,780 - TIP DESIGNATOR1 na liniji 10
+ERROR 15:42:58,780 - Greska, neterminal Designator mora biti ili promenljiva ili element niza ili polje unutar objekta na liniji 10
+INFO  15:42:58,780 - TIP DESIGNATOR1 na liniji 12
+INFO  15:42:58,780 - c na liniji 12
+INFO  15:42:58,780 - dodelio sam u term21 na liniji 12
+INFO  15:42:58,780 - dodelio sam expr1 na liniji 12
+INFO  15:42:58,781 - Postoji main
+INFO  15:42:58,781 - ===================================
+ERROR 15:42:58,782 - Parsiranje NIJE uspesno zavrseno!

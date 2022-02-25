@@ -1,0 +1,79 @@
+INFO  21:16:03,442 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  21:16:03,516 - #2 program
+INFO  21:16:03,516 - #38 mojProg
+INFO  21:16:03,516 - #16 {
+INFO  21:16:03,518 - #38 int
+INFO  21:16:03,520 - #38 pom
+INFO  21:16:03,521 - #3 (
+INFO  21:16:03,521 - #38 int
+INFO  21:16:03,521 - #38 a
+INFO  21:16:03,522 - #24 ,
+INFO  21:16:03,522 - #38 double
+INFO  21:16:03,523 - #38 h
+INFO  21:16:03,523 - #4 )
+INFO  21:16:03,523 - #16 {
+INFO  21:16:03,524 - #38 nesto
+INFO  21:16:03,525 - #7 =
+INFO  21:16:03,525 - #19 5
+INFO  21:16:03,525 - #6 ;
+INFO  21:16:03,541 - #17 }
+INFO  21:16:03,542 - #17 }
+INFO  21:16:03,546 - Program(
+  PName(
+   mojProg
+  ) [PName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     pom
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDeclDerived1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclDerived1]
+          ) [SingleFormalParamDecl]
+          FormalParamDeclDerived1(
+            Type(
+             double
+            ) [Type]
+           h
+          ) [FormalParamDeclDerived1]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statementss(
+        NoStmt(
+        ) [NoStmt]
+        Stat2(
+          SStat1(
+            DStat1(
+              Des1(
+               nesto
+              ) [Des1]
+              Expr3(
+                Term2(
+                  Fac1(
+                  ) [Fac1]
+                ) [Term2]
+              ) [Expr3]
+            ) [DStat1]
+          ) [SStat1]
+        ) [Stat2]
+      ) [Statementss]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:16:03,547 - ===================================
+INFO  21:16:03,551 -  Print count calls = 0
+INFO  21:16:03,551 -  Deklarisanih promenljivih ima = 0

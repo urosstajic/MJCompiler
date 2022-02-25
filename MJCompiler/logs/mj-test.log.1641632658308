@@ -1,0 +1,160 @@
+INFO  20:16:30,453 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  20:16:30,648 - #2 program
+INFO  20:16:30,649 - #48 mojProg
+INFO  20:16:30,649 - #48 int
+INFO  20:16:30,653 - #48 a
+INFO  20:16:30,656 - #6 ;
+INFO  20:16:30,662 - #35 const
+INFO  20:16:30,664 - #48 int
+INFO  20:16:30,665 - #48 b
+INFO  20:16:30,666 - #7 =
+INFO  20:16:30,667 - #45 5
+INFO  20:16:30,667 - #6 ;
+INFO  20:16:30,679 - #16 {
+INFO  20:16:30,681 - #19 void
+INFO  20:16:30,682 - #48 main
+INFO  20:16:30,683 - #3 (
+INFO  20:16:30,684 - #4 )
+INFO  20:16:30,685 - #16 {
+INFO  20:16:30,687 - #48 a
+INFO  20:16:30,688 - #8 ++
+INFO  20:16:30,692 - #6 ;
+INFO  20:16:30,692 - #17 }
+INFO  20:16:30,693 - #48 int
+INFO  20:16:30,696 - #48 funck
+INFO  20:16:30,697 - #3 (
+INFO  20:16:30,697 - #4 )
+INFO  20:16:30,697 - #16 {
+INFO  20:16:30,697 - #26 return
+INFO  20:16:30,697 - #45 5
+INFO  20:16:30,697 - #6 ;
+INFO  20:16:30,700 - #17 }
+INFO  20:16:30,700 - #17 }
+INFO  20:16:30,704 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           int
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                 5
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:16:30,720 - ===================================
+INFO  20:16:30,730 - Deklarisana promenljiva a na liniji 2
+INFO  20:16:30,730 - Dodat je const simbol sa imenomb na liniji 3
+INFO  20:16:30,730 - PovrTip1(
+) [PovrTip1] na liniji 5
+INFO  20:16:30,731 - USPEH! na liniji 5
+INFO  20:16:30,731 - Obradjuje se funkcija main na liniji 5
+INFO  20:16:30,731 - PovrTip2(
+  Type(
+   int
+  ) [Type]
+) [PovrTip2] na liniji 11
+INFO  20:16:30,731 - Obradjuje se funkcija funck na liniji 11
+INFO  20:16:30,732 - rs.etf.pp1.symboltable.concepts.Obj@5e9f23b4 na liniji 13
+INFO  20:16:30,732 - AAAAAAAAAAAAAAAAAAAA na liniji 13

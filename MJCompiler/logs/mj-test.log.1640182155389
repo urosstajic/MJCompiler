@@ -1,0 +1,79 @@
+INFO  15:08:55,873 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:08:55,912 - #2 program
+INFO  15:08:55,912 - #36 mojProg
+INFO  15:08:55,913 - #36 int
+INFO  15:08:55,914 - #36 a
+INFO  15:08:55,917 - #24 ,
+INFO  15:08:55,918 - #36 c
+INFO  15:08:55,918 - #6 ;
+INFO  15:08:55,919 - #36 int
+INFO  15:08:55,921 - #36 b
+INFO  15:08:55,921 - #24 ,
+INFO  15:08:55,923 - #36 hehe
+INFO  15:08:55,926 - #6 ;
+INFO  15:08:55,926 - #16 {
+INFO  15:08:55,926 - #36 int
+INFO  15:08:55,928 - #36 method
+INFO  15:08:55,928 - #3 (
+INFO  15:08:55,928 - #4 )
+INFO  15:08:55,929 - #6 ;
+INFO  15:08:55,931 - #36 double
+INFO  15:08:55,933 - #36 ahahah
+INFO  15:08:55,934 - #3 (
+INFO  15:08:55,934 - #4 )
+INFO  15:08:55,934 - #6 ;
+INFO  15:08:55,935 - #17 }
+INFO  15:08:55,938 - Program(
+  PName(
+   mojProg
+  ) [PName]
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       a
+        VarDeclJos1(
+          VarDeclJos2(
+          ) [VarDeclJos2]
+         c
+        ) [VarDeclJos1]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     b
+      VarDeclJos1(
+        VarDeclJos2(
+        ) [VarDeclJos2]
+       hehe
+      ) [VarDeclJos1]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        Type(
+         int
+        ) [Type]
+       method
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      Type(
+       double
+      ) [Type]
+     ahahah
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:08:55,939 - ===================================
+INFO  15:08:55,942 -  Print count calls = 0
+INFO  15:08:55,942 -  Deklarisanih promenljivih ima = 2

@@ -1,0 +1,36 @@
+INFO  11:53:22,624 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  11:53:22,719 - #2 program
+INFO  11:53:22,720 - #48 mojProg
+INFO  11:53:22,720 - #48 int
+INFO  11:53:22,721 - #48 nesto
+INFO  11:53:22,723 - #6 ;
+INFO  11:53:22,725 - #16 {
+INFO  11:53:22,725 - #17 }
+INFO  11:53:22,727 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl1(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      NoViseGlobalDecl(
+      ) [NoViseGlobalDecl]
+      GlobalDeclName(
+       nesto
+        Zagrade2(
+        ) [Zagrade2]
+      ) [GlobalDeclName]
+    ) [GlobalDecl1]
+  ) [DeclarationList1]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  11:53:22,728 - ===================================
+INFO  11:53:22,731 -  Print count calls = 0
+INFO  11:53:22,731 -  Deklarisanih promenljivih ima = 0

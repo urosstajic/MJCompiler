@@ -1,0 +1,139 @@
+INFO  16:02:27,345 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  16:02:27,441 - #2 program
+INFO  16:02:27,441 - #48 mojProg
+INFO  16:02:27,441 - #48 int
+INFO  16:02:27,443 - #48 i
+INFO  16:02:27,445 - #6 ;
+INFO  16:02:27,450 - #35 const
+INFO  16:02:27,451 - #48 int
+INFO  16:02:27,451 - #48 b
+INFO  16:02:27,452 - #7 =
+INFO  16:02:27,452 - #45 5
+INFO  16:02:27,452 - #6 ;
+INFO  16:02:27,454 - #16 {
+INFO  16:02:27,455 - #19 void
+INFO  16:02:27,456 - #48 main
+INFO  16:02:27,457 - #3 (
+INFO  16:02:27,458 - #4 )
+INFO  16:02:27,458 - #16 {
+INFO  16:02:27,460 - #48 b
+INFO  16:02:27,461 - #7 =
+INFO  16:02:27,464 - #48 b
+INFO  16:02:27,464 - #12 +
+INFO  16:02:27,466 - #48 i
+INFO  16:02:27,468 - #6 ;
+INFO  16:02:27,469 - #17 }
+INFO  16:02:27,470 - #17 }
+INFO  16:02:27,474 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               i
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 b
+                ) [DesignatorName]
+                DDodatno3(
+                ) [DDodatno3]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac7(
+                    Designator(
+                      DesignatorName(
+                       b
+                      ) [DesignatorName]
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Designator]
+                  ) [Fac7]
+                ) [Term2]
+                AddT1(
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                  AddO1(
+                  ) [AddO1]
+                  Term2(
+                    Fac7(
+                      Designator(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        DDodatno3(
+                        ) [DDodatno3]
+                      ) [Designator]
+                    ) [Fac7]
+                  ) [Term2]
+                ) [AddT1]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:02:27,485 - ===================================
+INFO  16:02:27,494 - Deklarisana promenljiva i na liniji 2
+INFO  16:02:27,494 - Dodat je const simbol sa imenomb na liniji 3
+INFO  16:02:27,494 - Obradjuje se funkcija main na liniji 6
+ERROR 16:02:27,495 - Term simbol mora biti tipa int na liniji 4

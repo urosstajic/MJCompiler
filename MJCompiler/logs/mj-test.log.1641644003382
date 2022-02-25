@@ -1,0 +1,156 @@
+INFO  13:12:41,823 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:12:41,936 - #2 program
+INFO  13:12:41,937 - #48 mojProg
+INFO  13:12:41,937 - #48 int
+INFO  13:12:41,939 - #48 a
+INFO  13:12:41,941 - #6 ;
+INFO  13:12:41,945 - #35 const
+INFO  13:12:41,947 - #48 int
+INFO  13:12:41,947 - #48 b
+INFO  13:12:41,948 - #7 =
+INFO  13:12:41,949 - #45 5
+INFO  13:12:41,949 - #6 ;
+INFO  13:12:41,950 - #16 {
+INFO  13:12:41,952 - #19 void
+INFO  13:12:41,953 - #48 main
+INFO  13:12:41,954 - #3 (
+INFO  13:12:41,955 - #4 )
+INFO  13:12:41,955 - #16 {
+INFO  13:12:41,957 - #48 a
+INFO  13:12:41,958 - #8 ++
+INFO  13:12:41,962 - #6 ;
+INFO  13:12:41,962 - #17 }
+INFO  13:12:41,962 - #48 char
+INFO  13:12:41,964 - #48 funck
+INFO  13:12:41,965 - #3 (
+INFO  13:12:41,965 - #4 )
+INFO  13:12:41,965 - #16 {
+INFO  13:12:41,965 - #26 return
+INFO  13:12:41,965 - #46 'v'
+INFO  13:12:41,966 - #6 ;
+INFO  13:12:41,967 - #17 }
+INFO  13:12:41,968 - #17 }
+INFO  13:12:41,970 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           char
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst2(
+                   'v'
+                  ) [TipConst2]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:12:41,979 - ===================================
+INFO  13:12:41,985 - Deklarisana promenljiva a na liniji 2
+INFO  13:12:41,985 - Dodat je const simbol sa imenomb na liniji 4
+INFO  13:12:41,986 - Obradjuje se funkcija main na liniji 6
+INFO  13:12:41,986 - Obradjuje se funkcija funck na liniji 12
+INFO  13:12:41,986 - ovo je currMeth 2 na liniji 14
+INFO  13:12:41,986 - ovo je sstat7 2 na liniji 14
+INFO  13:12:41,986 - Postoji main na liniji 1
+INFO  13:12:41,986 - ===================================

@@ -1,0 +1,151 @@
+INFO  14:24:31,399 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\MJCompiler\test\program.mj
+INFO  14:24:31,497 - #2 program
+INFO  14:24:31,497 - #51 test301
+INFO  14:24:31,497 - #51 int
+INFO  14:24:31,500 - #51 niz
+INFO  14:24:31,502 - #33 [
+INFO  14:24:31,503 - #34 ]
+INFO  14:24:31,503 - #6 ;
+INFO  14:24:31,505 - #51 int
+INFO  14:24:31,506 - #51 pom
+INFO  14:24:31,506 - #6 ;
+INFO  14:24:31,507 - #16 {
+INFO  14:24:31,507 - #19 void
+INFO  14:24:31,508 - #51 main
+INFO  14:24:31,509 - #3 (
+INFO  14:24:31,510 - #4 )
+INFO  14:24:31,511 - #16 {
+INFO  14:24:31,513 - #51 niz
+INFO  14:24:31,513 - #7 =
+INFO  14:24:31,515 - #18 new
+INFO  14:24:31,516 - #51 int
+INFO  14:24:31,516 - #33 [
+INFO  14:24:31,516 - #48 5
+INFO  14:24:31,517 - #34 ]
+INFO  14:24:31,519 - #6 ;
+INFO  14:24:31,521 - #17 }
+INFO  14:24:31,522 - #17 }
+INFO  14:24:31,526 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        ZaFin2(
+        ) [ZaFin2]
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               niz
+              ) [GlobalDeclImeProm]
+              Zagrade1(
+              ) [Zagrade1]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      ZaFin2(
+      ) [ZaFin2]
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             pom
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac5(
+                    Type(
+                     int
+                    ) [Type]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           5
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                    Pomoc(
+                    ) [Pomoc]
+                  ) [Fac5]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  14:24:31,538 - ===================================
+INFO  14:24:31,551 - Deklarisana promenljiva niz na liniji 6
+INFO  14:24:31,552 - Deklarisana promenljiva pom na liniji 7
+INFO  14:24:31,553 - Obradjuje se funkcija main na liniji 11
+INFO  14:24:31,554 - Pristup promenljivoj niz na liniji 13
+INFO  14:24:31,555 - TIPOVI SU KOMPATIBILNI! na liniji 13
+INFO  14:24:31,555 - Postoji main
+INFO  14:24:31,555 - ===================================
+INFO  14:24:31,576 - Parsiranje uspesno zavrseno!

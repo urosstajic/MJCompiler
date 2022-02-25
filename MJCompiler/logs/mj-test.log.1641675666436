@@ -1,0 +1,299 @@
+INFO  22:00:44,739 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  22:00:44,838 - #2 program
+INFO  22:00:44,839 - #48 mojProg
+INFO  22:00:44,839 - #36 class
+INFO  22:00:44,840 - #48 Neka
+INFO  22:00:44,841 - #16 {
+INFO  22:00:44,842 - #48 int
+INFO  22:00:44,844 - #48 fff
+INFO  22:00:44,846 - #6 ;
+INFO  22:00:44,848 - #17 }
+INFO  22:00:44,849 - #36 class
+INFO  22:00:44,850 - #48 Druga
+INFO  22:00:44,850 - #43 extends
+INFO  22:00:44,850 - #48 Neka
+INFO  22:00:44,850 - #16 {
+INFO  22:00:44,850 - #17 }
+INFO  22:00:44,851 - #48 Neka
+INFO  22:00:44,851 - #48 neka_klasa
+INFO  22:00:44,852 - #6 ;
+INFO  22:00:44,855 - #48 int
+INFO  22:00:44,857 - #48 a
+INFO  22:00:44,857 - #6 ;
+INFO  22:00:44,857 - #35 const
+INFO  22:00:44,857 - #48 int
+INFO  22:00:44,857 - #48 b
+INFO  22:00:44,858 - #7 =
+INFO  22:00:44,858 - #45 5
+INFO  22:00:44,858 - #6 ;
+INFO  22:00:44,860 - #16 {
+INFO  22:00:44,862 - #19 void
+INFO  22:00:44,863 - #48 main
+INFO  22:00:44,864 - #3 (
+INFO  22:00:44,866 - #4 )
+INFO  22:00:44,866 - #16 {
+INFO  22:00:44,867 - #48 a
+INFO  22:00:44,867 - #8 ++
+INFO  22:00:44,870 - #6 ;
+INFO  22:00:44,870 - #48 neka_klasa
+INFO  22:00:44,871 - #7 =
+INFO  22:00:44,871 - #18 new
+INFO  22:00:44,872 - #48 Neka
+INFO  22:00:44,872 - #6 ;
+INFO  22:00:44,873 - #48 neka_klasa
+INFO  22:00:44,873 - #6 ;
+ERROR 22:00:44,873 - 
+Sintaksna greska na liniji 21
+INFO  22:00:44,874 - #17 }
+INFO  22:00:44,874 - #48 char
+INFO  22:00:44,874 - #48 funck
+ERROR 22:00:44,875 - Izvrsen oporavak do ; zbog lose dodele u liniji 21
+INFO  22:00:44,878 - #3 (
+INFO  22:00:44,878 - #48 int
+INFO  22:00:44,878 - #48 c
+INFO  22:00:44,878 - #4 )
+INFO  22:00:44,879 - #16 {
+INFO  22:00:44,879 - #26 return
+INFO  22:00:44,879 - #46 'v'
+INFO  22:00:44,879 - #6 ;
+INFO  22:00:44,880 - #17 }
+INFO  22:00:44,880 - #17 }
+INFO  22:00:44,887 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      DeclarationList1(
+        DeclarationList3(
+          DeclarationList3(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            ClassDecl1(
+              ClassName(
+               Neka
+              ) [ClassName]
+              NoIzvodjenje(
+              ) [NoIzvodjenje]
+              VarDeclarations(
+                NoVarDecl(
+                ) [NoVarDecl]
+                VarDecl(
+                  VarType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [VarType]
+                 fff
+                  Zagrade2(
+                  ) [Zagrade2]
+                  NoViseVarDecl(
+                  ) [NoViseVarDecl]
+                ) [VarDecl]
+              ) [VarDeclarations]
+              NoUnutarKlase(
+              ) [NoUnutarKlase]
+            ) [ClassDecl1]
+          ) [DeclarationList3]
+          ClassDecl1(
+            ClassName(
+             Druga
+            ) [ClassName]
+            Izvodjenje1(
+              Type(
+               Neka
+              ) [Type]
+            ) [Izvodjenje1]
+            NoVarDecl(
+            ) [NoVarDecl]
+            NoUnutarKlase(
+            ) [NoUnutarKlase]
+          ) [ClassDecl1]
+        ) [DeclarationList3]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             Neka
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 neka_klasa
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              Statement3(
+                SStat1(
+                  DesignatorStatement4(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Designator]
+                  ) [DesignatorStatement4]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     neka_klasa
+                    ) [DesignatorName]
+                    DDodatno3(
+                    ) [DDodatno3]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac10(
+                        Type(
+                         Neka
+                        ) [Type]
+                      ) [Fac10]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            ErrorStmt3(
+            ) [ErrorStmt3]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           char
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      MultipleFormParam(
+        SingleFormalParamDecl(
+          OneFormalP(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             c
+              Zagrade2(
+              ) [Zagrade2]
+            ) [FormalParamDecl]
+          ) [OneFormalP]
+        ) [SingleFormalParamDecl]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst2(
+                   'v'
+                  ) [TipConst2]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  22:00:44,917 - ===================================
+INFO  22:00:44,925 - Dodata klasa na liniji 3
+INFO  22:00:44,926 - Dodata klasa na liniji 9
+INFO  22:00:44,926 - Deklarisana promenljiva neka_klasa na liniji 12
+INFO  22:00:44,926 - Deklarisana promenljiva a na liniji 13
+INFO  22:00:44,927 - Dodat je const simbol sa imenomb na liniji 14
+INFO  22:00:44,927 - Obradjuje se funkcija main na liniji 18
+INFO  22:00:44,927 - Jeste klasa na liniji 20
+INFO  22:00:44,927 - Obradjuje se funkcija funck na liniji 24
+INFO  22:00:44,936 - ovo je currMeth 2 na liniji 26
+INFO  22:00:44,936 - ovo je sstat7 2 na liniji 26
+INFO  22:00:44,936 - Postoji main
+INFO  22:00:44,936 - ===================================

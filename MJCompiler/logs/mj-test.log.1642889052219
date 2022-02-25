@@ -1,0 +1,220 @@
+INFO  22:57:19,965 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  22:57:20,065 - #2 program
+INFO  22:57:20,065 - #49 test301
+INFO  22:57:20,066 - #49 int
+INFO  22:57:20,069 - #49 a
+INFO  22:57:20,073 - #6 ;
+INFO  22:57:20,077 - #49 int
+INFO  22:57:20,079 - #49 b
+INFO  22:57:20,079 - #6 ;
+INFO  22:57:20,079 - #16 {
+INFO  22:57:20,080 - #19 void
+INFO  22:57:20,081 - #49 main
+INFO  22:57:20,081 - #3 (
+INFO  22:57:20,082 - #4 )
+INFO  22:57:20,082 - #16 {
+INFO  22:57:20,086 - #49 a
+INFO  22:57:20,087 - #7 =
+INFO  22:57:20,090 - #46 2
+INFO  22:57:20,092 - #6 ;
+INFO  22:57:20,094 - #49 b
+INFO  22:57:20,095 - #7 =
+INFO  22:57:20,095 - #46 3
+INFO  22:57:20,095 - #6 ;
+INFO  22:57:20,095 - #49 a
+INFO  22:57:20,095 - #45 @
+INFO  22:57:20,095 - #49 b
+INFO  22:57:20,096 - #6 ;
+INFO  22:57:20,096 - #28 print
+INFO  22:57:20,096 - #3 (
+INFO  22:57:20,096 - #49 a
+INFO  22:57:20,096 - #4 )
+INFO  22:57:20,098 - #6 ;
+INFO  22:57:20,098 - #17 }
+INFO  22:57:20,098 - #17 }
+INFO  22:57:20,103 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             b
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              Statement3(
+                SStat1(
+                  DesignatorStatement1(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           2
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [DesignatorStatement1]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     b
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                        TipConst1(
+                         3
+                        ) [TipConst1]
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat11(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+              Designator(
+                DesignatorName(
+                 b
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+            ) [SStat11]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  22:57:20,127 - ===================================
+INFO  22:57:20,134 - Deklarisana promenljiva a na liniji 5
+INFO  22:57:20,134 - Deklarisana promenljiva b na liniji 6
+INFO  22:57:20,135 - Obradjuje se funkcija main na liniji 9
+INFO  22:57:20,135 - TIP DESIGNATOR1 na liniji 11
+INFO  22:57:20,135 - a     imeee     1 na liniji 11
+INFO  22:57:20,135 - TIPOVI SU KOMPATIBILNI! na liniji 11
+INFO  22:57:20,136 - TIP DESIGNATOR1 na liniji 12
+INFO  22:57:20,136 - b     imeee     1 na liniji 12
+INFO  22:57:20,136 - TIPOVI SU KOMPATIBILNI! na liniji 12
+INFO  22:57:20,136 - TIP DESIGNATOR1 na liniji 13
+INFO  22:57:20,136 - TIP DESIGNATOR1 na liniji 13
+INFO  22:57:20,136 - TIP DESIGNATOR1 na liniji 14
+INFO  22:57:20,136 - a na liniji 14
+INFO  22:57:20,137 - Postoji main
+INFO  22:57:20,137 - ===================================
+INFO  22:57:20,144 - Parsiranje uspesno zavrseno!

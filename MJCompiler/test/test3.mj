@@ -1,0 +1,32 @@
+program MojProgram3
+int i;
+const int j=9;
+
+
+{
+
+	void main(){
+		i=0;
+		
+		
+		do{
+			print(i);
+		
+			i++;
+		
+		}while(i<5);
+		
+		if(j>7){
+			print('a');
+			print('d');
+		
+		}else{
+			print('n');
+			print('e');
+		}
+	
+	}
+
+
+
+}

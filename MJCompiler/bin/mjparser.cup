@@ -1,0 +1,421 @@
+
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+	boolean errorDetected;
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected=true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with{:
+	errorDetected=false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROGRAM, LEVA_ZAGRADA, DESNA_ZAGRADA, DVETACKE, TACKAZAREZ, JEDNAKO, PLUSPLUS, MINUSMINUS;
+terminal IF, ELSE, PLUS, PUTA, PODELJENO, MINUS, LEVA_VITICASTA, DESNA_VITICASTA;
+terminal NEW, VOID, ILI, II, ZAREZ, BREAK, READ, GOTO, RETURN;
+terminal WHILE, PRINT, DO, POSTO, RECORD, CONTINUE, OTVORENA_UGLASTA, ZATVORENA_UGLASTA, CONST, CLASS;
+terminal JEDNAKOJEDNAKO, RAZLICITO,VECE, MANJE, VECEJEDNAKO, MANJEJEDNAKO, EXTENDS, TACKA, MAJMUN, TRIPLUS, FINALL;
+terminal Integer NUM_CONST;
+terminal String CHAR_CONST;
+terminal String BOOL_CONST;
+terminal String IDENT;
+
+
+nonterminal DeclList, MethodDeclList, ConstDecl, ClassDecl, RecordDecl, DodatnoConstDecl, KrajPrograma, KrajWhile, ElseRec, Pomoc, DS1Dodatak;
+nonterminal ViseVarDecl, Zagrade, Izvodjenje, UnutarKlase, ConstructorDecl, Statement, StatementList, UMetodi, Redosled, Novo, ZaFinal;
+nonterminal FormPars, FormalParamList, FormalParamDecl, SingleStatement, ZaLabelu, Label, VarDeclList, StatementMnozina, PomocZaPracenjePristupa;
+nonterminal  Addop, Mulop, SStatmen1, DesnaStrana, ActPars, Relop, ViseFormalParamDecl, OneFormalParam, KrajMetode, KrajCond2;
+nonterminal Assignop, DesignatorStatement, DesignatorDodatno, ZaStatement, ZaConstructor, ZaMethod, ZaDodeluVrednosti, KrajCondTerm2;
+nonterminal Matched, Unmatched, ElseGrana, GlobalDecl, GlobalDeclList, ViseGlobalDecl, StatDO, GlobalType, GlobalDeclName, ZaCondition, ZaOr, ZaAnd;
+
+
+
+nonterminal  rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, MethodTypeName, Designator,  DesignatorName, ClassName;
+nonterminal  rs.etf.pp1.symboltable.concepts.Obj VarDecl, DDodatno, RecordName, VarNameDecl, ConstIzraz, DesigDodatno, ConditionDo;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, PovratniTip, Expr, Term, Factor, ConstType, TipConst, VarType;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Condition, CondTerm, CondFact, ViseGlobalZarez, GlobalNakonTip, SamoJedno, GlobalDeclImeProm;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct AddTerm, MultiFac;
+
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROGRAM ProgName:p DeclList LEVA_VITICASTA MethodDeclList DESNA_VITICASTA KrajPrograma
+;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+KrajPrograma ::= (KrajPrograma) /*epsilon*/;
+
+
+DeclList ::=(NoDeclarationList) /*epsilon*/
+			| (DeclarationList1) DeclList GlobalDecl
+			| (DeclarationList2) DeclList ConstDecl
+			| (DeclarationList3) DeclList ClassDecl
+			| (DeclarationList4) DeclList RecordDecl
+			;
+			
+ConstDecl ::= (ConstDecl) CONST ConstType ConstIzraz DodatnoConstDecl TACKAZAREZ
+;
+
+ConstType ::= (ConstType) Type:varType;
+
+ConstIzraz ::= (ConstIzraz) IDENT:varName JEDNAKO TipConst;
+
+
+TipConst ::= (TipConst1) NUM_CONST
+			| (TipConst2) CHAR_CONST
+			| (TipConst3) BOOL_CONST
+			;
+			
+DodatnoConstDecl ::= (DodatnoCD1) /*epsilon*/
+					| (DodatnoCD2) DodatnoConstDecl ZAREZ ConstIzraz
+					;
+					
+VarDecl ::= (VarDecl) VarType VarNameDecl ViseVarDecl TACKAZAREZ
+			;
+			
+VarType ::= (VarType)Type:varType;
+
+ViseVarDecl ::= (NoViseVarDecl) /*epsilon*/
+				| (ViseVarDeklarisane) ViseVarDecl ZAREZ VarNameDecl
+				;
+				
+VarNameDecl ::= (VarNameDecl) IDENT:varName Zagrade;
+
+VarDeclList ::= (VarDeclarations) VarDeclList VarDecl
+			|
+			(NoVarDecl) /* epsilon */
+			;
+			
+			
+GlobalDecl ::= (GlobalDecl) ZaFinal GlobalType GlobalNakonTip
+			;
+			
+ZaFinal ::= (ZaFin1) FINALL
+			| (ZaFin2) /*epsilon*/
+			;
+			
+GlobalNakonTip ::= (GlobalNakonTipa1) SamoJedno
+				| (GlobalNakonTipa2) ViseGlobalZarez GlobalNakonTip;
+				
+SamoJedno ::= (SamoJedno1) GlobalDeclName TACKAZAREZ
+			| (ErrorStmt1) error TACKAZAREZ:l
+		   {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :}
+		   ;
+		   	
+			
+GlobalDeclName ::= (GlobalDeclName) GlobalDeclImeProm Zagrade;
+
+GlobalDeclImeProm ::= (GlobalDeclImeProm) IDENT:varName;
+			
+ViseGlobalDecl ::= (NoViseGlobalDecl) /*epsilon*/
+				| (ViseGlobalDeklarisane) ViseGlobalZarez ViseGlobalDecl 
+				;
+				
+ViseGlobalZarez ::= (ViseGlobalZ) GlobalDeclName ZAREZ
+				| (ErrorStmt2) error ZAREZ:l
+		   {: parser.report_error("Izvrsen oporavak do , zarez u liniji " + lleft, null);  :}
+		   ;
+				
+GlobalType ::= (GlobalType) Type:varType;
+
+Zagrade ::= (Zagrade1) OTVORENA_UGLASTA ZATVORENA_UGLASTA
+			| (Zagrade2) /*epsilon*/
+;
+
+ClassDecl ::= (ClassDecl) CLASS ClassName Izvodjenje LEVA_VITICASTA VarDeclList UnutarKlase DESNA_VITICASTA
+			
+			;
+			
+ClassName ::= (ClassName) IDENT:className;
+
+Izvodjenje ::= (Izvodjenje1) EXTENDS Type
+				| (NoIzvodjenje) /*epsilon*/
+				;
+
+RecordDecl ::= (RecordDecl) RECORD RecordName LEVA_VITICASTA VarDeclList DESNA_VITICASTA
+			;
+			
+RecordName ::= (RecordName) IDENT:className;
+
+
+UnutarKlase ::= (UnutarKlaseSadrzaj1) LEVA_VITICASTA MethodDeclList DESNA_VITICASTA
+				| (NoUnutarKlase) /*epsilon*/
+				;
+				
+ConstructorDecl ::=  (ConDel1) /*epsilon*/
+				;
+				
+				
+FormPars ::= (NoFormParam) DESNA_ZAGRADA
+		  | (MultipleFormParam) FormalParamList
+		  ;
+		  
+FormalParamList ::= (FormalParamDecls) ViseFormalParamDecl FormalParamList 
+				|
+				(SingleFormalParamDecl) OneFormalParam
+				;
+				
+OneFormalParam ::= (OneFormalP) FormalParamDecl DESNA_ZAGRADA
+				| (ErrorStmt4) error DESNA_ZAGRADA:l
+		   {: parser.report_error("Izvrsen oporavak do ) u liniji " + lleft, null);  :}
+		   ;
+		   
+		   
+ViseFormalParamDecl ::=(ViseFormParamDecl) FormalParamDecl ZAREZ
+					  | (ErrorStmt5) error ZAREZ:l
+		   {: parser.report_error("Izvrsen oporavak do , zbog loseg parametra funkcije u liniji " + lleft, null);  :}
+		   			;
+				
+FormalParamDecl ::= (FormalParamDecl) Type:retType IDENT:paramName Zagrade;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+				|
+				(NoMethodDecl) /* epsilon */
+				;
+
+MethodDecl ::= (MethodDecl) MethodTypeName LEVA_ZAGRADA FormPars UMetodi VarDeclList LEVA_VITICASTA StatementList DESNA_VITICASTA KrajMetode
+			;
+			
+UMetodi ::= (UMetodi) /*epsilon*/;
+		
+		
+KrajMetode ::= (KrajMetode) /*epsilon*/;
+			
+MethodTypeName ::= (MethodTypeName) PovratniTip IDENT:methName;
+			
+ZaMethod ::= (ZaM1) /*epsilon*/
+			| (ZaM2) MethodDecl
+			;
+
+PovratniTip ::= (PovrTip1) VOID
+				| (PovrTip2) Type
+				;
+
+
+Type ::= (Type) IDENT:typeName;
+
+
+
+Statement ::= (Statement1) ZaLabelu SingleStatement
+			| (Statement2) StatementMnozina
+			| (Statement3) SingleStatement
+			;
+			
+					
+ZaLabelu ::= (ZaLabelu) Label DVETACKE;
+
+Label ::= (Label) IDENT:name; 
+
+StatementList ::= (Statements) StatementList Statement
+				|
+				(NoStmt) /* epsilon */
+				;
+				
+
+
+SingleStatement ::= (SStat1) DesignatorStatement TACKAZAREZ
+					| (ErrorStmt3) error TACKAZAREZ:l
+		  			 {: parser.report_error("Izvrsen oporavak do ; zbog lose dodele u liniji " + lleft, null);  :}
+					| (SStat2) IF LEVA_ZAGRADA ZaCondition Statement ElseGrana
+					| (SStat3) StatDO Statement WHILE LEVA_ZAGRADA ConditionDo DESNA_ZAGRADA KrajWhile TACKAZAREZ
+					| (SStat4) BREAK TACKAZAREZ
+					| (SStat5) CONTINUE TACKAZAREZ
+					| (SStat6) RETURN TACKAZAREZ
+					| (SStat7) RETURN Expr TACKAZAREZ
+					| (SStat8) READ LEVA_ZAGRADA Designator DESNA_ZAGRADA TACKAZAREZ
+					| (SStat9) PRINT LEVA_ZAGRADA Expr SStatmen1 DESNA_ZAGRADA TACKAZAREZ
+					| (SStat10) GOTO Label TACKAZAREZ
+					;
+					
+StatDO ::= (StatDO) DO;
+
+Novo ::= (Novo1) ZAREZ NUM_CONST
+		| (Novo2) /*epsilon*/
+;
+
+KrajWhile ::= (KrajWhile) /*epsilon*/;
+
+
+ConditionDo ::= (ConditionDo) Condition;
+
+
+SStatmen1 ::= (NoSStatmen1) /* epsilon */
+			| (YesSStatmen2) ZAREZ NUM_CONST
+			;
+			
+Unmatched ::= (UnmatchedIf) IF Expr Statement
+		 	|
+		 	(UnmatchedIfElse) IF Expr Matched ELSE Unmatched
+		 	;
+
+ElseGrana ::= (NoElse) /*epsilon*/
+			| (ElseGrana1) ElseRec Statement
+			;
+			
+ElseRec ::= (ElseRec) ELSE;
+					
+StatementMnozina ::= (Statements1) LEVA_VITICASTA StatementList DESNA_VITICASTA
+			;
+
+
+DesignatorStatement ::= (DesignatorStatement1) Designator Assignop Expr DS1Dodatak
+						| (DesignatorStatement2) Designator LEVA_ZAGRADA ActPars DESNA_ZAGRADA
+						| (DesignatorStatement3) Designator LEVA_ZAGRADA DESNA_ZAGRADA
+						| (DesignatorStatement4) Designator PLUSPLUS
+						| (DesignatorStatement5) Designator MINUSMINUS
+						;
+
+DesignatorDodatno ::= (DesignatorDodatno1) Assignop Expr
+					| (DesignatorDodatno2) LEVA_ZAGRADA ActPars DESNA_ZAGRADA
+					| (DesignatorDodatno3) LEVA_ZAGRADA DESNA_ZAGRADA
+					| (DesignatorDodatno4) PLUSPLUS
+					| (DesignatorDodatno5) MINUSMINUS
+					;
+	
+	
+DS1Dodatak ::= (DS1Dodatak) /*epsilon*/;				
+					
+ActPars ::= (AP1) Expr 
+			| (AP2) ActPars ZAREZ Expr
+			;
+			
+ZaCondition ::= (ZaCond) Condition DESNA_ZAGRADA
+				| (ErrorStmt6) error DESNA_ZAGRADA:l
+		  		{: parser.report_error("Izvrsen oporavak do ) zbog loseg uslova u if naredbi u liniji " + lleft, null);  :}
+		  		;
+			
+			
+Condition ::= (Cond1) CondTerm
+			| (Cond2) Condition ZaOr ILI CondTerm KrajCond2
+			;
+	
+KrajCond2 ::= (KrajCond2) /*epsilon*/;
+		
+			
+CondTerm ::= (CondTerm1) CondFact
+			| (CondTerm2) CondTerm II ZaAnd CondFact KrajCondTerm2
+			;
+			
+ZaOr ::= (ZaOr) /*epsilon*/;
+
+ZaAnd ::= (ZaAnd) /*epsilon*/;
+
+KrajCondTerm2 ::= (KrajCondTerm2) /*epsilon*/;
+			
+CondFact ::= (CondFact1) Expr Relop Expr
+			| (CondFact2) Expr
+			;
+			
+Expr ::= (Expr1) MINUS Term AddTerm
+		| (Expr2) Term AddTerm
+;
+
+
+AddTerm ::= (AddT1) AddTerm Addop Term
+		| (NoAddTerm) /*epsilon*/
+;
+
+Term ::= (Term1) Factor MultiFac
+		| (Term2) Factor
+;
+
+
+
+MultiFac ::= (MultiF1) MultiFac Mulop Factor 
+		| (MultiF2) Mulop Factor
+;
+
+Factor ::= (Fac1) TipConst:tipKonstante
+		| (Fac3) LEVA_ZAGRADA Expr DESNA_ZAGRADA
+		| (Fac5) NEW Type OTVORENA_UGLASTA Expr ZATVORENA_UGLASTA Pomoc
+		| (Fac6) Designator LEVA_ZAGRADA DESNA_ZAGRADA
+		| (Fac7) Designator 
+		| (Fac8) Designator LEVA_ZAGRADA ActPars DESNA_ZAGRADA
+		| (Fac10) NEW Type
+		;
+
+				
+Designator ::= (Designator) DesignatorName DesigDodatno
+			;
+			
+Pomoc ::= (Pomoc) /*epsilon*/;			
+			
+DesignatorName ::= (DesignatorName) IDENT:desName;
+
+DesigDodatno ::= (DesDodatno) DesigDodatno DDodatno
+				| (NoDesDodatno) /*epsilon*/
+				;
+			
+DDodatno ::= (DDodatno1) TACKA IDENT:dodatnoIme
+			| (DDodatno2) Redosled OTVORENA_UGLASTA Expr ZATVORENA_UGLASTA PomocZaPracenjePristupa
+			;
+			
+			
+Redosled ::= (Redosled) /*epsilon*/;	
+
+
+PomocZaPracenjePristupa ::= (PomocZaPracenjePristupa) /*epsilon*/;		
+			
+			
+Addop ::= (AddO1) PLUS
+		| (AddO2) MINUS
+		;
+		
+Mulop ::= (MulO1) PUTA 
+		| (MulO2) PODELJENO
+		| (MulO3) POSTO
+		;
+		
+Assignop ::= (Assignop) JEDNAKO;
+
+Relop ::= (Relop1) JEDNAKOJEDNAKO
+		| (Relop2) RAZLICITO
+		| (Relop3) VECE
+		| (Relop4) MANJE
+		| (Relop5) VECEJEDNAKO
+		| (Relop6) MANJEJEDNAKO
+		;
+					

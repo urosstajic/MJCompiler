@@ -1,0 +1,196 @@
+INFO  18:15:04,207 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  18:15:04,296 - #2 program
+INFO  18:15:04,296 - #48 MJProgram
+INFO  18:15:04,297 - #48 int
+INFO  18:15:04,299 - #48 x
+INFO  18:15:04,301 - #6 ;
+INFO  18:15:04,303 - #48 int
+INFO  18:15:04,305 - #48 y
+INFO  18:15:04,305 - #6 ;
+INFO  18:15:04,305 - #31 record
+INFO  18:15:04,305 - #48 Klasa
+INFO  18:15:04,305 - #16 {
+INFO  18:15:04,306 - #48 int
+INFO  18:15:04,307 - #48 prvo
+INFO  18:15:04,309 - #6 ;
+INFO  18:15:04,311 - #17 }
+INFO  18:15:04,312 - #48 Klasa
+INFO  18:15:04,313 - #48 kl
+INFO  18:15:04,313 - #33 [
+INFO  18:15:04,313 - #34 ]
+INFO  18:15:04,314 - #6 ;
+INFO  18:15:04,315 - #16 {
+INFO  18:15:04,315 - #19 void
+INFO  18:15:04,316 - #48 main
+INFO  18:15:04,317 - #3 (
+INFO  18:15:04,319 - #4 )
+INFO  18:15:04,319 - #16 {
+INFO  18:15:04,320 - #48 kl
+INFO  18:15:04,321 - #44 .
+INFO  18:15:04,323 - #48 prvo
+INFO  18:15:04,323 - #7 =
+INFO  18:15:04,325 - #45 5
+INFO  18:15:04,326 - #6 ;
+INFO  18:15:04,327 - #17 }
+INFO  18:15:04,328 - #17 }
+INFO  18:15:04,333 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList4(
+      DeclarationList1(
+        DeclarationList1(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          GlobalDecl(
+            GlobalType(
+              Type(
+               int
+              ) [Type]
+            ) [GlobalType]
+            GlobalNakonTipa1(
+              SamoJedno1(
+                GlobalDeclName(
+                  GlobalDeclImeProm(
+                   x
+                  ) [GlobalDeclImeProm]
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [GlobalDeclName]
+              ) [SamoJedno1]
+            ) [GlobalNakonTipa1]
+          ) [GlobalDecl]
+        ) [DeclarationList1]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 y
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      RecordDecl(
+        RecordName(
+         Klasa
+        ) [RecordName]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarNameDecl(
+             prvo
+              Zagrade2(
+              ) [Zagrade2]
+            ) [VarNameDecl]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDecl]
+        ) [VarDeclarations]
+      ) [RecordDecl]
+    ) [DeclarationList4]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         Klasa
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             kl
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 kl
+                ) [DesignatorName]
+                DDodatno1(
+                  DDodatno3(
+                  ) [DDodatno3]
+                 prvo
+                ) [DDodatno1]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac1(
+                    TipConst1(
+                     5
+                    ) [TipConst1]
+                  ) [Fac1]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  18:15:04,347 - ===================================
+INFO  18:15:04,356 - Deklarisana promenljiva x na liniji 2
+INFO  18:15:04,357 - Deklarisana promenljiva y na liniji 3
+ERROR 18:15:04,357 - Greska, zeljeno ime vec postoji u tabeli simbola na liniji 5
+INFO  18:15:04,357 - Deklarisana promenljiva kl na liniji 7
+INFO  18:15:04,357 - Obradjuje se funkcija main na liniji 10
+INFO  18:15:04,357 - uslo dodatno3
+INFO  18:15:04,357 - WUWUWUUWUWUW
+INFO  18:15:04,357 - izaslo dodatno3
+INFO  18:15:04,358 - Uslo dodatno1 na liniji 2
+INFO  18:15:04,358 - 4haha na liniji 2
+INFO  18:15:04,358 - jel naslo type0 na liniji 2
+INFO  18:15:04,358 - uslo ovde                prvo na liniji 2
+INFO  18:15:04,358 - 0velicina na liniji 2
+INFO  18:15:04,359 - 0velicina ovo na liniji 2

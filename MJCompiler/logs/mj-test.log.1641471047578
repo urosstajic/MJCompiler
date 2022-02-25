@@ -1,0 +1,108 @@
+INFO  13:10:39,356 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:10:39,433 - #2 program
+INFO  13:10:39,433 - #48 mojProg
+INFO  13:10:39,434 - #48 int
+INFO  13:10:39,435 - #48 nesto
+INFO  13:10:39,437 - #22 ,
+INFO  13:10:39,438 - #48 iny
+INFO  13:10:39,439 - #48 a
+ERROR 13:10:39,439 - 
+Sintaksna greska na liniji 2
+INFO  13:10:39,439 - #22 ,
+INFO  13:10:39,439 - #48 ooo
+INFO  13:10:39,439 - #6 ;
+INFO  13:10:39,440 - #16 {
+ERROR 13:10:39,440 - Izvrsen oporavak do , zarez u liniji 2
+INFO  13:10:39,442 - #19 void
+INFO  13:10:39,443 - #48 main
+INFO  13:10:39,444 - #3 (
+INFO  13:10:39,445 - #48 int
+INFO  13:10:39,445 - #48 a
+INFO  13:10:39,446 - #4 )
+INFO  13:10:39,447 - #16 {
+INFO  13:10:39,448 - #48 x
+INFO  13:10:39,449 - #7 =
+INFO  13:10:39,449 - #45 5
+INFO  13:10:39,450 - #48 dfgdfgd
+ERROR 13:10:39,450 - 
+Sintaksna greska na liniji 5
+INFO  13:10:39,450 - #6 ;
+INFO  13:10:39,450 - #17 }
+INFO  13:10:39,451 - #17 }
+ERROR 13:10:39,451 - Izvrsen oporavak do ; zbog lose dodele u liniji 5
+INFO  13:10:39,453 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+           nesto
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa2(
+          ErrorStmt2(
+          ) [ErrorStmt2]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+               ooo
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalNakonTipa2]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    Method1(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      FormParams(
+        SingleFormalParamDecl(
+          OneFormalP(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             a
+              Zagrade2(
+              ) [Zagrade2]
+            ) [FormalParamDecl]
+          ) [OneFormalP]
+        ) [SingleFormalParamDecl]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          ErrorStmt3(
+          ) [ErrorStmt3]
+        ) [Statement3]
+      ) [Statements]
+    ) [Method1]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:10:39,454 - ===================================
+INFO  13:10:39,459 -  Print count calls = 0
+INFO  13:10:39,459 -  Deklarisanih promenljivih ima = 0

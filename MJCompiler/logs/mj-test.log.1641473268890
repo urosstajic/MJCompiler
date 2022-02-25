@@ -1,0 +1,117 @@
+INFO  13:42:19,137 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:42:19,237 - #2 program
+INFO  13:42:19,238 - #48 mojProg
+INFO  13:42:19,238 - #48 int
+INFO  13:42:19,239 - #48 nesto
+INFO  13:42:19,241 - #22 ,
+INFO  13:42:19,243 - #48 iny
+INFO  13:42:19,244 - #48 a
+ERROR 13:42:19,244 - 
+Sintaksna greska na liniji 2
+INFO  13:42:19,244 - #22 ,
+INFO  13:42:19,244 - #48 ooo
+INFO  13:42:19,244 - #6 ;
+INFO  13:42:19,245 - #16 {
+ERROR 13:42:19,246 - Izvrsen oporavak do , zarez u liniji 2
+INFO  13:42:19,248 - #19 void
+INFO  13:42:19,249 - #48 main
+INFO  13:42:19,250 - #3 (
+INFO  13:42:19,251 - #48 uuu
+INFO  13:42:19,251 - #22 ,
+ERROR 13:42:19,251 - 
+Sintaksna greska na liniji 4
+INFO  13:42:19,252 - #48 int
+INFO  13:42:19,252 - #48 b
+INFO  13:42:19,252 - #4 )
+ERROR 13:42:19,252 - Izvrsen oporavak do , zbog loseg parametra funkcije u liniji 4
+INFO  13:42:19,255 - #16 {
+INFO  13:42:19,257 - #48 x
+INFO  13:42:19,258 - #7 =
+INFO  13:42:19,259 - #45 5
+INFO  13:42:19,260 - #48 dfgdfgd
+ERROR 13:42:19,260 - 
+Sintaksna greska na liniji 5
+INFO  13:42:19,261 - #6 ;
+INFO  13:42:19,261 - #17 }
+INFO  13:42:19,261 - #17 }
+ERROR 13:42:19,261 - Izvrsen oporavak do ; zbog lose dodele u liniji 5
+INFO  13:42:19,264 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+           nesto
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa2(
+          ErrorStmt2(
+          ) [ErrorStmt2]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+               ooo
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalNakonTipa2]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      MultipleFormParam(
+        FormalParamDecls(
+          ErrorStmt5(
+          ) [ErrorStmt5]
+          SingleFormalParamDecl(
+            OneFormalP(
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               b
+                Zagrade2(
+                ) [Zagrade2]
+              ) [FormalParamDecl]
+            ) [OneFormalP]
+          ) [SingleFormalParamDecl]
+        ) [FormalParamDecls]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          ErrorStmt3(
+          ) [ErrorStmt3]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:42:19,265 - ===================================
+INFO  13:42:19,268 -  Print count calls = 0
+INFO  13:42:19,268 -  Deklarisanih promenljivih ima = 0

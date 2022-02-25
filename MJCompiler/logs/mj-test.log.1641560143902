@@ -1,0 +1,79 @@
+INFO  13:55:02,329 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:55:02,416 - #2 program
+INFO  13:55:02,417 - #48 mojProg
+INFO  13:55:02,417 - #48 int
+INFO  13:55:02,419 - #48 nesto
+INFO  13:55:02,420 - #6 ;
+INFO  13:55:02,423 - #16 {
+INFO  13:55:02,426 - #19 void
+INFO  13:55:02,427 - #48 main
+INFO  13:55:02,428 - #3 (
+INFO  13:55:02,429 - #48 hghg
+INFO  13:55:02,429 - #4 )
+ERROR 13:55:02,429 - 
+Sintaksna greska na liniji 4
+INFO  13:55:02,429 - #16 {
+INFO  13:55:02,429 - #23 break
+INFO  13:55:02,429 - #6 ;
+ERROR 13:55:02,431 - Izvrsen oporavak do ) u liniji 4
+INFO  13:55:02,435 - #17 }
+INFO  13:55:02,437 - #17 }
+INFO  13:55:02,445 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             nesto
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      MultipleFormParam(
+        SingleFormalParamDecl(
+          ErrorStmt4(
+          ) [ErrorStmt4]
+        ) [SingleFormalParamDecl]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat4(
+          ) [SStat4]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:55:02,464 - ===================================
+INFO  13:55:02,469 - Obradjuje se funkcija main na liniji 4
+ERROR 13:55:02,470 - Greska, naredba break se mora naci u do while petlji
+INFO  13:55:02,470 - Postoji main na liniji 1
+INFO  13:55:02,470 - ===================================

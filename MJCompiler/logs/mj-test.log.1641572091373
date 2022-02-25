@@ -1,0 +1,136 @@
+INFO  16:02:50,499 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  16:02:50,603 - #2 program
+INFO  16:02:50,603 - #48 mojProg
+INFO  16:02:50,604 - #48 int
+INFO  16:02:50,606 - #48 i
+INFO  16:02:50,608 - #6 ;
+INFO  16:02:50,611 - #48 int
+INFO  16:02:50,612 - #48 b
+INFO  16:02:50,612 - #7 =
+ERROR 16:02:50,612 - 
+Sintaksna greska na liniji 3
+INFO  16:02:50,613 - #45 5
+INFO  16:02:50,613 - #6 ;
+INFO  16:02:50,613 - #16 {
+INFO  16:02:50,614 - #19 void
+INFO  16:02:50,614 - #48 main
+ERROR 16:02:50,614 - Izvrsen oporavak do ; u liniji 3
+INFO  16:02:50,617 - #3 (
+INFO  16:02:50,618 - #4 )
+INFO  16:02:50,618 - #16 {
+INFO  16:02:50,620 - #48 b
+INFO  16:02:50,621 - #7 =
+INFO  16:02:50,623 - #48 b
+INFO  16:02:50,624 - #12 +
+INFO  16:02:50,625 - #48 i
+INFO  16:02:50,627 - #6 ;
+INFO  16:02:50,628 - #17 }
+INFO  16:02:50,629 - #17 }
+INFO  16:02:50,632 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               i
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        ErrorStmt1(
+        ) [ErrorStmt1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 b
+                ) [DesignatorName]
+                DDodatno3(
+                ) [DDodatno3]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac7(
+                    Designator(
+                      DesignatorName(
+                       b
+                      ) [DesignatorName]
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Designator]
+                  ) [Fac7]
+                ) [Term2]
+                AddT1(
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                  AddO1(
+                  ) [AddO1]
+                  Term2(
+                    Fac7(
+                      Designator(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        DDodatno3(
+                        ) [DDodatno3]
+                      ) [Designator]
+                    ) [Fac7]
+                  ) [Term2]
+                ) [AddT1]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:02:50,650 - ===================================
+INFO  16:02:50,655 - Deklarisana promenljiva i na liniji 2
+INFO  16:02:50,655 - Obradjuje se funkcija main na liniji 6
+ERROR 16:02:50,656 - Term simbol mora biti tipa int na liniji 4

@@ -1,0 +1,96 @@
+INFO  22:01:47,275 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  22:01:47,336 - #2 program
+INFO  22:01:47,336 - #38 mojProg
+INFO  22:01:47,337 - #16 {
+INFO  22:01:47,338 - #38 int
+INFO  22:01:47,339 - #38 pom
+INFO  22:01:47,340 - #3 (
+INFO  22:01:47,341 - #38 int
+INFO  22:01:47,341 - #38 a
+INFO  22:01:47,341 - #24 ,
+INFO  22:01:47,341 - #38 double
+INFO  22:01:47,342 - #38 h
+INFO  22:01:47,342 - #4 )
+INFO  22:01:47,343 - #16 {
+INFO  22:01:47,343 - #38 nesto
+INFO  22:01:47,344 - #7 =
+INFO  22:01:47,344 - #19 5
+INFO  22:01:47,345 - #6 ;
+INFO  22:01:47,346 - #30 print
+INFO  22:01:47,348 - #3 (
+INFO  22:01:47,349 - #19 5
+INFO  22:01:47,349 - #4 )
+INFO  22:01:47,349 - #6 ;
+INFO  22:01:47,350 - #17 }
+INFO  22:01:47,350 - #17 }
+INFO  22:01:47,353 - Program(
+  PName(
+   mojProg
+  ) [PName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     pom
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDeclDerived1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclDerived1]
+          ) [SingleFormalParamDecl]
+          FormalParamDeclDerived1(
+            Type(
+             double
+            ) [Type]
+           h
+          ) [FormalParamDeclDerived1]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statementss(
+        Statementss(
+          NoStmt(
+          ) [NoStmt]
+          Stat2(
+            SStat1(
+              DStat1(
+                Des1(
+                 nesto
+                ) [Des1]
+                Expr3(
+                  Term2(
+                    Fac1(
+                    ) [Fac1]
+                  ) [Term2]
+                ) [Expr3]
+              ) [DStat1]
+            ) [SStat1]
+          ) [Stat2]
+        ) [Statementss]
+        Stat2(
+          SStat3(
+            Expr3(
+              Term2(
+                Fac1(
+                ) [Fac1]
+              ) [Term2]
+            ) [Expr3]
+          ) [SStat3]
+        ) [Stat2]
+      ) [Statementss]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:01:47,354 - ===================================
+INFO  22:01:47,357 -  Print count calls = 0
+INFO  22:01:47,357 -  Deklarisanih promenljivih ima = 0

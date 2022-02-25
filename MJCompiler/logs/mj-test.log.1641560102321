@@ -1,0 +1,70 @@
+INFO  13:53:31,703 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:53:31,792 - #2 program
+INFO  13:53:31,792 - #48 mojProg
+INFO  13:53:31,793 - #48 int
+INFO  13:53:31,794 - #48 nesto
+INFO  13:53:31,796 - #6 ;
+INFO  13:53:31,799 - #16 {
+INFO  13:53:31,800 - #19 void
+INFO  13:53:31,800 - #48 main
+INFO  13:53:31,801 - #3 (
+INFO  13:53:31,801 - #48 hghg
+INFO  13:53:31,802 - #4 )
+ERROR 13:53:31,802 - 
+Sintaksna greska na liniji 4
+INFO  13:53:31,802 - #16 {
+INFO  13:53:31,802 - #17 }
+INFO  13:53:31,802 - #17 }
+ERROR 13:53:31,803 - Izvrsen oporavak do ) u liniji 4
+INFO  13:53:31,808 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             nesto
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      MultipleFormParam(
+        SingleFormalParamDecl(
+          ErrorStmt4(
+          ) [ErrorStmt4]
+        ) [SingleFormalParamDecl]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:53:31,827 - ===================================
+INFO  13:53:31,832 - Obradjuje se funkcija main na liniji 4
+INFO  13:53:31,832 - Postoji main na liniji 1
+INFO  13:53:31,833 - ===================================

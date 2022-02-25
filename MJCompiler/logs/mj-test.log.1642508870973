@@ -1,0 +1,72 @@
+INFO  13:15:11,704 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:15:11,795 - #2 program
+INFO  13:15:11,796 - #48 test302
+INFO  13:15:11,796 - #16 {
+INFO  13:15:11,797 - #19 void
+INFO  13:15:11,799 - #48 main
+INFO  13:15:11,800 - #3 (
+INFO  13:15:11,801 - #4 )
+INFO  13:15:11,801 - #16 {
+INFO  13:15:11,803 - #28 print
+INFO  13:15:11,804 - #3 (
+INFO  13:15:11,804 - #45 1
+INFO  13:15:11,804 - #4 )
+INFO  13:15:11,807 - #6 ;
+INFO  13:15:11,807 - #17 }
+INFO  13:15:11,808 - #17 }
+INFO  13:15:11,812 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst1(
+                   1
+                  ) [TipConst1]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  13:15:11,823 - ===================================
+INFO  13:15:11,832 - Obradjuje se funkcija main na liniji 8
+INFO  13:15:11,832 - dodelio sam u term21 na liniji 9
+INFO  13:15:11,833 - dodelio sam expr1 na liniji 9
+INFO  13:15:11,833 - Postoji main
+INFO  13:15:11,833 - ===================================
+INFO  13:15:11,853 - Parsiranje uspesno zavrseno!

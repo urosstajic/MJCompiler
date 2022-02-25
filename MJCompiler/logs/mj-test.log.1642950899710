@@ -1,0 +1,134 @@
+INFO  16:14:03,595 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  16:14:03,666 - #2 program
+INFO  16:14:03,666 - #50 test301
+INFO  16:14:03,666 - #50 int
+INFO  16:14:03,668 - #50 a
+INFO  16:14:03,670 - #6 ;
+INFO  16:14:03,672 - #50 int
+INFO  16:14:03,674 - #50 b
+INFO  16:14:03,674 - #6 ;
+INFO  16:14:03,674 - #50 int
+INFO  16:14:03,674 - #50 niz
+INFO  16:14:03,674 - #33 [
+INFO  16:14:03,674 - #34 ]
+INFO  16:14:03,675 - #6 ;
+INFO  16:14:03,676 - #16 {
+INFO  16:14:03,676 - #19 void
+INFO  16:14:03,677 - #50 main
+INFO  16:14:03,677 - #3 (
+INFO  16:14:03,678 - #4 )
+INFO  16:14:03,679 - #16 {
+INFO  16:14:03,681 - #50 niz
+INFO  16:14:03,681 - #33 [
+INFO  16:14:03,684 - #47 0
+INFO  16:14:03,684 - #34 ]
+INFO  16:14:03,686 - #6 ;
+ERROR 16:14:03,687 - 
+Sintaksna greska na liniji 12
+INFO  16:14:03,687 - #17 }
+INFO  16:14:03,687 - #17 }
+ERROR 16:14:03,688 - Izvrsen oporavak do ; zbog lose dodele u liniji 12
+INFO  16:14:03,693 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList1(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 a
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               b
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             niz
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          ErrorStmt3(
+          ) [ErrorStmt3]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  16:14:03,704 - ===================================
+INFO  16:14:03,711 - Deklarisana promenljiva a na liniji 5
+INFO  16:14:03,711 - Deklarisana promenljiva b na liniji 6
+INFO  16:14:03,711 - Deklarisana promenljiva niz na liniji 7
+INFO  16:14:03,711 - Obradjuje se funkcija main na liniji 10
+INFO  16:14:03,712 - Postoji main
+INFO  16:14:03,712 - ===================================
+ERROR 16:14:03,713 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,253 @@
+INFO  13:52:28,160 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:52:28,246 - #2 program
+INFO  13:52:28,246 - #48 mojProg
+INFO  13:52:28,246 - #35 const
+INFO  13:52:28,247 - #48 int
+INFO  13:52:28,247 - #48 size
+INFO  13:52:28,248 - #7 =
+INFO  13:52:28,248 - #45 10
+INFO  13:52:28,248 - #6 ;
+INFO  13:52:28,249 - #31 record
+INFO  13:52:28,250 - #48 Board
+INFO  13:52:28,250 - #16 {
+INFO  13:52:28,250 - #48 int
+INFO  13:52:28,251 - #48 rows
+INFO  13:52:28,251 - #22 ,
+INFO  13:52:28,252 - #48 columns
+INFO  13:52:28,253 - #6 ;
+INFO  13:52:28,253 - #17 }
+INFO  13:52:28,254 - #48 Table
+INFO  13:52:28,254 - #48 val
+INFO  13:52:28,255 - #6 ;
+INFO  13:52:28,255 - #48 Board
+INFO  13:52:28,255 - #48 board
+INFO  13:52:28,255 - #6 ;
+INFO  13:52:28,255 - #16 {
+INFO  13:52:28,256 - #19 void
+INFO  13:52:28,256 - #48 f
+INFO  13:52:28,257 - #3 (
+INFO  13:52:28,257 - #48 char
+INFO  13:52:28,257 - #48 ch
+INFO  13:52:28,257 - #22 ,
+INFO  13:52:28,258 - #48 int
+INFO  13:52:28,258 - #48 a
+INFO  13:52:28,258 - #22 ,
+INFO  13:52:28,259 - #48 int
+INFO  13:52:28,259 - #48 arg
+INFO  13:52:28,259 - #4 )
+INFO  13:52:28,259 - #48 int
+INFO  13:52:28,260 - #48 x
+INFO  13:52:28,260 - #6 ;
+INFO  13:52:28,260 - #16 {
+INFO  13:52:28,260 - #48 x
+INFO  13:52:28,261 - #7 =
+INFO  13:52:28,262 - #48 arg
+INFO  13:52:28,263 - #6 ;
+INFO  13:52:28,265 - #17 }
+INFO  13:52:28,265 - #19 void
+INFO  13:52:28,265 - #48 main
+INFO  13:52:28,265 - #3 (
+INFO  13:52:28,265 - #4 )
+INFO  13:52:28,266 - #48 int
+INFO  13:52:28,266 - #48 x
+INFO  13:52:28,266 - #22 ,
+INFO  13:52:28,266 - #48 i
+INFO  13:52:28,266 - #6 ;
+INFO  13:52:28,267 - #48 char
+INFO  13:52:28,267 - #48 c
+INFO  13:52:28,267 - #6 ;
+INFO  13:52:28,267 - #16 {
+INFO  13:52:28,267 - #17 }
+INFO  13:52:28,268 - #17 }
+INFO  13:52:28,270 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList4(
+        DeclarationList2(
+          NoDeclList(
+          ) [NoDeclList]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           size
+            TipConst1(
+             10
+            ) [TipConst1]
+            DodatnoCD1(
+            ) [DodatnoCD1]
+          ) [ConstDecl]
+        ) [DeclarationList2]
+        RDecl2(
+         Board
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           rows
+            Zagrade2(
+            ) [Zagrade2]
+            ViseVarDeklarisane(
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+             columns
+              Zagrade2(
+              ) [Zagrade2]
+            ) [ViseVarDeklarisane]
+          ) [VarDeclDerived1]
+        ) [RDecl2]
+      ) [DeclarationList4]
+      VarDeclDerived1(
+        Type(
+         Table
+        ) [Type]
+       val
+        Zagrade2(
+        ) [Zagrade2]
+        NoViseVarDecl(
+        ) [NoViseVarDecl]
+      ) [VarDeclDerived1]
+    ) [DeclarationList1]
+    VarDeclDerived1(
+      Type(
+       Board
+      ) [Type]
+     board
+      Zagrade2(
+      ) [Zagrade2]
+      NoViseVarDecl(
+      ) [NoViseVarDecl]
+    ) [VarDeclDerived1]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      Method1(
+        PovrTip1(
+        ) [PovrTip1]
+       f
+        FormParams(
+          FormalParamDecls(
+            FormalParamDecls(
+              SingleFormalParamDecl(
+                FormalParamDecl(
+                  Type(
+                   char
+                  ) [Type]
+                 ch
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [FormalParamDecl]
+              ) [SingleFormalParamDecl]
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               a
+                Zagrade2(
+                ) [Zagrade2]
+              ) [FormalParamDecl]
+            ) [FormalParamDecls]
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             arg
+              Zagrade2(
+              ) [Zagrade2]
+            ) [FormalParamDecl]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           x
+            Zagrade2(
+            ) [Zagrade2]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDeclDerived1]
+        ) [VarDeclarations]
+        ZaStat1(
+          Statement3(
+            SStat1(
+              DesignatorStatement(
+                Des1(
+                 x
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Des1]
+                DesignatorDodatno1(
+                  Assignop(
+                  ) [Assignop]
+                  Expr3(
+                    Term2(
+                      Fac7(
+                        Des1(
+                         arg
+                          DDodatno3(
+                          ) [DDodatno3]
+                        ) [Des1]
+                      ) [Fac7]
+                    ) [Term2]
+                  ) [Expr3]
+                ) [DesignatorDodatno1]
+              ) [DesignatorStatement]
+            ) [SStat1]
+          ) [Statement3]
+        ) [ZaStat1]
+      ) [Method1]
+    ) [MethodDeclarations]
+    Method1(
+      PovrTip1(
+      ) [PovrTip1]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           x
+            Zagrade2(
+            ) [Zagrade2]
+            ViseVarDeklarisane(
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+             i
+              Zagrade2(
+              ) [Zagrade2]
+            ) [ViseVarDeklarisane]
+          ) [VarDeclDerived1]
+        ) [VarDeclarations]
+        VarDeclDerived1(
+          Type(
+           char
+          ) [Type]
+         c
+          Zagrade2(
+          ) [Zagrade2]
+          NoViseVarDecl(
+          ) [NoViseVarDecl]
+        ) [VarDeclDerived1]
+      ) [VarDeclarations]
+      NoStatement(
+      ) [NoStatement]
+    ) [Method1]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:52:28,270 - ===================================
+INFO  13:52:28,274 -  Print count calls = 0
+INFO  13:52:28,274 -  Deklarisanih promenljivih ima = 0

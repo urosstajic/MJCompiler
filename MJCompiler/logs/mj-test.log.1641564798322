@@ -1,0 +1,41 @@
+INFO  15:11:48,375 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:11:48,488 - #2 program
+INFO  15:11:48,488 - #48 mojProg
+INFO  15:11:48,489 - #48 int
+INFO  15:11:48,490 - #48 i
+INFO  15:11:48,492 - #6 ;
+INFO  15:11:48,496 - #16 {
+INFO  15:11:48,497 - #17 }
+INFO  15:11:48,500 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             i
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  15:11:48,510 - ===================================
+INFO  15:11:48,517 - Deklarisana promenljiva i na liniji 2
+ERROR 15:11:48,517 - Ne postoji definisan main na liniji 1
+INFO  15:11:48,517 - ===================================

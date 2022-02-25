@@ -1,0 +1,1419 @@
+INFO  22:14:19,496 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\MJCompiler\test\program.mj
+INFO  22:14:19,627 - #2 program
+INFO  22:14:19,627 - #51 test301
+INFO  22:14:19,627 - #51 int
+INFO  22:14:19,632 - #51 niz
+INFO  22:14:19,635 - #33 [
+INFO  22:14:19,636 - #34 ]
+INFO  22:14:19,636 - #6 ;
+INFO  22:14:19,638 - #51 int
+INFO  22:14:19,640 - #51 niz2
+INFO  22:14:19,641 - #33 [
+INFO  22:14:19,641 - #34 ]
+INFO  22:14:19,641 - #6 ;
+INFO  22:14:19,641 - #51 bool
+INFO  22:14:19,641 - #51 niz3
+INFO  22:14:19,641 - #33 [
+INFO  22:14:19,641 - #34 ]
+INFO  22:14:19,641 - #6 ;
+INFO  22:14:19,642 - #16 {
+INFO  22:14:19,642 - #19 void
+INFO  22:14:19,643 - #51 main
+INFO  22:14:19,644 - #3 (
+INFO  22:14:19,645 - #4 )
+INFO  22:14:19,646 - #16 {
+INFO  22:14:19,651 - #51 niz3
+INFO  22:14:19,652 - #7 =
+INFO  22:14:19,655 - #18 new
+INFO  22:14:19,656 - #51 bool
+INFO  22:14:19,656 - #33 [
+INFO  22:14:19,656 - #48 8
+INFO  22:14:19,656 - #34 ]
+INFO  22:14:19,658 - #6 ;
+INFO  22:14:19,659 - #51 niz3
+INFO  22:14:19,659 - #33 [
+INFO  22:14:19,660 - #48 0
+INFO  22:14:19,660 - #34 ]
+INFO  22:14:19,661 - #7 =
+INFO  22:14:19,661 - #50 true
+INFO  22:14:19,661 - #6 ;
+INFO  22:14:19,661 - #51 niz3
+INFO  22:14:19,662 - #33 [
+INFO  22:14:19,662 - #48 1
+INFO  22:14:19,662 - #34 ]
+INFO  22:14:19,662 - #7 =
+INFO  22:14:19,662 - #50 false
+INFO  22:14:19,662 - #6 ;
+INFO  22:14:19,663 - #51 niz3
+INFO  22:14:19,663 - #33 [
+INFO  22:14:19,663 - #48 2
+INFO  22:14:19,663 - #34 ]
+INFO  22:14:19,663 - #7 =
+INFO  22:14:19,663 - #50 true
+INFO  22:14:19,664 - #6 ;
+INFO  22:14:19,664 - #51 niz3
+INFO  22:14:19,664 - #33 [
+INFO  22:14:19,664 - #48 3
+INFO  22:14:19,664 - #34 ]
+INFO  22:14:19,665 - #7 =
+INFO  22:14:19,666 - #50 false
+INFO  22:14:19,666 - #6 ;
+INFO  22:14:19,666 - #51 niz3
+INFO  22:14:19,667 - #33 [
+INFO  22:14:19,667 - #48 4
+INFO  22:14:19,667 - #34 ]
+INFO  22:14:19,667 - #7 =
+INFO  22:14:19,667 - #50 false
+INFO  22:14:19,667 - #6 ;
+INFO  22:14:19,667 - #28 print
+INFO  22:14:19,668 - #3 (
+INFO  22:14:19,668 - #51 niz3
+INFO  22:14:19,668 - #4 )
+INFO  22:14:19,669 - #6 ;
+INFO  22:14:19,669 - #17 }
+INFO  22:14:19,669 - #17 }
+INFO  22:14:19,676 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList1(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        GlobalDecl(
+          ZaFin2(
+          ) [ZaFin2]
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 niz
+                ) [GlobalDeclImeProm]
+                Zagrade1(
+                ) [Zagrade1]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      GlobalDecl(
+        ZaFin2(
+        ) [ZaFin2]
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               niz2
+              ) [GlobalDeclImeProm]
+              Zagrade1(
+              ) [Zagrade1]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      ZaFin2(
+      ) [ZaFin2]
+      GlobalType(
+        Type(
+         bool
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             niz3
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Statement3(
+                      SStat1(
+                        DesignatorStatement1(
+                          Designator(
+                            DesignatorName(
+                             niz3
+                            ) [DesignatorName]
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                          ) [Designator]
+                          Assignop(
+                          ) [Assignop]
+                          Expr2(
+                            Term2(
+                              Fac5(
+                                Type(
+                                 bool
+                                ) [Type]
+                                Expr2(
+                                  Term2(
+                                    Fac1(
+                                      TipConst1(
+                                       8
+                                      ) [TipConst1]
+                                    ) [Fac1]
+                                  ) [Term2]
+                                  NoAddTerm(
+                                  ) [NoAddTerm]
+                                ) [Expr2]
+                              ) [Fac5]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [DesignatorStatement1]
+                      ) [SStat1]
+                    ) [Statement3]
+                  ) [Statements]
+                  Statement3(
+                    SStat1(
+                      DesignatorStatement1(
+                        Designator(
+                          DesignatorName(
+                           niz3
+                          ) [DesignatorName]
+                          DesDodatno(
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                            DDodatno2(
+                              Redosled(
+                              ) [Redosled]
+                              Expr2(
+                                Term2(
+                                  Fac1(
+                                    TipConst1(
+                                     0
+                                    ) [TipConst1]
+                                  ) [Fac1]
+                                ) [Term2]
+                                NoAddTerm(
+                                ) [NoAddTerm]
+                              ) [Expr2]
+                            ) [DDodatno2]
+                          ) [DesDodatno]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst3(
+                               true
+                              ) [TipConst3]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DesignatorStatement1]
+                    ) [SStat1]
+                  ) [Statement3]
+                ) [Statements]
+                Statement3(
+                  SStat1(
+                    DesignatorStatement1(
+                      Designator(
+                        DesignatorName(
+                         niz3
+                        ) [DesignatorName]
+                        DesDodatno(
+                          NoDesDodatno(
+                          ) [NoDesDodatno]
+                          DDodatno2(
+                            Redosled(
+                            ) [Redosled]
+                            Expr2(
+                              Term2(
+                                Fac1(
+                                  TipConst1(
+                                   1
+                                  ) [TipConst1]
+                                ) [Fac1]
+                              ) [Term2]
+                              NoAddTerm(
+                              ) [NoAddTerm]
+                            ) [Expr2]
+                          ) [DDodatno2]
+                        ) [DesDodatno]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst3(
+                             false
+                            ) [TipConst3]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [DesignatorStatement1]
+                  ) [SStat1]
+                ) [Statement3]
+              ) [Statements]
+              Statement3(
+                SStat1(
+                  DesignatorStatement1(
+                    Designator(
+                      DesignatorName(
+                       niz3
+                      ) [DesignatorName]
+                      DesDodatno(
+                        NoDesDodatno(
+                        ) [NoDesDodatno]
+                        DDodatno2(
+                          Redosled(
+                          ) [Redosled]
+                          Expr2(
+                            Term2(
+                              Fac1(
+                                TipConst1(
+                                 2
+                                ) [TipConst1]
+                              ) [Fac1]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [DDodatno2]
+                      ) [DesDodatno]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst3(
+                           true
+                          ) [TipConst3]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [DesignatorStatement1]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     niz3
+                    ) [DesignatorName]
+                    DesDodatno(
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                      DDodatno2(
+                        Redosled(
+                        ) [Redosled]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst1(
+                               3
+                              ) [TipConst1]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DDodatno2]
+                    ) [DesDodatno]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                        TipConst3(
+                         false
+                        ) [TipConst3]
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   niz3
+                  ) [DesignatorName]
+                  DesDodatno(
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                    DDodatno2(
+                      Redosled(
+                      ) [Redosled]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst1(
+                             4
+                            ) [TipConst1]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [DDodatno2]
+                  ) [DesDodatno]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst3(
+                       false
+                      ) [TipConst3]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     niz3
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  22:14:19,696 - ===================================
+INFO  22:14:19,706 - Deklarisana promenljiva niz na liniji 12
+INFO  22:14:19,706 - Deklarisana promenljiva niz2 na liniji 13
+INFO  22:14:19,706 - Deklarisana promenljiva niz3 na liniji 14
+INFO  22:14:19,707 - Obradjuje se funkcija main na liniji 17
+INFO  22:14:19,707 - Pristup promenljivoj niz3 na liniji 19
+INFO  22:14:19,707 - TIPOVI SU KOMPATIBILNI! na liniji 19
+INFO  22:14:19,707 - TIPOVI SU KOMPATIBILNI! na liniji 20
+INFO  22:14:19,707 - TIPOVI SU KOMPATIBILNI! na liniji 21
+INFO  22:14:19,708 - TIPOVI SU KOMPATIBILNI! na liniji 22
+INFO  22:14:19,708 - TIPOVI SU KOMPATIBILNI! na liniji 23
+INFO  22:14:19,708 - TIPOVI SU KOMPATIBILNI! na liniji 24
+INFO  22:14:19,708 - Pristup promenljivoj niz3 na liniji 26
+INFO  22:14:19,708 - niz3 na liniji 26
+INFO  22:14:19,708 - Postoji main
+INFO  22:14:19,709 - ===================================
+INFO  22:14:24,250 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\MJCompiler\test\program.mj
+INFO  22:14:24,393 - #2 program
+INFO  22:14:24,394 - #51 test301
+INFO  22:14:24,394 - #51 int
+INFO  22:14:24,399 - #51 niz
+INFO  22:14:24,401 - #33 [
+INFO  22:14:24,402 - #34 ]
+INFO  22:14:24,402 - #6 ;
+INFO  22:14:24,404 - #51 int
+INFO  22:14:24,406 - #51 niz2
+INFO  22:14:24,406 - #33 [
+INFO  22:14:24,406 - #34 ]
+INFO  22:14:24,406 - #6 ;
+INFO  22:14:24,406 - #51 bool
+INFO  22:14:24,407 - #51 niz3
+INFO  22:14:24,407 - #33 [
+INFO  22:14:24,407 - #34 ]
+INFO  22:14:24,407 - #6 ;
+INFO  22:14:24,407 - #16 {
+INFO  22:14:24,407 - #19 void
+INFO  22:14:24,408 - #51 main
+INFO  22:14:24,409 - #3 (
+INFO  22:14:24,410 - #4 )
+INFO  22:14:24,410 - #16 {
+INFO  22:14:24,415 - #51 niz3
+INFO  22:14:24,417 - #7 =
+INFO  22:14:24,420 - #18 new
+INFO  22:14:24,421 - #51 bool
+INFO  22:14:24,421 - #33 [
+INFO  22:14:24,421 - #48 8
+INFO  22:14:24,421 - #34 ]
+INFO  22:14:24,423 - #6 ;
+INFO  22:14:24,424 - #51 niz3
+INFO  22:14:24,424 - #33 [
+INFO  22:14:24,425 - #48 0
+INFO  22:14:24,426 - #34 ]
+INFO  22:14:24,426 - #7 =
+INFO  22:14:24,426 - #50 true
+INFO  22:14:24,426 - #6 ;
+INFO  22:14:24,427 - #51 niz3
+INFO  22:14:24,427 - #33 [
+INFO  22:14:24,427 - #48 1
+INFO  22:14:24,427 - #34 ]
+INFO  22:14:24,427 - #7 =
+INFO  22:14:24,428 - #50 false
+INFO  22:14:24,428 - #6 ;
+INFO  22:14:24,428 - #51 niz3
+INFO  22:14:24,428 - #33 [
+INFO  22:14:24,428 - #48 2
+INFO  22:14:24,428 - #34 ]
+INFO  22:14:24,428 - #7 =
+INFO  22:14:24,429 - #50 true
+INFO  22:14:24,429 - #6 ;
+INFO  22:14:24,429 - #51 niz3
+INFO  22:14:24,429 - #33 [
+INFO  22:14:24,429 - #48 3
+INFO  22:14:24,429 - #34 ]
+INFO  22:14:24,430 - #7 =
+INFO  22:14:24,431 - #50 false
+INFO  22:14:24,431 - #6 ;
+INFO  22:14:24,431 - #51 niz3
+INFO  22:14:24,432 - #33 [
+INFO  22:14:24,432 - #48 4
+INFO  22:14:24,432 - #34 ]
+INFO  22:14:24,432 - #7 =
+INFO  22:14:24,432 - #50 false
+INFO  22:14:24,432 - #6 ;
+INFO  22:14:24,433 - #28 print
+INFO  22:14:24,433 - #3 (
+INFO  22:14:24,433 - #51 niz3
+INFO  22:14:24,433 - #4 )
+INFO  22:14:24,435 - #6 ;
+INFO  22:14:24,435 - #17 }
+INFO  22:14:24,435 - #17 }
+INFO  22:14:24,444 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList1(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        GlobalDecl(
+          ZaFin2(
+          ) [ZaFin2]
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 niz
+                ) [GlobalDeclImeProm]
+                Zagrade1(
+                ) [Zagrade1]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      GlobalDecl(
+        ZaFin2(
+        ) [ZaFin2]
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               niz2
+              ) [GlobalDeclImeProm]
+              Zagrade1(
+              ) [Zagrade1]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      ZaFin2(
+      ) [ZaFin2]
+      GlobalType(
+        Type(
+         bool
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             niz3
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Statement3(
+                      SStat1(
+                        DesignatorStatement1(
+                          Designator(
+                            DesignatorName(
+                             niz3
+                            ) [DesignatorName]
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                          ) [Designator]
+                          Assignop(
+                          ) [Assignop]
+                          Expr2(
+                            Term2(
+                              Fac5(
+                                Type(
+                                 bool
+                                ) [Type]
+                                Expr2(
+                                  Term2(
+                                    Fac1(
+                                      TipConst1(
+                                       8
+                                      ) [TipConst1]
+                                    ) [Fac1]
+                                  ) [Term2]
+                                  NoAddTerm(
+                                  ) [NoAddTerm]
+                                ) [Expr2]
+                              ) [Fac5]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [DesignatorStatement1]
+                      ) [SStat1]
+                    ) [Statement3]
+                  ) [Statements]
+                  Statement3(
+                    SStat1(
+                      DesignatorStatement1(
+                        Designator(
+                          DesignatorName(
+                           niz3
+                          ) [DesignatorName]
+                          DesDodatno(
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                            DDodatno2(
+                              Redosled(
+                              ) [Redosled]
+                              Expr2(
+                                Term2(
+                                  Fac1(
+                                    TipConst1(
+                                     0
+                                    ) [TipConst1]
+                                  ) [Fac1]
+                                ) [Term2]
+                                NoAddTerm(
+                                ) [NoAddTerm]
+                              ) [Expr2]
+                            ) [DDodatno2]
+                          ) [DesDodatno]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst3(
+                               true
+                              ) [TipConst3]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DesignatorStatement1]
+                    ) [SStat1]
+                  ) [Statement3]
+                ) [Statements]
+                Statement3(
+                  SStat1(
+                    DesignatorStatement1(
+                      Designator(
+                        DesignatorName(
+                         niz3
+                        ) [DesignatorName]
+                        DesDodatno(
+                          NoDesDodatno(
+                          ) [NoDesDodatno]
+                          DDodatno2(
+                            Redosled(
+                            ) [Redosled]
+                            Expr2(
+                              Term2(
+                                Fac1(
+                                  TipConst1(
+                                   1
+                                  ) [TipConst1]
+                                ) [Fac1]
+                              ) [Term2]
+                              NoAddTerm(
+                              ) [NoAddTerm]
+                            ) [Expr2]
+                          ) [DDodatno2]
+                        ) [DesDodatno]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst3(
+                             false
+                            ) [TipConst3]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [DesignatorStatement1]
+                  ) [SStat1]
+                ) [Statement3]
+              ) [Statements]
+              Statement3(
+                SStat1(
+                  DesignatorStatement1(
+                    Designator(
+                      DesignatorName(
+                       niz3
+                      ) [DesignatorName]
+                      DesDodatno(
+                        NoDesDodatno(
+                        ) [NoDesDodatno]
+                        DDodatno2(
+                          Redosled(
+                          ) [Redosled]
+                          Expr2(
+                            Term2(
+                              Fac1(
+                                TipConst1(
+                                 2
+                                ) [TipConst1]
+                              ) [Fac1]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [DDodatno2]
+                      ) [DesDodatno]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst3(
+                           true
+                          ) [TipConst3]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [DesignatorStatement1]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     niz3
+                    ) [DesignatorName]
+                    DesDodatno(
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                      DDodatno2(
+                        Redosled(
+                        ) [Redosled]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst1(
+                               3
+                              ) [TipConst1]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DDodatno2]
+                    ) [DesDodatno]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                        TipConst3(
+                         false
+                        ) [TipConst3]
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   niz3
+                  ) [DesignatorName]
+                  DesDodatno(
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                    DDodatno2(
+                      Redosled(
+                      ) [Redosled]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst1(
+                             4
+                            ) [TipConst1]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [DDodatno2]
+                  ) [DesDodatno]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst3(
+                       false
+                      ) [TipConst3]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     niz3
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  22:14:24,467 - ===================================
+INFO  22:14:24,476 - Deklarisana promenljiva niz na liniji 12
+INFO  22:14:24,476 - Deklarisana promenljiva niz2 na liniji 13
+INFO  22:14:24,477 - Deklarisana promenljiva niz3 na liniji 14
+INFO  22:14:24,477 - Obradjuje se funkcija main na liniji 17
+INFO  22:14:24,477 - Pristup promenljivoj niz3 na liniji 19
+INFO  22:14:24,477 - TIPOVI SU KOMPATIBILNI! na liniji 19
+INFO  22:14:24,477 - TIPOVI SU KOMPATIBILNI! na liniji 20
+INFO  22:14:24,478 - TIPOVI SU KOMPATIBILNI! na liniji 21
+INFO  22:14:24,478 - TIPOVI SU KOMPATIBILNI! na liniji 22
+INFO  22:14:24,478 - TIPOVI SU KOMPATIBILNI! na liniji 23
+INFO  22:14:24,478 - TIPOVI SU KOMPATIBILNI! na liniji 24
+INFO  22:14:24,478 - Pristup promenljivoj niz3 na liniji 26
+INFO  22:14:24,479 - niz3 na liniji 26
+INFO  22:14:24,479 - Postoji main
+INFO  22:14:24,479 - ===================================
+INFO  22:14:39,625 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\MJCompiler\test\program.mj
+INFO  22:14:39,751 - #2 program
+INFO  22:14:39,751 - #51 test301
+INFO  22:14:39,751 - #51 int
+INFO  22:14:39,754 - #51 niz
+INFO  22:14:39,756 - #33 [
+INFO  22:14:39,757 - #34 ]
+INFO  22:14:39,757 - #6 ;
+INFO  22:14:39,760 - #51 int
+INFO  22:14:39,763 - #51 niz2
+INFO  22:14:39,763 - #33 [
+INFO  22:14:39,763 - #34 ]
+INFO  22:14:39,763 - #6 ;
+INFO  22:14:39,763 - #51 bool
+INFO  22:14:39,763 - #51 niz3
+INFO  22:14:39,763 - #33 [
+INFO  22:14:39,763 - #34 ]
+INFO  22:14:39,764 - #6 ;
+INFO  22:14:39,764 - #16 {
+INFO  22:14:39,764 - #19 void
+INFO  22:14:39,765 - #51 main
+INFO  22:14:39,767 - #3 (
+INFO  22:14:39,768 - #4 )
+INFO  22:14:39,769 - #16 {
+INFO  22:14:39,772 - #51 niz3
+INFO  22:14:39,773 - #7 =
+INFO  22:14:39,776 - #18 new
+INFO  22:14:39,779 - #51 bool
+INFO  22:14:39,779 - #33 [
+INFO  22:14:39,779 - #48 8
+INFO  22:14:39,779 - #34 ]
+INFO  22:14:39,781 - #6 ;
+INFO  22:14:39,782 - #51 niz3
+INFO  22:14:39,783 - #33 [
+INFO  22:14:39,784 - #48 0
+INFO  22:14:39,784 - #34 ]
+INFO  22:14:39,785 - #7 =
+INFO  22:14:39,785 - #50 true
+INFO  22:14:39,785 - #6 ;
+INFO  22:14:39,786 - #51 niz3
+INFO  22:14:39,786 - #33 [
+INFO  22:14:39,786 - #48 1
+INFO  22:14:39,786 - #34 ]
+INFO  22:14:39,786 - #7 =
+INFO  22:14:39,786 - #50 false
+INFO  22:14:39,786 - #6 ;
+INFO  22:14:39,786 - #51 niz3
+INFO  22:14:39,787 - #33 [
+INFO  22:14:39,787 - #48 2
+INFO  22:14:39,787 - #34 ]
+INFO  22:14:39,787 - #7 =
+INFO  22:14:39,787 - #50 true
+INFO  22:14:39,787 - #6 ;
+INFO  22:14:39,787 - #51 niz3
+INFO  22:14:39,787 - #33 [
+INFO  22:14:39,788 - #48 3
+INFO  22:14:39,788 - #34 ]
+INFO  22:14:39,788 - #7 =
+INFO  22:14:39,788 - #50 false
+INFO  22:14:39,788 - #6 ;
+INFO  22:14:39,788 - #51 niz3
+INFO  22:14:39,788 - #33 [
+INFO  22:14:39,789 - #48 4
+INFO  22:14:39,789 - #34 ]
+INFO  22:14:39,789 - #7 =
+INFO  22:14:39,789 - #50 false
+INFO  22:14:39,789 - #6 ;
+INFO  22:14:39,789 - #28 print
+INFO  22:14:39,789 - #3 (
+INFO  22:14:39,789 - #51 niz3
+INFO  22:14:39,789 - #4 )
+INFO  22:14:39,790 - #6 ;
+INFO  22:14:39,791 - #17 }
+INFO  22:14:39,791 - #17 }
+INFO  22:14:39,801 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList1(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        GlobalDecl(
+          ZaFin2(
+          ) [ZaFin2]
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 niz
+                ) [GlobalDeclImeProm]
+                Zagrade1(
+                ) [Zagrade1]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      GlobalDecl(
+        ZaFin2(
+        ) [ZaFin2]
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               niz2
+              ) [GlobalDeclImeProm]
+              Zagrade1(
+              ) [Zagrade1]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      ZaFin2(
+      ) [ZaFin2]
+      GlobalType(
+        Type(
+         bool
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             niz3
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Statement3(
+                      SStat1(
+                        DesignatorStatement1(
+                          Designator(
+                            DesignatorName(
+                             niz3
+                            ) [DesignatorName]
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                          ) [Designator]
+                          Assignop(
+                          ) [Assignop]
+                          Expr2(
+                            Term2(
+                              Fac5(
+                                Type(
+                                 bool
+                                ) [Type]
+                                Expr2(
+                                  Term2(
+                                    Fac1(
+                                      TipConst1(
+                                       8
+                                      ) [TipConst1]
+                                    ) [Fac1]
+                                  ) [Term2]
+                                  NoAddTerm(
+                                  ) [NoAddTerm]
+                                ) [Expr2]
+                              ) [Fac5]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [DesignatorStatement1]
+                      ) [SStat1]
+                    ) [Statement3]
+                  ) [Statements]
+                  Statement3(
+                    SStat1(
+                      DesignatorStatement1(
+                        Designator(
+                          DesignatorName(
+                           niz3
+                          ) [DesignatorName]
+                          DesDodatno(
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                            DDodatno2(
+                              Redosled(
+                              ) [Redosled]
+                              Expr2(
+                                Term2(
+                                  Fac1(
+                                    TipConst1(
+                                     0
+                                    ) [TipConst1]
+                                  ) [Fac1]
+                                ) [Term2]
+                                NoAddTerm(
+                                ) [NoAddTerm]
+                              ) [Expr2]
+                            ) [DDodatno2]
+                          ) [DesDodatno]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst3(
+                               true
+                              ) [TipConst3]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DesignatorStatement1]
+                    ) [SStat1]
+                  ) [Statement3]
+                ) [Statements]
+                Statement3(
+                  SStat1(
+                    DesignatorStatement1(
+                      Designator(
+                        DesignatorName(
+                         niz3
+                        ) [DesignatorName]
+                        DesDodatno(
+                          NoDesDodatno(
+                          ) [NoDesDodatno]
+                          DDodatno2(
+                            Redosled(
+                            ) [Redosled]
+                            Expr2(
+                              Term2(
+                                Fac1(
+                                  TipConst1(
+                                   1
+                                  ) [TipConst1]
+                                ) [Fac1]
+                              ) [Term2]
+                              NoAddTerm(
+                              ) [NoAddTerm]
+                            ) [Expr2]
+                          ) [DDodatno2]
+                        ) [DesDodatno]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst3(
+                             false
+                            ) [TipConst3]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [DesignatorStatement1]
+                  ) [SStat1]
+                ) [Statement3]
+              ) [Statements]
+              Statement3(
+                SStat1(
+                  DesignatorStatement1(
+                    Designator(
+                      DesignatorName(
+                       niz3
+                      ) [DesignatorName]
+                      DesDodatno(
+                        NoDesDodatno(
+                        ) [NoDesDodatno]
+                        DDodatno2(
+                          Redosled(
+                          ) [Redosled]
+                          Expr2(
+                            Term2(
+                              Fac1(
+                                TipConst1(
+                                 2
+                                ) [TipConst1]
+                              ) [Fac1]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [DDodatno2]
+                      ) [DesDodatno]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst3(
+                           true
+                          ) [TipConst3]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [DesignatorStatement1]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     niz3
+                    ) [DesignatorName]
+                    DesDodatno(
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                      DDodatno2(
+                        Redosled(
+                        ) [Redosled]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst1(
+                               3
+                              ) [TipConst1]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DDodatno2]
+                    ) [DesDodatno]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                        TipConst3(
+                         false
+                        ) [TipConst3]
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   niz3
+                  ) [DesignatorName]
+                  DesDodatno(
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                    DDodatno2(
+                      Redosled(
+                      ) [Redosled]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst1(
+                             4
+                            ) [TipConst1]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [DDodatno2]
+                  ) [DesDodatno]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst3(
+                       false
+                      ) [TipConst3]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     niz3
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  22:14:39,820 - ===================================
+INFO  22:14:39,830 - Deklarisana promenljiva niz na liniji 12
+INFO  22:14:39,830 - Deklarisana promenljiva niz2 na liniji 13
+INFO  22:14:39,830 - Deklarisana promenljiva niz3 na liniji 14
+INFO  22:14:39,830 - Obradjuje se funkcija main na liniji 17
+INFO  22:14:39,830 - Pristup promenljivoj niz3 na liniji 19
+INFO  22:14:39,831 - TIPOVI SU KOMPATIBILNI! na liniji 19
+INFO  22:14:39,831 - TIPOVI SU KOMPATIBILNI! na liniji 20
+INFO  22:14:39,831 - TIPOVI SU KOMPATIBILNI! na liniji 21
+INFO  22:14:39,831 - TIPOVI SU KOMPATIBILNI! na liniji 22
+INFO  22:14:39,832 - TIPOVI SU KOMPATIBILNI! na liniji 23
+INFO  22:14:39,832 - TIPOVI SU KOMPATIBILNI! na liniji 24
+INFO  22:14:39,832 - Pristup promenljivoj niz3 na liniji 26
+INFO  22:14:39,832 - niz3 na liniji 26
+INFO  22:14:39,832 - Postoji main
+INFO  22:14:39,832 - ===================================

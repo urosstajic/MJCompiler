@@ -1,0 +1,133 @@
+INFO  22:16:14,656 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  22:16:14,717 - #2 program
+INFO  22:16:14,718 - #38 mojProg
+INFO  22:16:14,719 - #16 {
+INFO  22:16:14,720 - #38 int
+INFO  22:16:14,721 - #38 pom
+INFO  22:16:14,722 - #3 (
+INFO  22:16:14,722 - #38 int
+INFO  22:16:14,722 - #38 a
+INFO  22:16:14,723 - #24 ,
+INFO  22:16:14,723 - #38 double
+INFO  22:16:14,723 - #38 h
+INFO  22:16:14,723 - #4 )
+INFO  22:16:14,724 - #16 {
+INFO  22:16:14,724 - #38 nesto
+INFO  22:16:14,724 - #7 =
+INFO  22:16:14,725 - #19 5
+INFO  22:16:14,725 - #6 ;
+INFO  22:16:14,726 - #30 print
+INFO  22:16:14,726 - #3 (
+INFO  22:16:14,726 - #20 true
+INFO  22:16:14,727 - #24 ,
+INFO  22:16:14,728 - #19 5
+INFO  22:16:14,728 - #24 ,
+INFO  22:16:14,728 - #19 9
+INFO  22:16:14,728 - #24 ,
+INFO  22:16:14,729 - #19 7
+INFO  22:16:14,729 - #4 )
+INFO  22:16:14,729 - #6 ;
+INFO  22:16:14,729 - #26 read
+INFO  22:16:14,729 - #3 (
+INFO  22:16:14,729 - #38 fajl
+INFO  22:16:14,729 - #35 [
+INFO  22:16:14,730 - #19 5
+INFO  22:16:14,730 - #36 ]
+INFO  22:16:14,730 - #4 )
+INFO  22:16:14,730 - #6 ;
+INFO  22:16:14,730 - #17 }
+INFO  22:16:14,730 - #17 }
+INFO  22:16:14,733 - Program(
+  PName(
+   mojProg
+  ) [PName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     pom
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDeclDerived1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclDerived1]
+          ) [SingleFormalParamDecl]
+          FormalParamDeclDerived1(
+            Type(
+             double
+            ) [Type]
+           h
+          ) [FormalParamDeclDerived1]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statementss(
+        Statementss(
+          Statementss(
+            NoStmt(
+            ) [NoStmt]
+            Stat2(
+              SStat1(
+                DStat1(
+                  Des1(
+                   nesto
+                  ) [Des1]
+                  Expr3(
+                    Term2(
+                      Fac1(
+                      ) [Fac1]
+                    ) [Term2]
+                  ) [Expr3]
+                ) [DStat1]
+              ) [SStat1]
+            ) [Stat2]
+          ) [Statementss]
+          Stat2(
+            SStat3(
+              Expr3(
+                Term2(
+                  Fac4(
+                  ) [Fac4]
+                ) [Term2]
+              ) [Expr3]
+              SStatmen1Derived2(
+                SStatmen1Derived2(
+                  SStatmen1Derived2(
+                    SStatmen1Derived1(
+                    ) [SStatmen1Derived1]
+                  ) [SStatmen1Derived2]
+                ) [SStatmen1Derived2]
+              ) [SStatmen1Derived2]
+            ) [SStat3]
+          ) [Stat2]
+        ) [Statementss]
+        Stat2(
+          SStat2(
+            Des2(
+             fajl
+              Expr3(
+                Term2(
+                  Fac1(
+                  ) [Fac1]
+                ) [Term2]
+              ) [Expr3]
+            ) [Des2]
+          ) [SStat2]
+        ) [Stat2]
+      ) [Statementss]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:16:14,733 - ===================================
+INFO  22:16:14,736 -  Print count calls = 0
+INFO  22:16:14,737 -  Deklarisanih promenljivih ima = 0

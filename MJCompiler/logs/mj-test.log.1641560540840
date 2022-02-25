@@ -1,0 +1,126 @@
+INFO  14:01:40,970 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  14:01:41,076 - #2 program
+INFO  14:01:41,076 - #48 mojProg
+INFO  14:01:41,076 - #48 int
+INFO  14:01:41,078 - #48 i
+INFO  14:01:41,079 - #6 ;
+INFO  14:01:41,082 - #16 {
+INFO  14:01:41,083 - #19 void
+INFO  14:01:41,084 - #48 main
+INFO  14:01:41,084 - #3 (
+INFO  14:01:41,085 - #48 hghg
+INFO  14:01:41,085 - #4 )
+ERROR 14:01:41,085 - 
+Sintaksna greska na liniji 4
+INFO  14:01:41,086 - #16 {
+INFO  14:01:41,086 - #29 do
+INFO  14:01:41,086 - #16 {
+ERROR 14:01:41,087 - Izvrsen oporavak do ) u liniji 4
+INFO  14:01:41,090 - #23 break
+INFO  14:01:41,090 - #6 ;
+INFO  14:01:41,091 - #17 }
+INFO  14:01:41,092 - #27 while
+INFO  14:01:41,092 - #3 (
+INFO  14:01:41,092 - #45 5
+INFO  14:01:41,093 - #37 ==
+INFO  14:01:41,094 - #45 5
+INFO  14:01:41,095 - #4 )
+INFO  14:01:41,096 - #6 ;
+INFO  14:01:41,096 - #17 }
+INFO  14:01:41,096 - #17 }
+INFO  14:01:41,100 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             i
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      MultipleFormParam(
+        SingleFormalParamDecl(
+          ErrorStmt4(
+          ) [ErrorStmt4]
+        ) [SingleFormalParamDecl]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat3(
+            StatDO(
+            ) [StatDO]
+            Statement2(
+              Statements1(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  Statement3(
+                    SStat4(
+                    ) [SStat4]
+                  ) [Statement3]
+                ) [Statements]
+              ) [Statements1]
+            ) [Statement2]
+            Cond1(
+              CondTerm1(
+                CondFact1(
+                  Expr2(
+                    Term2(
+                      Fac1(
+                       5
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                  Relop1(
+                  ) [Relop1]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                       5
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [CondFact1]
+              ) [CondTerm1]
+            ) [Cond1]
+          ) [SStat3]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:01:41,118 - ===================================
+INFO  14:01:41,123 - Obradjuje se funkcija main na liniji 4

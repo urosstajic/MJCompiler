@@ -1,0 +1,88 @@
+INFO  15:14:27,522 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:14:27,637 - #2 program
+INFO  15:14:27,638 - #48 mojProg
+INFO  15:14:27,638 - #48 double
+INFO  15:14:27,639 - #48 i
+INFO  15:14:27,641 - #6 ;
+INFO  15:14:27,643 - #16 {
+INFO  15:14:27,644 - #19 void
+INFO  15:14:27,645 - #48 main
+INFO  15:14:27,645 - #3 (
+INFO  15:14:27,646 - #4 )
+INFO  15:14:27,646 - #16 {
+INFO  15:14:27,647 - #17 }
+INFO  15:14:27,648 - #48 int
+INFO  15:14:27,649 - #48 k
+INFO  15:14:27,649 - #3 (
+INFO  15:14:27,649 - #4 )
+INFO  15:14:27,649 - #16 {
+INFO  15:14:27,650 - #17 }
+INFO  15:14:27,651 - #17 }
+INFO  15:14:27,654 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         double
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             i
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+         int
+        ) [PovrTip2]
+       k
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:14:27,661 - ===================================
+ERROR 15:14:27,666 - Nije pronadjen tip double u tabeli simbola! 
+INFO  15:14:27,666 - Deklarisana promenljiva i na liniji 2
+INFO  15:14:27,666 - Obradjuje se funkcija main na liniji 5
+INFO  15:14:27,666 - Obradjuje se funkcija k na liniji 9
+ERROR 15:14:27,666 - Semanticka greska na liniji 9: funkcija k nema return iskaz!
+INFO  15:14:27,666 - Postoji main na liniji 1
+INFO  15:14:27,666 - ===================================

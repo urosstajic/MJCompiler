@@ -1,0 +1,39 @@
+INFO  17:28:53,081 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  17:28:53,213 - #2 program
+INFO  17:28:53,214 - #48 mojProg
+INFO  17:28:53,214 - #16 {
+INFO  17:28:53,217 - #19 void
+INFO  17:28:53,219 - #48 main
+INFO  17:28:53,220 - #3 (
+INFO  17:28:53,221 - #4 )
+INFO  17:28:53,222 - #16 {
+INFO  17:28:53,224 - #17 }
+INFO  17:28:53,268 - #17 }
+INFO  17:28:53,330 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:28:53,344 - ===================================
+INFO  17:28:53,357 - Obradjuje se funkcija main na liniji 4
+INFO  17:28:53,357 - Postoji main na liniji 1
+INFO  17:28:53,357 - ===================================

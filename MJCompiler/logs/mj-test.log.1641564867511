@@ -1,0 +1,64 @@
+INFO  15:13:18,332 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:13:18,439 - #2 program
+INFO  15:13:18,439 - #48 mojProg
+INFO  15:13:18,439 - #48 double
+INFO  15:13:18,441 - #48 i
+INFO  15:13:18,443 - #6 ;
+INFO  15:13:18,446 - #16 {
+INFO  15:13:18,447 - #19 void
+INFO  15:13:18,448 - #48 main
+INFO  15:13:18,449 - #3 (
+INFO  15:13:18,450 - #4 )
+INFO  15:13:18,450 - #16 {
+INFO  15:13:18,451 - #17 }
+INFO  15:13:18,452 - #17 }
+INFO  15:13:18,454 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         double
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             i
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:13:18,464 - ===================================
+ERROR 15:13:18,470 - Nije pronadjen tip double u tabeli simbola! 
+INFO  15:13:18,471 - Deklarisana promenljiva i na liniji 2
+INFO  15:13:18,471 - Obradjuje se funkcija main na liniji 5
+INFO  15:13:18,471 - Postoji main na liniji 1
+INFO  15:13:18,471 - ===================================

@@ -1,0 +1,34 @@
+program MojProgram2
+
+char niz[];
+int pom;
+
+{
+
+	void main(){
+		niz=new char[4];
+		niz[0]='a';
+		niz[1]='m';
+		niz[2]='h';
+		niz[3]='c';
+		
+		print(niz[0]);
+		print(niz[1]);
+		print(niz[2]);
+		print(niz[3]);
+		
+		goto labela2;
+		
+		labela1: pom=3;
+		pom++;
+		print(pom);
+		
+		labela2: pom=7;
+		pom--;
+		print(pom);
+	
+	}
+
+
+
+}

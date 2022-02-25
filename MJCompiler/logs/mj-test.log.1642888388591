@@ -1,0 +1,120 @@
+INFO  22:52:43,846 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  22:52:43,998 - #2 program
+INFO  22:52:44,001 - #49 test301
+INFO  22:52:44,003 - #49 int
+INFO  22:52:44,007 - #49 a
+INFO  22:52:44,011 - #6 ;
+INFO  22:52:44,023 - #49 int
+INFO  22:52:44,026 - #49 b
+INFO  22:52:44,026 - #6 ;
+INFO  22:52:44,026 - #16 {
+INFO  22:52:44,027 - #19 void
+INFO  22:52:44,028 - #49 main
+INFO  22:52:44,030 - #3 (
+INFO  22:52:44,031 - #4 )
+INFO  22:52:44,031 - #16 {
+INFO  22:52:44,035 - #49 a
+INFO  22:52:44,037 - #45 @
+INFO  22:52:44,043 - #49 b
+INFO  22:52:44,043 - #6 ;
+INFO  22:52:44,043 - #17 }
+INFO  22:52:44,045 - #17 }
+INFO  22:52:44,052 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             b
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat11(
+            Designator(
+              DesignatorName(
+               a
+              ) [DesignatorName]
+              NoDesDodatno(
+              ) [NoDesDodatno]
+            ) [Designator]
+            Designator(
+              DesignatorName(
+               b
+              ) [DesignatorName]
+              NoDesDodatno(
+              ) [NoDesDodatno]
+            ) [Designator]
+          ) [SStat11]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  22:52:44,069 - ===================================
+INFO  22:52:44,080 - Deklarisana promenljiva a na liniji 5
+INFO  22:52:44,081 - Deklarisana promenljiva b na liniji 6
+INFO  22:52:44,081 - Obradjuje se funkcija main na liniji 9
+INFO  22:52:44,081 - TIP DESIGNATOR1 na liniji 12
+INFO  22:52:44,082 - TIP DESIGNATOR1 na liniji 12
+INFO  22:52:44,082 - Postoji main
+INFO  22:52:44,082 - ===================================
+INFO  22:52:44,106 - Parsiranje uspesno zavrseno!

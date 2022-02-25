@@ -1,0 +1,150 @@
+INFO  21:37:18,381 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  21:37:18,483 - #2 program
+INFO  21:37:18,483 - #48 test302
+INFO  21:37:18,483 - #35 const
+INFO  21:37:18,486 - #48 int
+INFO  21:37:18,486 - #48 jedan
+INFO  21:37:18,487 - #7 =
+INFO  21:37:18,487 - #45 1
+INFO  21:37:18,487 - #6 ;
+INFO  21:37:18,490 - #48 int
+INFO  21:37:18,492 - #48 ha
+INFO  21:37:18,493 - #6 ;
+INFO  21:37:18,496 - #16 {
+INFO  21:37:18,498 - #19 void
+INFO  21:37:18,499 - #48 main
+INFO  21:37:18,500 - #3 (
+INFO  21:37:18,501 - #4 )
+INFO  21:37:18,502 - #16 {
+INFO  21:37:18,504 - #48 ha
+INFO  21:37:18,505 - #7 =
+INFO  21:37:18,507 - #48 ord
+INFO  21:37:18,508 - #3 (
+INFO  21:37:18,508 - #46 'v'
+INFO  21:37:18,508 - #4 )
+INFO  21:37:18,510 - #6 ;
+INFO  21:37:18,511 - #17 }
+INFO  21:37:18,512 - #17 }
+INFO  21:37:18,517 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList2(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        ConstIzraz(
+         jedan
+          TipConst1(
+           1
+          ) [TipConst1]
+        ) [ConstIzraz]
+        DodatnoCD1(
+        ) [DodatnoCD1]
+      ) [ConstDecl]
+    ) [DeclarationList2]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             ha
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 ha
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac8(
+                    Designator(
+                      DesignatorName(
+                       ord
+                      ) [DesignatorName]
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                    ) [Designator]
+                    AP1(
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst2(
+                             'v'
+                            ) [TipConst2]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [AP1]
+                  ) [Fac8]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  21:37:18,543 - ===================================
+INFO  21:37:18,551 - Dodat je const simbol sa imenomjedan na liniji 7
+INFO  21:37:18,552 - Deklarisana promenljiva ha na liniji 8
+INFO  21:37:18,552 - Obradjuje se funkcija main na liniji 13
+INFO  21:37:18,552 - TIP DESIGNATOR1 na liniji 15
+INFO  21:37:18,552 - TIP DESIGNATOR1 na liniji 15
+INFO  21:37:18,553 - ha     imeee     1 na liniji 15
+ERROR 21:37:18,553 - Greska, neterminali Designator i Expr moraju biti kompatibilni! na liniji 15
+INFO  21:37:18,553 - Postoji main
+INFO  21:37:18,553 - ===================================
+ERROR 21:37:18,554 - Parsiranje NIJE uspesno zavrseno!

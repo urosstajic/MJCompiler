@@ -1,0 +1,328 @@
+INFO  20:57:45,337 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  20:57:45,444 - #2 program
+INFO  20:57:45,445 - #48 mojProg
+INFO  20:57:45,445 - #36 class
+INFO  20:57:45,447 - #48 Neka
+INFO  20:57:45,447 - #16 {
+INFO  20:57:45,449 - #48 int
+INFO  20:57:45,450 - #48 fff
+INFO  20:57:45,452 - #6 ;
+INFO  20:57:45,454 - #17 }
+INFO  20:57:45,457 - #36 class
+INFO  20:57:45,458 - #48 Druga
+INFO  20:57:45,458 - #43 extends
+INFO  20:57:45,458 - #48 Neka
+INFO  20:57:45,458 - #16 {
+INFO  20:57:45,459 - #17 }
+INFO  20:57:45,459 - #48 Neka
+INFO  20:57:45,459 - #48 neka_klasa
+INFO  20:57:45,461 - #6 ;
+INFO  20:57:45,463 - #48 int
+INFO  20:57:45,464 - #48 a
+INFO  20:57:45,465 - #6 ;
+INFO  20:57:45,465 - #35 const
+INFO  20:57:45,465 - #48 int
+INFO  20:57:45,465 - #48 b
+INFO  20:57:45,466 - #7 =
+INFO  20:57:45,467 - #45 5
+INFO  20:57:45,467 - #6 ;
+INFO  20:57:45,469 - #16 {
+INFO  20:57:45,471 - #19 void
+INFO  20:57:45,472 - #48 main
+INFO  20:57:45,472 - #3 (
+INFO  20:57:45,473 - #4 )
+INFO  20:57:45,473 - #16 {
+INFO  20:57:45,474 - #48 a
+INFO  20:57:45,475 - #8 ++
+INFO  20:57:45,477 - #6 ;
+INFO  20:57:45,477 - #48 neka_klasa
+INFO  20:57:45,478 - #7 =
+INFO  20:57:45,478 - #18 new
+INFO  20:57:45,478 - #48 Neka
+INFO  20:57:45,479 - #6 ;
+INFO  20:57:45,480 - #48 neka_klasa
+INFO  20:57:45,480 - #44 .
+INFO  20:57:45,480 - #48 fff
+INFO  20:57:45,480 - #7 =
+INFO  20:57:45,481 - #45 5
+INFO  20:57:45,481 - #6 ;
+INFO  20:57:45,481 - #17 }
+INFO  20:57:45,481 - #48 char
+INFO  20:57:45,484 - #48 funck
+INFO  20:57:45,484 - #3 (
+INFO  20:57:45,484 - #48 int
+INFO  20:57:45,484 - #48 c
+INFO  20:57:45,484 - #4 )
+INFO  20:57:45,486 - #16 {
+INFO  20:57:45,486 - #26 return
+INFO  20:57:45,486 - #46 'v'
+INFO  20:57:45,487 - #6 ;
+INFO  20:57:45,487 - #17 }
+INFO  20:57:45,487 - #17 }
+INFO  20:57:45,492 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      DeclarationList1(
+        DeclarationList3(
+          DeclarationList3(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            ClassDecl1(
+              ClassName(
+               Neka
+              ) [ClassName]
+              NoIzvodjenje(
+              ) [NoIzvodjenje]
+              VarDeclarations(
+                NoVarDecl(
+                ) [NoVarDecl]
+                VarDecl(
+                  VarType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [VarType]
+                 fff
+                  Zagrade2(
+                  ) [Zagrade2]
+                  NoViseVarDecl(
+                  ) [NoViseVarDecl]
+                ) [VarDecl]
+              ) [VarDeclarations]
+              NoUnutarKlase(
+              ) [NoUnutarKlase]
+            ) [ClassDecl1]
+          ) [DeclarationList3]
+          ClassDecl1(
+            ClassName(
+             Druga
+            ) [ClassName]
+            Izvodjenje1(
+              Type(
+               Neka
+              ) [Type]
+            ) [Izvodjenje1]
+            NoVarDecl(
+            ) [NoVarDecl]
+            NoUnutarKlase(
+            ) [NoUnutarKlase]
+          ) [ClassDecl1]
+        ) [DeclarationList3]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             Neka
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 neka_klasa
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              Statement3(
+                SStat1(
+                  DesignatorStatement4(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Designator]
+                  ) [DesignatorStatement4]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     neka_klasa
+                    ) [DesignatorName]
+                    DDodatno3(
+                    ) [DDodatno3]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac10(
+                        Type(
+                         Neka
+                        ) [Type]
+                      ) [Fac10]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   neka_klasa
+                  ) [DesignatorName]
+                  DDodatno1(
+                    DDodatno3(
+                    ) [DDodatno3]
+                   fff
+                  ) [DDodatno1]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst1(
+                       5
+                      ) [TipConst1]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           char
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      MultipleFormParam(
+        SingleFormalParamDecl(
+          OneFormalP(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             c
+              Zagrade2(
+              ) [Zagrade2]
+            ) [FormalParamDecl]
+          ) [OneFormalP]
+        ) [SingleFormalParamDecl]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst2(
+                   'v'
+                  ) [TipConst2]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  20:57:45,506 - ===================================
+INFO  20:57:45,515 - Dodata klasa na liniji 3
+INFO  20:57:45,516 - Dodata klasa na liniji 9
+INFO  20:57:45,516 - Deklarisana promenljiva neka_klasa na liniji 12
+INFO  20:57:45,516 - Deklarisana promenljiva a na liniji 13
+INFO  20:57:45,516 - Dodat je const simbol sa imenomb na liniji 14
+INFO  20:57:45,517 - Obradjuje se funkcija main na liniji 18
+ERROR 20:57:45,525 - Neterminal Type mora oznacavati klasu na liniji 20
+ERROR 20:57:45,525 - Greska, neterminali Designator i Expr moraju biti kompatibilni! na liniji 20
+ERROR 20:57:45,526 - Greska, polje iza tacke mora biti polje klase! na liniji 2
+ERROR 20:57:45,526 - Greska, neterminali Designator i Expr moraju biti kompatibilni! na liniji 21
+INFO  20:57:45,526 - Obradjuje se funkcija funck na liniji 24
+INFO  20:57:45,526 - ovo je currMeth 2 na liniji 26
+INFO  20:57:45,526 - ovo je sstat7 2 na liniji 26
+INFO  20:57:45,527 - Postoji main
+INFO  20:57:45,527 - ===================================

@@ -1,0 +1,254 @@
+INFO  18:36:56,349 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  18:36:56,446 - #2 program
+INFO  18:36:56,447 - #48 MJProgram
+INFO  18:36:56,447 - #48 int
+INFO  18:36:56,449 - #48 a
+INFO  18:36:56,451 - #22 ,
+INFO  18:36:56,455 - #48 b
+INFO  18:36:56,455 - #22 ,
+INFO  18:36:56,456 - #48 c
+INFO  18:36:56,456 - #6 ;
+INFO  18:36:56,456 - #48 char
+INFO  18:36:56,457 - #48 o
+INFO  18:36:56,458 - #6 ;
+INFO  18:36:56,458 - #48 int
+INFO  18:36:56,458 - #48 x
+INFO  18:36:56,458 - #6 ;
+INFO  18:36:56,458 - #48 int
+INFO  18:36:56,458 - #48 y
+INFO  18:36:56,459 - #6 ;
+INFO  18:36:56,459 - #48 int
+INFO  18:36:56,459 - #48 niz
+INFO  18:36:56,459 - #33 [
+INFO  18:36:56,459 - #34 ]
+INFO  18:36:56,460 - #6 ;
+INFO  18:36:56,461 - #31 record
+INFO  18:36:56,461 - #48 Klasa
+INFO  18:36:56,461 - #16 {
+INFO  18:36:56,463 - #48 int
+INFO  18:36:56,464 - #48 prvo
+INFO  18:36:56,465 - #6 ;
+INFO  18:36:56,466 - #17 }
+INFO  18:36:56,467 - #48 Klasa
+INFO  18:36:56,468 - #48 kl
+INFO  18:36:56,468 - #33 [
+INFO  18:36:56,468 - #34 ]
+INFO  18:36:56,469 - #6 ;
+INFO  18:36:56,469 - #16 {
+INFO  18:36:56,469 - #19 void
+INFO  18:36:56,470 - #48 main
+INFO  18:36:56,470 - #3 (
+INFO  18:36:56,471 - #4 )
+INFO  18:36:56,472 - #16 {
+INFO  18:36:56,473 - #17 }
+INFO  18:36:56,475 - #17 }
+INFO  18:36:56,482 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList4(
+      DeclarationList1(
+        DeclarationList1(
+          DeclarationList1(
+            DeclarationList1(
+              DeclarationList1(
+                NoDeclarationList(
+                ) [NoDeclarationList]
+                GlobalDecl(
+                  GlobalType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [GlobalType]
+                  GlobalNakonTipa2(
+                    ViseGlobalZ(
+                      GlobalDeclName(
+                        GlobalDeclImeProm(
+                         a
+                        ) [GlobalDeclImeProm]
+                        Zagrade2(
+                        ) [Zagrade2]
+                      ) [GlobalDeclName]
+                    ) [ViseGlobalZ]
+                    GlobalNakonTipa2(
+                      ViseGlobalZ(
+                        GlobalDeclName(
+                          GlobalDeclImeProm(
+                           b
+                          ) [GlobalDeclImeProm]
+                          Zagrade2(
+                          ) [Zagrade2]
+                        ) [GlobalDeclName]
+                      ) [ViseGlobalZ]
+                      GlobalNakonTipa1(
+                        SamoJedno1(
+                          GlobalDeclName(
+                            GlobalDeclImeProm(
+                             c
+                            ) [GlobalDeclImeProm]
+                            Zagrade2(
+                            ) [Zagrade2]
+                          ) [GlobalDeclName]
+                        ) [SamoJedno1]
+                      ) [GlobalNakonTipa1]
+                    ) [GlobalNakonTipa2]
+                  ) [GlobalNakonTipa2]
+                ) [GlobalDecl]
+              ) [DeclarationList1]
+              GlobalDecl(
+                GlobalType(
+                  Type(
+                   char
+                  ) [Type]
+                ) [GlobalType]
+                GlobalNakonTipa1(
+                  SamoJedno1(
+                    GlobalDeclName(
+                      GlobalDeclImeProm(
+                       o
+                      ) [GlobalDeclImeProm]
+                      Zagrade2(
+                      ) [Zagrade2]
+                    ) [GlobalDeclName]
+                  ) [SamoJedno1]
+                ) [GlobalNakonTipa1]
+              ) [GlobalDecl]
+            ) [DeclarationList1]
+            GlobalDecl(
+              GlobalType(
+                Type(
+                 int
+                ) [Type]
+              ) [GlobalType]
+              GlobalNakonTipa1(
+                SamoJedno1(
+                  GlobalDeclName(
+                    GlobalDeclImeProm(
+                     x
+                    ) [GlobalDeclImeProm]
+                    Zagrade2(
+                    ) [Zagrade2]
+                  ) [GlobalDeclName]
+                ) [SamoJedno1]
+              ) [GlobalNakonTipa1]
+            ) [GlobalDecl]
+          ) [DeclarationList1]
+          GlobalDecl(
+            GlobalType(
+              Type(
+               int
+              ) [Type]
+            ) [GlobalType]
+            GlobalNakonTipa1(
+              SamoJedno1(
+                GlobalDeclName(
+                  GlobalDeclImeProm(
+                   y
+                  ) [GlobalDeclImeProm]
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [GlobalDeclName]
+              ) [SamoJedno1]
+            ) [GlobalNakonTipa1]
+          ) [GlobalDecl]
+        ) [DeclarationList1]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 niz
+                ) [GlobalDeclImeProm]
+                Zagrade1(
+                ) [Zagrade1]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      RecordDecl(
+        RecordName(
+         Klasa
+        ) [RecordName]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarNameDecl(
+             prvo
+              Zagrade2(
+              ) [Zagrade2]
+            ) [VarNameDecl]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDecl]
+        ) [VarDeclarations]
+      ) [RecordDecl]
+    ) [DeclarationList4]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         Klasa
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             kl
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  18:36:56,498 - ===================================
+INFO  18:36:56,507 - Deklarisana promenljiva a na liniji 2
+INFO  18:36:56,507 - Deklarisana promenljiva b na liniji 2
+INFO  18:36:56,508 - Deklarisana promenljiva c na liniji 2
+INFO  18:36:56,508 - Deklarisana promenljiva o na liniji 3
+INFO  18:36:56,508 - Deklarisana promenljiva x na liniji 4
+INFO  18:36:56,508 - Deklarisana promenljiva y na liniji 5
+INFO  18:36:56,508 - Deklarisana promenljiva niz na liniji 6
+INFO  18:36:56,508 - 1ovo je dodatno na liniji 8
+INFO  18:36:56,509 - Deklarisana promenljiva kl na liniji 10
+INFO  18:36:56,509 - Obradjuje se funkcija main na liniji 13
+INFO  18:36:56,509 - Postoji main
+INFO  18:36:56,509 - ===================================

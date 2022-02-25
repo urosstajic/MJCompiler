@@ -1,0 +1,145 @@
+INFO  15:38:45,569 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:38:45,653 - #2 program
+INFO  15:38:45,653 - #48 test302
+INFO  15:38:45,654 - #48 int
+INFO  15:38:45,655 - #48 c
+INFO  15:38:45,657 - #6 ;
+INFO  15:38:45,659 - #16 {
+INFO  15:38:45,661 - #19 void
+INFO  15:38:45,661 - #48 main
+INFO  15:38:45,662 - #3 (
+INFO  15:38:45,663 - #4 )
+INFO  15:38:45,663 - #16 {
+INFO  15:38:45,665 - #10 if
+INFO  15:38:45,666 - #3 (
+INFO  15:38:45,666 - #48 c
+INFO  15:38:45,666 - #37 ==
+INFO  15:38:45,670 - #45 1
+INFO  15:38:45,671 - #4 )
+INFO  15:38:45,672 - #16 {
+INFO  15:38:45,673 - #17 }
+INFO  15:38:45,673 - #11 else
+INFO  15:38:45,674 - #16 {
+INFO  15:38:45,675 - #17 }
+INFO  15:38:45,675 - #17 }
+INFO  15:38:45,676 - #17 }
+INFO  15:38:45,682 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             c
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat2(
+            ZaCond(
+              Cond1(
+                CondTerm1(
+                  CondFact1(
+                    Expr2(
+                      Term2(
+                        Fac7(
+                          Designator(
+                            DesignatorName(
+                             c
+                            ) [DesignatorName]
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                          ) [Designator]
+                        ) [Fac7]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                    Relop1(
+                    ) [Relop1]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           1
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [CondFact1]
+                ) [CondTerm1]
+              ) [Cond1]
+            ) [ZaCond]
+            Statement2(
+              Statements1(
+                NoStmt(
+                ) [NoStmt]
+              ) [Statements1]
+            ) [Statement2]
+            ElseGrana1(
+              ElseRec(
+              ) [ElseRec]
+              Statement2(
+                Statements1(
+                  NoStmt(
+                  ) [NoStmt]
+                ) [Statements1]
+              ) [Statement2]
+            ) [ElseGrana1]
+          ) [SStat2]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  15:38:45,701 - ===================================
+INFO  15:38:45,707 - Deklarisana promenljiva c na liniji 2
+INFO  15:38:45,708 - Obradjuje se funkcija main na liniji 6
+INFO  15:38:45,708 - TIP DESIGNATOR1 na liniji 7
+INFO  15:38:45,708 - c na liniji 7
+INFO  15:38:45,708 - dodelio sam u term21 na liniji 7
+INFO  15:38:45,708 - dodelio sam expr1 na liniji 7
+INFO  15:38:45,708 - dodelio sam u term21 na liniji 7
+INFO  15:38:45,709 - dodelio sam expr1 na liniji 7
+INFO  15:38:45,709 - Postoji main
+INFO  15:38:45,709 - ===================================
+INFO  15:38:45,729 - Parsiranje uspesno zavrseno!

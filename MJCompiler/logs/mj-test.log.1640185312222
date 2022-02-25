@@ -1,0 +1,56 @@
+INFO  16:01:26,963 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  16:01:27,004 - #2 program
+INFO  16:01:27,004 - #36 mojProg
+INFO  16:01:27,004 - #16 {
+INFO  16:01:27,007 - #36 int
+INFO  16:01:27,008 - #36 pom
+INFO  16:01:27,010 - #3 (
+INFO  16:01:27,010 - #36 int
+INFO  16:01:27,010 - #36 a
+INFO  16:01:27,011 - #24 ,
+INFO  16:01:27,011 - #36 double
+INFO  16:01:27,011 - #36 h
+INFO  16:01:27,011 - #4 )
+INFO  16:01:27,012 - #16 {
+INFO  16:01:27,013 - #17 }
+INFO  16:01:27,013 - #17 }
+INFO  16:01:27,016 - Program(
+  PName(
+   mojProg
+  ) [PName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     pom
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDeclDerived1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclDerived1]
+          ) [SingleFormalParamDecl]
+          FormalParamDeclDerived1(
+            Type(
+             double
+            ) [Type]
+           h
+          ) [FormalParamDeclDerived1]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:01:27,017 - ===================================
+INFO  16:01:27,020 -  Print count calls = 0
+INFO  16:01:27,021 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,314 @@
+INFO  14:04:00,562 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  14:04:00,662 - #2 program
+INFO  14:04:00,662 - #48 mojProg
+INFO  14:04:00,662 - #35 const
+INFO  14:04:00,664 - #48 int
+INFO  14:04:00,664 - #48 size
+INFO  14:04:00,666 - #7 =
+INFO  14:04:00,666 - #45 10
+INFO  14:04:00,666 - #6 ;
+INFO  14:04:00,667 - #31 record
+INFO  14:04:00,669 - #48 Board
+INFO  14:04:00,669 - #16 {
+INFO  14:04:00,669 - #48 int
+INFO  14:04:00,669 - #48 rows
+INFO  14:04:00,670 - #22 ,
+INFO  14:04:00,672 - #48 columns
+INFO  14:04:00,672 - #6 ;
+INFO  14:04:00,672 - #17 }
+INFO  14:04:00,673 - #48 Table
+INFO  14:04:00,674 - #48 val
+INFO  14:04:00,674 - #6 ;
+INFO  14:04:00,674 - #48 Board
+INFO  14:04:00,675 - #48 board
+INFO  14:04:00,675 - #6 ;
+INFO  14:04:00,675 - #16 {
+INFO  14:04:00,675 - #19 void
+INFO  14:04:00,676 - #48 f
+INFO  14:04:00,678 - #3 (
+INFO  14:04:00,678 - #48 char
+INFO  14:04:00,678 - #48 ch
+INFO  14:04:00,678 - #22 ,
+INFO  14:04:00,680 - #48 int
+INFO  14:04:00,680 - #48 a
+INFO  14:04:00,680 - #22 ,
+INFO  14:04:00,680 - #48 int
+INFO  14:04:00,680 - #48 arg
+INFO  14:04:00,681 - #4 )
+INFO  14:04:00,681 - #48 int
+INFO  14:04:00,682 - #48 x
+INFO  14:04:00,682 - #6 ;
+INFO  14:04:00,682 - #16 {
+INFO  14:04:00,683 - #48 x
+INFO  14:04:00,684 - #7 =
+INFO  14:04:00,686 - #48 arg
+INFO  14:04:00,688 - #6 ;
+INFO  14:04:00,690 - #17 }
+INFO  14:04:00,691 - #19 void
+INFO  14:04:00,692 - #48 main
+INFO  14:04:00,692 - #3 (
+INFO  14:04:00,692 - #4 )
+INFO  14:04:00,693 - #48 int
+INFO  14:04:00,694 - #48 x
+INFO  14:04:00,694 - #22 ,
+INFO  14:04:00,694 - #48 i
+INFO  14:04:00,694 - #6 ;
+INFO  14:04:00,694 - #48 char
+INFO  14:04:00,695 - #48 c
+INFO  14:04:00,695 - #6 ;
+INFO  14:04:00,695 - #16 {
+INFO  14:04:00,695 - #48 val
+INFO  14:04:00,695 - #7 =
+INFO  14:04:00,695 - #18 new
+INFO  14:04:00,696 - #48 Table
+INFO  14:04:00,696 - #6 ;
+INFO  14:04:00,696 - #48 val
+INFO  14:04:00,697 - #7 =
+INFO  14:04:00,697 - #45 5
+INFO  14:04:00,697 - #6 ;
+INFO  14:04:00,697 - #17 }
+INFO  14:04:00,698 - #17 }
+INFO  14:04:00,701 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList4(
+        DeclarationList2(
+          NoDeclList(
+          ) [NoDeclList]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           size
+            TipConst1(
+             10
+            ) [TipConst1]
+            DodatnoCD1(
+            ) [DodatnoCD1]
+          ) [ConstDecl]
+        ) [DeclarationList2]
+        RDecl2(
+         Board
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           rows
+            Zagrade2(
+            ) [Zagrade2]
+            ViseVarDeklarisane(
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+             columns
+              Zagrade2(
+              ) [Zagrade2]
+            ) [ViseVarDeklarisane]
+          ) [VarDeclDerived1]
+        ) [RDecl2]
+      ) [DeclarationList4]
+      VarDeclDerived1(
+        Type(
+         Table
+        ) [Type]
+       val
+        Zagrade2(
+        ) [Zagrade2]
+        NoViseVarDecl(
+        ) [NoViseVarDecl]
+      ) [VarDeclDerived1]
+    ) [DeclarationList1]
+    VarDeclDerived1(
+      Type(
+       Board
+      ) [Type]
+     board
+      Zagrade2(
+      ) [Zagrade2]
+      NoViseVarDecl(
+      ) [NoViseVarDecl]
+    ) [VarDeclDerived1]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      Method1(
+        PovrTip1(
+        ) [PovrTip1]
+       f
+        FormParams(
+          FormalParamDecls(
+            FormalParamDecls(
+              SingleFormalParamDecl(
+                FormalParamDecl(
+                  Type(
+                   char
+                  ) [Type]
+                 ch
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [FormalParamDecl]
+              ) [SingleFormalParamDecl]
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               a
+                Zagrade2(
+                ) [Zagrade2]
+              ) [FormalParamDecl]
+            ) [FormalParamDecls]
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             arg
+              Zagrade2(
+              ) [Zagrade2]
+            ) [FormalParamDecl]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           x
+            Zagrade2(
+            ) [Zagrade2]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDeclDerived1]
+        ) [VarDeclarations]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement(
+                Des1(
+                 x
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Des1]
+                DesignatorDodatno1(
+                  Assignop(
+                  ) [Assignop]
+                  Expr3(
+                    Term2(
+                      Fac7(
+                        Des1(
+                         arg
+                          DDodatno3(
+                          ) [DDodatno3]
+                        ) [Des1]
+                      ) [Fac7]
+                    ) [Term2]
+                  ) [Expr3]
+                ) [DesignatorDodatno1]
+              ) [DesignatorStatement]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+      ) [Method1]
+    ) [MethodDeclarations]
+    Method1(
+      PovrTip1(
+      ) [PovrTip1]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           x
+            Zagrade2(
+            ) [Zagrade2]
+            ViseVarDeklarisane(
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+             i
+              Zagrade2(
+              ) [Zagrade2]
+            ) [ViseVarDeklarisane]
+          ) [VarDeclDerived1]
+        ) [VarDeclarations]
+        VarDeclDerived1(
+          Type(
+           char
+          ) [Type]
+         c
+          Zagrade2(
+          ) [Zagrade2]
+          NoViseVarDecl(
+          ) [NoViseVarDecl]
+        ) [VarDeclDerived1]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement(
+                Des1(
+                 val
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Des1]
+                DesignatorDodatno1(
+                  Assignop(
+                  ) [Assignop]
+                  Expr3(
+                    Term2(
+                      Fac10(
+                        Type(
+                         Table
+                        ) [Type]
+                      ) [Fac10]
+                    ) [Term2]
+                  ) [Expr3]
+                ) [DesignatorDodatno1]
+              ) [DesignatorStatement]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat1(
+            DesignatorStatement(
+              Des1(
+               val
+                DDodatno3(
+                ) [DDodatno3]
+              ) [Des1]
+              DesignatorDodatno1(
+                Assignop(
+                ) [Assignop]
+                Expr3(
+                  Term2(
+                    Fac1(
+                     5
+                    ) [Fac1]
+                  ) [Term2]
+                ) [Expr3]
+              ) [DesignatorDodatno1]
+            ) [DesignatorStatement]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+    ) [Method1]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:04:00,712 - ===================================
+INFO  14:04:00,720 -  Print count calls = 0
+INFO  14:04:00,720 -  Deklarisanih promenljivih ima = 0

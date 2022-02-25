@@ -1,0 +1,161 @@
+INFO  13:42:44,948 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:42:45,020 - #2 program
+INFO  13:42:45,020 - #48 mojProg
+INFO  13:42:45,020 - #35 const
+INFO  13:42:45,022 - #48 int
+INFO  13:42:45,022 - #48 size
+INFO  13:42:45,023 - #7 =
+INFO  13:42:45,023 - #45 10
+INFO  13:42:45,023 - #6 ;
+INFO  13:42:45,024 - #31 record
+INFO  13:42:45,025 - #48 Board
+INFO  13:42:45,025 - #16 {
+INFO  13:42:45,025 - #48 int
+INFO  13:42:45,025 - #48 rows
+INFO  13:42:45,026 - #22 ,
+INFO  13:42:45,028 - #48 columns
+INFO  13:42:45,029 - #6 ;
+INFO  13:42:45,029 - #17 }
+INFO  13:42:45,029 - #48 Table
+INFO  13:42:45,030 - #48 val
+INFO  13:42:45,030 - #6 ;
+INFO  13:42:45,030 - #48 Board
+INFO  13:42:45,031 - #48 board
+INFO  13:42:45,031 - #6 ;
+INFO  13:42:45,031 - #16 {
+INFO  13:42:45,031 - #19 void
+INFO  13:42:45,031 - #48 f
+INFO  13:42:45,033 - #3 (
+INFO  13:42:45,033 - #48 char
+INFO  13:42:45,033 - #48 ch
+INFO  13:42:45,033 - #22 ,
+INFO  13:42:45,034 - #48 int
+INFO  13:42:45,034 - #48 a
+INFO  13:42:45,034 - #22 ,
+INFO  13:42:45,034 - #48 int
+INFO  13:42:45,034 - #48 arg
+INFO  13:42:45,034 - #4 )
+INFO  13:42:45,035 - #48 int
+INFO  13:42:45,035 - #48 x
+INFO  13:42:45,035 - #6 ;
+INFO  13:42:45,035 - #16 {
+INFO  13:42:45,035 - #17 }
+INFO  13:42:45,038 - #17 }
+INFO  13:42:45,042 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList4(
+        DeclarationList2(
+          NoDeclList(
+          ) [NoDeclList]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           size
+            TipConst1(
+             10
+            ) [TipConst1]
+            DodatnoCD1(
+            ) [DodatnoCD1]
+          ) [ConstDecl]
+        ) [DeclarationList2]
+        RDecl2(
+         Board
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           rows
+            Zagrade2(
+            ) [Zagrade2]
+            ViseVarDeklarisane(
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+             columns
+              Zagrade2(
+              ) [Zagrade2]
+            ) [ViseVarDeklarisane]
+          ) [VarDeclDerived1]
+        ) [RDecl2]
+      ) [DeclarationList4]
+      VarDeclDerived1(
+        Type(
+         Table
+        ) [Type]
+       val
+        Zagrade2(
+        ) [Zagrade2]
+        NoViseVarDecl(
+        ) [NoViseVarDecl]
+      ) [VarDeclDerived1]
+    ) [DeclarationList1]
+    VarDeclDerived1(
+      Type(
+       Board
+      ) [Type]
+     board
+      Zagrade2(
+      ) [Zagrade2]
+      NoViseVarDecl(
+      ) [NoViseVarDecl]
+    ) [VarDeclDerived1]
+  ) [DeclarationList1]
+  ZaM2(
+    Method1(
+      PovrTip1(
+      ) [PovrTip1]
+     f
+      FormParams(
+        FormalParamDecls(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              FormalParamDecl(
+                Type(
+                 char
+                ) [Type]
+               ch
+                Zagrade2(
+                ) [Zagrade2]
+              ) [FormalParamDecl]
+            ) [SingleFormalParamDecl]
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             a
+              Zagrade2(
+              ) [Zagrade2]
+            ) [FormalParamDecl]
+          ) [FormalParamDecls]
+          FormalParamDecl(
+            Type(
+             int
+            ) [Type]
+           arg
+            Zagrade2(
+            ) [Zagrade2]
+          ) [FormalParamDecl]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      VarDeclDerived1(
+        Type(
+         int
+        ) [Type]
+       x
+        Zagrade2(
+        ) [Zagrade2]
+        NoViseVarDecl(
+        ) [NoViseVarDecl]
+      ) [VarDeclDerived1]
+      NoStatement(
+      ) [NoStatement]
+    ) [Method1]
+  ) [ZaM2]
+) [Program]
+INFO  13:42:45,043 - ===================================
+INFO  13:42:45,047 -  Print count calls = 0
+INFO  13:42:45,047 -  Deklarisanih promenljivih ima = 0

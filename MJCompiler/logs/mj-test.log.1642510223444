@@ -1,0 +1,186 @@
+INFO  13:33:49,199 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:33:49,266 - #2 program
+INFO  13:33:49,267 - #48 test302
+INFO  13:33:49,267 - #48 int
+INFO  13:33:49,269 - #48 a
+INFO  13:33:49,270 - #6 ;
+INFO  13:33:49,272 - #16 {
+INFO  13:33:49,274 - #19 void
+INFO  13:33:49,275 - #48 main
+INFO  13:33:49,276 - #3 (
+INFO  13:33:49,278 - #4 )
+INFO  13:33:49,278 - #16 {
+INFO  13:33:49,281 - #28 print
+INFO  13:33:49,282 - #3 (
+INFO  13:33:49,282 - #45 2
+INFO  13:33:49,282 - #4 )
+INFO  13:33:49,284 - #6 ;
+INFO  13:33:49,284 - #48 a
+INFO  13:33:49,285 - #7 =
+INFO  13:33:49,287 - #45 5
+INFO  13:33:49,287 - #6 ;
+INFO  13:33:49,288 - #48 a
+INFO  13:33:49,288 - #7 =
+INFO  13:33:49,288 - #48 a
+INFO  13:33:49,289 - #13 *
+INFO  13:33:49,289 - #45 5
+INFO  13:33:49,291 - #6 ;
+INFO  13:33:49,292 - #17 }
+INFO  13:33:49,292 - #17 }
+INFO  13:33:49,297 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             a
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Statement3(
+              SStat9(
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst1(
+                       2
+                      ) [TipConst1]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+                NoSStatmen1(
+                ) [NoSStatmen1]
+              ) [SStat9]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  NoDesDodatno(
+                  ) [NoDesDodatno]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst1(
+                       5
+                      ) [TipConst1]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term1(
+                  Fac7(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                    ) [Designator]
+                  ) [Fac7]
+                  MultiF2(
+                    MulO1(
+                    ) [MulO1]
+                    Fac1(
+                      TipConst1(
+                       5
+                      ) [TipConst1]
+                    ) [Fac1]
+                  ) [MultiF2]
+                ) [Term1]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  13:33:49,317 - ===================================
+INFO  13:33:49,325 - Deklarisana promenljiva a na liniji 2
+INFO  13:33:49,325 - Obradjuje se funkcija main na liniji 4
+INFO  13:33:49,326 - dodelio sam u term21 na liniji 5
+INFO  13:33:49,326 - dodelio sam expr1 na liniji 5
+INFO  13:33:49,326 - TIP DESIGNATOR1 na liniji 6
+INFO  13:33:49,326 - dodelio sam u term21 na liniji 6
+INFO  13:33:49,326 - dodelio sam expr1 na liniji 6
+INFO  13:33:49,326 - a     imeee     1 na liniji 6
+INFO  13:33:49,326 - TIPOVI SU KOMPATIBILNI! na liniji 6
+INFO  13:33:49,326 - TIP DESIGNATOR1 na liniji 7
+INFO  13:33:49,326 - TIP DESIGNATOR1 na liniji 7
+INFO  13:33:49,326 - a na liniji 7
+INFO  13:33:49,327 - dodelio sam expr1 na liniji 7
+INFO  13:33:49,327 - a     imeee     1 na liniji 7
+INFO  13:33:49,327 - TIPOVI SU KOMPATIBILNI! na liniji 7
+INFO  13:33:49,327 - Postoji main
+INFO  13:33:49,327 - ===================================
+INFO  13:33:49,345 - Parsiranje uspesno zavrseno!

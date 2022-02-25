@@ -1,0 +1,48 @@
+INFO  12:38:17,243 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  12:38:17,319 - #2 program
+INFO  12:38:17,320 - #48 mojProg
+INFO  12:38:17,320 - #48 int
+INFO  12:38:17,321 - #48 nesto
+INFO  12:38:17,323 - #22 ,
+INFO  12:38:17,325 - #48 iny
+INFO  12:38:17,325 - #48 a
+ERROR 12:38:17,325 - 
+Sintaksna greska na liniji 2
+INFO  12:38:17,325 - #6 ;
+INFO  12:38:17,325 - #16 {
+INFO  12:38:17,325 - #17 }
+ERROR 12:38:17,326 - Izvrsen oporavak do ; u liniji 2
+INFO  12:38:17,330 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+           nesto
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa1(
+          ErrorStmt1(
+          ) [ErrorStmt1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  12:38:17,332 - ===================================
+INFO  12:38:17,337 -  Print count calls = 0
+INFO  12:38:17,337 -  Deklarisanih promenljivih ima = 0

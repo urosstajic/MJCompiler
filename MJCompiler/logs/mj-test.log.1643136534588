@@ -1,0 +1,210 @@
+INFO  19:48:44,631 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\MJCompiler\test\program.mj
+INFO  19:48:44,756 - #2 program
+INFO  19:48:44,756 - #51 test301
+INFO  19:48:44,756 - #47 final
+INFO  19:48:44,758 - #51 int
+INFO  19:48:44,761 - #51 niz
+INFO  19:48:44,763 - #33 [
+INFO  19:48:44,763 - #34 ]
+INFO  19:48:44,763 - #6 ;
+INFO  19:48:44,765 - #51 int
+INFO  19:48:44,768 - #51 pom
+INFO  19:48:44,768 - #6 ;
+INFO  19:48:44,769 - #16 {
+INFO  19:48:44,769 - #19 void
+INFO  19:48:44,770 - #51 main
+INFO  19:48:44,771 - #3 (
+INFO  19:48:44,772 - #4 )
+INFO  19:48:44,772 - #16 {
+INFO  19:48:44,775 - #51 niz
+INFO  19:48:44,776 - #7 =
+INFO  19:48:44,779 - #18 new
+INFO  19:48:44,780 - #51 int
+INFO  19:48:44,780 - #33 [
+INFO  19:48:44,780 - #48 5
+INFO  19:48:44,781 - #34 ]
+INFO  19:48:44,782 - #6 ;
+INFO  19:48:44,784 - #51 niz
+INFO  19:48:44,785 - #33 [
+INFO  19:48:44,786 - #48 0
+INFO  19:48:44,786 - #34 ]
+INFO  19:48:44,786 - #7 =
+INFO  19:48:44,788 - #48 15
+INFO  19:48:44,788 - #6 ;
+INFO  19:48:44,788 - #17 }
+INFO  19:48:44,788 - #17 }
+INFO  19:48:44,794 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        ZaFin1(
+        ) [ZaFin1]
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               niz
+              ) [GlobalDeclImeProm]
+              Zagrade1(
+              ) [Zagrade1]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      ZaFin2(
+      ) [ZaFin2]
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             pom
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  NoDesDodatno(
+                  ) [NoDesDodatno]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac5(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst1(
+                             5
+                            ) [TipConst1]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                      Pomoc(
+                      ) [Pomoc]
+                    ) [Fac5]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+                DS1Dodatak(
+                ) [DS1Dodatak]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesDodatno(
+                  NoDesDodatno(
+                  ) [NoDesDodatno]
+                  DDodatno2(
+                    Redosled(
+                    ) [Redosled]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           0
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                    PomocZaPracenjePristupa(
+                    ) [PomocZaPracenjePristupa]
+                  ) [DDodatno2]
+                ) [DesDodatno]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac1(
+                    TipConst1(
+                     15
+                    ) [TipConst1]
+                  ) [Fac1]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+              DS1Dodatak(
+              ) [DS1Dodatak]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  19:48:44,805 - ===================================
+INFO  19:48:44,813 - Deklarisana promenljiva niz na liniji 6
+INFO  19:48:44,813 - Deklarisana promenljiva pom na liniji 7
+INFO  19:48:44,813 - Obradjuje se funkcija main na liniji 11
+INFO  19:48:44,813 - Pristup promenljivoj niz na liniji 13
+INFO  19:48:44,814 - TIPOVI SU KOMPATIBILNI! na liniji 13
+INFO  19:48:44,814 - TIPOVI SU KOMPATIBILNI! na liniji 14
+INFO  19:48:44,814 - Postoji main
+INFO  19:48:44,814 - ===================================

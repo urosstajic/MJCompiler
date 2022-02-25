@@ -1,0 +1,158 @@
+INFO  18:02:37,308 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  18:02:37,392 - #2 program
+INFO  18:02:37,392 - #48 test302
+INFO  18:02:37,392 - #48 int
+INFO  18:02:37,394 - #48 a
+INFO  18:02:37,395 - #6 ;
+INFO  18:02:37,398 - #16 {
+INFO  18:02:37,400 - #19 void
+INFO  18:02:37,401 - #48 main
+INFO  18:02:37,401 - #3 (
+INFO  18:02:37,402 - #4 )
+INFO  18:02:37,403 - #16 {
+INFO  18:02:37,405 - #48 a
+INFO  18:02:37,405 - #7 =
+INFO  18:02:37,407 - #45 5
+INFO  18:02:37,408 - #6 ;
+INFO  18:02:37,410 - #48 a
+INFO  18:02:37,411 - #9 --
+INFO  18:02:37,411 - #6 ;
+INFO  18:02:37,412 - #28 print
+INFO  18:02:37,412 - #3 (
+INFO  18:02:37,412 - #48 a
+INFO  18:02:37,412 - #4 )
+INFO  18:02:37,414 - #6 ;
+INFO  18:02:37,414 - #17 }
+INFO  18:02:37,415 - #17 }
+INFO  18:02:37,420 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             a
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                        TipConst1(
+                         5
+                        ) [TipConst1]
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement5(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  NoDesDodatno(
+                  ) [NoDesDodatno]
+                ) [Designator]
+              ) [DesignatorStatement5]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  18:02:37,444 - ===================================
+INFO  18:02:37,452 - Deklarisana promenljiva a na liniji 2
+INFO  18:02:37,453 - Obradjuje se funkcija main na liniji 4
+INFO  18:02:37,454 - TIP DESIGNATOR1 na liniji 5
+INFO  18:02:37,454 - dodelio sam u term21 na liniji 5
+INFO  18:02:37,454 - dodelio sam expr1 na liniji 5
+INFO  18:02:37,455 - a     imeee     1 na liniji 5
+INFO  18:02:37,455 - TIPOVI SU KOMPATIBILNI! na liniji 5
+INFO  18:02:37,455 - TIP DESIGNATOR1 na liniji 6
+INFO  18:02:37,455 - TIP DESIGNATOR1 na liniji 7
+INFO  18:02:37,456 - a na liniji 7
+INFO  18:02:37,456 - dodelio sam u term21 na liniji 7
+INFO  18:02:37,456 - dodelio sam expr1 na liniji 7
+INFO  18:02:37,456 - Postoji main
+INFO  18:02:37,456 - ===================================
+INFO  18:02:37,476 - Parsiranje uspesno zavrseno!

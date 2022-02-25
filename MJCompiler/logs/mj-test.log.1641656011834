@@ -1,0 +1,176 @@
+INFO  16:31:57,758 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  16:31:57,850 - #2 program
+INFO  16:31:57,851 - #48 mojProg
+INFO  16:31:57,851 - #36 class
+INFO  16:31:57,853 - #48 Neka
+INFO  16:31:57,854 - #16 {
+INFO  16:31:57,856 - #17 }
+INFO  16:31:57,858 - #48 int
+INFO  16:31:57,858 - #48 a
+INFO  16:31:57,860 - #6 ;
+INFO  16:31:57,863 - #35 const
+INFO  16:31:57,865 - #48 int
+INFO  16:31:57,866 - #48 b
+INFO  16:31:57,867 - #7 =
+INFO  16:31:57,867 - #45 5
+INFO  16:31:57,867 - #6 ;
+INFO  16:31:57,869 - #16 {
+INFO  16:31:57,871 - #19 void
+INFO  16:31:57,872 - #48 main
+INFO  16:31:57,873 - #3 (
+INFO  16:31:57,874 - #4 )
+INFO  16:31:57,875 - #16 {
+INFO  16:31:57,876 - #48 a
+INFO  16:31:57,877 - #8 ++
+INFO  16:31:57,880 - #6 ;
+INFO  16:31:57,880 - #17 }
+INFO  16:31:57,881 - #48 char
+INFO  16:31:57,883 - #48 funck
+INFO  16:31:57,883 - #3 (
+INFO  16:31:57,883 - #4 )
+INFO  16:31:57,883 - #16 {
+INFO  16:31:57,884 - #26 return
+INFO  16:31:57,884 - #46 'v'
+INFO  16:31:57,884 - #6 ;
+INFO  16:31:57,885 - #17 }
+INFO  16:31:57,885 - #17 }
+INFO  16:31:57,889 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      DeclarationList3(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        ClassDecl1(
+          ClassName(
+           Neka
+          ) [ClassName]
+          NoIzvodjenje(
+          ) [NoIzvodjenje]
+          NoVarDecl(
+          ) [NoVarDecl]
+          NoUnutarKlase(
+          ) [NoUnutarKlase]
+        ) [ClassDecl1]
+      ) [DeclarationList3]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           char
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst2(
+                   'v'
+                  ) [TipConst2]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  16:31:57,900 - ===================================
+INFO  16:31:57,908 - Dodata klasa na liniji 3
+INFO  16:31:57,908 - Deklarisana promenljiva a na liniji 4
+INFO  16:31:57,909 - Dodat je const simbol sa imenomb na liniji 5
+INFO  16:31:57,909 - Obradjuje se funkcija main na liniji 9
+INFO  16:31:57,909 - Obradjuje se funkcija funck na liniji 15
+INFO  16:31:57,910 - ovo je currMeth 2 na liniji 17
+INFO  16:31:57,910 - ovo je sstat7 2 na liniji 17
+INFO  16:31:57,910 - Postoji main
+INFO  16:31:57,910 - ===================================

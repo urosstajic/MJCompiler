@@ -1,0 +1,166 @@
+INFO  16:14:59,717 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  16:14:59,787 - #2 program
+INFO  16:14:59,787 - #50 test301
+INFO  16:14:59,787 - #50 int
+INFO  16:14:59,789 - #50 a
+INFO  16:14:59,790 - #6 ;
+INFO  16:14:59,793 - #50 int
+INFO  16:14:59,794 - #50 b
+INFO  16:14:59,794 - #6 ;
+INFO  16:14:59,794 - #50 int
+INFO  16:14:59,795 - #50 niz
+INFO  16:14:59,795 - #33 [
+INFO  16:14:59,795 - #34 ]
+INFO  16:14:59,795 - #6 ;
+INFO  16:14:59,797 - #16 {
+INFO  16:14:59,797 - #19 void
+INFO  16:14:59,798 - #50 main
+INFO  16:14:59,799 - #3 (
+INFO  16:14:59,800 - #4 )
+INFO  16:14:59,800 - #16 {
+INFO  16:14:59,802 - #50 niz
+INFO  16:14:59,803 - #33 [
+INFO  16:14:59,806 - #47 0
+INFO  16:14:59,806 - #34 ]
+INFO  16:14:59,809 - #6 ;
+INFO  16:14:59,812 - #17 }
+INFO  16:14:59,813 - #17 }
+INFO  16:14:59,817 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList1(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 a
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               b
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             niz
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement7(
+              Designator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                DesDodatno(
+                  NoDesDodatno(
+                  ) [NoDesDodatno]
+                  DDodatno2(
+                    Redosled(
+                    ) [Redosled]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           0
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                    Novo2(
+                    ) [Novo2]
+                  ) [DDodatno2]
+                ) [DesDodatno]
+              ) [Designator]
+            ) [DesignatorStatement7]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  16:14:59,830 - ===================================
+INFO  16:14:59,841 - Deklarisana promenljiva a na liniji 5
+INFO  16:14:59,841 - Deklarisana promenljiva b na liniji 6
+INFO  16:14:59,842 - Deklarisana promenljiva niz na liniji 7
+INFO  16:14:59,842 - Obradjuje se funkcija main na liniji 10
+INFO  16:14:59,844 - TIP DESIGNATOR3 na liniji 12
+INFO  16:14:59,844 - USLO I U NIZ na liniji 12
+INFO  16:14:59,844 - SADA JE DES STAT 2 na liniji 2
+INFO  16:14:59,845 - currD za obradjivanje je niz na liniji 2
+INFO  16:14:59,845 - PROVERAVAM ZA CUR NIZ  niz na liniji 2
+INFO  16:14:59,846 - ovde za currD je31 na liniji 2
+INFO  16:14:59,846 - TIP ZA ELEM NIZA1 na liniji 2
+INFO  16:14:59,846 - Postoji main
+INFO  16:14:59,847 - ===================================
+INFO  16:14:59,867 - Parsiranje uspesno zavrseno!

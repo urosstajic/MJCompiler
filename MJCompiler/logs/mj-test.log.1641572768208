@@ -1,0 +1,88 @@
+INFO  17:24:22,493 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  17:24:22,655 - #2 program
+INFO  17:24:22,655 - #48 mojProg
+INFO  17:24:22,656 - #48 int
+INFO  17:24:22,659 - #48 a
+INFO  17:24:22,661 - #6 ;
+INFO  17:24:22,665 - #35 const
+INFO  17:24:22,668 - #48 int
+INFO  17:24:22,668 - #48 b
+INFO  17:24:22,669 - #7 =
+INFO  17:24:22,669 - #45 5
+INFO  17:24:22,670 - #6 ;
+INFO  17:24:22,672 - #16 {
+INFO  17:24:22,674 - #19 void
+INFO  17:24:22,676 - #48 main
+INFO  17:24:22,677 - #3 (
+INFO  17:24:22,678 - #4 )
+INFO  17:24:22,679 - #16 {
+INFO  17:24:22,681 - #17 }
+INFO  17:24:22,682 - #17 }
+INFO  17:24:22,690 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:24:22,702 - ===================================
+INFO  17:24:22,717 - Deklarisana promenljiva a na liniji 2
+INFO  17:24:22,718 - Dodat je const simbol sa imenomb na liniji 3
+INFO  17:24:22,718 - Obradjuje se funkcija main na liniji 5
+ERROR 17:24:22,718 - Semanticka greska na liniji 5: funkcija main nema return iskaz!
+ERROR 17:24:22,719 - Ne postoji definisan main na liniji 1
+INFO  17:24:22,719 - ===================================

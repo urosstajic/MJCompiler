@@ -1,0 +1,477 @@
+
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+	boolean errorDetected;
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected=true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with{:
+	errorDetected=false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROGRAM, LEVA_ZAGRADA, DESNA_ZAGRADA, DVETACKE, TACKAZAREZ, JEDNAKO, PLUSPLUS, MINUSMINUS;
+terminal IF, ELSE, PLUS, PUTA, PODELJENO, MINUS, LEVA_VITICASTA, DESNA_VITICASTA;
+terminal NEW, VOID, ILI, II, ZAREZ, BREAK, READ, GOTO, RETURN;
+terminal WHILE, PRINT, DO, POSTO, RECORD, CONTINUE, OTVORENA_UGLASTA, ZATVORENA_UGLASTA, CONST, CLASS;
+terminal JEDNAKOJEDNAKO, RAZLICITO,VECE, MANJE, VECEJEDNAKO, MANJEJEDNAKO, EXTENDS, TACKA, MAJMUN, TRIPLUS, FINALL;
+terminal Integer NUM_CONST;
+terminal String CHAR_CONST;
+terminal String BOOL_CONST;
+terminal String IDENT;
+
+
+nonterminal DeclList DeclList;
+nonterminal MethodDeclList MethodDeclList;
+nonterminal ConstDecl ConstDecl;
+nonterminal ClassDecl ClassDecl;
+nonterminal RecordDecl RecordDecl;
+nonterminal DodatnoConstDecl DodatnoConstDecl;
+nonterminal KrajPrograma KrajPrograma;
+nonterminal KrajWhile KrajWhile;
+nonterminal ElseRec ElseRec;
+nonterminal Pomoc Pomoc;
+nonterminal DS1Dodatak DS1Dodatak;
+nonterminal ViseVarDecl ViseVarDecl;
+nonterminal Zagrade Zagrade;
+nonterminal Izvodjenje Izvodjenje;
+nonterminal UnutarKlase UnutarKlase;
+nonterminal ConstructorDecl ConstructorDecl;
+nonterminal Statement Statement;
+nonterminal StatementList StatementList;
+nonterminal UMetodi UMetodi;
+nonterminal Redosled Redosled;
+nonterminal Novo Novo;
+nonterminal ZaFinal ZaFinal;
+nonterminal FormPars FormPars;
+nonterminal FormalParamList FormalParamList;
+nonterminal FormalParamDecl FormalParamDecl;
+nonterminal SingleStatement SingleStatement;
+nonterminal ZaLabelu ZaLabelu;
+nonterminal Label Label;
+nonterminal VarDeclList VarDeclList;
+nonterminal StatementMnozina StatementMnozina;
+nonterminal PomocZaPracenjePristupa PomocZaPracenjePristupa;
+nonterminal  Addop Addop;
+nonterminal Mulop Mulop;
+nonterminal SStatmen1 SStatmen1;
+nonterminal DesnaStrana DesnaStrana;
+nonterminal ActPars ActPars;
+nonterminal Relop Relop;
+nonterminal ViseFormalParamDecl ViseFormalParamDecl;
+nonterminal OneFormalParam OneFormalParam;
+nonterminal KrajMetode KrajMetode;
+nonterminal KrajCond2 KrajCond2;
+nonterminal Assignop Assignop;
+nonterminal DesignatorStatement DesignatorStatement;
+nonterminal DesignatorDodatno DesignatorDodatno;
+nonterminal ZaStatement ZaStatement;
+nonterminal ZaConstructor ZaConstructor;
+nonterminal ZaMethod ZaMethod;
+nonterminal ZaDodeluVrednosti ZaDodeluVrednosti;
+nonterminal KrajCondTerm2 KrajCondTerm2;
+nonterminal Matched Matched;
+nonterminal Unmatched Unmatched;
+nonterminal ElseGrana ElseGrana;
+nonterminal GlobalDecl GlobalDecl;
+nonterminal GlobalDeclList GlobalDeclList;
+nonterminal ViseGlobalDecl ViseGlobalDecl;
+nonterminal StatDO StatDO;
+nonterminal GlobalType GlobalType;
+nonterminal GlobalDeclName GlobalDeclName;
+nonterminal ZaCondition ZaCondition;
+nonterminal ZaOr ZaOr;
+nonterminal ZaAnd ZaAnd;
+
+
+
+nonterminal  rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, MethodTypeName, Designator,  DesignatorName, ClassName;
+nonterminal  rs.etf.pp1.symboltable.concepts.Obj VarDecl, DDodatno, RecordName, VarNameDecl, ConstIzraz, DesigDodatno, ConditionDo;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, PovratniTip, Expr, Term, Factor, ConstType, TipConst, VarType;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Condition, CondTerm, CondFact, ViseGlobalZarez, GlobalNakonTip, SamoJedno, GlobalDeclImeProm;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct AddTerm, MultiFac;
+
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROGRAM ProgName:p DeclList:D1 LEVA_VITICASTA MethodDeclList:M2 DESNA_VITICASTA KrajPrograma:K3 {: RESULT=new Program(p, D1, M2, K3); RESULT.setLine(pleft); :}
+;
+
+ProgName ::= (ProgName) IDENT:progName {: RESULT=new ProgName(progName); RESULT.setLine(progNameleft); :};
+
+KrajPrograma ::= (KrajPrograma) {: RESULT=new KrajPrograma(); :} /*epsilon*/;
+
+
+DeclList ::=(NoDeclarationList) {: RESULT=new NoDeclarationList(); :} /*epsilon*/
+			| (DeclarationList1) DeclList:D1 GlobalDecl:G2 {: RESULT=new DeclarationList1(D1, G2); RESULT.setLine(D1left); :}
+			| (DeclarationList2) DeclList:D1 ConstDecl:C2 {: RESULT=new DeclarationList2(D1, C2); RESULT.setLine(D1left); :}
+			| (DeclarationList3) DeclList:D1 ClassDecl:C2 {: RESULT=new DeclarationList3(D1, C2); RESULT.setLine(D1left); :}
+			| (DeclarationList4) DeclList:D1 RecordDecl:R2 {: RESULT=new DeclarationList4(D1, R2); RESULT.setLine(D1left); :}
+			;
+			
+ConstDecl ::= (ConstDecl) CONST ConstType:C1 ConstIzraz:C2 DodatnoConstDecl:D3 TACKAZAREZ {: RESULT=new ConstDecl(C1, C2, D3); RESULT.setLine(C1left); :}
+;
+
+ConstType ::= (ConstType) Type:varType {: RESULT=new ConstType(varType); RESULT.setLine(varTypeleft); :};
+
+ConstIzraz ::= (ConstIzraz) IDENT:varName JEDNAKO TipConst:T1 {: RESULT=new ConstIzraz(varName, T1); RESULT.setLine(varNameleft); :};
+
+
+TipConst ::= (TipConst1) NUM_CONST:N1 {: RESULT=new TipConst1(N1); RESULT.setLine(N1left); :}
+			| (TipConst2) CHAR_CONST:C1 {: RESULT=new TipConst2(C1); RESULT.setLine(C1left); :}
+			| (TipConst3) BOOL_CONST:B1 {: RESULT=new TipConst3(B1); RESULT.setLine(B1left); :}
+			;
+			
+DodatnoConstDecl ::= (DodatnoCD1) {: RESULT=new DodatnoCD1(); :} /*epsilon*/
+					| (DodatnoCD2) DodatnoConstDecl:D1 ZAREZ ConstIzraz:C2 {: RESULT=new DodatnoCD2(D1, C2); RESULT.setLine(D1left); :}
+					;
+					
+VarDecl ::= (VarDecl) VarType:V1 VarNameDecl:V2 ViseVarDecl:V3 TACKAZAREZ {: RESULT=new VarDecl(V1, V2, V3); RESULT.setLine(V1left); :}
+			;
+			
+VarType ::= (VarType)Type:varType {: RESULT=new VarType(varType); RESULT.setLine(varTypeleft); :};
+
+ViseVarDecl ::= (NoViseVarDecl) {: RESULT=new NoViseVarDecl(); :} /*epsilon*/
+				| (ViseVarDeklarisane) ViseVarDecl:V1 ZAREZ VarNameDecl:V2 {: RESULT=new ViseVarDeklarisane(V1, V2); RESULT.setLine(V1left); :}
+				;
+				
+VarNameDecl ::= (VarNameDecl) IDENT:varName Zagrade:Z1 {: RESULT=new VarNameDecl(varName, Z1); RESULT.setLine(varNameleft); :};
+
+VarDeclList ::= (VarDeclarations) VarDeclList:V1 VarDecl:V2 {: RESULT=new VarDeclarations(V1, V2); RESULT.setLine(V1left); :}
+			|
+			(NoVarDecl) {: RESULT=new NoVarDecl(); :} /* epsilon */
+			;
+			
+			
+GlobalDecl ::= (GlobalDecl) ZaFinal:Z1 GlobalType:G2 GlobalNakonTip:G3 {: RESULT=new GlobalDecl(Z1, G2, G3); RESULT.setLine(Z1left); :}
+			;
+			
+ZaFinal ::= (ZaFin1) FINALL {: RESULT=new ZaFin1(); :}
+			| (ZaFin2) {: RESULT=new ZaFin2(); :} /*epsilon*/
+			;
+			
+GlobalNakonTip ::= (GlobalNakonTipa1) SamoJedno:S1 {: RESULT=new GlobalNakonTipa1(S1); RESULT.setLine(S1left); :}
+				| (GlobalNakonTipa2) ViseGlobalZarez:V1 GlobalNakonTip:G2 {: RESULT=new GlobalNakonTipa2(V1, G2); RESULT.setLine(V1left); :};
+				
+SamoJedno ::= (SamoJedno1) GlobalDeclName:G1 TACKAZAREZ {: RESULT=new SamoJedno1(G1); RESULT.setLine(G1left); :}
+			| (ErrorStmt1) error TACKAZAREZ:l
+		   {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :} {: RESULT=new ErrorStmt1(); :}
+		   ;
+		   	
+			
+GlobalDeclName ::= (GlobalDeclName) GlobalDeclImeProm:G1 Zagrade:Z2 {: RESULT=new GlobalDeclName(G1, Z2); RESULT.setLine(G1left); :};
+
+GlobalDeclImeProm ::= (GlobalDeclImeProm) IDENT:varName {: RESULT=new GlobalDeclImeProm(varName); RESULT.setLine(varNameleft); :};
+			
+ViseGlobalDecl ::= (NoViseGlobalDecl) {: RESULT=new NoViseGlobalDecl(); :} /*epsilon*/
+				| (ViseGlobalDeklarisane) ViseGlobalZarez:V1 ViseGlobalDecl:V2 {: RESULT=new ViseGlobalDeklarisane(V1, V2); RESULT.setLine(V1left); :} 
+				;
+				
+ViseGlobalZarez ::= (ViseGlobalZ) GlobalDeclName:G1 ZAREZ {: RESULT=new ViseGlobalZ(G1); RESULT.setLine(G1left); :}
+				| (ErrorStmt2) error ZAREZ:l
+		   {: parser.report_error("Izvrsen oporavak do , zarez u liniji " + lleft, null);  :} {: RESULT=new ErrorStmt2(); :}
+		   ;
+				
+GlobalType ::= (GlobalType) Type:varType {: RESULT=new GlobalType(varType); RESULT.setLine(varTypeleft); :};
+
+Zagrade ::= (Zagrade1) OTVORENA_UGLASTA ZATVORENA_UGLASTA {: RESULT=new Zagrade1(); :}
+			| (Zagrade2) {: RESULT=new Zagrade2(); :} /*epsilon*/
+;
+
+ClassDecl ::= (ClassDecl) CLASS ClassName:C1 Izvodjenje:I2 LEVA_VITICASTA VarDeclList:V3 UnutarKlase:U4 DESNA_VITICASTA {: RESULT=new ClassDecl(C1, I2, V3, U4); RESULT.setLine(C1left); :}
+			
+			;
+			
+ClassName ::= (ClassName) IDENT:className {: RESULT=new ClassName(className); RESULT.setLine(classNameleft); :};
+
+Izvodjenje ::= (Izvodjenje1) EXTENDS Type:T1 {: RESULT=new Izvodjenje1(T1); RESULT.setLine(T1left); :}
+				| (NoIzvodjenje) {: RESULT=new NoIzvodjenje(); :} /*epsilon*/
+				;
+
+RecordDecl ::= (RecordDecl) RECORD RecordName:R1 LEVA_VITICASTA VarDeclList:V2 DESNA_VITICASTA {: RESULT=new RecordDecl(R1, V2); RESULT.setLine(R1left); :}
+			;
+			
+RecordName ::= (RecordName) IDENT:className {: RESULT=new RecordName(className); RESULT.setLine(classNameleft); :};
+
+
+UnutarKlase ::= (UnutarKlaseSadrzaj1) LEVA_VITICASTA MethodDeclList:M1 DESNA_VITICASTA {: RESULT=new UnutarKlaseSadrzaj1(M1); RESULT.setLine(M1left); :}
+				| (NoUnutarKlase) {: RESULT=new NoUnutarKlase(); :} /*epsilon*/
+				;
+				
+ConstructorDecl ::=  (ConDel1) {: RESULT=new ConDel1(); :} /*epsilon*/
+				;
+				
+				
+FormPars ::= (NoFormParam) DESNA_ZAGRADA {: RESULT=new NoFormParam(); :}
+		  | (MultipleFormParam) FormalParamList:F1 {: RESULT=new MultipleFormParam(F1); RESULT.setLine(F1left); :}
+		  ;
+		  
+FormalParamList ::= (FormalParamDecls) ViseFormalParamDecl:V1 FormalParamList:F2 {: RESULT=new FormalParamDecls(V1, F2); RESULT.setLine(V1left); :} 
+				|
+				(SingleFormalParamDecl) OneFormalParam:O1 {: RESULT=new SingleFormalParamDecl(O1); RESULT.setLine(O1left); :}
+				;
+				
+OneFormalParam ::= (OneFormalP) FormalParamDecl:F1 DESNA_ZAGRADA {: RESULT=new OneFormalP(F1); RESULT.setLine(F1left); :}
+				| (ErrorStmt4) error DESNA_ZAGRADA:l
+		   {: parser.report_error("Izvrsen oporavak do ) u liniji " + lleft, null);  :} {: RESULT=new ErrorStmt4(); :}
+		   ;
+		   
+		   
+ViseFormalParamDecl ::=(ViseFormParamDecl) FormalParamDecl:F1 ZAREZ {: RESULT=new ViseFormParamDecl(F1); RESULT.setLine(F1left); :}
+					  | (ErrorStmt5) error ZAREZ:l
+		   {: parser.report_error("Izvrsen oporavak do , zbog loseg parametra funkcije u liniji " + lleft, null);  :} {: RESULT=new ErrorStmt5(); :}
+		   			;
+				
+FormalParamDecl ::= (FormalParamDecl) Type:retType IDENT:paramName Zagrade:Z1 {: RESULT=new FormalParamDecl(retType, paramName, Z1); RESULT.setLine(retTypeleft); :};
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList:M1 MethodDecl:M2 {: RESULT=new MethodDeclarations(M1, M2); RESULT.setLine(M1left); :}
+				|
+				(NoMethodDecl) {: RESULT=new NoMethodDecl(); :} /* epsilon */
+				;
+
+MethodDecl ::= (MethodDecl) MethodTypeName:M1 LEVA_ZAGRADA FormPars:F2 UMetodi:U3 VarDeclList:V4 LEVA_VITICASTA StatementList:S5 DESNA_VITICASTA KrajMetode:K6 {: RESULT=new MethodDecl(M1, F2, U3, V4, S5, K6); RESULT.setLine(M1left); :}
+			;
+			
+UMetodi ::= (UMetodi) {: RESULT=new UMetodi(); :} /*epsilon*/;
+		
+		
+KrajMetode ::= (KrajMetode) {: RESULT=new KrajMetode(); :} /*epsilon*/;
+			
+MethodTypeName ::= (MethodTypeName) PovratniTip:P1 IDENT:methName {: RESULT=new MethodTypeName(P1, methName); RESULT.setLine(P1left); :};
+			
+ZaMethod ::= (ZaM1) {: RESULT=new ZaM1(); :} /*epsilon*/
+			| (ZaM2) MethodDecl:M1 {: RESULT=new ZaM2(M1); RESULT.setLine(M1left); :}
+			;
+
+PovratniTip ::= (PovrTip1) VOID {: RESULT=new PovrTip1(); :}
+				| (PovrTip2) Type:T1 {: RESULT=new PovrTip2(T1); RESULT.setLine(T1left); :}
+				;
+
+
+Type ::= (Type) IDENT:typeName {: RESULT=new Type(typeName); RESULT.setLine(typeNameleft); :};
+
+
+
+Statement ::= (Statement1) ZaLabelu:Z1 SingleStatement:S2 {: RESULT=new Statement1(Z1, S2); RESULT.setLine(Z1left); :}
+			| (Statement2) StatementMnozina:S1 {: RESULT=new Statement2(S1); RESULT.setLine(S1left); :}
+			| (Statement3) SingleStatement:S1 {: RESULT=new Statement3(S1); RESULT.setLine(S1left); :}
+			;
+			
+					
+ZaLabelu ::= (ZaLabelu) Label:L1 DVETACKE {: RESULT=new ZaLabelu(L1); RESULT.setLine(L1left); :};
+
+Label ::= (Label) IDENT:name {: RESULT=new Label(name); RESULT.setLine(nameleft); :}; 
+
+StatementList ::= (Statements) StatementList:S1 Statement:S2 {: RESULT=new Statements(S1, S2); RESULT.setLine(S1left); :}
+				|
+				(NoStmt) {: RESULT=new NoStmt(); :} /* epsilon */
+				;
+				
+
+
+SingleStatement ::= (SStat1) DesignatorStatement:D1 TACKAZAREZ {: RESULT=new SStat1(D1); RESULT.setLine(D1left); :}
+					| (ErrorStmt3) error TACKAZAREZ:l
+		  			 {: parser.report_error("Izvrsen oporavak do ; zbog lose dodele u liniji " + lleft, null);  :} {: RESULT=new ErrorStmt3(); :}
+					| (SStat2) IF LEVA_ZAGRADA ZaCondition:Z1 Statement:S2 ElseGrana:E3 {: RESULT=new SStat2(Z1, S2, E3); RESULT.setLine(Z1left); :}
+					| (SStat3) StatDO:S1 Statement:S2 WHILE LEVA_ZAGRADA ConditionDo:C3 DESNA_ZAGRADA KrajWhile:K4 TACKAZAREZ {: RESULT=new SStat3(S1, S2, C3, K4); RESULT.setLine(S1left); :}
+					| (SStat4) BREAK TACKAZAREZ {: RESULT=new SStat4(); :}
+					| (SStat5) CONTINUE TACKAZAREZ {: RESULT=new SStat5(); :}
+					| (SStat6) RETURN TACKAZAREZ {: RESULT=new SStat6(); :}
+					| (SStat7) RETURN Expr:E1 TACKAZAREZ {: RESULT=new SStat7(E1); RESULT.setLine(E1left); :}
+					| (SStat8) READ LEVA_ZAGRADA Designator:D1 DESNA_ZAGRADA TACKAZAREZ {: RESULT=new SStat8(D1); RESULT.setLine(D1left); :}
+					| (SStat9) PRINT LEVA_ZAGRADA Expr:E1 SStatmen1:S2 DESNA_ZAGRADA TACKAZAREZ {: RESULT=new SStat9(E1, S2); RESULT.setLine(E1left); :}
+					| (SStat10) GOTO Label:L1 TACKAZAREZ {: RESULT=new SStat10(L1); RESULT.setLine(L1left); :}
+					| (SStat11) Designator:D1 MAJMUN Designator:D2 TACKAZAREZ {: RESULT=new SStat11(D1, D2); RESULT.setLine(D1left); :}
+					;
+					
+StatDO ::= (StatDO) DO {: RESULT=new StatDO(); :};
+
+Novo ::= (Novo1) ZAREZ NUM_CONST:N1 {: RESULT=new Novo1(N1); RESULT.setLine(N1left); :}
+		| (Novo2) {: RESULT=new Novo2(); :} /*epsilon*/
+;
+
+KrajWhile ::= (KrajWhile) {: RESULT=new KrajWhile(); :} /*epsilon*/;
+
+
+ConditionDo ::= (ConditionDo) Condition:C1 {: RESULT=new ConditionDo(C1); RESULT.setLine(C1left); :};
+
+
+SStatmen1 ::= (NoSStatmen1) {: RESULT=new NoSStatmen1(); :} /* epsilon */
+			| (YesSStatmen2) ZAREZ NUM_CONST:N1 {: RESULT=new YesSStatmen2(N1); RESULT.setLine(N1left); :}
+			;
+			
+Unmatched ::= (UnmatchedIf) IF Expr:E1 Statement:S2 {: RESULT=new UnmatchedIf(E1, S2); RESULT.setLine(E1left); :}
+		 	|
+		 	(UnmatchedIfElse) IF Expr:E1 Matched:M2 ELSE Unmatched:U3 {: RESULT=new UnmatchedIfElse(E1, M2, U3); RESULT.setLine(E1left); :}
+		 	;
+
+ElseGrana ::= (NoElse) {: RESULT=new NoElse(); :} /*epsilon*/
+			| (ElseGrana1) ElseRec:E1 Statement:S2 {: RESULT=new ElseGrana1(E1, S2); RESULT.setLine(E1left); :}
+			;
+			
+ElseRec ::= (ElseRec) ELSE {: RESULT=new ElseRec(); :};
+					
+StatementMnozina ::= (Statements1) LEVA_VITICASTA StatementList:S1 DESNA_VITICASTA {: RESULT=new Statements1(S1); RESULT.setLine(S1left); :}
+			;
+
+
+DesignatorStatement ::= (DesignatorStatement1) Designator:D1 Assignop:A2 Expr:E3 DS1Dodatak:D4 {: RESULT=new DesignatorStatement1(D1, A2, E3, D4); RESULT.setLine(D1left); :}
+						| (DesignatorStatement2) Designator:D1 LEVA_ZAGRADA ActPars:A2 DESNA_ZAGRADA {: RESULT=new DesignatorStatement2(D1, A2); RESULT.setLine(D1left); :}
+						| (DesignatorStatement3) Designator:D1 LEVA_ZAGRADA DESNA_ZAGRADA {: RESULT=new DesignatorStatement3(D1); RESULT.setLine(D1left); :}
+						| (DesignatorStatement4) Designator:D1 PLUSPLUS {: RESULT=new DesignatorStatement4(D1); RESULT.setLine(D1left); :}
+						| (DesignatorStatement5) Designator:D1 MINUSMINUS {: RESULT=new DesignatorStatement5(D1); RESULT.setLine(D1left); :}
+						;
+
+DesignatorDodatno ::= (DesignatorDodatno1) Assignop:A1 Expr:E2 {: RESULT=new DesignatorDodatno1(A1, E2); RESULT.setLine(A1left); :}
+					| (DesignatorDodatno2) LEVA_ZAGRADA ActPars:A1 DESNA_ZAGRADA {: RESULT=new DesignatorDodatno2(A1); RESULT.setLine(A1left); :}
+					| (DesignatorDodatno3) LEVA_ZAGRADA DESNA_ZAGRADA {: RESULT=new DesignatorDodatno3(); :}
+					| (DesignatorDodatno4) PLUSPLUS {: RESULT=new DesignatorDodatno4(); :}
+					| (DesignatorDodatno5) MINUSMINUS {: RESULT=new DesignatorDodatno5(); :}
+					;
+	
+	
+DS1Dodatak ::= (DS1Dodatak) {: RESULT=new DS1Dodatak(); :} /*epsilon*/;				
+					
+ActPars ::= (AP1) Expr:E1 {: RESULT=new AP1(E1); RESULT.setLine(E1left); :} 
+			| (AP2) ActPars:A1 ZAREZ Expr:E2 {: RESULT=new AP2(A1, E2); RESULT.setLine(A1left); :}
+			;
+			
+ZaCondition ::= (ZaCond) Condition:C1 DESNA_ZAGRADA {: RESULT=new ZaCond(C1); RESULT.setLine(C1left); :}
+				| (ErrorStmt6) error DESNA_ZAGRADA:l
+		  		{: parser.report_error("Izvrsen oporavak do ) zbog loseg uslova u if naredbi u liniji " + lleft, null);  :} {: RESULT=new ErrorStmt6(); :}
+		  		;
+			
+			
+Condition ::= (Cond1) CondTerm:C1 {: RESULT=new Cond1(C1); RESULT.setLine(C1left); :}
+			| (Cond2) Condition:C1 ZaOr:Z2 ILI CondTerm:C3 KrajCond2:K4 {: RESULT=new Cond2(C1, Z2, C3, K4); RESULT.setLine(C1left); :}
+			;
+	
+KrajCond2 ::= (KrajCond2) {: RESULT=new KrajCond2(); :} /*epsilon*/;
+		
+			
+CondTerm ::= (CondTerm1) CondFact:C1 {: RESULT=new CondTerm1(C1); RESULT.setLine(C1left); :}
+			| (CondTerm2) CondTerm:C1 II ZaAnd:Z2 CondFact:C3 KrajCondTerm2:K4 {: RESULT=new CondTerm2(C1, Z2, C3, K4); RESULT.setLine(C1left); :}
+			;
+			
+ZaOr ::= (ZaOr) {: RESULT=new ZaOr(); :} /*epsilon*/;
+
+ZaAnd ::= (ZaAnd) {: RESULT=new ZaAnd(); :} /*epsilon*/;
+
+KrajCondTerm2 ::= (KrajCondTerm2) {: RESULT=new KrajCondTerm2(); :} /*epsilon*/;
+			
+CondFact ::= (CondFact1) Expr:E1 Relop:R2 Expr:E3 {: RESULT=new CondFact1(E1, R2, E3); RESULT.setLine(E1left); :}
+			| (CondFact2) Expr:E1 {: RESULT=new CondFact2(E1); RESULT.setLine(E1left); :}
+			;
+			
+Expr ::= (Expr1) MINUS Term:T1 AddTerm:A2 {: RESULT=new Expr1(T1, A2); RESULT.setLine(T1left); :}
+		| (Expr2) Term:T1 AddTerm:A2 {: RESULT=new Expr2(T1, A2); RESULT.setLine(T1left); :}
+;
+
+
+AddTerm ::= (AddT1) AddTerm:A1 Addop:A2 Term:T3 {: RESULT=new AddT1(A1, A2, T3); RESULT.setLine(A1left); :}
+		| (NoAddTerm) {: RESULT=new NoAddTerm(); :} /*epsilon*/
+;
+
+Term ::= (Term1) Factor:F1 MultiFac:M2 {: RESULT=new Term1(F1, M2); RESULT.setLine(F1left); :}
+		| (Term2) Factor:F1 {: RESULT=new Term2(F1); RESULT.setLine(F1left); :}
+;
+
+
+
+MultiFac ::= (MultiF1) MultiFac:M1 Mulop:M2 Factor:F3 {: RESULT=new MultiF1(M1, M2, F3); RESULT.setLine(M1left); :} 
+		| (MultiF2) Mulop:M1 Factor:F2 {: RESULT=new MultiF2(M1, F2); RESULT.setLine(M1left); :}
+;
+
+Factor ::= (Fac1) TipConst:tipKonstante {: RESULT=new Fac1(tipKonstante); RESULT.setLine(tipKonstanteleft); :}
+		| (Fac3) LEVA_ZAGRADA Expr:E1 DESNA_ZAGRADA {: RESULT=new Fac3(E1); RESULT.setLine(E1left); :}
+		| (Fac5) NEW Type:T1 OTVORENA_UGLASTA Expr:E2 ZATVORENA_UGLASTA Pomoc:P3 {: RESULT=new Fac5(T1, E2, P3); RESULT.setLine(T1left); :}
+		| (Fac6) Designator:D1 LEVA_ZAGRADA DESNA_ZAGRADA {: RESULT=new Fac6(D1); RESULT.setLine(D1left); :}
+		| (Fac7) Designator:D1 {: RESULT=new Fac7(D1); RESULT.setLine(D1left); :} 
+		| (Fac8) Designator:D1 LEVA_ZAGRADA ActPars:A2 DESNA_ZAGRADA {: RESULT=new Fac8(D1, A2); RESULT.setLine(D1left); :}
+		| (Fac10) NEW Type:T1 {: RESULT=new Fac10(T1); RESULT.setLine(T1left); :}
+		;
+
+				
+Designator ::= (Designator) DesignatorName:D1 DesigDodatno:D2 {: RESULT=new Designator(D1, D2); RESULT.setLine(D1left); :}
+			;
+			
+Pomoc ::= (Pomoc) {: RESULT=new Pomoc(); :} /*epsilon*/;			
+			
+DesignatorName ::= (DesignatorName) IDENT:desName {: RESULT=new DesignatorName(desName); RESULT.setLine(desNameleft); :};
+
+DesigDodatno ::= (DesDodatno) DesigDodatno:D1 DDodatno:D2 {: RESULT=new DesDodatno(D1, D2); RESULT.setLine(D1left); :}
+				| (NoDesDodatno) {: RESULT=new NoDesDodatno(); :} /*epsilon*/
+				;
+			
+DDodatno ::= (DDodatno1) TACKA IDENT:dodatnoIme {: RESULT=new DDodatno1(dodatnoIme); RESULT.setLine(dodatnoImeleft); :}
+			| (DDodatno2) Redosled:R1 OTVORENA_UGLASTA Expr:E2 ZATVORENA_UGLASTA PomocZaPracenjePristupa:P3 {: RESULT=new DDodatno2(R1, E2, P3); RESULT.setLine(R1left); :}
+			;
+			
+			
+Redosled ::= (Redosled) {: RESULT=new Redosled(); :} /*epsilon*/;	
+
+
+PomocZaPracenjePristupa ::= (PomocZaPracenjePristupa) {: RESULT=new PomocZaPracenjePristupa(); :} /*epsilon*/;		
+			
+			
+Addop ::= (AddO1) PLUS {: RESULT=new AddO1(); :}
+		| (AddO2) MINUS {: RESULT=new AddO2(); :}
+		;
+		
+Mulop ::= (MulO1) PUTA {: RESULT=new MulO1(); :} 
+		| (MulO2) PODELJENO {: RESULT=new MulO2(); :}
+		| (MulO3) POSTO {: RESULT=new MulO3(); :}
+		;
+		
+Assignop ::= (Assignop) JEDNAKO {: RESULT=new Assignop(); :};
+
+Relop ::= (Relop1) JEDNAKOJEDNAKO {: RESULT=new Relop1(); :}
+		| (Relop2) RAZLICITO {: RESULT=new Relop2(); :}
+		| (Relop3) VECE {: RESULT=new Relop3(); :}
+		| (Relop4) MANJE {: RESULT=new Relop4(); :}
+		| (Relop5) VECEJEDNAKO {: RESULT=new Relop5(); :}
+		| (Relop6) MANJEJEDNAKO {: RESULT=new Relop6(); :}
+		;
+					

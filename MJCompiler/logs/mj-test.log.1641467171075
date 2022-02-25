@@ -1,0 +1,52 @@
+INFO  12:05:41,740 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  12:05:41,840 - #2 program
+INFO  12:05:41,841 - #48 mojProg
+INFO  12:05:41,841 - #35 const
+INFO  12:05:41,842 - #48 int
+INFO  12:05:41,843 - #48 nesto
+INFO  12:05:41,845 - #7 =
+INFO  12:05:41,845 - #45 10
+INFO  12:05:41,845 - #22 ,
+INFO  12:05:41,847 - #48 b
+INFO  12:05:41,847 - #7 =
+INFO  12:05:41,847 - #45 5
+INFO  12:05:41,847 - #6 ;
+INFO  12:05:41,848 - #16 {
+INFO  12:05:41,849 - #17 }
+INFO  12:05:41,851 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       nesto
+        TipConst1(
+         10
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD2(
+        DodatnoCD1(
+        ) [DodatnoCD1]
+        ConstIzraz(
+         b
+          TipConst1(
+           5
+          ) [TipConst1]
+        ) [ConstIzraz]
+      ) [DodatnoCD2]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  12:05:41,852 - ===================================
+INFO  12:05:41,855 -  Print count calls = 0
+INFO  12:05:41,855 -  Deklarisanih promenljivih ima = 0

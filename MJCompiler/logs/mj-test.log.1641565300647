@@ -1,0 +1,103 @@
+INFO  15:14:51,378 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:14:51,488 - #2 program
+INFO  15:14:51,489 - #48 mojProg
+INFO  15:14:51,489 - #48 double
+INFO  15:14:51,491 - #48 i
+INFO  15:14:51,493 - #6 ;
+INFO  15:14:51,497 - #16 {
+INFO  15:14:51,499 - #19 void
+INFO  15:14:51,500 - #48 main
+INFO  15:14:51,501 - #3 (
+INFO  15:14:51,502 - #4 )
+INFO  15:14:51,502 - #16 {
+INFO  15:14:51,503 - #17 }
+INFO  15:14:51,504 - #48 int
+INFO  15:14:51,505 - #48 k
+INFO  15:14:51,506 - #3 (
+INFO  15:14:51,506 - #4 )
+INFO  15:14:51,506 - #16 {
+INFO  15:14:51,506 - #26 return
+INFO  15:14:51,506 - #45 5
+INFO  15:14:51,507 - #6 ;
+INFO  15:14:51,508 - #17 }
+INFO  15:14:51,508 - #17 }
+INFO  15:14:51,511 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         double
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             i
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+         int
+        ) [PovrTip2]
+       k
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                 5
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:14:51,522 - ===================================
+ERROR 15:14:51,529 - Nije pronadjen tip double u tabeli simbola! 
+INFO  15:14:51,530 - Deklarisana promenljiva i na liniji 2
+INFO  15:14:51,530 - Obradjuje se funkcija main na liniji 5
+INFO  15:14:51,530 - Obradjuje se funkcija k na liniji 9

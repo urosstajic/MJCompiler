@@ -1,0 +1,107 @@
+INFO  19:33:31,423 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  19:33:31,519 - #2 program
+INFO  19:33:31,520 - #48 mojProg
+INFO  19:33:31,520 - #48 int
+INFO  19:33:31,522 - #48 a
+INFO  19:33:31,523 - #6 ;
+INFO  19:33:31,527 - #35 const
+INFO  19:33:31,530 - #48 int
+INFO  19:33:31,530 - #48 b
+INFO  19:33:31,531 - #7 =
+INFO  19:33:31,531 - #45 5
+INFO  19:33:31,531 - #6 ;
+INFO  19:33:31,534 - #16 {
+INFO  19:33:31,535 - #19 void
+INFO  19:33:31,536 - #48 main
+INFO  19:33:31,537 - #3 (
+INFO  19:33:31,538 - #4 )
+INFO  19:33:31,538 - #16 {
+INFO  19:33:31,540 - #48 a
+INFO  19:33:31,541 - #8 ++
+INFO  19:33:31,545 - #6 ;
+INFO  19:33:31,545 - #17 }
+INFO  19:33:31,546 - #17 }
+INFO  19:33:31,550 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement4(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DDodatno3(
+                ) [DDodatno3]
+              ) [Designator]
+            ) [DesignatorStatement4]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:33:31,560 - ===================================
+INFO  19:33:31,566 - Deklarisana promenljiva a na liniji 2
+INFO  19:33:31,566 - Dodat je const simbol sa imenomb na liniji 3
+INFO  19:33:31,567 - Obradjuje se funkcija main na liniji 5
+INFO  19:33:31,567 - Postoji main na liniji 1
+INFO  19:33:31,567 - ===================================

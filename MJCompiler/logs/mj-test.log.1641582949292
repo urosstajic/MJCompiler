@@ -1,0 +1,159 @@
+INFO  20:14:39,585 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  20:14:39,707 - #2 program
+INFO  20:14:39,708 - #48 mojProg
+INFO  20:14:39,708 - #48 int
+INFO  20:14:39,710 - #48 a
+INFO  20:14:39,712 - #6 ;
+INFO  20:14:39,715 - #35 const
+INFO  20:14:39,717 - #48 int
+INFO  20:14:39,717 - #48 b
+INFO  20:14:39,718 - #7 =
+INFO  20:14:39,718 - #45 5
+INFO  20:14:39,718 - #6 ;
+INFO  20:14:39,720 - #16 {
+INFO  20:14:39,722 - #19 void
+INFO  20:14:39,723 - #48 main
+INFO  20:14:39,724 - #3 (
+INFO  20:14:39,725 - #4 )
+INFO  20:14:39,725 - #16 {
+INFO  20:14:39,727 - #48 a
+INFO  20:14:39,728 - #8 ++
+INFO  20:14:39,731 - #6 ;
+INFO  20:14:39,731 - #17 }
+INFO  20:14:39,732 - #48 int
+INFO  20:14:39,735 - #48 funck
+INFO  20:14:39,735 - #3 (
+INFO  20:14:39,735 - #4 )
+INFO  20:14:39,735 - #16 {
+INFO  20:14:39,735 - #26 return
+INFO  20:14:39,736 - #45 5
+INFO  20:14:39,736 - #6 ;
+INFO  20:14:39,737 - #17 }
+INFO  20:14:39,738 - #17 }
+INFO  20:14:39,740 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           int
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                 5
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:14:39,750 - ===================================
+INFO  20:14:39,756 - Deklarisana promenljiva a na liniji 2
+INFO  20:14:39,756 - Dodat je const simbol sa imenomb na liniji 3
+INFO  20:14:39,757 - PovrTip1(
+) [PovrTip1] na liniji 5
+INFO  20:14:39,757 - Obradjuje se funkcija main na liniji 5
+INFO  20:14:39,757 - PovrTip2(
+  Type(
+   int
+  ) [Type]
+) [PovrTip2] na liniji 11
+INFO  20:14:39,757 - Obradjuje se funkcija funck na liniji 11
+INFO  20:14:39,758 - rs.etf.pp1.symboltable.concepts.Obj@5e9f23b4 na liniji 13
+INFO  20:14:39,758 - AAAAAAAAAAAAAAAAAAAA na liniji 13

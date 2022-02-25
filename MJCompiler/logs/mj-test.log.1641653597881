@@ -1,0 +1,158 @@
+INFO  15:52:26,862 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:52:26,992 - #2 program
+INFO  15:52:26,993 - #48 mojProg
+INFO  15:52:26,993 - #48 int
+INFO  15:52:26,996 - #48 a
+INFO  15:52:26,998 - #6 ;
+INFO  15:52:27,002 - #35 const
+INFO  15:52:27,004 - #48 int
+INFO  15:52:27,004 - #48 b
+INFO  15:52:27,005 - #7 =
+INFO  15:52:27,006 - #45 5
+INFO  15:52:27,006 - #6 ;
+INFO  15:52:27,008 - #16 {
+INFO  15:52:27,010 - #19 void
+INFO  15:52:27,013 - #48 main
+INFO  15:52:27,014 - #3 (
+INFO  15:52:27,015 - #4 )
+INFO  15:52:27,016 - #16 {
+INFO  15:52:27,018 - #48 a
+INFO  15:52:27,019 - #8 ++
+INFO  15:52:27,022 - #6 ;
+INFO  15:52:27,023 - #17 }
+INFO  15:52:27,023 - #48 char
+INFO  15:52:27,027 - #48 funck
+INFO  15:52:27,027 - #3 (
+INFO  15:52:27,028 - #4 )
+INFO  15:52:27,029 - #16 {
+INFO  15:52:27,029 - #26 return
+INFO  15:52:27,029 - #46 'v'
+INFO  15:52:27,029 - #6 ;
+INFO  15:52:27,031 - #17 }
+INFO  15:52:27,032 - #17 }
+INFO  15:52:27,036 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           char
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst2(
+                   'v'
+                  ) [TipConst2]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  15:52:27,057 - ===================================
+INFO  15:52:27,068 - Deklarisana promenljiva a na liniji 2
+INFO  15:52:27,068 - Dodat je const simbol sa imenomb na liniji 4
+INFO  15:52:27,069 - Obradjuje se funkcija main na liniji 7
+INFO  15:52:27,069 - Obradjuje se funkcija funck na liniji 13
+INFO  15:52:27,069 - ovo je currMeth 2 na liniji 15
+INFO  15:52:27,069 - ovo je sstat7 2 na liniji 15
+INFO  15:52:27,069 - Postoji main
+INFO  15:52:27,070 - ===================================

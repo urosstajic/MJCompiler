@@ -1,0 +1,80 @@
+INFO  12:47:30,347 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  12:47:30,456 - #2 program
+INFO  12:47:30,456 - #48 mojProg
+INFO  12:47:30,457 - #48 int
+INFO  12:47:30,459 - #48 nesto
+INFO  12:47:30,461 - #22 ,
+INFO  12:47:30,462 - #48 iny
+INFO  12:47:30,463 - #48 a
+ERROR 12:47:30,463 - 
+Sintaksna greska na liniji 2
+INFO  12:47:30,463 - #22 ,
+INFO  12:47:30,463 - #48 ooo
+INFO  12:47:30,463 - #6 ;
+INFO  12:47:30,464 - #16 {
+ERROR 12:47:30,464 - Izvrsen oporavak do , zarez u liniji 2
+INFO  12:47:30,466 - #19 void
+INFO  12:47:30,467 - #48 main
+INFO  12:47:30,467 - #3 (
+INFO  12:47:30,468 - #4 )
+INFO  12:47:30,469 - #16 {
+INFO  12:47:30,469 - #17 }
+INFO  12:47:30,471 - #17 }
+INFO  12:47:30,474 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+           nesto
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa2(
+          ErrorStmt2(
+          ) [ErrorStmt2]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+               ooo
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalNakonTipa2]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    Method1(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [Method1]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:47:30,474 - ===================================
+INFO  12:47:30,480 -  Print count calls = 0
+INFO  12:47:30,480 -  Deklarisanih promenljivih ima = 0

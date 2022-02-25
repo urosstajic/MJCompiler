@@ -1,0 +1,160 @@
+INFO  18:45:40,181 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  18:45:40,275 - #2 program
+INFO  18:45:40,276 - #48 test302
+INFO  18:45:40,276 - #31 record
+INFO  18:45:40,277 - #48 Klasa
+INFO  18:45:40,277 - #16 {
+INFO  18:45:40,278 - #48 int
+INFO  18:45:40,279 - #48 f
+INFO  18:45:40,281 - #6 ;
+INFO  18:45:40,284 - #17 }
+INFO  18:45:40,285 - #48 Klasa
+INFO  18:45:40,286 - #48 kl
+INFO  18:45:40,287 - #33 [
+INFO  18:45:40,288 - #34 ]
+INFO  18:45:40,288 - #6 ;
+INFO  18:45:40,289 - #16 {
+INFO  18:45:40,291 - #19 void
+INFO  18:45:40,292 - #48 main
+INFO  18:45:40,292 - #3 (
+INFO  18:45:40,293 - #4 )
+INFO  18:45:40,294 - #16 {
+INFO  18:45:40,295 - #48 kl
+INFO  18:45:40,295 - #7 =
+INFO  18:45:40,298 - #18 new
+INFO  18:45:40,299 - #48 Klasa
+INFO  18:45:40,299 - #33 [
+INFO  18:45:40,299 - #45 2
+INFO  18:45:40,300 - #34 ]
+INFO  18:45:40,302 - #6 ;
+INFO  18:45:40,303 - #17 }
+INFO  18:45:40,303 - #17 }
+INFO  18:45:40,310 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList4(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      RecordDecl(
+        RecordName(
+         Klasa
+        ) [RecordName]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarNameDecl(
+             f
+              Zagrade2(
+              ) [Zagrade2]
+            ) [VarNameDecl]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDecl]
+        ) [VarDeclarations]
+      ) [RecordDecl]
+    ) [DeclarationList4]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         Klasa
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             kl
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 kl
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac5(
+                    Type(
+                     Klasa
+                    ) [Type]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           2
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [Fac5]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  18:45:40,324 - ===================================
+INFO  18:45:40,335 - 1ovo je dodatno na liniji 3
+INFO  18:45:40,336 - Deklarisana promenljiva kl na liniji 5
+INFO  18:45:40,336 - Obradjuje se funkcija main na liniji 8
+INFO  18:45:40,336 - TIP DESIGNATOR3 na liniji 9
+INFO  18:45:40,337 - USLO I U NIZ na liniji 9
+INFO  18:45:40,337 - dodelio sam u term21 na liniji 9
+INFO  18:45:40,337 - dodelio sam expr1 na liniji 9
+INFO  18:45:40,337 - dodelio sam u term23 na liniji 9
+INFO  18:45:40,337 - dodelio sam expr3 na liniji 9
+INFO  18:45:40,337 - kl     imeee     3 na liniji 9
+INFO  18:45:40,338 - TIPOVI SU KOMPATIBILNI! na liniji 9
+INFO  18:45:40,338 - Postoji main
+INFO  18:45:40,338 - ===================================
+INFO  18:45:40,356 - Parsiranje uspesno zavrseno!

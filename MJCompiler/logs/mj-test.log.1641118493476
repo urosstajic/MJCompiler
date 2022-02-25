@@ -1,0 +1,332 @@
+INFO  11:04:43,987 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  11:04:44,151 - #2 program
+INFO  11:04:44,151 - #48 mojProg
+INFO  11:04:44,152 - #35 const
+INFO  11:04:44,154 - #48 int
+INFO  11:04:44,154 - #48 size
+INFO  11:04:44,155 - #7 =
+INFO  11:04:44,155 - #45 10
+INFO  11:04:44,155 - #22 ,
+INFO  11:04:44,160 - #48 hahahaah
+INFO  11:04:44,160 - #22 ,
+ERROR 11:04:44,160 - 
+Sintaksna greska na liniji 2
+INFO  11:04:44,161 - #48 int
+INFO  11:04:44,162 - #48 ccccc
+INFO  11:04:44,162 - #7 =
+INFO  11:04:44,163 - #45 15
+INFO  11:04:44,163 - #6 ;
+INFO  11:04:44,164 - #48 int
+INFO  11:04:44,164 - #48 pos
+INFO  11:04:44,164 - #33 [
+ERROR 11:04:44,164 - Izvrsen oporavak do ; u liniji 2
+INFO  11:04:44,166 - #34 ]
+INFO  11:04:44,166 - #6 ;
+INFO  11:04:44,169 - #16 {
+INFO  11:04:44,169 - #19 void
+INFO  11:04:44,171 - #48 main
+INFO  11:04:44,172 - #3 (
+INFO  11:04:44,172 - #4 )
+INFO  11:04:44,173 - #48 int
+INFO  11:04:44,174 - #48 x
+INFO  11:04:44,174 - #22 ,
+INFO  11:04:44,176 - #48 i
+INFO  11:04:44,176 - #6 ;
+INFO  11:04:44,176 - #48 char
+INFO  11:04:44,178 - #48 x
+INFO  11:04:44,178 - #6 ;
+INFO  11:04:44,178 - #16 {
+INFO  11:04:44,179 - #48 x
+INFO  11:04:44,180 - #44 .
+INFO  11:04:44,181 - #48 i
+INFO  11:04:44,181 - #7 =
+INFO  11:04:44,181 - #45 1
+INFO  11:04:44,182 - #6 ;
+INFO  11:04:44,185 - #48 pos
+INFO  11:04:44,186 - #7 =
+INFO  11:04:44,186 - #18 new
+INFO  11:04:44,186 - #48 int
+INFO  11:04:44,186 - #33 [
+INFO  11:04:44,187 - #48 size
+INFO  11:04:44,187 - #34 ]
+INFO  11:04:44,187 - #6 ;
+INFO  11:04:44,187 - #48 i
+INFO  11:04:44,188 - #7 =
+INFO  11:04:44,188 - #45 0
+INFO  11:04:44,188 - #6 ;
+INFO  11:04:44,188 - #24 read
+INFO  11:04:44,188 - #3 (
+INFO  11:04:44,188 - #48 x
+INFO  11:04:44,188 - #4 )
+INFO  11:04:44,189 - #6 ;
+INFO  11:04:44,189 - #10 if
+INFO  11:04:44,189 - #3 (
+INFO  11:04:44,189 - #48 x
+INFO  11:04:44,189 - #40 <
+INFO  11:04:44,190 - #48 size
+INFO  11:04:44,191 - #4 )
+INFO  11:04:44,192 - #16 {
+INFO  11:04:44,192 - #48 pos
+INFO  11:04:44,192 - #33 [
+INFO  11:04:44,192 - #48 x
+INFO  11:04:44,197 - #34 ]
+INFO  11:04:44,206 - #8 ++
+INFO  11:04:44,207 - #6 ;
+INFO  11:04:44,208 - #17 }
+INFO  11:04:44,208 - #24 read
+INFO  11:04:44,208 - #3 (
+INFO  11:04:44,208 - #48 x
+INFO  11:04:44,208 - #4 )
+INFO  11:04:44,209 - #6 ;
+INFO  11:04:44,209 - #17 }
+INFO  11:04:44,209 - #17 }
+INFO  11:04:44,212 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      NoDeclList(
+      ) [NoDeclList]
+      ErrorStmt(
+      ) [ErrorStmt]
+    ) [DeclarationList1]
+    StaticDecl1(
+      Type(
+       int
+      ) [Type]
+     pos
+      Zagrade1(
+      ) [Zagrade1]
+      NoViseStaticDecl(
+      ) [NoViseStaticDecl]
+    ) [StaticDecl1]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    Method1(
+      PovrTip1(
+      ) [PovrTip1]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           x
+            Zagrade2(
+            ) [Zagrade2]
+            ViseVarDeklarisane(
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+             i
+              Zagrade2(
+              ) [Zagrade2]
+            ) [ViseVarDeklarisane]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         x
+          Zagrade2(
+          ) [Zagrade2]
+          NoViseVarDecl(
+          ) [NoViseVarDecl]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  Statement3(
+                    SStat1(
+                      DesignatorStatement(
+                        Des1(
+                         x
+                          DDodatno1(
+                            DDodatno3(
+                            ) [DDodatno3]
+                           i
+                          ) [DDodatno1]
+                        ) [Des1]
+                        DesignatorDodatno1(
+                          Assignop(
+                          ) [Assignop]
+                          Expr3(
+                            Term2(
+                              Fac1(
+                               1
+                              ) [Fac1]
+                            ) [Term2]
+                          ) [Expr3]
+                        ) [DesignatorDodatno1]
+                      ) [DesignatorStatement]
+                    ) [SStat1]
+                  ) [Statement3]
+                ) [Statements]
+                Statement3(
+                  SStat1(
+                    DesignatorStatement(
+                      Des1(
+                       pos
+                        DDodatno3(
+                        ) [DDodatno3]
+                      ) [Des1]
+                      DesignatorDodatno1(
+                        Assignop(
+                        ) [Assignop]
+                        Expr3(
+                          Term2(
+                            Fac5(
+                              Type(
+                               int
+                              ) [Type]
+                              Expr3(
+                                Term2(
+                                  Fac7(
+                                    Des1(
+                                     size
+                                      DDodatno3(
+                                      ) [DDodatno3]
+                                    ) [Des1]
+                                  ) [Fac7]
+                                ) [Term2]
+                              ) [Expr3]
+                            ) [Fac5]
+                          ) [Term2]
+                        ) [Expr3]
+                      ) [DesignatorDodatno1]
+                    ) [DesignatorStatement]
+                  ) [SStat1]
+                ) [Statement3]
+              ) [Statements]
+              Statement3(
+                SStat1(
+                  DesignatorStatement(
+                    Des1(
+                     i
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Des1]
+                    DesignatorDodatno1(
+                      Assignop(
+                      ) [Assignop]
+                      Expr3(
+                        Term2(
+                          Fac1(
+                           0
+                          ) [Fac1]
+                        ) [Term2]
+                      ) [Expr3]
+                    ) [DesignatorDodatno1]
+                  ) [DesignatorStatement]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat8(
+                Des1(
+                 x
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Des1]
+              ) [SStat8]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat2(
+              Cond1(
+                CondTermDerived1(
+                  CondFactDerived1(
+                    Expr3(
+                      Term2(
+                        Fac7(
+                          Des1(
+                           x
+                            DDodatno3(
+                            ) [DDodatno3]
+                          ) [Des1]
+                        ) [Fac7]
+                      ) [Term2]
+                    ) [Expr3]
+                    Relop4(
+                    ) [Relop4]
+                    Expr3(
+                      Term2(
+                        Fac7(
+                          Des1(
+                           size
+                            DDodatno3(
+                            ) [DDodatno3]
+                          ) [Des1]
+                        ) [Fac7]
+                      ) [Term2]
+                    ) [Expr3]
+                  ) [CondFactDerived1]
+                ) [CondTermDerived1]
+              ) [Cond1]
+              Statement2(
+                Statements1(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Statement3(
+                      SStat1(
+                        DesignatorStatement(
+                          Des1(
+                           pos
+                            DDodatno2(
+                              DDodatno3(
+                              ) [DDodatno3]
+                              Expr3(
+                                Term2(
+                                  Fac7(
+                                    Des1(
+                                     x
+                                      DDodatno3(
+                                      ) [DDodatno3]
+                                    ) [Des1]
+                                  ) [Fac7]
+                                ) [Term2]
+                              ) [Expr3]
+                            ) [DDodatno2]
+                          ) [Des1]
+                          DesignatorDodatno4(
+                          ) [DesignatorDodatno4]
+                        ) [DesignatorStatement]
+                      ) [SStat1]
+                    ) [Statement3]
+                  ) [Statements]
+                ) [Statements1]
+              ) [Statement2]
+            ) [SStat2]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat8(
+            Des1(
+             x
+              DDodatno3(
+              ) [DDodatno3]
+            ) [Des1]
+          ) [SStat8]
+        ) [Statement3]
+      ) [Statements]
+    ) [Method1]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:04:44,213 - ===================================
+INFO  11:04:44,218 -  Print count calls = 0
+INFO  11:04:44,219 -  Deklarisanih promenljivih ima = 2

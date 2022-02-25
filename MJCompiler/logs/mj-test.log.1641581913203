@@ -1,0 +1,157 @@
+INFO  19:57:42,417 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  19:57:42,522 - #2 program
+INFO  19:57:42,522 - #48 mojProg
+INFO  19:57:42,522 - #48 int
+INFO  19:57:42,524 - #48 a
+INFO  19:57:42,526 - #6 ;
+INFO  19:57:42,530 - #35 const
+INFO  19:57:42,532 - #48 int
+INFO  19:57:42,532 - #48 b
+INFO  19:57:42,533 - #7 =
+INFO  19:57:42,533 - #45 5
+INFO  19:57:42,533 - #6 ;
+INFO  19:57:42,535 - #16 {
+INFO  19:57:42,536 - #19 void
+INFO  19:57:42,538 - #48 main
+INFO  19:57:42,539 - #3 (
+INFO  19:57:42,541 - #4 )
+INFO  19:57:42,541 - #16 {
+INFO  19:57:42,543 - #48 a
+INFO  19:57:42,544 - #8 ++
+INFO  19:57:42,548 - #6 ;
+INFO  19:57:42,548 - #17 }
+INFO  19:57:42,549 - #48 int
+INFO  19:57:42,552 - #48 funck
+INFO  19:57:42,553 - #3 (
+INFO  19:57:42,553 - #4 )
+INFO  19:57:42,553 - #16 {
+INFO  19:57:42,553 - #26 return
+INFO  19:57:42,554 - #45 5
+INFO  19:57:42,554 - #6 ;
+INFO  19:57:42,556 - #17 }
+INFO  19:57:42,556 - #17 }
+INFO  19:57:42,558 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           int
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                 5
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:57:42,568 - ===================================
+INFO  19:57:42,573 - Deklarisana promenljiva a na liniji 2
+INFO  19:57:42,574 - Dodat je const simbol sa imenomb na liniji 3
+INFO  19:57:42,574 - PovrTip1(
+) [PovrTip1] na liniji 5
+INFO  19:57:42,574 - Obradjuje se funkcija main na liniji 5
+INFO  19:57:42,574 - PovrTip2(
+  Type(
+   int
+  ) [Type]
+) [PovrTip2] na liniji 11
+INFO  19:57:42,574 - Obradjuje se funkcija funck na liniji 11

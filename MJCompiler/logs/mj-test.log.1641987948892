@@ -1,0 +1,233 @@
+INFO  12:44:08,716 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  12:44:08,809 - #2 program
+INFO  12:44:08,809 - #48 MJProgram
+INFO  12:44:08,809 - #48 int
+INFO  12:44:08,812 - #48 x
+INFO  12:44:08,814 - #6 ;
+INFO  12:44:08,816 - #48 int
+INFO  12:44:08,818 - #48 y
+INFO  12:44:08,818 - #6 ;
+INFO  12:44:08,818 - #31 record
+INFO  12:44:08,819 - #48 Klasa
+INFO  12:44:08,819 - #16 {
+INFO  12:44:08,820 - #48 int
+INFO  12:44:08,821 - #48 prvo
+INFO  12:44:08,822 - #6 ;
+INFO  12:44:08,823 - #48 int
+INFO  12:44:08,824 - #48 drugo
+INFO  12:44:08,824 - #6 ;
+INFO  12:44:08,825 - #48 char
+INFO  12:44:08,825 - #48 trece
+INFO  12:44:08,825 - #6 ;
+INFO  12:44:08,825 - #17 }
+INFO  12:44:08,825 - #48 Klasa
+INFO  12:44:08,827 - #48 kl
+INFO  12:44:08,827 - #6 ;
+INFO  12:44:08,827 - #16 {
+INFO  12:44:08,827 - #19 void
+INFO  12:44:08,829 - #48 main
+INFO  12:44:08,830 - #3 (
+INFO  12:44:08,831 - #4 )
+INFO  12:44:08,831 - #16 {
+INFO  12:44:08,832 - #48 kl
+INFO  12:44:08,833 - #44 .
+INFO  12:44:08,835 - #48 prvo
+INFO  12:44:08,835 - #7 =
+INFO  12:44:08,836 - #45 5
+INFO  12:44:08,837 - #6 ;
+INFO  12:44:08,839 - #17 }
+INFO  12:44:08,840 - #17 }
+INFO  12:44:08,844 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList4(
+      DeclarationList1(
+        DeclarationList1(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          GlobalDecl(
+            GlobalType(
+              Type(
+               int
+              ) [Type]
+            ) [GlobalType]
+            GlobalNakonTipa1(
+              SamoJedno1(
+                GlobalDeclName(
+                  GlobalDeclImeProm(
+                   x
+                  ) [GlobalDeclImeProm]
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [GlobalDeclName]
+              ) [SamoJedno1]
+            ) [GlobalNakonTipa1]
+          ) [GlobalDecl]
+        ) [DeclarationList1]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 y
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      RecordDecl(
+        RecordName(
+         Klasa
+        ) [RecordName]
+        VarDeclarations(
+          VarDeclarations(
+            VarDeclarations(
+              NoVarDecl(
+              ) [NoVarDecl]
+              VarDecl(
+                VarType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [VarType]
+               prvo
+                Zagrade2(
+                ) [Zagrade2]
+                NoViseVarDecl(
+                ) [NoViseVarDecl]
+              ) [VarDecl]
+            ) [VarDeclarations]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+             drugo
+              Zagrade2(
+              ) [Zagrade2]
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          VarDecl(
+            VarType(
+              Type(
+               char
+              ) [Type]
+            ) [VarType]
+           trece
+            Zagrade2(
+            ) [Zagrade2]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDecl]
+        ) [VarDeclarations]
+      ) [RecordDecl]
+    ) [DeclarationList4]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         Klasa
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             kl
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 kl
+                ) [DesignatorName]
+                DDodatno1(
+                  DDodatno3(
+                  ) [DDodatno3]
+                 prvo
+                ) [DDodatno1]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac1(
+                    TipConst1(
+                     5
+                    ) [TipConst1]
+                  ) [Fac1]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  12:44:08,856 - ===================================
+INFO  12:44:08,864 - Deklarisana promenljiva x na liniji 2
+INFO  12:44:08,865 - Deklarisana promenljiva y na liniji 3
+INFO  12:44:08,868 - Deklarisana promenljiva kl na liniji 9
+INFO  12:44:08,868 - Obradjuje se funkcija main na liniji 12
+INFO  12:44:08,869 - uslo dodatno3
+INFO  12:44:08,869 - WUWUWUUWUWUW
+INFO  12:44:08,869 - izaslo dodatno3
+INFO  12:44:08,870 - Uslo dodatno1 na liniji 2
+INFO  12:44:08,870 - 4haha na liniji 2
+INFO  12:44:08,870 - uslo ovde na liniji 2
+INFO  12:44:08,870 - 0velicina na liniji 2
+INFO  12:44:08,870 - 3velicina ovo na liniji 2
+INFO  12:44:08,871 - Nadjeno polje klase na liniji 2
+INFO  12:44:08,871 - Ispod nadjeno1 na liniji 2
+INFO  12:44:08,871 - izaslo dodatno3 na liniji 2
+INFO  12:44:08,871 - u designator1 na liniji 14
+INFO  12:44:08,871 - designator0 na liniji 14
+INFO  12:44:08,872 - expr1 na liniji 14
+ERROR 12:44:08,872 - Greska, neterminali Designator i Expr moraju biti kompatibilni! na liniji 14
+INFO  12:44:08,872 - Postoji main
+INFO  12:44:08,872 - ===================================

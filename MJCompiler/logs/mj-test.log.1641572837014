@@ -1,0 +1,40 @@
+INFO  17:26:08,218 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  17:26:08,347 - #2 program
+INFO  17:26:08,348 - #48 mojProg
+INFO  17:26:08,348 - #16 {
+INFO  17:26:08,350 - #19 void
+INFO  17:26:08,352 - #48 main
+INFO  17:26:08,355 - #3 (
+INFO  17:26:08,357 - #4 )
+INFO  17:26:08,357 - #16 {
+INFO  17:26:08,359 - #17 }
+INFO  17:26:08,362 - #17 }
+INFO  17:26:08,366 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:26:08,380 - ===================================
+INFO  17:26:08,387 - Obradjuje se funkcija main na liniji 4
+ERROR 17:26:08,387 - Semanticka greska na liniji 4: funkcija main nema return iskaz!
+ERROR 17:26:08,387 - Ne postoji definisan main na liniji 1
+INFO  17:26:08,387 - ===================================

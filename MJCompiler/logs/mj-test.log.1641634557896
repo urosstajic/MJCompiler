@@ -1,0 +1,162 @@
+INFO  10:32:03,735 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  10:32:03,820 - #2 program
+INFO  10:32:03,820 - #48 mojProg
+INFO  10:32:03,821 - #48 int
+INFO  10:32:03,822 - #48 a
+INFO  10:32:03,823 - #6 ;
+INFO  10:32:03,826 - #35 const
+INFO  10:32:03,828 - #48 int
+INFO  10:32:03,828 - #48 b
+INFO  10:32:03,829 - #7 =
+INFO  10:32:03,829 - #45 5
+INFO  10:32:03,829 - #6 ;
+INFO  10:32:03,831 - #16 {
+INFO  10:32:03,833 - #19 void
+INFO  10:32:03,834 - #48 main
+INFO  10:32:03,835 - #3 (
+INFO  10:32:03,836 - #4 )
+INFO  10:32:03,836 - #16 {
+INFO  10:32:03,838 - #48 a
+INFO  10:32:03,839 - #8 ++
+INFO  10:32:03,841 - #6 ;
+INFO  10:32:03,842 - #17 }
+INFO  10:32:03,842 - #48 int
+INFO  10:32:03,845 - #48 funck
+INFO  10:32:03,845 - #3 (
+INFO  10:32:03,845 - #4 )
+INFO  10:32:03,845 - #16 {
+INFO  10:32:03,846 - #26 return
+INFO  10:32:03,846 - #48 a
+INFO  10:32:03,846 - #6 ;
+INFO  10:32:03,847 - #17 }
+INFO  10:32:03,848 - #17 }
+INFO  10:32:03,850 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           int
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    DDodatno3(
+                    ) [DDodatno3]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:32:03,859 - ===================================
+INFO  10:32:03,867 - Deklarisana promenljiva a na liniji 2
+INFO  10:32:03,867 - Dodat je const simbol sa imenomb na liniji 3
+INFO  10:32:03,867 - USPEH! na liniji 5
+INFO  10:32:03,867 - Obradjuje se funkcija main na liniji 5
+INFO  10:32:03,867 - USPEH! na liniji 11
+INFO  10:32:03,867 - Obradjuje se funkcija funck na liniji 11
+INFO  10:32:03,868 - rs.etf.pp1.symboltable.concepts.Obj@5e9f23b4 na liniji 13
+ERROR 10:32:03,868 - Greska na liniji 13 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije funck
+INFO  10:32:03,868 - Postoji main na liniji 1
+INFO  10:32:03,868 - ===================================

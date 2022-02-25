@@ -1,0 +1,303 @@
+INFO  21:39:57,827 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  21:39:57,935 - #2 program
+INFO  21:39:57,935 - #48 test302
+INFO  21:39:57,936 - #31 record
+INFO  21:39:57,937 - #48 Klasa
+INFO  21:39:57,937 - #16 {
+INFO  21:39:57,938 - #48 int
+INFO  21:39:57,939 - #48 f
+INFO  21:39:57,941 - #6 ;
+INFO  21:39:57,944 - #17 }
+INFO  21:39:57,945 - #48 Klasa
+INFO  21:39:57,946 - #48 kl
+INFO  21:39:57,947 - #33 [
+INFO  21:39:57,948 - #34 ]
+INFO  21:39:57,948 - #6 ;
+INFO  21:39:57,949 - #16 {
+INFO  21:39:57,951 - #19 void
+INFO  21:39:57,952 - #48 main
+INFO  21:39:57,952 - #3 (
+INFO  21:39:57,954 - #4 )
+INFO  21:39:57,954 - #16 {
+INFO  21:39:57,955 - #48 kl
+INFO  21:39:57,956 - #7 =
+INFO  21:39:57,959 - #18 new
+INFO  21:39:57,960 - #48 Klasa
+INFO  21:39:57,960 - #33 [
+INFO  21:39:57,960 - #45 10
+INFO  21:39:57,960 - #34 ]
+INFO  21:39:57,962 - #6 ;
+INFO  21:39:57,962 - #48 kl
+INFO  21:39:57,963 - #33 [
+INFO  21:39:57,964 - #45 0
+INFO  21:39:57,964 - #34 ]
+INFO  21:39:57,964 - #44 .
+INFO  21:39:57,964 - #48 f
+INFO  21:39:57,964 - #7 =
+INFO  21:39:57,965 - #45 5
+INFO  21:39:57,965 - #6 ;
+INFO  21:39:57,965 - #28 print
+INFO  21:39:57,965 - #3 (
+INFO  21:39:57,965 - #48 kl
+INFO  21:39:57,965 - #33 [
+INFO  21:39:57,965 - #45 0
+INFO  21:39:57,965 - #34 ]
+INFO  21:39:57,965 - #44 .
+INFO  21:39:57,966 - #48 f
+INFO  21:39:57,966 - #4 )
+INFO  21:39:57,967 - #6 ;
+INFO  21:39:57,967 - #17 }
+INFO  21:39:57,967 - #17 }
+INFO  21:39:57,972 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList4(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      RecordDecl(
+        RecordName(
+         Klasa
+        ) [RecordName]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarNameDecl(
+             f
+              Zagrade2(
+              ) [Zagrade2]
+            ) [VarNameDecl]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDecl]
+        ) [VarDeclarations]
+      ) [RecordDecl]
+    ) [DeclarationList4]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         Klasa
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             kl
+            ) [GlobalDeclImeProm]
+            Zagrade1(
+            ) [Zagrade1]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     kl
+                    ) [DesignatorName]
+                    NoDesDodatno(
+                    ) [NoDesDodatno]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac5(
+                        Type(
+                         Klasa
+                        ) [Type]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst1(
+                               10
+                              ) [TipConst1]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [Fac5]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat1(
+              DesignatorStatement1(
+                Designator(
+                  DesignatorName(
+                   kl
+                  ) [DesignatorName]
+                  DesDodatno(
+                    DesDodatno(
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                      DDodatno2(
+                        Redosled(
+                        ) [Redosled]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst1(
+                               0
+                              ) [TipConst1]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DDodatno2]
+                    ) [DesDodatno]
+                    DDodatno1(
+                     f
+                    ) [DDodatno1]
+                  ) [DesDodatno]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst1(
+                       5
+                      ) [TipConst1]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [DesignatorStatement1]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     kl
+                    ) [DesignatorName]
+                    DesDodatno(
+                      DesDodatno(
+                        NoDesDodatno(
+                        ) [NoDesDodatno]
+                        DDodatno2(
+                          Redosled(
+                          ) [Redosled]
+                          Expr2(
+                            Term2(
+                              Fac1(
+                                TipConst1(
+                                 0
+                                ) [TipConst1]
+                              ) [Fac1]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [DDodatno2]
+                      ) [DesDodatno]
+                      DDodatno1(
+                       f
+                      ) [DDodatno1]
+                    ) [DesDodatno]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  21:39:57,994 - ===================================
+INFO  21:39:58,000 - 1ovo je dodatno na liniji 3
+INFO  21:39:58,001 - Deklarisana promenljiva kl na liniji 5
+INFO  21:39:58,001 - Obradjuje se funkcija main na liniji 8
+INFO  21:39:58,001 - TIP DESIGNATOR3 na liniji 9
+INFO  21:39:58,001 - USLO I U NIZ na liniji 9
+INFO  21:39:58,002 - dodelio sam u term21 na liniji 9
+INFO  21:39:58,002 - dodelio sam expr1 na liniji 9
+INFO  21:39:58,002 - dodelio sam u term23 na liniji 9
+INFO  21:39:58,002 - dodelio sam expr3 na liniji 9
+INFO  21:39:58,002 - kl     imeee     3 na liniji 9
+INFO  21:39:58,002 - TIPOVI SU KOMPATIBILNI! na liniji 9
+INFO  21:39:58,002 - TIP DESIGNATOR3 na liniji 10
+INFO  21:39:58,002 - USLO I U NIZ na liniji 10
+INFO  21:39:58,003 - dodelio sam u term21 na liniji 10
+INFO  21:39:58,003 - dodelio sam expr1 na liniji 10
+INFO  21:39:58,003 - SADA JE DES STAT 2 na liniji 2
+INFO  21:39:58,011 - currD za obradjivanje je kl na liniji 2
+INFO  21:39:58,011 - PROVERAVAM ZA CUR NIZ  kl na liniji 2
+INFO  21:39:58,011 - ovde za currD je31 na liniji 2
+INFO  21:39:58,011 - TIP ZA ELEM NIZA4 na liniji 2
+INFO  21:39:58,011 - Uspeh!, nadjeno je polje klase! na liniji 10
+INFO  21:39:58,011 - SADA GLEDAM KOJI TIP DOBIJAM ZA NIZ REKORDA!1 na liniji 10
+INFO  21:39:58,011 - dodelio sam u term21 na liniji 10
+INFO  21:39:58,011 - dodelio sam expr1 na liniji 10
+INFO  21:39:58,012 - f     imeee     1 na liniji 10
+INFO  21:39:58,012 - TIPOVI SU KOMPATIBILNI! na liniji 10
+INFO  21:39:58,012 - TIP DESIGNATOR3 na liniji 11
+INFO  21:39:58,012 - USLO I U NIZ na liniji 11
+INFO  21:39:58,012 - dodelio sam u term21 na liniji 11
+INFO  21:39:58,012 - dodelio sam expr1 na liniji 11
+INFO  21:39:58,012 - SADA JE DES STAT 2 na liniji 8
+INFO  21:39:58,012 - currD za obradjivanje je kl na liniji 8
+INFO  21:39:58,012 - PROVERAVAM ZA CUR NIZ  kl na liniji 8
+INFO  21:39:58,012 - ovde za currD je31 na liniji 8
+INFO  21:39:58,013 - TIP ZA ELEM NIZA4 na liniji 8
+INFO  21:39:58,013 - Uspeh!, nadjeno je polje klase! na liniji 11
+INFO  21:39:58,013 - SADA GLEDAM KOJI TIP DOBIJAM ZA NIZ REKORDA!1 na liniji 11
+INFO  21:39:58,013 - kl na liniji 11
+INFO  21:39:58,013 - dodelio sam u term21 na liniji 11
+INFO  21:39:58,013 - dodelio sam expr1 na liniji 11
+INFO  21:39:58,013 - Postoji main
+INFO  21:39:58,013 - ===================================
+INFO  21:39:58,030 - Parsiranje uspesno zavrseno!

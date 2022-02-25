@@ -1,0 +1,435 @@
+INFO  13:09:51,027 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:09:51,179 - #2 program
+INFO  13:09:51,180 - #48 mojProg
+INFO  13:09:51,180 - #36 class
+INFO  13:09:51,182 - #48 Neka
+INFO  13:09:51,182 - #16 {
+INFO  13:09:51,184 - #48 int
+INFO  13:09:51,185 - #48 fff
+INFO  13:09:51,187 - #6 ;
+INFO  13:09:51,190 - #17 }
+INFO  13:09:51,192 - #36 class
+INFO  13:09:51,193 - #48 Druga
+INFO  13:09:51,193 - #43 extends
+INFO  13:09:51,193 - #48 Neka
+INFO  13:09:51,193 - #16 {
+INFO  13:09:51,193 - #17 }
+INFO  13:09:51,193 - #48 Neka
+INFO  13:09:51,194 - #48 neka_klasa
+INFO  13:09:51,195 - #6 ;
+INFO  13:09:51,197 - #48 int
+INFO  13:09:51,199 - #48 a
+INFO  13:09:51,199 - #6 ;
+INFO  13:09:51,199 - #35 const
+INFO  13:09:51,199 - #48 int
+INFO  13:09:51,199 - #48 b
+INFO  13:09:51,200 - #7 =
+INFO  13:09:51,200 - #45 5
+INFO  13:09:51,200 - #6 ;
+INFO  13:09:51,202 - #48 bool
+INFO  13:09:51,204 - #48 pom
+INFO  13:09:51,204 - #6 ;
+INFO  13:09:51,204 - #16 {
+INFO  13:09:51,204 - #19 void
+INFO  13:09:51,205 - #48 main
+INFO  13:09:51,206 - #3 (
+INFO  13:09:51,208 - #4 )
+INFO  13:09:51,208 - #16 {
+INFO  13:09:51,208 - #48 a
+INFO  13:09:51,209 - #8 ++
+INFO  13:09:51,211 - #6 ;
+INFO  13:09:51,212 - #48 neka_klasa
+INFO  13:09:51,212 - #7 =
+INFO  13:09:51,212 - #18 new
+INFO  13:09:51,213 - #48 Neka
+INFO  13:09:51,213 - #6 ;
+INFO  13:09:51,215 - #48 neka_klasa
+INFO  13:09:51,215 - #44 .
+INFO  13:09:51,216 - #48 fff
+INFO  13:09:51,216 - #7 =
+INFO  13:09:51,216 - #45 4
+INFO  13:09:51,216 - #6 ;
+INFO  13:09:51,216 - #29 do
+INFO  13:09:51,217 - #16 {
+INFO  13:09:51,218 - #28 print
+INFO  13:09:51,218 - #3 (
+INFO  13:09:51,218 - #45 0
+INFO  13:09:51,218 - #4 )
+INFO  13:09:51,219 - #6 ;
+INFO  13:09:51,219 - #17 }
+INFO  13:09:51,220 - #27 while
+INFO  13:09:51,220 - #3 (
+INFO  13:09:51,221 - #48 b
+INFO  13:09:51,221 - #37 ==
+INFO  13:09:51,221 - #45 5
+INFO  13:09:51,223 - #4 )
+INFO  13:09:51,224 - #6 ;
+INFO  13:09:51,224 - #17 }
+INFO  13:09:51,224 - #48 char
+INFO  13:09:51,227 - #48 funck
+INFO  13:09:51,227 - #3 (
+INFO  13:09:51,236 - #48 int
+INFO  13:09:51,236 - #48 c
+INFO  13:09:51,237 - #4 )
+INFO  13:09:51,239 - #16 {
+INFO  13:09:51,240 - #26 return
+INFO  13:09:51,240 - #46 'v'
+INFO  13:09:51,240 - #6 ;
+INFO  13:09:51,241 - #17 }
+INFO  13:09:51,241 - #17 }
+INFO  13:09:51,245 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList2(
+      DeclarationList1(
+        DeclarationList1(
+          DeclarationList3(
+            DeclarationList3(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              ClassDecl1(
+                ClassName(
+                 Neka
+                ) [ClassName]
+                NoIzvodjenje(
+                ) [NoIzvodjenje]
+                VarDeclarations(
+                  NoVarDecl(
+                  ) [NoVarDecl]
+                  VarDecl(
+                    VarType(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [VarType]
+                   fff
+                    Zagrade2(
+                    ) [Zagrade2]
+                    NoViseVarDecl(
+                    ) [NoViseVarDecl]
+                  ) [VarDecl]
+                ) [VarDeclarations]
+                NoUnutarKlase(
+                ) [NoUnutarKlase]
+              ) [ClassDecl1]
+            ) [DeclarationList3]
+            ClassDecl1(
+              ClassName(
+               Druga
+              ) [ClassName]
+              Izvodjenje1(
+                Type(
+                 Neka
+                ) [Type]
+              ) [Izvodjenje1]
+              NoVarDecl(
+              ) [NoVarDecl]
+              NoUnutarKlase(
+              ) [NoUnutarKlase]
+            ) [ClassDecl1]
+          ) [DeclarationList3]
+          GlobalDecl(
+            GlobalType(
+              Type(
+               Neka
+              ) [Type]
+            ) [GlobalType]
+            GlobalNakonTipa1(
+              SamoJedno1(
+                GlobalDeclName(
+                  GlobalDeclImeProm(
+                   neka_klasa
+                  ) [GlobalDeclImeProm]
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [GlobalDeclName]
+              ) [SamoJedno1]
+            ) [GlobalNakonTipa1]
+          ) [GlobalDecl]
+        ) [DeclarationList1]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 a
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        ConstIzraz(
+         b
+          TipConst1(
+           5
+          ) [TipConst1]
+        ) [ConstIzraz]
+        DodatnoCD1(
+        ) [DodatnoCD1]
+      ) [ConstDecl]
+    ) [DeclarationList2]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         bool
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             pom
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                Statement3(
+                  SStat1(
+                    DesignatorStatement4(
+                      Designator(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                        DDodatno3(
+                        ) [DDodatno3]
+                      ) [Designator]
+                    ) [DesignatorStatement4]
+                  ) [SStat1]
+                ) [Statement3]
+              ) [Statements]
+              Statement3(
+                SStat1(
+                  DesignatorStatement1(
+                    Designator(
+                      DesignatorName(
+                       neka_klasa
+                      ) [DesignatorName]
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr2(
+                      Term2(
+                        Fac10(
+                          Type(
+                           Neka
+                          ) [Type]
+                        ) [Fac10]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [DesignatorStatement1]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat1(
+                DesignatorStatement1(
+                  Designator(
+                    DesignatorName(
+                     neka_klasa
+                    ) [DesignatorName]
+                    DDodatno1(
+                      DDodatno3(
+                      ) [DDodatno3]
+                     fff
+                    ) [DDodatno1]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  Expr2(
+                    Term2(
+                      Fac1(
+                        TipConst1(
+                         4
+                        ) [TipConst1]
+                      ) [Fac1]
+                    ) [Term2]
+                    NoAddTerm(
+                    ) [NoAddTerm]
+                  ) [Expr2]
+                ) [DesignatorStatement1]
+              ) [SStat1]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat3(
+              StatDO(
+              ) [StatDO]
+              Statement2(
+                Statements1(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Statement3(
+                      SStat9(
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst1(
+                               0
+                              ) [TipConst1]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                        NoSStatmen1(
+                        ) [NoSStatmen1]
+                      ) [SStat9]
+                    ) [Statement3]
+                  ) [Statements]
+                ) [Statements1]
+              ) [Statement2]
+              Cond1(
+                CondTerm1(
+                  CondFact1(
+                    Expr2(
+                      Term2(
+                        Fac7(
+                          Designator(
+                            DesignatorName(
+                             b
+                            ) [DesignatorName]
+                            DDodatno3(
+                            ) [DDodatno3]
+                          ) [Designator]
+                        ) [Fac7]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                    Relop1(
+                    ) [Relop1]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           5
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [CondFact1]
+                ) [CondTerm1]
+              ) [Cond1]
+            ) [SStat3]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           char
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      MultipleFormParam(
+        SingleFormalParamDecl(
+          OneFormalP(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             c
+              Zagrade2(
+              ) [Zagrade2]
+            ) [FormalParamDecl]
+          ) [OneFormalP]
+        ) [SingleFormalParamDecl]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst2(
+                   'v'
+                  ) [TipConst2]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  13:09:51,260 - ===================================
+INFO  13:09:51,267 - Dodata klasa na liniji 3
+INFO  13:09:51,267 - Dodata klasa na liniji 9
+INFO  13:09:51,268 - Deklarisana promenljiva neka_klasa na liniji 12
+INFO  13:09:51,268 - Deklarisana promenljiva a na liniji 13
+INFO  13:09:51,268 - Dodat je const simbol sa imenomb na liniji 14
+ERROR 13:09:51,268 - Nije pronadjen tip bool u tabeli simbola! 
+INFO  13:09:51,269 - Deklarisana promenljiva pom na liniji 15
+INFO  13:09:51,269 - Obradjuje se funkcija main na liniji 19
+INFO  13:09:51,269 - Jeste klasa na liniji 21
+INFO  13:09:51,269 - 4haha na liniji 2
+INFO  13:09:51,269 - uslo ovde na liniji 2
+ERROR 13:09:51,270 - Greska, neterminali Designator i Expr moraju biti kompatibilni! na liniji 22
+INFO  13:09:51,270 - Obradjuje se funkcija funck na liniji 29
+INFO  13:09:51,271 - ovo je currMeth 2 na liniji 31
+INFO  13:09:51,271 - ovo je sstat7 2 na liniji 31
+INFO  13:09:51,272 - Postoji main
+INFO  13:09:51,272 - ===================================

@@ -1,0 +1,133 @@
+INFO  15:37:26,500 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:37:26,585 - #2 program
+INFO  15:37:26,586 - #48 test302
+INFO  15:37:26,586 - #48 int
+INFO  15:37:26,588 - #48 c
+INFO  15:37:26,589 - #6 ;
+INFO  15:37:26,592 - #16 {
+INFO  15:37:26,595 - #19 void
+INFO  15:37:26,595 - #48 main
+INFO  15:37:26,596 - #3 (
+INFO  15:37:26,597 - #4 )
+INFO  15:37:26,597 - #16 {
+INFO  15:37:26,598 - #10 if
+INFO  15:37:26,599 - #3 (
+INFO  15:37:26,599 - #48 c
+INFO  15:37:26,599 - #37 ==
+INFO  15:37:26,602 - #45 1
+INFO  15:37:26,604 - #4 )
+INFO  15:37:26,605 - #16 {
+INFO  15:37:26,605 - #17 }
+INFO  15:37:26,605 - #17 }
+INFO  15:37:26,607 - #17 }
+INFO  15:37:26,611 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             c
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat2(
+            ZaCond(
+              Cond1(
+                CondTerm1(
+                  CondFact1(
+                    Expr2(
+                      Term2(
+                        Fac7(
+                          Designator(
+                            DesignatorName(
+                             c
+                            ) [DesignatorName]
+                            NoDesDodatno(
+                            ) [NoDesDodatno]
+                          ) [Designator]
+                        ) [Fac7]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                    Relop1(
+                    ) [Relop1]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           1
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [CondFact1]
+                ) [CondTerm1]
+              ) [Cond1]
+            ) [ZaCond]
+            Statement2(
+              Statements1(
+                NoStmt(
+                ) [NoStmt]
+              ) [Statements1]
+            ) [Statement2]
+            NoElse(
+            ) [NoElse]
+          ) [SStat2]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  15:37:26,629 - ===================================
+INFO  15:37:26,635 - Deklarisana promenljiva c na liniji 2
+INFO  15:37:26,635 - Obradjuje se funkcija main na liniji 6
+INFO  15:37:26,635 - TIP DESIGNATOR1 na liniji 7
+INFO  15:37:26,636 - c na liniji 7
+INFO  15:37:26,636 - dodelio sam u term21 na liniji 7
+INFO  15:37:26,636 - dodelio sam expr1 na liniji 7
+INFO  15:37:26,636 - dodelio sam u term21 na liniji 7
+INFO  15:37:26,636 - dodelio sam expr1 na liniji 7
+INFO  15:37:26,637 - Postoji main
+INFO  15:37:26,637 - ===================================

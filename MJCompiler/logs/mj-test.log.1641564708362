@@ -1,0 +1,63 @@
+INFO  14:57:16,534 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  14:57:16,666 - #2 program
+INFO  14:57:16,667 - #48 mojProg
+INFO  14:57:16,667 - #48 int
+INFO  14:57:16,669 - #48 i
+INFO  14:57:16,672 - #6 ;
+INFO  14:57:16,675 - #16 {
+INFO  14:57:16,677 - #19 void
+INFO  14:57:16,678 - #48 main
+INFO  14:57:16,679 - #3 (
+INFO  14:57:16,682 - #4 )
+INFO  14:57:16,682 - #16 {
+INFO  14:57:16,684 - #17 }
+INFO  14:57:16,686 - #17 }
+INFO  14:57:16,695 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             i
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:57:16,708 - ===================================
+INFO  14:57:16,716 - Deklarisana promenljiva i na liniji 2
+INFO  14:57:16,716 - Obradjuje se funkcija main na liniji 4
+INFO  14:57:16,717 - Postoji main na liniji 1
+INFO  14:57:16,717 - ===================================

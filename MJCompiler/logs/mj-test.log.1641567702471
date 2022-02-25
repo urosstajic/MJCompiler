@@ -1,0 +1,87 @@
+INFO  15:23:40,370 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  15:23:40,470 - #2 program
+INFO  15:23:40,470 - #48 mojProg
+INFO  15:23:40,470 - #48 int
+INFO  15:23:40,472 - #48 i
+INFO  15:23:40,474 - #6 ;
+INFO  15:23:40,478 - #35 const
+INFO  15:23:40,479 - #48 int
+INFO  15:23:40,480 - #48 b
+INFO  15:23:40,481 - #7 =
+INFO  15:23:40,481 - #45 5
+INFO  15:23:40,481 - #6 ;
+INFO  15:23:40,483 - #16 {
+INFO  15:23:40,484 - #19 void
+INFO  15:23:40,485 - #48 main
+INFO  15:23:40,486 - #3 (
+INFO  15:23:40,487 - #4 )
+INFO  15:23:40,487 - #16 {
+INFO  15:23:40,489 - #17 }
+INFO  15:23:40,490 - #17 }
+INFO  15:23:40,493 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               i
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:23:40,502 - ===================================
+INFO  15:23:40,507 - Deklarisana promenljiva i na liniji 2
+INFO  15:23:40,507 - Dodat je const simbol sa imenomb na liniji 3
+INFO  15:23:40,508 - Obradjuje se funkcija main na liniji 6
+INFO  15:23:40,508 - Postoji main na liniji 1
+INFO  15:23:40,508 - ===================================

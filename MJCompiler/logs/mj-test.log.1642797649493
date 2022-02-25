@@ -1,0 +1,146 @@
+INFO  21:40:06,524 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  21:40:06,748 - #2 program
+INFO  21:40:06,749 - #48 test302
+INFO  21:40:06,749 - #35 const
+INFO  21:40:06,752 - #48 int
+INFO  21:40:06,752 - #48 jedan
+INFO  21:40:06,756 - #7 =
+INFO  21:40:06,757 - #45 1
+INFO  21:40:06,757 - #6 ;
+INFO  21:40:06,765 - #48 int
+INFO  21:40:06,768 - #48 ha
+INFO  21:40:06,769 - #6 ;
+INFO  21:40:06,775 - #16 {
+INFO  21:40:06,779 - #19 void
+INFO  21:40:06,781 - #48 main
+INFO  21:40:06,782 - #3 (
+INFO  21:40:06,784 - #4 )
+INFO  21:40:06,784 - #16 {
+INFO  21:40:06,788 - #48 ha
+INFO  21:40:06,790 - #7 =
+INFO  21:40:06,795 - #48 ord
+INFO  21:40:06,796 - #3 (
+INFO  21:40:06,797 - #46 'v'
+INFO  21:40:06,797 - #4 )
+INFO  21:40:06,799 - #6 ;
+INFO  21:40:06,799 - #17 }
+INFO  21:40:06,800 - #17 }
+INFO  21:40:06,811 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList2(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        ConstIzraz(
+         jedan
+          TipConst1(
+           1
+          ) [TipConst1]
+        ) [ConstIzraz]
+        DodatnoCD1(
+        ) [DodatnoCD1]
+      ) [ConstDecl]
+    ) [DeclarationList2]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             ha
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 ha
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac8(
+                    Designator(
+                      DesignatorName(
+                       ord
+                      ) [DesignatorName]
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                    ) [Designator]
+                    AP1(
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst2(
+                             'v'
+                            ) [TipConst2]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [AP1]
+                  ) [Fac8]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  21:40:06,825 - ===================================
+INFO  21:40:06,862 - Dodat je const simbol sa imenomjedan na liniji 7
+INFO  21:40:06,863 - Deklarisana promenljiva ha na liniji 8
+INFO  21:40:06,864 - Obradjuje se funkcija main na liniji 13
+INFO  21:40:06,864 - TIP DESIGNATOR1 na liniji 15
+INFO  21:40:06,864 - TIP DESIGNATOR1 na liniji 15
+INFO  21:40:06,865 - ha     imeee     1 na liniji 15

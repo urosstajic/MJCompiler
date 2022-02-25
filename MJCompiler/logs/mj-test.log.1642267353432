@@ -1,0 +1,3439 @@
+INFO  18:14:42,797 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  18:14:42,869 - #2 program
+INFO  18:14:42,869 - #48 test302
+INFO  18:14:42,869 - #35 const
+INFO  18:14:42,871 - #48 int
+INFO  18:14:42,871 - #48 jedan
+INFO  18:14:42,873 - #7 =
+INFO  18:14:42,873 - #45 1
+INFO  18:14:42,873 - #6 ;
+INFO  18:14:42,874 - #48 int
+INFO  18:14:42,875 - #48 i
+INFO  18:14:42,876 - #6 ;
+INFO  18:14:42,879 - #48 bool
+INFO  18:14:42,880 - #48 ibool
+INFO  18:14:42,880 - #6 ;
+INFO  18:14:42,880 - #48 int
+INFO  18:14:42,880 - #48 niz2
+INFO  18:14:42,880 - #6 ;
+INFO  18:14:42,880 - #31 record
+INFO  18:14:42,881 - #48 Test
+INFO  18:14:42,881 - #16 {
+INFO  18:14:42,881 - #48 int
+INFO  18:14:42,882 - #48 niz
+INFO  18:14:42,883 - #33 [
+INFO  18:14:42,884 - #34 ]
+INFO  18:14:42,884 - #6 ;
+INFO  18:14:42,886 - #48 int
+INFO  18:14:42,887 - #48 a
+INFO  18:14:42,887 - #6 ;
+INFO  18:14:42,887 - #17 }
+INFO  18:14:42,887 - #48 Test
+INFO  18:14:42,888 - #48 t1
+INFO  18:14:42,888 - #22 ,
+INFO  18:14:42,888 - #48 t2
+INFO  18:14:42,889 - #6 ;
+INFO  18:14:42,889 - #16 {
+INFO  18:14:42,889 - #48 int
+INFO  18:14:42,890 - #48 sum
+INFO  18:14:42,890 - #3 (
+INFO  18:14:42,891 - #48 int
+INFO  18:14:42,892 - #48 z
+INFO  18:14:42,892 - #22 ,
+INFO  18:14:42,892 - #48 int
+INFO  18:14:42,893 - #48 d
+INFO  18:14:42,893 - #4 )
+INFO  18:14:42,893 - #16 {
+INFO  18:14:42,894 - #26 return
+INFO  18:14:42,895 - #48 z
+INFO  18:14:42,895 - #12 +
+INFO  18:14:42,898 - #48 d
+INFO  18:14:42,900 - #6 ;
+INFO  18:14:42,900 - #17 }
+INFO  18:14:42,901 - #48 int
+INFO  18:14:42,903 - #48 inkrement
+INFO  18:14:42,903 - #3 (
+INFO  18:14:42,903 - #48 int
+INFO  18:14:42,903 - #48 a
+INFO  18:14:42,903 - #22 ,
+INFO  18:14:42,903 - #48 int
+INFO  18:14:42,903 - #48 inc
+INFO  18:14:42,903 - #4 )
+INFO  18:14:42,904 - #48 int
+INFO  18:14:42,904 - #48 pom
+INFO  18:14:42,904 - #6 ;
+INFO  18:14:42,904 - #16 {
+INFO  18:14:42,905 - #10 if
+INFO  18:14:42,905 - #3 (
+INFO  18:14:42,905 - #48 inc
+INFO  18:14:42,905 - #37 ==
+INFO  18:14:42,913 - #48 jedan
+INFO  18:14:42,914 - #4 )
+INFO  18:14:42,915 - #48 pom
+INFO  18:14:42,915 - #7 =
+INFO  18:14:42,915 - #45 1
+INFO  18:14:42,916 - #6 ;
+INFO  18:14:42,916 - #11 else
+INFO  18:14:42,917 - #10 if
+INFO  18:14:42,917 - #3 (
+INFO  18:14:42,917 - #48 inc
+INFO  18:14:42,917 - #37 ==
+INFO  18:14:42,917 - #45 2
+INFO  18:14:42,917 - #4 )
+INFO  18:14:42,917 - #48 pom
+INFO  18:14:42,917 - #7 =
+INFO  18:14:42,917 - #48 a
+INFO  18:14:42,917 - #6 ;
+INFO  18:14:42,918 - #26 return
+INFO  18:14:42,919 - #48 sum
+INFO  18:14:42,919 - #3 (
+INFO  18:14:42,919 - #48 a
+INFO  18:14:42,919 - #22 ,
+INFO  18:14:42,919 - #48 pom
+INFO  18:14:42,919 - #4 )
+INFO  18:14:42,920 - #6 ;
+INFO  18:14:42,920 - #17 }
+INFO  18:14:42,920 - #48 bool
+INFO  18:14:42,921 - #48 verify
+INFO  18:14:42,921 - #3 (
+INFO  18:14:42,921 - #4 )
+INFO  18:14:42,921 - #16 {
+INFO  18:14:42,922 - #28 print
+INFO  18:14:42,922 - #3 (
+INFO  18:14:42,922 - #46 'v'
+INFO  18:14:42,922 - #4 )
+INFO  18:14:42,923 - #6 ;
+INFO  18:14:42,923 - #26 return
+INFO  18:14:42,924 - #47 false
+INFO  18:14:42,924 - #6 ;
+INFO  18:14:42,925 - #17 }
+INFO  18:14:42,925 - #19 void
+INFO  18:14:42,925 - #48 main
+INFO  18:14:42,926 - #3 (
+INFO  18:14:42,926 - #4 )
+INFO  18:14:42,926 - #16 {
+INFO  18:14:42,926 - #10 if
+INFO  18:14:42,926 - #3 (
+INFO  18:14:42,926 - #45 1
+INFO  18:14:42,927 - #38 !=
+INFO  18:14:42,927 - #45 1
+INFO  18:14:42,927 - #4 )
+INFO  18:14:42,928 - #28 print
+INFO  18:14:42,928 - #3 (
+INFO  18:14:42,928 - #15 -
+INFO  18:14:42,928 - #45 6
+INFO  18:14:42,928 - #4 )
+INFO  18:14:42,928 - #6 ;
+INFO  18:14:42,928 - #11 else
+INFO  18:14:42,929 - #28 print
+INFO  18:14:42,929 - #3 (
+INFO  18:14:42,929 - #45 0
+INFO  18:14:42,929 - #4 )
+INFO  18:14:42,929 - #6 ;
+INFO  18:14:42,929 - #48 ibool
+INFO  18:14:42,929 - #7 =
+INFO  18:14:42,929 - #47 false
+INFO  18:14:42,930 - #6 ;
+INFO  18:14:42,930 - #48 i
+INFO  18:14:42,930 - #7 =
+INFO  18:14:42,930 - #45 0
+INFO  18:14:42,930 - #6 ;
+INFO  18:14:42,930 - #29 do
+INFO  18:14:42,930 - #16 {
+INFO  18:14:42,931 - #10 if
+INFO  18:14:42,932 - #3 (
+INFO  18:14:42,932 - #48 i
+INFO  18:14:42,932 - #37 ==
+INFO  18:14:42,932 - #45 2
+INFO  18:14:42,932 - #4 )
+INFO  18:14:42,932 - #48 ibool
+INFO  18:14:42,932 - #7 =
+INFO  18:14:42,932 - #47 true
+INFO  18:14:42,932 - #6 ;
+INFO  18:14:42,932 - #48 i
+INFO  18:14:42,933 - #8 ++
+INFO  18:14:42,933 - #6 ;
+INFO  18:14:42,933 - #17 }
+INFO  18:14:42,933 - #27 while
+INFO  18:14:42,934 - #3 (
+INFO  18:14:42,935 - #48 i
+INFO  18:14:42,935 - #40 <
+INFO  18:14:42,935 - #45 5
+INFO  18:14:42,936 - #4 )
+INFO  18:14:42,936 - #6 ;
+INFO  18:14:42,936 - #10 if
+INFO  18:14:42,936 - #3 (
+INFO  18:14:42,936 - #48 ibool
+INFO  18:14:42,936 - #4 )
+INFO  18:14:42,937 - #10 if
+INFO  18:14:42,937 - #3 (
+INFO  18:14:42,937 - #48 i
+INFO  18:14:42,937 - #37 ==
+INFO  18:14:42,937 - #45 5
+INFO  18:14:42,937 - #4 )
+INFO  18:14:42,938 - #28 print
+INFO  18:14:42,938 - #3 (
+INFO  18:14:42,938 - #45 1
+INFO  18:14:42,938 - #4 )
+INFO  18:14:42,938 - #6 ;
+INFO  18:14:42,938 - #11 else
+INFO  18:14:42,938 - #28 print
+INFO  18:14:42,938 - #3 (
+INFO  18:14:42,938 - #15 -
+INFO  18:14:42,939 - #45 1
+INFO  18:14:42,939 - #4 )
+INFO  18:14:42,939 - #6 ;
+INFO  18:14:42,939 - #48 t1
+INFO  18:14:42,939 - #7 =
+INFO  18:14:42,940 - #18 new
+INFO  18:14:42,940 - #48 Test
+INFO  18:14:42,940 - #6 ;
+INFO  18:14:42,940 - #48 t1
+INFO  18:14:42,940 - #44 .
+INFO  18:14:42,940 - #48 a
+INFO  18:14:42,940 - #7 =
+INFO  18:14:42,941 - #45 2
+INFO  18:14:42,941 - #6 ;
+INFO  18:14:42,941 - #48 t1
+INFO  18:14:42,941 - #44 .
+INFO  18:14:42,941 - #48 niz
+INFO  18:14:42,941 - #7 =
+INFO  18:14:42,941 - #18 new
+INFO  18:14:42,941 - #48 int
+INFO  18:14:42,941 - #33 [
+INFO  18:14:42,941 - #45 3
+INFO  18:14:42,941 - #34 ]
+INFO  18:14:42,941 - #6 ;
+INFO  18:14:42,941 - #48 t1
+INFO  18:14:42,941 - #44 .
+INFO  18:14:42,941 - #48 niz
+INFO  18:14:42,942 - #33 [
+INFO  18:14:42,942 - #45 0
+INFO  18:14:42,942 - #34 ]
+INFO  18:14:42,942 - #7 =
+INFO  18:14:42,942 - #45 1
+INFO  18:14:42,942 - #13 *
+INFO  18:14:42,942 - #48 t1
+INFO  18:14:42,943 - #44 .
+INFO  18:14:42,943 - #48 a
+INFO  18:14:42,943 - #6 ;
+INFO  18:14:42,944 - #48 t1
+INFO  18:14:42,944 - #44 .
+INFO  18:14:42,944 - #48 niz
+INFO  18:14:42,944 - #33 [
+INFO  18:14:42,944 - #45 1
+INFO  18:14:42,944 - #34 ]
+INFO  18:14:42,944 - #7 =
+INFO  18:14:42,944 - #45 2
+INFO  18:14:42,944 - #13 *
+INFO  18:14:42,944 - #48 t1
+INFO  18:14:42,944 - #44 .
+INFO  18:14:42,945 - #48 a
+INFO  18:14:42,945 - #6 ;
+INFO  18:14:42,945 - #48 t1
+INFO  18:14:42,945 - #44 .
+INFO  18:14:42,945 - #48 niz
+INFO  18:14:42,945 - #33 [
+INFO  18:14:42,945 - #45 2
+INFO  18:14:42,945 - #34 ]
+INFO  18:14:42,945 - #7 =
+INFO  18:14:42,945 - #48 sum
+INFO  18:14:42,945 - #3 (
+INFO  18:14:42,945 - #48 t1
+INFO  18:14:42,945 - #44 .
+INFO  18:14:42,945 - #48 niz
+INFO  18:14:42,945 - #33 [
+INFO  18:14:42,945 - #45 1
+INFO  18:14:42,945 - #34 ]
+INFO  18:14:42,945 - #22 ,
+INFO  18:14:42,945 - #48 t1
+INFO  18:14:42,945 - #44 .
+INFO  18:14:42,945 - #48 niz
+INFO  18:14:42,946 - #33 [
+INFO  18:14:42,946 - #45 0
+INFO  18:14:42,946 - #34 ]
+INFO  18:14:42,946 - #4 )
+INFO  18:14:42,946 - #13 *
+INFO  18:14:42,946 - #48 t1
+INFO  18:14:42,946 - #44 .
+INFO  18:14:42,946 - #48 a
+INFO  18:14:42,947 - #12 +
+INFO  18:14:42,947 - #45 1
+INFO  18:14:42,947 - #6 ;
+INFO  18:14:42,947 - #28 print
+INFO  18:14:42,947 - #3 (
+INFO  18:14:42,947 - #48 eol
+INFO  18:14:42,947 - #4 )
+INFO  18:14:42,947 - #6 ;
+INFO  18:14:42,947 - #48 i
+INFO  18:14:42,947 - #7 =
+INFO  18:14:42,948 - #45 0
+INFO  18:14:42,948 - #6 ;
+INFO  18:14:42,948 - #29 do
+INFO  18:14:42,948 - #16 {
+INFO  18:14:42,948 - #10 if
+INFO  18:14:42,948 - #3 (
+INFO  18:14:42,948 - #48 i
+INFO  18:14:42,948 - #37 ==
+INFO  18:14:42,948 - #45 3
+INFO  18:14:42,949 - #4 )
+INFO  18:14:42,949 - #16 {
+INFO  18:14:42,949 - #48 i
+INFO  18:14:42,949 - #8 ++
+INFO  18:14:42,949 - #6 ;
+INFO  18:14:42,949 - #32 continue
+INFO  18:14:42,949 - #6 ;
+INFO  18:14:42,949 - #17 }
+INFO  18:14:42,950 - #10 if
+INFO  18:14:42,950 - #3 (
+INFO  18:14:42,950 - #48 i
+INFO  18:14:42,950 - #37 ==
+INFO  18:14:42,950 - #45 4
+INFO  18:14:42,950 - #4 )
+INFO  18:14:42,950 - #23 break
+INFO  18:14:42,950 - #6 ;
+INFO  18:14:42,950 - #48 i
+INFO  18:14:42,951 - #7 =
+INFO  18:14:42,951 - #48 inkrement
+INFO  18:14:42,951 - #3 (
+INFO  18:14:42,952 - #48 i
+INFO  18:14:42,952 - #22 ,
+INFO  18:14:42,952 - #45 1
+INFO  18:14:42,952 - #4 )
+INFO  18:14:42,952 - #6 ;
+INFO  18:14:42,952 - #17 }
+INFO  18:14:42,952 - #27 while
+INFO  18:14:42,952 - #3 (
+INFO  18:14:42,952 - #48 i
+INFO  18:14:42,952 - #40 <
+INFO  18:14:42,952 - #45 10
+INFO  18:14:42,952 - #4 )
+INFO  18:14:42,953 - #6 ;
+INFO  18:14:42,953 - #10 if
+INFO  18:14:42,953 - #3 (
+INFO  18:14:42,953 - #48 i
+INFO  18:14:42,953 - #37 ==
+INFO  18:14:42,953 - #45 3
+INFO  18:14:42,953 - #21 &&
+INFO  18:14:42,953 - #48 verify
+INFO  18:14:42,953 - #3 (
+INFO  18:14:42,953 - #4 )
+INFO  18:14:42,953 - #4 )
+INFO  18:14:42,954 - #28 print
+INFO  18:14:42,954 - #3 (
+INFO  18:14:42,954 - #15 -
+INFO  18:14:42,954 - #45 4
+INFO  18:14:42,954 - #4 )
+INFO  18:14:42,954 - #6 ;
+INFO  18:14:42,954 - #11 else
+INFO  18:14:42,955 - #28 print
+INFO  18:14:42,955 - #3 (
+INFO  18:14:42,955 - #45 4
+INFO  18:14:42,955 - #4 )
+INFO  18:14:42,955 - #6 ;
+INFO  18:14:42,955 - #24 read
+INFO  18:14:42,955 - #3 (
+INFO  18:14:42,955 - #48 t1
+INFO  18:14:42,955 - #44 .
+INFO  18:14:42,955 - #48 niz
+INFO  18:14:42,955 - #33 [
+INFO  18:14:42,955 - #45 0
+INFO  18:14:42,956 - #34 ]
+INFO  18:14:42,956 - #4 )
+INFO  18:14:42,956 - #6 ;
+INFO  18:14:42,956 - #24 read
+INFO  18:14:42,956 - #3 (
+INFO  18:14:42,956 - #48 t1
+INFO  18:14:42,956 - #44 .
+INFO  18:14:42,956 - #48 niz
+INFO  18:14:42,956 - #33 [
+INFO  18:14:42,956 - #45 1
+INFO  18:14:42,956 - #34 ]
+INFO  18:14:42,956 - #4 )
+INFO  18:14:42,956 - #6 ;
+INFO  18:14:42,957 - #24 read
+INFO  18:14:42,957 - #3 (
+INFO  18:14:42,957 - #48 t1
+INFO  18:14:42,957 - #44 .
+INFO  18:14:42,957 - #48 niz
+INFO  18:14:42,957 - #33 [
+INFO  18:14:42,957 - #45 2
+INFO  18:14:42,957 - #34 ]
+INFO  18:14:42,957 - #4 )
+INFO  18:14:42,957 - #6 ;
+INFO  18:14:42,957 - #28 print
+INFO  18:14:42,957 - #3 (
+INFO  18:14:42,957 - #48 eol
+INFO  18:14:42,958 - #4 )
+INFO  18:14:42,958 - #6 ;
+INFO  18:14:42,958 - #28 print
+INFO  18:14:42,958 - #3 (
+INFO  18:14:42,958 - #48 sum
+INFO  18:14:42,958 - #3 (
+INFO  18:14:42,958 - #48 sum
+INFO  18:14:42,958 - #3 (
+INFO  18:14:42,958 - #48 t1
+INFO  18:14:42,958 - #44 .
+INFO  18:14:42,958 - #48 niz
+INFO  18:14:42,958 - #33 [
+INFO  18:14:42,958 - #45 0
+INFO  18:14:42,958 - #34 ]
+INFO  18:14:42,958 - #22 ,
+INFO  18:14:42,959 - #48 t1
+INFO  18:14:42,959 - #44 .
+INFO  18:14:42,959 - #48 niz
+INFO  18:14:42,959 - #33 [
+INFO  18:14:42,959 - #45 1
+INFO  18:14:42,959 - #34 ]
+INFO  18:14:42,959 - #4 )
+INFO  18:14:42,959 - #22 ,
+INFO  18:14:42,959 - #48 t1
+INFO  18:14:42,959 - #44 .
+INFO  18:14:42,959 - #48 niz
+INFO  18:14:42,959 - #33 [
+INFO  18:14:42,959 - #45 2
+INFO  18:14:42,960 - #34 ]
+INFO  18:14:42,960 - #4 )
+INFO  18:14:42,960 - #4 )
+INFO  18:14:42,960 - #6 ;
+INFO  18:14:42,960 - #28 print
+INFO  18:14:42,960 - #3 (
+INFO  18:14:42,960 - #48 eol
+INFO  18:14:42,960 - #4 )
+INFO  18:14:42,960 - #6 ;
+INFO  18:14:42,960 - #28 print
+INFO  18:14:42,960 - #3 (
+INFO  18:14:42,960 - #48 inkrement
+INFO  18:14:42,960 - #3 (
+INFO  18:14:42,960 - #48 t1
+INFO  18:14:42,960 - #44 .
+INFO  18:14:42,961 - #48 niz
+INFO  18:14:42,961 - #33 [
+INFO  18:14:42,961 - #45 2
+INFO  18:14:42,961 - #34 ]
+INFO  18:14:42,961 - #22 ,
+INFO  18:14:42,961 - #45 2
+INFO  18:14:42,961 - #4 )
+INFO  18:14:42,961 - #4 )
+INFO  18:14:42,961 - #6 ;
+INFO  18:14:42,961 - #48 t2
+INFO  18:14:42,961 - #7 =
+INFO  18:14:42,961 - #18 new
+INFO  18:14:42,961 - #48 Test
+INFO  18:14:42,961 - #6 ;
+INFO  18:14:42,961 - #48 t2
+INFO  18:14:42,961 - #44 .
+INFO  18:14:42,962 - #48 a
+INFO  18:14:42,962 - #7 =
+INFO  18:14:42,962 - #45 3
+INFO  18:14:42,962 - #6 ;
+INFO  18:14:42,962 - #48 t2
+INFO  18:14:42,962 - #44 .
+INFO  18:14:42,962 - #48 niz
+INFO  18:14:42,962 - #7 =
+INFO  18:14:42,962 - #18 new
+INFO  18:14:42,962 - #48 int
+INFO  18:14:42,962 - #33 [
+INFO  18:14:42,962 - #45 3
+INFO  18:14:42,962 - #34 ]
+INFO  18:14:42,962 - #6 ;
+INFO  18:14:42,962 - #48 i
+INFO  18:14:42,963 - #7 =
+INFO  18:14:42,963 - #45 0
+INFO  18:14:42,963 - #6 ;
+INFO  18:14:42,963 - #29 do
+INFO  18:14:42,963 - #16 {
+INFO  18:14:42,963 - #48 t2
+INFO  18:14:42,963 - #44 .
+INFO  18:14:42,963 - #48 niz
+INFO  18:14:42,963 - #33 [
+INFO  18:14:42,963 - #48 i
+INFO  18:14:42,963 - #34 ]
+INFO  18:14:42,963 - #7 =
+INFO  18:14:42,963 - #45 2
+INFO  18:14:42,963 - #6 ;
+INFO  18:14:42,963 - #48 i
+INFO  18:14:42,963 - #8 ++
+INFO  18:14:42,964 - #6 ;
+INFO  18:14:42,964 - #17 }
+INFO  18:14:42,964 - #27 while
+INFO  18:14:42,964 - #3 (
+INFO  18:14:42,964 - #48 i
+INFO  18:14:42,964 - #40 <
+INFO  18:14:42,964 - #45 3
+INFO  18:14:42,964 - #4 )
+INFO  18:14:42,964 - #6 ;
+INFO  18:14:42,964 - #28 print
+INFO  18:14:42,964 - #3 (
+INFO  18:14:42,964 - #48 t2
+INFO  18:14:42,964 - #44 .
+INFO  18:14:42,964 - #48 niz
+INFO  18:14:42,964 - #33 [
+INFO  18:14:42,964 - #45 0
+INFO  18:14:42,964 - #34 ]
+INFO  18:14:42,965 - #4 )
+INFO  18:14:42,965 - #6 ;
+INFO  18:14:42,965 - #28 print
+INFO  18:14:42,965 - #3 (
+INFO  18:14:42,965 - #48 t2
+INFO  18:14:42,965 - #44 .
+INFO  18:14:42,965 - #48 niz
+INFO  18:14:42,965 - #33 [
+INFO  18:14:42,965 - #45 1
+INFO  18:14:42,965 - #34 ]
+INFO  18:14:42,965 - #4 )
+INFO  18:14:42,965 - #6 ;
+INFO  18:14:42,966 - #28 print
+INFO  18:14:42,966 - #3 (
+INFO  18:14:42,966 - #48 t2
+INFO  18:14:42,966 - #44 .
+INFO  18:14:42,966 - #48 niz
+INFO  18:14:42,966 - #33 [
+INFO  18:14:42,966 - #45 2
+INFO  18:14:42,966 - #34 ]
+INFO  18:14:42,966 - #4 )
+INFO  18:14:42,966 - #6 ;
+INFO  18:14:42,966 - #28 print
+INFO  18:14:42,966 - #3 (
+INFO  18:14:42,966 - #48 eol
+INFO  18:14:42,966 - #4 )
+INFO  18:14:42,967 - #6 ;
+INFO  18:14:42,967 - #48 i
+INFO  18:14:42,967 - #7 =
+INFO  18:14:42,967 - #45 0
+INFO  18:14:42,967 - #6 ;
+INFO  18:14:42,967 - #48 niz2
+INFO  18:14:42,967 - #7 =
+INFO  18:14:42,967 - #45 0
+INFO  18:14:42,967 - #6 ;
+INFO  18:14:42,967 - #29 do
+INFO  18:14:42,967 - #16 {
+INFO  18:14:42,967 - #48 i
+INFO  18:14:42,967 - #8 ++
+INFO  18:14:42,968 - #6 ;
+INFO  18:14:42,968 - #17 }
+INFO  18:14:42,968 - #27 while
+INFO  18:14:42,968 - #3 (
+INFO  18:14:42,968 - #48 i
+INFO  18:14:42,968 - #40 <
+INFO  18:14:42,969 - #45 3
+INFO  18:14:42,969 - #4 )
+INFO  18:14:42,969 - #6 ;
+INFO  18:14:42,969 - #28 print
+INFO  18:14:42,969 - #3 (
+INFO  18:14:42,969 - #48 niz2
+INFO  18:14:42,969 - #4 )
+INFO  18:14:42,969 - #6 ;
+INFO  18:14:42,969 - #28 print
+INFO  18:14:42,969 - #3 (
+INFO  18:14:42,969 - #48 eol
+INFO  18:14:42,969 - #4 )
+INFO  18:14:42,969 - #6 ;
+INFO  18:14:42,969 - #17 }
+INFO  18:14:42,969 - #17 }
+INFO  18:14:43,007 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList4(
+      DeclarationList1(
+        DeclarationList1(
+          DeclarationList1(
+            DeclarationList2(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              ConstDecl(
+                ConstType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [ConstType]
+                ConstIzraz(
+                 jedan
+                  TipConst1(
+                   1
+                  ) [TipConst1]
+                ) [ConstIzraz]
+                DodatnoCD1(
+                ) [DodatnoCD1]
+              ) [ConstDecl]
+            ) [DeclarationList2]
+            GlobalDecl(
+              GlobalType(
+                Type(
+                 int
+                ) [Type]
+              ) [GlobalType]
+              GlobalNakonTipa1(
+                SamoJedno1(
+                  GlobalDeclName(
+                    GlobalDeclImeProm(
+                     i
+                    ) [GlobalDeclImeProm]
+                    Zagrade2(
+                    ) [Zagrade2]
+                  ) [GlobalDeclName]
+                ) [SamoJedno1]
+              ) [GlobalNakonTipa1]
+            ) [GlobalDecl]
+          ) [DeclarationList1]
+          GlobalDecl(
+            GlobalType(
+              Type(
+               bool
+              ) [Type]
+            ) [GlobalType]
+            GlobalNakonTipa1(
+              SamoJedno1(
+                GlobalDeclName(
+                  GlobalDeclImeProm(
+                   ibool
+                  ) [GlobalDeclImeProm]
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [GlobalDeclName]
+              ) [SamoJedno1]
+            ) [GlobalNakonTipa1]
+          ) [GlobalDecl]
+        ) [DeclarationList1]
+        GlobalDecl(
+          GlobalType(
+            Type(
+             int
+            ) [Type]
+          ) [GlobalType]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+                GlobalDeclImeProm(
+                 niz2
+                ) [GlobalDeclImeProm]
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalDecl]
+      ) [DeclarationList1]
+      RecordDecl(
+        RecordName(
+         Test
+        ) [RecordName]
+        VarDeclarations(
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              VarNameDecl(
+               niz
+                Zagrade1(
+                ) [Zagrade1]
+              ) [VarNameDecl]
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarNameDecl(
+             a
+              Zagrade2(
+              ) [Zagrade2]
+            ) [VarNameDecl]
+            NoViseVarDecl(
+            ) [NoViseVarDecl]
+          ) [VarDecl]
+        ) [VarDeclarations]
+      ) [RecordDecl]
+    ) [DeclarationList4]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         Test
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             t1
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               t2
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          NoMethodDecl(
+          ) [NoMethodDecl]
+          MethodDecl(
+            MethodTypeName(
+              PovrTip2(
+                Type(
+                 int
+                ) [Type]
+              ) [PovrTip2]
+             sum
+            ) [MethodTypeName]
+            MultipleFormParam(
+              FormalParamDecls(
+                ViseFormParamDecl(
+                  FormalParamDecl(
+                    Type(
+                     int
+                    ) [Type]
+                   z
+                    Zagrade2(
+                    ) [Zagrade2]
+                  ) [FormalParamDecl]
+                ) [ViseFormParamDecl]
+                SingleFormalParamDecl(
+                  OneFormalP(
+                    FormalParamDecl(
+                      Type(
+                       int
+                      ) [Type]
+                     d
+                      Zagrade2(
+                      ) [Zagrade2]
+                    ) [FormalParamDecl]
+                  ) [OneFormalP]
+                ) [SingleFormalParamDecl]
+              ) [FormalParamDecls]
+            ) [MultipleFormParam]
+            UMetodi(
+            ) [UMetodi]
+            NoVarDecl(
+            ) [NoVarDecl]
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              Statement3(
+                SStat7(
+                  Expr2(
+                    Term2(
+                      Fac7(
+                        Designator(
+                          DesignatorName(
+                           z
+                          ) [DesignatorName]
+                          DDodatno3(
+                          ) [DDodatno3]
+                        ) [Designator]
+                      ) [Fac7]
+                    ) [Term2]
+                    AddT1(
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                      AddO1(
+                      ) [AddO1]
+                      Term2(
+                        Fac7(
+                          Designator(
+                            DesignatorName(
+                             d
+                            ) [DesignatorName]
+                            DDodatno3(
+                            ) [DDodatno3]
+                          ) [Designator]
+                        ) [Fac7]
+                      ) [Term2]
+                    ) [AddT1]
+                  ) [Expr2]
+                ) [SStat7]
+              ) [Statement3]
+            ) [Statements]
+            KrajMetode(
+            ) [KrajMetode]
+          ) [MethodDecl]
+        ) [MethodDeclarations]
+        MethodDecl(
+          MethodTypeName(
+            PovrTip2(
+              Type(
+               int
+              ) [Type]
+            ) [PovrTip2]
+           inkrement
+          ) [MethodTypeName]
+          MultipleFormParam(
+            FormalParamDecls(
+              ViseFormParamDecl(
+                FormalParamDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                  Zagrade2(
+                  ) [Zagrade2]
+                ) [FormalParamDecl]
+              ) [ViseFormParamDecl]
+              SingleFormalParamDecl(
+                OneFormalP(
+                  FormalParamDecl(
+                    Type(
+                     int
+                    ) [Type]
+                   inc
+                    Zagrade2(
+                    ) [Zagrade2]
+                  ) [FormalParamDecl]
+                ) [OneFormalP]
+              ) [SingleFormalParamDecl]
+            ) [FormalParamDecls]
+          ) [MultipleFormParam]
+          UMetodi(
+          ) [UMetodi]
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              VarNameDecl(
+               pom
+                Zagrade2(
+                ) [Zagrade2]
+              ) [VarNameDecl]
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              Statement3(
+                SStat2(
+                  ZaCond(
+                    Cond1(
+                      CondTerm1(
+                        CondFact1(
+                          Expr2(
+                            Term2(
+                              Fac7(
+                                Designator(
+                                  DesignatorName(
+                                   inc
+                                  ) [DesignatorName]
+                                  DDodatno3(
+                                  ) [DDodatno3]
+                                ) [Designator]
+                              ) [Fac7]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                          Relop1(
+                          ) [Relop1]
+                          Expr2(
+                            Term2(
+                              Fac7(
+                                Designator(
+                                  DesignatorName(
+                                   jedan
+                                  ) [DesignatorName]
+                                  DDodatno3(
+                                  ) [DDodatno3]
+                                ) [Designator]
+                              ) [Fac7]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [CondFact1]
+                      ) [CondTerm1]
+                    ) [Cond1]
+                  ) [ZaCond]
+                  Statement3(
+                    SStat1(
+                      DesignatorStatement1(
+                        Designator(
+                          DesignatorName(
+                           pom
+                          ) [DesignatorName]
+                          DDodatno3(
+                          ) [DDodatno3]
+                        ) [Designator]
+                        Assignop(
+                        ) [Assignop]
+                        Expr2(
+                          Term2(
+                            Fac1(
+                              TipConst1(
+                               1
+                              ) [TipConst1]
+                            ) [Fac1]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [DesignatorStatement1]
+                    ) [SStat1]
+                  ) [Statement3]
+                  ElseGrana1(
+                    Statement3(
+                      SStat2(
+                        ZaCond(
+                          Cond1(
+                            CondTerm1(
+                              CondFact1(
+                                Expr2(
+                                  Term2(
+                                    Fac7(
+                                      Designator(
+                                        DesignatorName(
+                                         inc
+                                        ) [DesignatorName]
+                                        DDodatno3(
+                                        ) [DDodatno3]
+                                      ) [Designator]
+                                    ) [Fac7]
+                                  ) [Term2]
+                                  NoAddTerm(
+                                  ) [NoAddTerm]
+                                ) [Expr2]
+                                Relop1(
+                                ) [Relop1]
+                                Expr2(
+                                  Term2(
+                                    Fac1(
+                                      TipConst1(
+                                       2
+                                      ) [TipConst1]
+                                    ) [Fac1]
+                                  ) [Term2]
+                                  NoAddTerm(
+                                  ) [NoAddTerm]
+                                ) [Expr2]
+                              ) [CondFact1]
+                            ) [CondTerm1]
+                          ) [Cond1]
+                        ) [ZaCond]
+                        Statement3(
+                          SStat1(
+                            DesignatorStatement1(
+                              Designator(
+                                DesignatorName(
+                                 pom
+                                ) [DesignatorName]
+                                DDodatno3(
+                                ) [DDodatno3]
+                              ) [Designator]
+                              Assignop(
+                              ) [Assignop]
+                              Expr2(
+                                Term2(
+                                  Fac7(
+                                    Designator(
+                                      DesignatorName(
+                                       a
+                                      ) [DesignatorName]
+                                      DDodatno3(
+                                      ) [DDodatno3]
+                                    ) [Designator]
+                                  ) [Fac7]
+                                ) [Term2]
+                                NoAddTerm(
+                                ) [NoAddTerm]
+                              ) [Expr2]
+                            ) [DesignatorStatement1]
+                          ) [SStat1]
+                        ) [Statement3]
+                        NoElse(
+                        ) [NoElse]
+                      ) [SStat2]
+                    ) [Statement3]
+                  ) [ElseGrana1]
+                ) [SStat2]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat7(
+                Expr2(
+                  Term2(
+                    Fac8(
+                      Designator(
+                        DesignatorName(
+                         sum
+                        ) [DesignatorName]
+                        DDodatno3(
+                        ) [DDodatno3]
+                      ) [Designator]
+                      AP2(
+                        AP1(
+                          Expr2(
+                            Term2(
+                              Fac7(
+                                Designator(
+                                  DesignatorName(
+                                   a
+                                  ) [DesignatorName]
+                                  DDodatno3(
+                                  ) [DDodatno3]
+                                ) [Designator]
+                              ) [Fac7]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                        ) [AP1]
+                        Expr2(
+                          Term2(
+                            Fac7(
+                              Designator(
+                                DesignatorName(
+                                 pom
+                                ) [DesignatorName]
+                                DDodatno3(
+                                ) [DDodatno3]
+                              ) [Designator]
+                            ) [Fac7]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                      ) [AP2]
+                    ) [Fac8]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+              ) [SStat7]
+            ) [Statement3]
+          ) [Statements]
+          KrajMetode(
+          ) [KrajMetode]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip2(
+            Type(
+             bool
+            ) [Type]
+          ) [PovrTip2]
+         verify
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        UMetodi(
+        ) [UMetodi]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Statement3(
+              SStat9(
+                Expr2(
+                  Term2(
+                    Fac1(
+                      TipConst2(
+                       'v'
+                      ) [TipConst2]
+                    ) [Fac1]
+                  ) [Term2]
+                  NoAddTerm(
+                  ) [NoAddTerm]
+                ) [Expr2]
+                NoSStatmen1(
+                ) [NoSStatmen1]
+              ) [SStat9]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat7(
+              Expr2(
+                Term2(
+                  Fac1(
+                    TipConst3(
+                     false
+                    ) [TipConst3]
+                  ) [Fac1]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [SStat7]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              Statements(
+                                                                Statements(
+                                                                  Statements(
+                                                                    Statements(
+                                                                      Statements(
+                                                                        Statements(
+                                                                          Statements(
+                                                                            Statements(
+                                                                              NoStmt(
+                                                                              ) [NoStmt]
+                                                                              Statement3(
+                                                                                SStat2(
+                                                                                  ZaCond(
+                                                                                    Cond1(
+                                                                                      CondTerm1(
+                                                                                        CondFact1(
+                                                                                          Expr2(
+                                                                                            Term2(
+                                                                                              Fac1(
+                                                                                                TipConst1(
+                                                                                                 1
+                                                                                                ) [TipConst1]
+                                                                                              ) [Fac1]
+                                                                                            ) [Term2]
+                                                                                            NoAddTerm(
+                                                                                            ) [NoAddTerm]
+                                                                                          ) [Expr2]
+                                                                                          Relop2(
+                                                                                          ) [Relop2]
+                                                                                          Expr2(
+                                                                                            Term2(
+                                                                                              Fac1(
+                                                                                                TipConst1(
+                                                                                                 1
+                                                                                                ) [TipConst1]
+                                                                                              ) [Fac1]
+                                                                                            ) [Term2]
+                                                                                            NoAddTerm(
+                                                                                            ) [NoAddTerm]
+                                                                                          ) [Expr2]
+                                                                                        ) [CondFact1]
+                                                                                      ) [CondTerm1]
+                                                                                    ) [Cond1]
+                                                                                  ) [ZaCond]
+                                                                                  Statement3(
+                                                                                    SStat9(
+                                                                                      Expr1(
+                                                                                        Term2(
+                                                                                          Fac1(
+                                                                                            TipConst1(
+                                                                                             6
+                                                                                            ) [TipConst1]
+                                                                                          ) [Fac1]
+                                                                                        ) [Term2]
+                                                                                        NoAddTerm(
+                                                                                        ) [NoAddTerm]
+                                                                                      ) [Expr1]
+                                                                                      NoSStatmen1(
+                                                                                      ) [NoSStatmen1]
+                                                                                    ) [SStat9]
+                                                                                  ) [Statement3]
+                                                                                  ElseGrana1(
+                                                                                    Statement3(
+                                                                                      SStat9(
+                                                                                        Expr2(
+                                                                                          Term2(
+                                                                                            Fac1(
+                                                                                              TipConst1(
+                                                                                               0
+                                                                                              ) [TipConst1]
+                                                                                            ) [Fac1]
+                                                                                          ) [Term2]
+                                                                                          NoAddTerm(
+                                                                                          ) [NoAddTerm]
+                                                                                        ) [Expr2]
+                                                                                        NoSStatmen1(
+                                                                                        ) [NoSStatmen1]
+                                                                                      ) [SStat9]
+                                                                                    ) [Statement3]
+                                                                                  ) [ElseGrana1]
+                                                                                ) [SStat2]
+                                                                              ) [Statement3]
+                                                                            ) [Statements]
+                                                                            Statement3(
+                                                                              SStat1(
+                                                                                DesignatorStatement1(
+                                                                                  Designator(
+                                                                                    DesignatorName(
+                                                                                     ibool
+                                                                                    ) [DesignatorName]
+                                                                                    DDodatno3(
+                                                                                    ) [DDodatno3]
+                                                                                  ) [Designator]
+                                                                                  Assignop(
+                                                                                  ) [Assignop]
+                                                                                  Expr2(
+                                                                                    Term2(
+                                                                                      Fac1(
+                                                                                        TipConst3(
+                                                                                         false
+                                                                                        ) [TipConst3]
+                                                                                      ) [Fac1]
+                                                                                    ) [Term2]
+                                                                                    NoAddTerm(
+                                                                                    ) [NoAddTerm]
+                                                                                  ) [Expr2]
+                                                                                ) [DesignatorStatement1]
+                                                                              ) [SStat1]
+                                                                            ) [Statement3]
+                                                                          ) [Statements]
+                                                                          Statement3(
+                                                                            SStat1(
+                                                                              DesignatorStatement1(
+                                                                                Designator(
+                                                                                  DesignatorName(
+                                                                                   i
+                                                                                  ) [DesignatorName]
+                                                                                  DDodatno3(
+                                                                                  ) [DDodatno3]
+                                                                                ) [Designator]
+                                                                                Assignop(
+                                                                                ) [Assignop]
+                                                                                Expr2(
+                                                                                  Term2(
+                                                                                    Fac1(
+                                                                                      TipConst1(
+                                                                                       0
+                                                                                      ) [TipConst1]
+                                                                                    ) [Fac1]
+                                                                                  ) [Term2]
+                                                                                  NoAddTerm(
+                                                                                  ) [NoAddTerm]
+                                                                                ) [Expr2]
+                                                                              ) [DesignatorStatement1]
+                                                                            ) [SStat1]
+                                                                          ) [Statement3]
+                                                                        ) [Statements]
+                                                                        Statement3(
+                                                                          SStat3(
+                                                                            StatDO(
+                                                                            ) [StatDO]
+                                                                            Statement2(
+                                                                              Statements1(
+                                                                                Statements(
+                                                                                  Statements(
+                                                                                    NoStmt(
+                                                                                    ) [NoStmt]
+                                                                                    Statement3(
+                                                                                      SStat2(
+                                                                                        ZaCond(
+                                                                                          Cond1(
+                                                                                            CondTerm1(
+                                                                                              CondFact1(
+                                                                                                Expr2(
+                                                                                                  Term2(
+                                                                                                    Fac7(
+                                                                                                      Designator(
+                                                                                                        DesignatorName(
+                                                                                                         i
+                                                                                                        ) [DesignatorName]
+                                                                                                        DDodatno3(
+                                                                                                        ) [DDodatno3]
+                                                                                                      ) [Designator]
+                                                                                                    ) [Fac7]
+                                                                                                  ) [Term2]
+                                                                                                  NoAddTerm(
+                                                                                                  ) [NoAddTerm]
+                                                                                                ) [Expr2]
+                                                                                                Relop1(
+                                                                                                ) [Relop1]
+                                                                                                Expr2(
+                                                                                                  Term2(
+                                                                                                    Fac1(
+                                                                                                      TipConst1(
+                                                                                                       2
+                                                                                                      ) [TipConst1]
+                                                                                                    ) [Fac1]
+                                                                                                  ) [Term2]
+                                                                                                  NoAddTerm(
+                                                                                                  ) [NoAddTerm]
+                                                                                                ) [Expr2]
+                                                                                              ) [CondFact1]
+                                                                                            ) [CondTerm1]
+                                                                                          ) [Cond1]
+                                                                                        ) [ZaCond]
+                                                                                        Statement3(
+                                                                                          SStat1(
+                                                                                            DesignatorStatement1(
+                                                                                              Designator(
+                                                                                                DesignatorName(
+                                                                                                 ibool
+                                                                                                ) [DesignatorName]
+                                                                                                DDodatno3(
+                                                                                                ) [DDodatno3]
+                                                                                              ) [Designator]
+                                                                                              Assignop(
+                                                                                              ) [Assignop]
+                                                                                              Expr2(
+                                                                                                Term2(
+                                                                                                  Fac1(
+                                                                                                    TipConst3(
+                                                                                                     true
+                                                                                                    ) [TipConst3]
+                                                                                                  ) [Fac1]
+                                                                                                ) [Term2]
+                                                                                                NoAddTerm(
+                                                                                                ) [NoAddTerm]
+                                                                                              ) [Expr2]
+                                                                                            ) [DesignatorStatement1]
+                                                                                          ) [SStat1]
+                                                                                        ) [Statement3]
+                                                                                        NoElse(
+                                                                                        ) [NoElse]
+                                                                                      ) [SStat2]
+                                                                                    ) [Statement3]
+                                                                                  ) [Statements]
+                                                                                  Statement3(
+                                                                                    SStat1(
+                                                                                      DesignatorStatement4(
+                                                                                        Designator(
+                                                                                          DesignatorName(
+                                                                                           i
+                                                                                          ) [DesignatorName]
+                                                                                          DDodatno3(
+                                                                                          ) [DDodatno3]
+                                                                                        ) [Designator]
+                                                                                      ) [DesignatorStatement4]
+                                                                                    ) [SStat1]
+                                                                                  ) [Statement3]
+                                                                                ) [Statements]
+                                                                              ) [Statements1]
+                                                                            ) [Statement2]
+                                                                            Cond1(
+                                                                              CondTerm1(
+                                                                                CondFact1(
+                                                                                  Expr2(
+                                                                                    Term2(
+                                                                                      Fac7(
+                                                                                        Designator(
+                                                                                          DesignatorName(
+                                                                                           i
+                                                                                          ) [DesignatorName]
+                                                                                          DDodatno3(
+                                                                                          ) [DDodatno3]
+                                                                                        ) [Designator]
+                                                                                      ) [Fac7]
+                                                                                    ) [Term2]
+                                                                                    NoAddTerm(
+                                                                                    ) [NoAddTerm]
+                                                                                  ) [Expr2]
+                                                                                  Relop4(
+                                                                                  ) [Relop4]
+                                                                                  Expr2(
+                                                                                    Term2(
+                                                                                      Fac1(
+                                                                                        TipConst1(
+                                                                                         5
+                                                                                        ) [TipConst1]
+                                                                                      ) [Fac1]
+                                                                                    ) [Term2]
+                                                                                    NoAddTerm(
+                                                                                    ) [NoAddTerm]
+                                                                                  ) [Expr2]
+                                                                                ) [CondFact1]
+                                                                              ) [CondTerm1]
+                                                                            ) [Cond1]
+                                                                          ) [SStat3]
+                                                                        ) [Statement3]
+                                                                      ) [Statements]
+                                                                      Statement3(
+                                                                        SStat2(
+                                                                          ZaCond(
+                                                                            Cond1(
+                                                                              CondTerm1(
+                                                                                CondFact2(
+                                                                                  Expr2(
+                                                                                    Term2(
+                                                                                      Fac7(
+                                                                                        Designator(
+                                                                                          DesignatorName(
+                                                                                           ibool
+                                                                                          ) [DesignatorName]
+                                                                                          DDodatno3(
+                                                                                          ) [DDodatno3]
+                                                                                        ) [Designator]
+                                                                                      ) [Fac7]
+                                                                                    ) [Term2]
+                                                                                    NoAddTerm(
+                                                                                    ) [NoAddTerm]
+                                                                                  ) [Expr2]
+                                                                                ) [CondFact2]
+                                                                              ) [CondTerm1]
+                                                                            ) [Cond1]
+                                                                          ) [ZaCond]
+                                                                          Statement3(
+                                                                            SStat2(
+                                                                              ZaCond(
+                                                                                Cond1(
+                                                                                  CondTerm1(
+                                                                                    CondFact1(
+                                                                                      Expr2(
+                                                                                        Term2(
+                                                                                          Fac7(
+                                                                                            Designator(
+                                                                                              DesignatorName(
+                                                                                               i
+                                                                                              ) [DesignatorName]
+                                                                                              DDodatno3(
+                                                                                              ) [DDodatno3]
+                                                                                            ) [Designator]
+                                                                                          ) [Fac7]
+                                                                                        ) [Term2]
+                                                                                        NoAddTerm(
+                                                                                        ) [NoAddTerm]
+                                                                                      ) [Expr2]
+                                                                                      Relop1(
+                                                                                      ) [Relop1]
+                                                                                      Expr2(
+                                                                                        Term2(
+                                                                                          Fac1(
+                                                                                            TipConst1(
+                                                                                             5
+                                                                                            ) [TipConst1]
+                                                                                          ) [Fac1]
+                                                                                        ) [Term2]
+                                                                                        NoAddTerm(
+                                                                                        ) [NoAddTerm]
+                                                                                      ) [Expr2]
+                                                                                    ) [CondFact1]
+                                                                                  ) [CondTerm1]
+                                                                                ) [Cond1]
+                                                                              ) [ZaCond]
+                                                                              Statement3(
+                                                                                SStat9(
+                                                                                  Expr2(
+                                                                                    Term2(
+                                                                                      Fac1(
+                                                                                        TipConst1(
+                                                                                         1
+                                                                                        ) [TipConst1]
+                                                                                      ) [Fac1]
+                                                                                    ) [Term2]
+                                                                                    NoAddTerm(
+                                                                                    ) [NoAddTerm]
+                                                                                  ) [Expr2]
+                                                                                  NoSStatmen1(
+                                                                                  ) [NoSStatmen1]
+                                                                                ) [SStat9]
+                                                                              ) [Statement3]
+                                                                              ElseGrana1(
+                                                                                Statement3(
+                                                                                  SStat9(
+                                                                                    Expr1(
+                                                                                      Term2(
+                                                                                        Fac1(
+                                                                                          TipConst1(
+                                                                                           1
+                                                                                          ) [TipConst1]
+                                                                                        ) [Fac1]
+                                                                                      ) [Term2]
+                                                                                      NoAddTerm(
+                                                                                      ) [NoAddTerm]
+                                                                                    ) [Expr1]
+                                                                                    NoSStatmen1(
+                                                                                    ) [NoSStatmen1]
+                                                                                  ) [SStat9]
+                                                                                ) [Statement3]
+                                                                              ) [ElseGrana1]
+                                                                            ) [SStat2]
+                                                                          ) [Statement3]
+                                                                          NoElse(
+                                                                          ) [NoElse]
+                                                                        ) [SStat2]
+                                                                      ) [Statement3]
+                                                                    ) [Statements]
+                                                                    Statement3(
+                                                                      SStat1(
+                                                                        DesignatorStatement1(
+                                                                          Designator(
+                                                                            DesignatorName(
+                                                                             t1
+                                                                            ) [DesignatorName]
+                                                                            DDodatno3(
+                                                                            ) [DDodatno3]
+                                                                          ) [Designator]
+                                                                          Assignop(
+                                                                          ) [Assignop]
+                                                                          Expr2(
+                                                                            Term2(
+                                                                              Fac10(
+                                                                                Type(
+                                                                                 Test
+                                                                                ) [Type]
+                                                                              ) [Fac10]
+                                                                            ) [Term2]
+                                                                            NoAddTerm(
+                                                                            ) [NoAddTerm]
+                                                                          ) [Expr2]
+                                                                        ) [DesignatorStatement1]
+                                                                      ) [SStat1]
+                                                                    ) [Statement3]
+                                                                  ) [Statements]
+                                                                  Statement3(
+                                                                    SStat1(
+                                                                      DesignatorStatement1(
+                                                                        Designator(
+                                                                          DesignatorName(
+                                                                           t1
+                                                                          ) [DesignatorName]
+                                                                          DDodatno1(
+                                                                            DDodatno3(
+                                                                            ) [DDodatno3]
+                                                                           a
+                                                                          ) [DDodatno1]
+                                                                        ) [Designator]
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        Expr2(
+                                                                          Term2(
+                                                                            Fac1(
+                                                                              TipConst1(
+                                                                               2
+                                                                              ) [TipConst1]
+                                                                            ) [Fac1]
+                                                                          ) [Term2]
+                                                                          NoAddTerm(
+                                                                          ) [NoAddTerm]
+                                                                        ) [Expr2]
+                                                                      ) [DesignatorStatement1]
+                                                                    ) [SStat1]
+                                                                  ) [Statement3]
+                                                                ) [Statements]
+                                                                Statement3(
+                                                                  SStat1(
+                                                                    DesignatorStatement1(
+                                                                      Designator(
+                                                                        DesignatorName(
+                                                                         t1
+                                                                        ) [DesignatorName]
+                                                                        DDodatno1(
+                                                                          DDodatno3(
+                                                                          ) [DDodatno3]
+                                                                         niz
+                                                                        ) [DDodatno1]
+                                                                      ) [Designator]
+                                                                      Assignop(
+                                                                      ) [Assignop]
+                                                                      Expr2(
+                                                                        Term2(
+                                                                          Fac5(
+                                                                            Type(
+                                                                             int
+                                                                            ) [Type]
+                                                                            Expr2(
+                                                                              Term2(
+                                                                                Fac1(
+                                                                                  TipConst1(
+                                                                                   3
+                                                                                  ) [TipConst1]
+                                                                                ) [Fac1]
+                                                                              ) [Term2]
+                                                                              NoAddTerm(
+                                                                              ) [NoAddTerm]
+                                                                            ) [Expr2]
+                                                                          ) [Fac5]
+                                                                        ) [Term2]
+                                                                        NoAddTerm(
+                                                                        ) [NoAddTerm]
+                                                                      ) [Expr2]
+                                                                    ) [DesignatorStatement1]
+                                                                  ) [SStat1]
+                                                                ) [Statement3]
+                                                              ) [Statements]
+                                                              Statement3(
+                                                                SStat1(
+                                                                  DesignatorStatement1(
+                                                                    Designator(
+                                                                      DesignatorName(
+                                                                       t1
+                                                                      ) [DesignatorName]
+                                                                      DDodatno2(
+                                                                        DDodatno1(
+                                                                          DDodatno3(
+                                                                          ) [DDodatno3]
+                                                                         niz
+                                                                        ) [DDodatno1]
+                                                                        Expr2(
+                                                                          Term2(
+                                                                            Fac1(
+                                                                              TipConst1(
+                                                                               0
+                                                                              ) [TipConst1]
+                                                                            ) [Fac1]
+                                                                          ) [Term2]
+                                                                          NoAddTerm(
+                                                                          ) [NoAddTerm]
+                                                                        ) [Expr2]
+                                                                      ) [DDodatno2]
+                                                                    ) [Designator]
+                                                                    Assignop(
+                                                                    ) [Assignop]
+                                                                    Expr2(
+                                                                      Term1(
+                                                                        Fac1(
+                                                                          TipConst1(
+                                                                           1
+                                                                          ) [TipConst1]
+                                                                        ) [Fac1]
+                                                                        MultiF2(
+                                                                          MulO1(
+                                                                          ) [MulO1]
+                                                                          Fac7(
+                                                                            Designator(
+                                                                              DesignatorName(
+                                                                               t1
+                                                                              ) [DesignatorName]
+                                                                              DDodatno1(
+                                                                                DDodatno3(
+                                                                                ) [DDodatno3]
+                                                                               a
+                                                                              ) [DDodatno1]
+                                                                            ) [Designator]
+                                                                          ) [Fac7]
+                                                                        ) [MultiF2]
+                                                                      ) [Term1]
+                                                                      NoAddTerm(
+                                                                      ) [NoAddTerm]
+                                                                    ) [Expr2]
+                                                                  ) [DesignatorStatement1]
+                                                                ) [SStat1]
+                                                              ) [Statement3]
+                                                            ) [Statements]
+                                                            Statement3(
+                                                              SStat1(
+                                                                DesignatorStatement1(
+                                                                  Designator(
+                                                                    DesignatorName(
+                                                                     t1
+                                                                    ) [DesignatorName]
+                                                                    DDodatno2(
+                                                                      DDodatno1(
+                                                                        DDodatno3(
+                                                                        ) [DDodatno3]
+                                                                       niz
+                                                                      ) [DDodatno1]
+                                                                      Expr2(
+                                                                        Term2(
+                                                                          Fac1(
+                                                                            TipConst1(
+                                                                             1
+                                                                            ) [TipConst1]
+                                                                          ) [Fac1]
+                                                                        ) [Term2]
+                                                                        NoAddTerm(
+                                                                        ) [NoAddTerm]
+                                                                      ) [Expr2]
+                                                                    ) [DDodatno2]
+                                                                  ) [Designator]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  Expr2(
+                                                                    Term1(
+                                                                      Fac1(
+                                                                        TipConst1(
+                                                                         2
+                                                                        ) [TipConst1]
+                                                                      ) [Fac1]
+                                                                      MultiF2(
+                                                                        MulO1(
+                                                                        ) [MulO1]
+                                                                        Fac7(
+                                                                          Designator(
+                                                                            DesignatorName(
+                                                                             t1
+                                                                            ) [DesignatorName]
+                                                                            DDodatno1(
+                                                                              DDodatno3(
+                                                                              ) [DDodatno3]
+                                                                             a
+                                                                            ) [DDodatno1]
+                                                                          ) [Designator]
+                                                                        ) [Fac7]
+                                                                      ) [MultiF2]
+                                                                    ) [Term1]
+                                                                    NoAddTerm(
+                                                                    ) [NoAddTerm]
+                                                                  ) [Expr2]
+                                                                ) [DesignatorStatement1]
+                                                              ) [SStat1]
+                                                            ) [Statement3]
+                                                          ) [Statements]
+                                                          Statement3(
+                                                            SStat1(
+                                                              DesignatorStatement1(
+                                                                Designator(
+                                                                  DesignatorName(
+                                                                   t1
+                                                                  ) [DesignatorName]
+                                                                  DDodatno2(
+                                                                    DDodatno1(
+                                                                      DDodatno3(
+                                                                      ) [DDodatno3]
+                                                                     niz
+                                                                    ) [DDodatno1]
+                                                                    Expr2(
+                                                                      Term2(
+                                                                        Fac1(
+                                                                          TipConst1(
+                                                                           2
+                                                                          ) [TipConst1]
+                                                                        ) [Fac1]
+                                                                      ) [Term2]
+                                                                      NoAddTerm(
+                                                                      ) [NoAddTerm]
+                                                                    ) [Expr2]
+                                                                  ) [DDodatno2]
+                                                                ) [Designator]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                Expr2(
+                                                                  Term1(
+                                                                    Fac8(
+                                                                      Designator(
+                                                                        DesignatorName(
+                                                                         sum
+                                                                        ) [DesignatorName]
+                                                                        DDodatno3(
+                                                                        ) [DDodatno3]
+                                                                      ) [Designator]
+                                                                      AP2(
+                                                                        AP1(
+                                                                          Expr2(
+                                                                            Term2(
+                                                                              Fac7(
+                                                                                Designator(
+                                                                                  DesignatorName(
+                                                                                   t1
+                                                                                  ) [DesignatorName]
+                                                                                  DDodatno2(
+                                                                                    DDodatno1(
+                                                                                      DDodatno3(
+                                                                                      ) [DDodatno3]
+                                                                                     niz
+                                                                                    ) [DDodatno1]
+                                                                                    Expr2(
+                                                                                      Term2(
+                                                                                        Fac1(
+                                                                                          TipConst1(
+                                                                                           1
+                                                                                          ) [TipConst1]
+                                                                                        ) [Fac1]
+                                                                                      ) [Term2]
+                                                                                      NoAddTerm(
+                                                                                      ) [NoAddTerm]
+                                                                                    ) [Expr2]
+                                                                                  ) [DDodatno2]
+                                                                                ) [Designator]
+                                                                              ) [Fac7]
+                                                                            ) [Term2]
+                                                                            NoAddTerm(
+                                                                            ) [NoAddTerm]
+                                                                          ) [Expr2]
+                                                                        ) [AP1]
+                                                                        Expr2(
+                                                                          Term2(
+                                                                            Fac7(
+                                                                              Designator(
+                                                                                DesignatorName(
+                                                                                 t1
+                                                                                ) [DesignatorName]
+                                                                                DDodatno2(
+                                                                                  DDodatno1(
+                                                                                    DDodatno3(
+                                                                                    ) [DDodatno3]
+                                                                                   niz
+                                                                                  ) [DDodatno1]
+                                                                                  Expr2(
+                                                                                    Term2(
+                                                                                      Fac1(
+                                                                                        TipConst1(
+                                                                                         0
+                                                                                        ) [TipConst1]
+                                                                                      ) [Fac1]
+                                                                                    ) [Term2]
+                                                                                    NoAddTerm(
+                                                                                    ) [NoAddTerm]
+                                                                                  ) [Expr2]
+                                                                                ) [DDodatno2]
+                                                                              ) [Designator]
+                                                                            ) [Fac7]
+                                                                          ) [Term2]
+                                                                          NoAddTerm(
+                                                                          ) [NoAddTerm]
+                                                                        ) [Expr2]
+                                                                      ) [AP2]
+                                                                    ) [Fac8]
+                                                                    MultiF2(
+                                                                      MulO1(
+                                                                      ) [MulO1]
+                                                                      Fac7(
+                                                                        Designator(
+                                                                          DesignatorName(
+                                                                           t1
+                                                                          ) [DesignatorName]
+                                                                          DDodatno1(
+                                                                            DDodatno3(
+                                                                            ) [DDodatno3]
+                                                                           a
+                                                                          ) [DDodatno1]
+                                                                        ) [Designator]
+                                                                      ) [Fac7]
+                                                                    ) [MultiF2]
+                                                                  ) [Term1]
+                                                                  AddT1(
+                                                                    NoAddTerm(
+                                                                    ) [NoAddTerm]
+                                                                    AddO1(
+                                                                    ) [AddO1]
+                                                                    Term2(
+                                                                      Fac1(
+                                                                        TipConst1(
+                                                                         1
+                                                                        ) [TipConst1]
+                                                                      ) [Fac1]
+                                                                    ) [Term2]
+                                                                  ) [AddT1]
+                                                                ) [Expr2]
+                                                              ) [DesignatorStatement1]
+                                                            ) [SStat1]
+                                                          ) [Statement3]
+                                                        ) [Statements]
+                                                        Statement3(
+                                                          SStat9(
+                                                            Expr2(
+                                                              Term2(
+                                                                Fac7(
+                                                                  Designator(
+                                                                    DesignatorName(
+                                                                     eol
+                                                                    ) [DesignatorName]
+                                                                    DDodatno3(
+                                                                    ) [DDodatno3]
+                                                                  ) [Designator]
+                                                                ) [Fac7]
+                                                              ) [Term2]
+                                                              NoAddTerm(
+                                                              ) [NoAddTerm]
+                                                            ) [Expr2]
+                                                            NoSStatmen1(
+                                                            ) [NoSStatmen1]
+                                                          ) [SStat9]
+                                                        ) [Statement3]
+                                                      ) [Statements]
+                                                      Statement3(
+                                                        SStat1(
+                                                          DesignatorStatement1(
+                                                            Designator(
+                                                              DesignatorName(
+                                                               i
+                                                              ) [DesignatorName]
+                                                              DDodatno3(
+                                                              ) [DDodatno3]
+                                                            ) [Designator]
+                                                            Assignop(
+                                                            ) [Assignop]
+                                                            Expr2(
+                                                              Term2(
+                                                                Fac1(
+                                                                  TipConst1(
+                                                                   0
+                                                                  ) [TipConst1]
+                                                                ) [Fac1]
+                                                              ) [Term2]
+                                                              NoAddTerm(
+                                                              ) [NoAddTerm]
+                                                            ) [Expr2]
+                                                          ) [DesignatorStatement1]
+                                                        ) [SStat1]
+                                                      ) [Statement3]
+                                                    ) [Statements]
+                                                    Statement3(
+                                                      SStat3(
+                                                        StatDO(
+                                                        ) [StatDO]
+                                                        Statement2(
+                                                          Statements1(
+                                                            Statements(
+                                                              Statements(
+                                                                Statements(
+                                                                  NoStmt(
+                                                                  ) [NoStmt]
+                                                                  Statement3(
+                                                                    SStat2(
+                                                                      ZaCond(
+                                                                        Cond1(
+                                                                          CondTerm1(
+                                                                            CondFact1(
+                                                                              Expr2(
+                                                                                Term2(
+                                                                                  Fac7(
+                                                                                    Designator(
+                                                                                      DesignatorName(
+                                                                                       i
+                                                                                      ) [DesignatorName]
+                                                                                      DDodatno3(
+                                                                                      ) [DDodatno3]
+                                                                                    ) [Designator]
+                                                                                  ) [Fac7]
+                                                                                ) [Term2]
+                                                                                NoAddTerm(
+                                                                                ) [NoAddTerm]
+                                                                              ) [Expr2]
+                                                                              Relop1(
+                                                                              ) [Relop1]
+                                                                              Expr2(
+                                                                                Term2(
+                                                                                  Fac1(
+                                                                                    TipConst1(
+                                                                                     3
+                                                                                    ) [TipConst1]
+                                                                                  ) [Fac1]
+                                                                                ) [Term2]
+                                                                                NoAddTerm(
+                                                                                ) [NoAddTerm]
+                                                                              ) [Expr2]
+                                                                            ) [CondFact1]
+                                                                          ) [CondTerm1]
+                                                                        ) [Cond1]
+                                                                      ) [ZaCond]
+                                                                      Statement2(
+                                                                        Statements1(
+                                                                          Statements(
+                                                                            Statements(
+                                                                              NoStmt(
+                                                                              ) [NoStmt]
+                                                                              Statement3(
+                                                                                SStat1(
+                                                                                  DesignatorStatement4(
+                                                                                    Designator(
+                                                                                      DesignatorName(
+                                                                                       i
+                                                                                      ) [DesignatorName]
+                                                                                      DDodatno3(
+                                                                                      ) [DDodatno3]
+                                                                                    ) [Designator]
+                                                                                  ) [DesignatorStatement4]
+                                                                                ) [SStat1]
+                                                                              ) [Statement3]
+                                                                            ) [Statements]
+                                                                            Statement3(
+                                                                              SStat5(
+                                                                              ) [SStat5]
+                                                                            ) [Statement3]
+                                                                          ) [Statements]
+                                                                        ) [Statements1]
+                                                                      ) [Statement2]
+                                                                      NoElse(
+                                                                      ) [NoElse]
+                                                                    ) [SStat2]
+                                                                  ) [Statement3]
+                                                                ) [Statements]
+                                                                Statement3(
+                                                                  SStat2(
+                                                                    ZaCond(
+                                                                      Cond1(
+                                                                        CondTerm1(
+                                                                          CondFact1(
+                                                                            Expr2(
+                                                                              Term2(
+                                                                                Fac7(
+                                                                                  Designator(
+                                                                                    DesignatorName(
+                                                                                     i
+                                                                                    ) [DesignatorName]
+                                                                                    DDodatno3(
+                                                                                    ) [DDodatno3]
+                                                                                  ) [Designator]
+                                                                                ) [Fac7]
+                                                                              ) [Term2]
+                                                                              NoAddTerm(
+                                                                              ) [NoAddTerm]
+                                                                            ) [Expr2]
+                                                                            Relop1(
+                                                                            ) [Relop1]
+                                                                            Expr2(
+                                                                              Term2(
+                                                                                Fac1(
+                                                                                  TipConst1(
+                                                                                   4
+                                                                                  ) [TipConst1]
+                                                                                ) [Fac1]
+                                                                              ) [Term2]
+                                                                              NoAddTerm(
+                                                                              ) [NoAddTerm]
+                                                                            ) [Expr2]
+                                                                          ) [CondFact1]
+                                                                        ) [CondTerm1]
+                                                                      ) [Cond1]
+                                                                    ) [ZaCond]
+                                                                    Statement3(
+                                                                      SStat4(
+                                                                      ) [SStat4]
+                                                                    ) [Statement3]
+                                                                    NoElse(
+                                                                    ) [NoElse]
+                                                                  ) [SStat2]
+                                                                ) [Statement3]
+                                                              ) [Statements]
+                                                              Statement3(
+                                                                SStat1(
+                                                                  DesignatorStatement1(
+                                                                    Designator(
+                                                                      DesignatorName(
+                                                                       i
+                                                                      ) [DesignatorName]
+                                                                      DDodatno3(
+                                                                      ) [DDodatno3]
+                                                                    ) [Designator]
+                                                                    Assignop(
+                                                                    ) [Assignop]
+                                                                    Expr2(
+                                                                      Term2(
+                                                                        Fac8(
+                                                                          Designator(
+                                                                            DesignatorName(
+                                                                             inkrement
+                                                                            ) [DesignatorName]
+                                                                            DDodatno3(
+                                                                            ) [DDodatno3]
+                                                                          ) [Designator]
+                                                                          AP2(
+                                                                            AP1(
+                                                                              Expr2(
+                                                                                Term2(
+                                                                                  Fac7(
+                                                                                    Designator(
+                                                                                      DesignatorName(
+                                                                                       i
+                                                                                      ) [DesignatorName]
+                                                                                      DDodatno3(
+                                                                                      ) [DDodatno3]
+                                                                                    ) [Designator]
+                                                                                  ) [Fac7]
+                                                                                ) [Term2]
+                                                                                NoAddTerm(
+                                                                                ) [NoAddTerm]
+                                                                              ) [Expr2]
+                                                                            ) [AP1]
+                                                                            Expr2(
+                                                                              Term2(
+                                                                                Fac1(
+                                                                                  TipConst1(
+                                                                                   1
+                                                                                  ) [TipConst1]
+                                                                                ) [Fac1]
+                                                                              ) [Term2]
+                                                                              NoAddTerm(
+                                                                              ) [NoAddTerm]
+                                                                            ) [Expr2]
+                                                                          ) [AP2]
+                                                                        ) [Fac8]
+                                                                      ) [Term2]
+                                                                      NoAddTerm(
+                                                                      ) [NoAddTerm]
+                                                                    ) [Expr2]
+                                                                  ) [DesignatorStatement1]
+                                                                ) [SStat1]
+                                                              ) [Statement3]
+                                                            ) [Statements]
+                                                          ) [Statements1]
+                                                        ) [Statement2]
+                                                        Cond1(
+                                                          CondTerm1(
+                                                            CondFact1(
+                                                              Expr2(
+                                                                Term2(
+                                                                  Fac7(
+                                                                    Designator(
+                                                                      DesignatorName(
+                                                                       i
+                                                                      ) [DesignatorName]
+                                                                      DDodatno3(
+                                                                      ) [DDodatno3]
+                                                                    ) [Designator]
+                                                                  ) [Fac7]
+                                                                ) [Term2]
+                                                                NoAddTerm(
+                                                                ) [NoAddTerm]
+                                                              ) [Expr2]
+                                                              Relop4(
+                                                              ) [Relop4]
+                                                              Expr2(
+                                                                Term2(
+                                                                  Fac1(
+                                                                    TipConst1(
+                                                                     10
+                                                                    ) [TipConst1]
+                                                                  ) [Fac1]
+                                                                ) [Term2]
+                                                                NoAddTerm(
+                                                                ) [NoAddTerm]
+                                                              ) [Expr2]
+                                                            ) [CondFact1]
+                                                          ) [CondTerm1]
+                                                        ) [Cond1]
+                                                      ) [SStat3]
+                                                    ) [Statement3]
+                                                  ) [Statements]
+                                                  Statement3(
+                                                    SStat2(
+                                                      ZaCond(
+                                                        Cond1(
+                                                          CondTerm2(
+                                                            CondTerm1(
+                                                              CondFact1(
+                                                                Expr2(
+                                                                  Term2(
+                                                                    Fac7(
+                                                                      Designator(
+                                                                        DesignatorName(
+                                                                         i
+                                                                        ) [DesignatorName]
+                                                                        DDodatno3(
+                                                                        ) [DDodatno3]
+                                                                      ) [Designator]
+                                                                    ) [Fac7]
+                                                                  ) [Term2]
+                                                                  NoAddTerm(
+                                                                  ) [NoAddTerm]
+                                                                ) [Expr2]
+                                                                Relop1(
+                                                                ) [Relop1]
+                                                                Expr2(
+                                                                  Term2(
+                                                                    Fac1(
+                                                                      TipConst1(
+                                                                       3
+                                                                      ) [TipConst1]
+                                                                    ) [Fac1]
+                                                                  ) [Term2]
+                                                                  NoAddTerm(
+                                                                  ) [NoAddTerm]
+                                                                ) [Expr2]
+                                                              ) [CondFact1]
+                                                            ) [CondTerm1]
+                                                            CondFact2(
+                                                              Expr2(
+                                                                Term2(
+                                                                  Fac6(
+                                                                    Designator(
+                                                                      DesignatorName(
+                                                                       verify
+                                                                      ) [DesignatorName]
+                                                                      DDodatno3(
+                                                                      ) [DDodatno3]
+                                                                    ) [Designator]
+                                                                  ) [Fac6]
+                                                                ) [Term2]
+                                                                NoAddTerm(
+                                                                ) [NoAddTerm]
+                                                              ) [Expr2]
+                                                            ) [CondFact2]
+                                                          ) [CondTerm2]
+                                                        ) [Cond1]
+                                                      ) [ZaCond]
+                                                      Statement3(
+                                                        SStat9(
+                                                          Expr1(
+                                                            Term2(
+                                                              Fac1(
+                                                                TipConst1(
+                                                                 4
+                                                                ) [TipConst1]
+                                                              ) [Fac1]
+                                                            ) [Term2]
+                                                            NoAddTerm(
+                                                            ) [NoAddTerm]
+                                                          ) [Expr1]
+                                                          NoSStatmen1(
+                                                          ) [NoSStatmen1]
+                                                        ) [SStat9]
+                                                      ) [Statement3]
+                                                      ElseGrana1(
+                                                        Statement3(
+                                                          SStat9(
+                                                            Expr2(
+                                                              Term2(
+                                                                Fac1(
+                                                                  TipConst1(
+                                                                   4
+                                                                  ) [TipConst1]
+                                                                ) [Fac1]
+                                                              ) [Term2]
+                                                              NoAddTerm(
+                                                              ) [NoAddTerm]
+                                                            ) [Expr2]
+                                                            NoSStatmen1(
+                                                            ) [NoSStatmen1]
+                                                          ) [SStat9]
+                                                        ) [Statement3]
+                                                      ) [ElseGrana1]
+                                                    ) [SStat2]
+                                                  ) [Statement3]
+                                                ) [Statements]
+                                                Statement3(
+                                                  SStat8(
+                                                    Designator(
+                                                      DesignatorName(
+                                                       t1
+                                                      ) [DesignatorName]
+                                                      DDodatno2(
+                                                        DDodatno1(
+                                                          DDodatno3(
+                                                          ) [DDodatno3]
+                                                         niz
+                                                        ) [DDodatno1]
+                                                        Expr2(
+                                                          Term2(
+                                                            Fac1(
+                                                              TipConst1(
+                                                               0
+                                                              ) [TipConst1]
+                                                            ) [Fac1]
+                                                          ) [Term2]
+                                                          NoAddTerm(
+                                                          ) [NoAddTerm]
+                                                        ) [Expr2]
+                                                      ) [DDodatno2]
+                                                    ) [Designator]
+                                                  ) [SStat8]
+                                                ) [Statement3]
+                                              ) [Statements]
+                                              Statement3(
+                                                SStat8(
+                                                  Designator(
+                                                    DesignatorName(
+                                                     t1
+                                                    ) [DesignatorName]
+                                                    DDodatno2(
+                                                      DDodatno1(
+                                                        DDodatno3(
+                                                        ) [DDodatno3]
+                                                       niz
+                                                      ) [DDodatno1]
+                                                      Expr2(
+                                                        Term2(
+                                                          Fac1(
+                                                            TipConst1(
+                                                             1
+                                                            ) [TipConst1]
+                                                          ) [Fac1]
+                                                        ) [Term2]
+                                                        NoAddTerm(
+                                                        ) [NoAddTerm]
+                                                      ) [Expr2]
+                                                    ) [DDodatno2]
+                                                  ) [Designator]
+                                                ) [SStat8]
+                                              ) [Statement3]
+                                            ) [Statements]
+                                            Statement3(
+                                              SStat8(
+                                                Designator(
+                                                  DesignatorName(
+                                                   t1
+                                                  ) [DesignatorName]
+                                                  DDodatno2(
+                                                    DDodatno1(
+                                                      DDodatno3(
+                                                      ) [DDodatno3]
+                                                     niz
+                                                    ) [DDodatno1]
+                                                    Expr2(
+                                                      Term2(
+                                                        Fac1(
+                                                          TipConst1(
+                                                           2
+                                                          ) [TipConst1]
+                                                        ) [Fac1]
+                                                      ) [Term2]
+                                                      NoAddTerm(
+                                                      ) [NoAddTerm]
+                                                    ) [Expr2]
+                                                  ) [DDodatno2]
+                                                ) [Designator]
+                                              ) [SStat8]
+                                            ) [Statement3]
+                                          ) [Statements]
+                                          Statement3(
+                                            SStat9(
+                                              Expr2(
+                                                Term2(
+                                                  Fac7(
+                                                    Designator(
+                                                      DesignatorName(
+                                                       eol
+                                                      ) [DesignatorName]
+                                                      DDodatno3(
+                                                      ) [DDodatno3]
+                                                    ) [Designator]
+                                                  ) [Fac7]
+                                                ) [Term2]
+                                                NoAddTerm(
+                                                ) [NoAddTerm]
+                                              ) [Expr2]
+                                              NoSStatmen1(
+                                              ) [NoSStatmen1]
+                                            ) [SStat9]
+                                          ) [Statement3]
+                                        ) [Statements]
+                                        Statement3(
+                                          SStat9(
+                                            Expr2(
+                                              Term2(
+                                                Fac8(
+                                                  Designator(
+                                                    DesignatorName(
+                                                     sum
+                                                    ) [DesignatorName]
+                                                    DDodatno3(
+                                                    ) [DDodatno3]
+                                                  ) [Designator]
+                                                  AP2(
+                                                    AP1(
+                                                      Expr2(
+                                                        Term2(
+                                                          Fac8(
+                                                            Designator(
+                                                              DesignatorName(
+                                                               sum
+                                                              ) [DesignatorName]
+                                                              DDodatno3(
+                                                              ) [DDodatno3]
+                                                            ) [Designator]
+                                                            AP2(
+                                                              AP1(
+                                                                Expr2(
+                                                                  Term2(
+                                                                    Fac7(
+                                                                      Designator(
+                                                                        DesignatorName(
+                                                                         t1
+                                                                        ) [DesignatorName]
+                                                                        DDodatno2(
+                                                                          DDodatno1(
+                                                                            DDodatno3(
+                                                                            ) [DDodatno3]
+                                                                           niz
+                                                                          ) [DDodatno1]
+                                                                          Expr2(
+                                                                            Term2(
+                                                                              Fac1(
+                                                                                TipConst1(
+                                                                                 0
+                                                                                ) [TipConst1]
+                                                                              ) [Fac1]
+                                                                            ) [Term2]
+                                                                            NoAddTerm(
+                                                                            ) [NoAddTerm]
+                                                                          ) [Expr2]
+                                                                        ) [DDodatno2]
+                                                                      ) [Designator]
+                                                                    ) [Fac7]
+                                                                  ) [Term2]
+                                                                  NoAddTerm(
+                                                                  ) [NoAddTerm]
+                                                                ) [Expr2]
+                                                              ) [AP1]
+                                                              Expr2(
+                                                                Term2(
+                                                                  Fac7(
+                                                                    Designator(
+                                                                      DesignatorName(
+                                                                       t1
+                                                                      ) [DesignatorName]
+                                                                      DDodatno2(
+                                                                        DDodatno1(
+                                                                          DDodatno3(
+                                                                          ) [DDodatno3]
+                                                                         niz
+                                                                        ) [DDodatno1]
+                                                                        Expr2(
+                                                                          Term2(
+                                                                            Fac1(
+                                                                              TipConst1(
+                                                                               1
+                                                                              ) [TipConst1]
+                                                                            ) [Fac1]
+                                                                          ) [Term2]
+                                                                          NoAddTerm(
+                                                                          ) [NoAddTerm]
+                                                                        ) [Expr2]
+                                                                      ) [DDodatno2]
+                                                                    ) [Designator]
+                                                                  ) [Fac7]
+                                                                ) [Term2]
+                                                                NoAddTerm(
+                                                                ) [NoAddTerm]
+                                                              ) [Expr2]
+                                                            ) [AP2]
+                                                          ) [Fac8]
+                                                        ) [Term2]
+                                                        NoAddTerm(
+                                                        ) [NoAddTerm]
+                                                      ) [Expr2]
+                                                    ) [AP1]
+                                                    Expr2(
+                                                      Term2(
+                                                        Fac7(
+                                                          Designator(
+                                                            DesignatorName(
+                                                             t1
+                                                            ) [DesignatorName]
+                                                            DDodatno2(
+                                                              DDodatno1(
+                                                                DDodatno3(
+                                                                ) [DDodatno3]
+                                                               niz
+                                                              ) [DDodatno1]
+                                                              Expr2(
+                                                                Term2(
+                                                                  Fac1(
+                                                                    TipConst1(
+                                                                     2
+                                                                    ) [TipConst1]
+                                                                  ) [Fac1]
+                                                                ) [Term2]
+                                                                NoAddTerm(
+                                                                ) [NoAddTerm]
+                                                              ) [Expr2]
+                                                            ) [DDodatno2]
+                                                          ) [Designator]
+                                                        ) [Fac7]
+                                                      ) [Term2]
+                                                      NoAddTerm(
+                                                      ) [NoAddTerm]
+                                                    ) [Expr2]
+                                                  ) [AP2]
+                                                ) [Fac8]
+                                              ) [Term2]
+                                              NoAddTerm(
+                                              ) [NoAddTerm]
+                                            ) [Expr2]
+                                            NoSStatmen1(
+                                            ) [NoSStatmen1]
+                                          ) [SStat9]
+                                        ) [Statement3]
+                                      ) [Statements]
+                                      Statement3(
+                                        SStat9(
+                                          Expr2(
+                                            Term2(
+                                              Fac7(
+                                                Designator(
+                                                  DesignatorName(
+                                                   eol
+                                                  ) [DesignatorName]
+                                                  DDodatno3(
+                                                  ) [DDodatno3]
+                                                ) [Designator]
+                                              ) [Fac7]
+                                            ) [Term2]
+                                            NoAddTerm(
+                                            ) [NoAddTerm]
+                                          ) [Expr2]
+                                          NoSStatmen1(
+                                          ) [NoSStatmen1]
+                                        ) [SStat9]
+                                      ) [Statement3]
+                                    ) [Statements]
+                                    Statement3(
+                                      SStat9(
+                                        Expr2(
+                                          Term2(
+                                            Fac8(
+                                              Designator(
+                                                DesignatorName(
+                                                 inkrement
+                                                ) [DesignatorName]
+                                                DDodatno3(
+                                                ) [DDodatno3]
+                                              ) [Designator]
+                                              AP2(
+                                                AP1(
+                                                  Expr2(
+                                                    Term2(
+                                                      Fac7(
+                                                        Designator(
+                                                          DesignatorName(
+                                                           t1
+                                                          ) [DesignatorName]
+                                                          DDodatno2(
+                                                            DDodatno1(
+                                                              DDodatno3(
+                                                              ) [DDodatno3]
+                                                             niz
+                                                            ) [DDodatno1]
+                                                            Expr2(
+                                                              Term2(
+                                                                Fac1(
+                                                                  TipConst1(
+                                                                   2
+                                                                  ) [TipConst1]
+                                                                ) [Fac1]
+                                                              ) [Term2]
+                                                              NoAddTerm(
+                                                              ) [NoAddTerm]
+                                                            ) [Expr2]
+                                                          ) [DDodatno2]
+                                                        ) [Designator]
+                                                      ) [Fac7]
+                                                    ) [Term2]
+                                                    NoAddTerm(
+                                                    ) [NoAddTerm]
+                                                  ) [Expr2]
+                                                ) [AP1]
+                                                Expr2(
+                                                  Term2(
+                                                    Fac1(
+                                                      TipConst1(
+                                                       2
+                                                      ) [TipConst1]
+                                                    ) [Fac1]
+                                                  ) [Term2]
+                                                  NoAddTerm(
+                                                  ) [NoAddTerm]
+                                                ) [Expr2]
+                                              ) [AP2]
+                                            ) [Fac8]
+                                          ) [Term2]
+                                          NoAddTerm(
+                                          ) [NoAddTerm]
+                                        ) [Expr2]
+                                        NoSStatmen1(
+                                        ) [NoSStatmen1]
+                                      ) [SStat9]
+                                    ) [Statement3]
+                                  ) [Statements]
+                                  Statement3(
+                                    SStat1(
+                                      DesignatorStatement1(
+                                        Designator(
+                                          DesignatorName(
+                                           t2
+                                          ) [DesignatorName]
+                                          DDodatno3(
+                                          ) [DDodatno3]
+                                        ) [Designator]
+                                        Assignop(
+                                        ) [Assignop]
+                                        Expr2(
+                                          Term2(
+                                            Fac10(
+                                              Type(
+                                               Test
+                                              ) [Type]
+                                            ) [Fac10]
+                                          ) [Term2]
+                                          NoAddTerm(
+                                          ) [NoAddTerm]
+                                        ) [Expr2]
+                                      ) [DesignatorStatement1]
+                                    ) [SStat1]
+                                  ) [Statement3]
+                                ) [Statements]
+                                Statement3(
+                                  SStat1(
+                                    DesignatorStatement1(
+                                      Designator(
+                                        DesignatorName(
+                                         t2
+                                        ) [DesignatorName]
+                                        DDodatno1(
+                                          DDodatno3(
+                                          ) [DDodatno3]
+                                         a
+                                        ) [DDodatno1]
+                                      ) [Designator]
+                                      Assignop(
+                                      ) [Assignop]
+                                      Expr2(
+                                        Term2(
+                                          Fac1(
+                                            TipConst1(
+                                             3
+                                            ) [TipConst1]
+                                          ) [Fac1]
+                                        ) [Term2]
+                                        NoAddTerm(
+                                        ) [NoAddTerm]
+                                      ) [Expr2]
+                                    ) [DesignatorStatement1]
+                                  ) [SStat1]
+                                ) [Statement3]
+                              ) [Statements]
+                              Statement3(
+                                SStat1(
+                                  DesignatorStatement1(
+                                    Designator(
+                                      DesignatorName(
+                                       t2
+                                      ) [DesignatorName]
+                                      DDodatno1(
+                                        DDodatno3(
+                                        ) [DDodatno3]
+                                       niz
+                                      ) [DDodatno1]
+                                    ) [Designator]
+                                    Assignop(
+                                    ) [Assignop]
+                                    Expr2(
+                                      Term2(
+                                        Fac5(
+                                          Type(
+                                           int
+                                          ) [Type]
+                                          Expr2(
+                                            Term2(
+                                              Fac1(
+                                                TipConst1(
+                                                 3
+                                                ) [TipConst1]
+                                              ) [Fac1]
+                                            ) [Term2]
+                                            NoAddTerm(
+                                            ) [NoAddTerm]
+                                          ) [Expr2]
+                                        ) [Fac5]
+                                      ) [Term2]
+                                      NoAddTerm(
+                                      ) [NoAddTerm]
+                                    ) [Expr2]
+                                  ) [DesignatorStatement1]
+                                ) [SStat1]
+                              ) [Statement3]
+                            ) [Statements]
+                            Statement3(
+                              SStat1(
+                                DesignatorStatement1(
+                                  Designator(
+                                    DesignatorName(
+                                     i
+                                    ) [DesignatorName]
+                                    DDodatno3(
+                                    ) [DDodatno3]
+                                  ) [Designator]
+                                  Assignop(
+                                  ) [Assignop]
+                                  Expr2(
+                                    Term2(
+                                      Fac1(
+                                        TipConst1(
+                                         0
+                                        ) [TipConst1]
+                                      ) [Fac1]
+                                    ) [Term2]
+                                    NoAddTerm(
+                                    ) [NoAddTerm]
+                                  ) [Expr2]
+                                ) [DesignatorStatement1]
+                              ) [SStat1]
+                            ) [Statement3]
+                          ) [Statements]
+                          Statement3(
+                            SStat3(
+                              StatDO(
+                              ) [StatDO]
+                              Statement2(
+                                Statements1(
+                                  Statements(
+                                    Statements(
+                                      NoStmt(
+                                      ) [NoStmt]
+                                      Statement3(
+                                        SStat1(
+                                          DesignatorStatement1(
+                                            Designator(
+                                              DesignatorName(
+                                               t2
+                                              ) [DesignatorName]
+                                              DDodatno2(
+                                                DDodatno1(
+                                                  DDodatno3(
+                                                  ) [DDodatno3]
+                                                 niz
+                                                ) [DDodatno1]
+                                                Expr2(
+                                                  Term2(
+                                                    Fac7(
+                                                      Designator(
+                                                        DesignatorName(
+                                                         i
+                                                        ) [DesignatorName]
+                                                        DDodatno3(
+                                                        ) [DDodatno3]
+                                                      ) [Designator]
+                                                    ) [Fac7]
+                                                  ) [Term2]
+                                                  NoAddTerm(
+                                                  ) [NoAddTerm]
+                                                ) [Expr2]
+                                              ) [DDodatno2]
+                                            ) [Designator]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Expr2(
+                                              Term2(
+                                                Fac1(
+                                                  TipConst1(
+                                                   2
+                                                  ) [TipConst1]
+                                                ) [Fac1]
+                                              ) [Term2]
+                                              NoAddTerm(
+                                              ) [NoAddTerm]
+                                            ) [Expr2]
+                                          ) [DesignatorStatement1]
+                                        ) [SStat1]
+                                      ) [Statement3]
+                                    ) [Statements]
+                                    Statement3(
+                                      SStat1(
+                                        DesignatorStatement4(
+                                          Designator(
+                                            DesignatorName(
+                                             i
+                                            ) [DesignatorName]
+                                            DDodatno3(
+                                            ) [DDodatno3]
+                                          ) [Designator]
+                                        ) [DesignatorStatement4]
+                                      ) [SStat1]
+                                    ) [Statement3]
+                                  ) [Statements]
+                                ) [Statements1]
+                              ) [Statement2]
+                              Cond1(
+                                CondTerm1(
+                                  CondFact1(
+                                    Expr2(
+                                      Term2(
+                                        Fac7(
+                                          Designator(
+                                            DesignatorName(
+                                             i
+                                            ) [DesignatorName]
+                                            DDodatno3(
+                                            ) [DDodatno3]
+                                          ) [Designator]
+                                        ) [Fac7]
+                                      ) [Term2]
+                                      NoAddTerm(
+                                      ) [NoAddTerm]
+                                    ) [Expr2]
+                                    Relop4(
+                                    ) [Relop4]
+                                    Expr2(
+                                      Term2(
+                                        Fac1(
+                                          TipConst1(
+                                           3
+                                          ) [TipConst1]
+                                        ) [Fac1]
+                                      ) [Term2]
+                                      NoAddTerm(
+                                      ) [NoAddTerm]
+                                    ) [Expr2]
+                                  ) [CondFact1]
+                                ) [CondTerm1]
+                              ) [Cond1]
+                            ) [SStat3]
+                          ) [Statement3]
+                        ) [Statements]
+                        Statement3(
+                          SStat9(
+                            Expr2(
+                              Term2(
+                                Fac7(
+                                  Designator(
+                                    DesignatorName(
+                                     t2
+                                    ) [DesignatorName]
+                                    DDodatno2(
+                                      DDodatno1(
+                                        DDodatno3(
+                                        ) [DDodatno3]
+                                       niz
+                                      ) [DDodatno1]
+                                      Expr2(
+                                        Term2(
+                                          Fac1(
+                                            TipConst1(
+                                             0
+                                            ) [TipConst1]
+                                          ) [Fac1]
+                                        ) [Term2]
+                                        NoAddTerm(
+                                        ) [NoAddTerm]
+                                      ) [Expr2]
+                                    ) [DDodatno2]
+                                  ) [Designator]
+                                ) [Fac7]
+                              ) [Term2]
+                              NoAddTerm(
+                              ) [NoAddTerm]
+                            ) [Expr2]
+                            NoSStatmen1(
+                            ) [NoSStatmen1]
+                          ) [SStat9]
+                        ) [Statement3]
+                      ) [Statements]
+                      Statement3(
+                        SStat9(
+                          Expr2(
+                            Term2(
+                              Fac7(
+                                Designator(
+                                  DesignatorName(
+                                   t2
+                                  ) [DesignatorName]
+                                  DDodatno2(
+                                    DDodatno1(
+                                      DDodatno3(
+                                      ) [DDodatno3]
+                                     niz
+                                    ) [DDodatno1]
+                                    Expr2(
+                                      Term2(
+                                        Fac1(
+                                          TipConst1(
+                                           1
+                                          ) [TipConst1]
+                                        ) [Fac1]
+                                      ) [Term2]
+                                      NoAddTerm(
+                                      ) [NoAddTerm]
+                                    ) [Expr2]
+                                  ) [DDodatno2]
+                                ) [Designator]
+                              ) [Fac7]
+                            ) [Term2]
+                            NoAddTerm(
+                            ) [NoAddTerm]
+                          ) [Expr2]
+                          NoSStatmen1(
+                          ) [NoSStatmen1]
+                        ) [SStat9]
+                      ) [Statement3]
+                    ) [Statements]
+                    Statement3(
+                      SStat9(
+                        Expr2(
+                          Term2(
+                            Fac7(
+                              Designator(
+                                DesignatorName(
+                                 t2
+                                ) [DesignatorName]
+                                DDodatno2(
+                                  DDodatno1(
+                                    DDodatno3(
+                                    ) [DDodatno3]
+                                   niz
+                                  ) [DDodatno1]
+                                  Expr2(
+                                    Term2(
+                                      Fac1(
+                                        TipConst1(
+                                         2
+                                        ) [TipConst1]
+                                      ) [Fac1]
+                                    ) [Term2]
+                                    NoAddTerm(
+                                    ) [NoAddTerm]
+                                  ) [Expr2]
+                                ) [DDodatno2]
+                              ) [Designator]
+                            ) [Fac7]
+                          ) [Term2]
+                          NoAddTerm(
+                          ) [NoAddTerm]
+                        ) [Expr2]
+                        NoSStatmen1(
+                        ) [NoSStatmen1]
+                      ) [SStat9]
+                    ) [Statement3]
+                  ) [Statements]
+                  Statement3(
+                    SStat9(
+                      Expr2(
+                        Term2(
+                          Fac7(
+                            Designator(
+                              DesignatorName(
+                               eol
+                              ) [DesignatorName]
+                              DDodatno3(
+                              ) [DDodatno3]
+                            ) [Designator]
+                          ) [Fac7]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                      NoSStatmen1(
+                      ) [NoSStatmen1]
+                    ) [SStat9]
+                  ) [Statement3]
+                ) [Statements]
+                Statement3(
+                  SStat1(
+                    DesignatorStatement1(
+                      Designator(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        DDodatno3(
+                        ) [DDodatno3]
+                      ) [Designator]
+                      Assignop(
+                      ) [Assignop]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst1(
+                             0
+                            ) [TipConst1]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [DesignatorStatement1]
+                  ) [SStat1]
+                ) [Statement3]
+              ) [Statements]
+              Statement3(
+                SStat1(
+                  DesignatorStatement1(
+                    Designator(
+                      DesignatorName(
+                       niz2
+                      ) [DesignatorName]
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Designator]
+                    Assignop(
+                    ) [Assignop]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                          TipConst1(
+                           0
+                          ) [TipConst1]
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [DesignatorStatement1]
+                ) [SStat1]
+              ) [Statement3]
+            ) [Statements]
+            Statement3(
+              SStat3(
+                StatDO(
+                ) [StatDO]
+                Statement2(
+                  Statements1(
+                    Statements(
+                      NoStmt(
+                      ) [NoStmt]
+                      Statement3(
+                        SStat1(
+                          DesignatorStatement4(
+                            Designator(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                              DDodatno3(
+                              ) [DDodatno3]
+                            ) [Designator]
+                          ) [DesignatorStatement4]
+                        ) [SStat1]
+                      ) [Statement3]
+                    ) [Statements]
+                  ) [Statements1]
+                ) [Statement2]
+                Cond1(
+                  CondTerm1(
+                    CondFact1(
+                      Expr2(
+                        Term2(
+                          Fac7(
+                            Designator(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                              DDodatno3(
+                              ) [DDodatno3]
+                            ) [Designator]
+                          ) [Fac7]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                      Relop4(
+                      ) [Relop4]
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst1(
+                             3
+                            ) [TipConst1]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [CondFact1]
+                  ) [CondTerm1]
+                ) [Cond1]
+              ) [SStat3]
+            ) [Statement3]
+          ) [Statements]
+          Statement3(
+            SStat9(
+              Expr2(
+                Term2(
+                  Fac7(
+                    Designator(
+                      DesignatorName(
+                       niz2
+                      ) [DesignatorName]
+                      DDodatno3(
+                      ) [DDodatno3]
+                    ) [Designator]
+                  ) [Fac7]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+              NoSStatmen1(
+              ) [NoSStatmen1]
+            ) [SStat9]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat9(
+            Expr2(
+              Term2(
+                Fac7(
+                  Designator(
+                    DesignatorName(
+                     eol
+                    ) [DesignatorName]
+                    DDodatno3(
+                    ) [DDodatno3]
+                  ) [Designator]
+                ) [Fac7]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+            NoSStatmen1(
+            ) [NoSStatmen1]
+          ) [SStat9]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  18:14:43,050 - ===================================
+INFO  18:14:43,057 - Dodat je const simbol sa imenomjedan na liniji 5
+INFO  18:14:43,057 - Deklarisana promenljiva i na liniji 7
+INFO  18:14:43,057 - Deklarisana promenljiva ibool na liniji 8
+INFO  18:14:43,057 - Deklarisana promenljiva niz2 na liniji 10
+INFO  18:14:43,057 - JESTE NIZ na liniji 13
+INFO  18:14:43,058 - 1ovo je dodatno na liniji 14
+INFO  18:14:43,058 - Deklarisana promenljiva t1 na liniji 17
+INFO  18:14:43,058 - Deklarisana promenljiva t2 na liniji 17
+INFO  18:14:43,058 - Obradjuje se funkcija sum na liniji 21
+INFO  18:14:43,058 - UAAAA0 na liniji 23
+INFO  18:14:43,059 - UAAAA0 na liniji 23
+INFO  18:14:43,059 - ovo je currMeth 1 na liniji 23
+INFO  18:14:43,059 - ovo je sstat7 1 na liniji 23
+INFO  18:14:43,059 - Obradjuje se funkcija inkrement na liniji 26
+INFO  18:14:43,059 - 1ovo je dodatno na liniji 27
+INFO  18:14:43,059 - UAAAA0 na liniji 29
+INFO  18:14:43,059 - UAAAA0 na liniji 29
+INFO  18:14:43,059 - UAAAA0 na liniji 29
+INFO  18:14:43,060 - UAAAA0 na liniji 30
+INFO  18:14:43,060 - UAAAA0 na liniji 30
+INFO  18:14:43,060 - UAAAA0 na liniji 30
+INFO  18:14:43,060 - UAAAA0 na liniji 32
+INFO  18:14:43,060 - UAAAA0 na liniji 32
+INFO  18:14:43,060 - UAAAA0 na liniji 32
+INFO  18:14:43,060 - Parametri su ispravni za metodu sum na liniji 32
+INFO  18:14:43,060 - ovo je currMeth 1 na liniji 32
+INFO  18:14:43,060 - ovo je sstat7 1 na liniji 32
+INFO  18:14:43,060 - Obradjuje se funkcija verify na liniji 35
+INFO  18:14:43,061 - ovo je currMeth 5 na liniji 37
+INFO  18:14:43,061 - ovo je sstat7 5 na liniji 37
+INFO  18:14:43,061 - Obradjuje se funkcija main na liniji 40
+INFO  18:14:43,061 - UAAAA0 na liniji 45
+INFO  18:14:43,061 - UAAAA0 na liniji 46
+INFO  18:14:43,061 - UAAAA0 na liniji 48
+INFO  18:14:43,061 - UAAAA0 na liniji 48
+INFO  18:14:43,061 - UAAAA0 na liniji 49
+INFO  18:14:43,061 - UAAAA0 na liniji 50
+INFO  18:14:43,061 - UAAAA0 na liniji 52
+INFO  18:14:43,062 - UAAAA0 na liniji 53
+INFO  18:14:43,062 - UAAAA0 na liniji 55
+INFO  18:14:43,062 - Jeste klasaTest na liniji 55
+INFO  18:14:43,062 - Uslo dodatno1 na liniji 2
+INFO  18:14:43,062 - 4haha na liniji 2
+INFO  18:14:43,062 - jel naslo type0 na liniji 2
+INFO  18:14:43,062 - uslo ovde                a na liniji 2
+INFO  18:14:43,062 - 0velicina na liniji 2
+INFO  18:14:43,063 - 2velicina ovo na liniji 2
+INFO  18:14:43,063 - DA PROVERIM STA SAM NASAO           1 na liniji 2
+INFO  18:14:43,063 - Nadjeno polje klase na liniji 2
+INFO  18:14:43,063 - Ispod nadjeno        noObj na liniji 2
+INFO  18:14:43,063 - a na liniji 2
+INFO  18:14:43,063 - izaslo dodatno3 na liniji 2
+INFO  18:14:43,063 - Uslo dodatno1 na liniji 2
+INFO  18:14:43,064 - 4haha na liniji 2
+INFO  18:14:43,064 - jel naslo type0 na liniji 2
+INFO  18:14:43,064 - uslo ovde                niz na liniji 2
+INFO  18:14:43,064 - 0velicina na liniji 2
+INFO  18:14:43,064 - 2velicina ovo na liniji 2
+INFO  18:14:43,064 - DA PROVERIM STA SAM NASAO           3 na liniji 2
+INFO  18:14:43,064 - Nadjeno polje klase na liniji 2
+INFO  18:14:43,064 - Ispod nadjeno        noObj na liniji 2
+INFO  18:14:43,064 - niz na liniji 2
+INFO  18:14:43,064 - izaslo dodatno3 na liniji 2
+INFO  18:14:43,064 - Uslo dodatno1 na liniji 2
+INFO  18:14:43,064 - 4haha na liniji 2
+INFO  18:14:43,064 - jel naslo type0 na liniji 2
+INFO  18:14:43,064 - uslo ovde                niz na liniji 2
+INFO  18:14:43,064 - 0velicina na liniji 2
+INFO  18:14:43,064 - 2velicina ovo na liniji 2
+INFO  18:14:43,064 - DA PROVERIM STA SAM NASAO           3 na liniji 2
+INFO  18:14:43,064 - Nadjeno polje klase na liniji 2
+INFO  18:14:43,064 - Ispod nadjeno        noObj na liniji 2
+INFO  18:14:43,064 - niz na liniji 2
+INFO  18:14:43,064 - izaslo dodatno3 na liniji 2
+INFO  18:14:43,065 - uslo dodatno 2 na liniji 2
+INFO  18:14:43,065 - izaslo dodatno 2 na liniji 2
+INFO  18:14:43,065 - GLEDAM JEL USLO OVDE na liniji 58
+INFO  18:14:43,065 - Uslo dodatno1 na liniji 18
+INFO  18:14:43,065 - 4haha na liniji 18
+INFO  18:14:43,065 - jel naslo type0 na liniji 18
+INFO  18:14:43,065 - uslo ovde                a na liniji 18
+INFO  18:14:43,065 - 0velicina na liniji 18
+INFO  18:14:43,065 - 2velicina ovo na liniji 18
+INFO  18:14:43,065 - DA PROVERIM STA SAM NASAO           1 na liniji 18
+INFO  18:14:43,065 - Nadjeno polje klase na liniji 18
+INFO  18:14:43,065 - Ispod nadjeno        noObj na liniji 18
+INFO  18:14:43,065 - a na liniji 18
+INFO  18:14:43,066 - izaslo dodatno3 na liniji 18
+INFO  18:14:43,067 - Uslo dodatno1 na liniji 2
+INFO  18:14:43,067 - 4haha na liniji 2
+INFO  18:14:43,067 - jel naslo type0 na liniji 2
+INFO  18:14:43,068 - uslo ovde                niz na liniji 2
+INFO  18:14:43,068 - 0velicina na liniji 2
+INFO  18:14:43,068 - 2velicina ovo na liniji 2
+INFO  18:14:43,068 - DA PROVERIM STA SAM NASAO           3 na liniji 2
+INFO  18:14:43,068 - Nadjeno polje klase na liniji 2
+INFO  18:14:43,068 - Ispod nadjeno        noObj na liniji 2
+INFO  18:14:43,068 - niz na liniji 2
+INFO  18:14:43,068 - izaslo dodatno3 na liniji 2
+INFO  18:14:43,068 - uslo dodatno 2 na liniji 2
+INFO  18:14:43,068 - izaslo dodatno 2 na liniji 2
+INFO  18:14:43,068 - GLEDAM JEL USLO OVDE na liniji 59
+INFO  18:14:43,069 - Uslo dodatno1 na liniji 18
+INFO  18:14:43,069 - 4haha na liniji 18
+INFO  18:14:43,069 - jel naslo type0 na liniji 18
+INFO  18:14:43,069 - uslo ovde                a na liniji 18
+INFO  18:14:43,069 - 0velicina na liniji 18
+INFO  18:14:43,069 - 2velicina ovo na liniji 18
+INFO  18:14:43,069 - DA PROVERIM STA SAM NASAO           1 na liniji 18
+INFO  18:14:43,069 - Nadjeno polje klase na liniji 18
+INFO  18:14:43,070 - Ispod nadjeno        noObj na liniji 18
+INFO  18:14:43,070 - a na liniji 18
+INFO  18:14:43,070 - izaslo dodatno3 na liniji 18
+INFO  18:14:43,070 - Uslo dodatno1 na liniji 2
+INFO  18:14:43,070 - 4haha na liniji 2
+INFO  18:14:43,070 - jel naslo type0 na liniji 2
+INFO  18:14:43,070 - uslo ovde                niz na liniji 2
+INFO  18:14:43,070 - 0velicina na liniji 2
+INFO  18:14:43,071 - 2velicina ovo na liniji 2
+INFO  18:14:43,071 - DA PROVERIM STA SAM NASAO           3 na liniji 2
+INFO  18:14:43,071 - Nadjeno polje klase na liniji 2
+INFO  18:14:43,071 - Ispod nadjeno        noObj na liniji 2
+INFO  18:14:43,071 - niz na liniji 2
+INFO  18:14:43,071 - izaslo dodatno3 na liniji 2
+INFO  18:14:43,071 - uslo dodatno 2 na liniji 2
+INFO  18:14:43,071 - izaslo dodatno 2 na liniji 2
+INFO  18:14:43,071 - GLEDAM JEL USLO OVDE na liniji 60
+INFO  18:14:43,071 - UAAAA0 na liniji 60
+INFO  18:14:43,071 - Uslo dodatno1 na liniji 18
+INFO  18:14:43,071 - 4haha na liniji 18
+INFO  18:14:43,071 - jel naslo type0 na liniji 18
+INFO  18:14:43,071 - uslo ovde                niz na liniji 18
+INFO  18:14:43,071 - 0velicina na liniji 18
+INFO  18:14:43,071 - 2velicina ovo na liniji 18
+INFO  18:14:43,071 - DA PROVERIM STA SAM NASAO           3 na liniji 18
+INFO  18:14:43,071 - Nadjeno polje klase na liniji 18
+INFO  18:14:43,071 - Ispod nadjeno        noObj na liniji 18
+INFO  18:14:43,071 - niz na liniji 18
+INFO  18:14:43,071 - izaslo dodatno3 na liniji 18
+INFO  18:14:43,071 - uslo dodatno 2 na liniji 18
+INFO  18:14:43,071 - izaslo dodatno 2 na liniji 18
+INFO  18:14:43,071 - GLEDAM JEL USLO OVDE na liniji 60
+INFO  18:14:43,072 - Uslo dodatno1 na liniji 29
+INFO  18:14:43,072 - 4haha na liniji 29
+INFO  18:14:43,072 - jel naslo type0 na liniji 29
+INFO  18:14:43,072 - uslo ovde                niz na liniji 29
+INFO  18:14:43,072 - 0velicina na liniji 29
+INFO  18:14:43,072 - 2velicina ovo na liniji 29
+INFO  18:14:43,072 - DA PROVERIM STA SAM NASAO           3 na liniji 29
+INFO  18:14:43,072 - Nadjeno polje klase na liniji 29
+INFO  18:14:43,072 - Ispod nadjeno        noObj na liniji 29
+INFO  18:14:43,072 - niz na liniji 29
+INFO  18:14:43,072 - izaslo dodatno3 na liniji 29
+INFO  18:14:43,072 - uslo dodatno 2 na liniji 29
+INFO  18:14:43,072 - izaslo dodatno 2 na liniji 29
+INFO  18:14:43,072 - GLEDAM JEL USLO OVDE na liniji 60
+INFO  18:14:43,072 - Parametri su ispravni za metodu sum na liniji 60
+INFO  18:14:43,072 - Uslo dodatno1 na liniji 42
+INFO  18:14:43,072 - 4haha na liniji 42
+INFO  18:14:43,072 - jel naslo type0 na liniji 42
+INFO  18:14:43,072 - uslo ovde                a na liniji 42
+INFO  18:14:43,072 - 0velicina na liniji 42
+INFO  18:14:43,072 - 2velicina ovo na liniji 42
+INFO  18:14:43,072 - DA PROVERIM STA SAM NASAO           1 na liniji 42
+INFO  18:14:43,072 - Nadjeno polje klase na liniji 42
+INFO  18:14:43,072 - Ispod nadjeno        noObj na liniji 42
+INFO  18:14:43,072 - a na liniji 42
+INFO  18:14:43,072 - izaslo dodatno3 na liniji 42
+INFO  18:14:43,072 - UAAAA0 na liniji 63
+INFO  18:14:43,072 - UAAAA0 na liniji 64
+INFO  18:14:43,072 - UAAAA0 na liniji 66
+INFO  18:14:43,072 - UAAAA0 na liniji 68
+INFO  18:14:43,072 - UAAAA0 na liniji 71
+ERROR 18:14:43,072 - Greska, naredba break se mora naci u do while petlji
+INFO  18:14:43,072 - UAAAA0 na liniji 72
+INFO  18:14:43,072 - UAAAA0 na liniji 72
+INFO  18:14:43,072 - UAAAA0 na liniji 72
+INFO  18:14:43,072 - Parametri su ispravni za metodu inkrement na liniji 72
+INFO  18:14:43,072 - UAAAA0 na liniji 73
+INFO  18:14:43,072 - UAAAA0 na liniji 75
+INFO  18:14:43,072 - UAAAA0 na liniji 75
+INFO  18:14:43,073 - Uslo dodatno1 na liniji 7
+INFO  18:14:43,073 - 4haha na liniji 7
+INFO  18:14:43,073 - jel naslo type0 na liniji 7
+INFO  18:14:43,073 - uslo ovde                niz na liniji 7
+INFO  18:14:43,073 - 0velicina na liniji 7
+INFO  18:14:43,073 - 2velicina ovo na liniji 7
+INFO  18:14:43,073 - DA PROVERIM STA SAM NASAO           3 na liniji 7
+INFO  18:14:43,073 - Nadjeno polje klase na liniji 7
+INFO  18:14:43,073 - Ispod nadjeno        noObj na liniji 7
+INFO  18:14:43,073 - niz na liniji 7
+INFO  18:14:43,073 - izaslo dodatno3 na liniji 7
+INFO  18:14:43,073 - uslo dodatno 2 na liniji 7
+INFO  18:14:43,073 - izaslo dodatno 2 na liniji 7
+INFO  18:14:43,073 - GLEDAM JEL USLO OVDE na liniji 78
+INFO  18:14:43,073 - Uslo dodatno1 na liniji 7
+INFO  18:14:43,073 - 4haha na liniji 7
+INFO  18:14:43,073 - jel naslo type0 na liniji 7
+INFO  18:14:43,073 - uslo ovde                niz na liniji 7
+INFO  18:14:43,073 - 0velicina na liniji 7
+INFO  18:14:43,073 - 2velicina ovo na liniji 7
+INFO  18:14:43,073 - DA PROVERIM STA SAM NASAO           3 na liniji 7
+INFO  18:14:43,073 - Nadjeno polje klase na liniji 7
+INFO  18:14:43,073 - Ispod nadjeno        noObj na liniji 7
+INFO  18:14:43,073 - niz na liniji 7
+INFO  18:14:43,074 - izaslo dodatno3 na liniji 7
+INFO  18:14:43,074 - uslo dodatno 2 na liniji 7
+INFO  18:14:43,074 - izaslo dodatno 2 na liniji 7
+INFO  18:14:43,074 - GLEDAM JEL USLO OVDE na liniji 79
+INFO  18:14:43,074 - Uslo dodatno1 na liniji 7
+INFO  18:14:43,074 - 4haha na liniji 7
+INFO  18:14:43,074 - jel naslo type0 na liniji 7
+INFO  18:14:43,074 - uslo ovde                niz na liniji 7
+INFO  18:14:43,074 - 0velicina na liniji 7
+INFO  18:14:43,074 - 2velicina ovo na liniji 7
+INFO  18:14:43,074 - DA PROVERIM STA SAM NASAO           3 na liniji 7
+INFO  18:14:43,074 - Nadjeno polje klase na liniji 7
+INFO  18:14:43,074 - Ispod nadjeno        noObj na liniji 7
+INFO  18:14:43,074 - niz na liniji 7
+INFO  18:14:43,074 - izaslo dodatno3 na liniji 7
+INFO  18:14:43,074 - uslo dodatno 2 na liniji 7
+INFO  18:14:43,074 - izaslo dodatno 2 na liniji 7
+INFO  18:14:43,074 - GLEDAM JEL USLO OVDE na liniji 80
+INFO  18:14:43,074 - UAAAA0 na liniji 81
+INFO  18:14:43,074 - UAAAA0 na liniji 83
+INFO  18:14:43,074 - UAAAA0 na liniji 83
+INFO  18:14:43,074 - Uslo dodatno1 na liniji 17
+INFO  18:14:43,074 - 4haha na liniji 17
+INFO  18:14:43,074 - jel naslo type0 na liniji 17
+INFO  18:14:43,074 - uslo ovde                niz na liniji 17
+INFO  18:14:43,074 - 0velicina na liniji 17
+INFO  18:14:43,074 - 2velicina ovo na liniji 17
+INFO  18:14:43,074 - DA PROVERIM STA SAM NASAO           3 na liniji 17
+INFO  18:14:43,074 - Nadjeno polje klase na liniji 17
+INFO  18:14:43,074 - Ispod nadjeno        noObj na liniji 17
+INFO  18:14:43,074 - niz na liniji 17
+INFO  18:14:43,074 - izaslo dodatno3 na liniji 17
+INFO  18:14:43,074 - uslo dodatno 2 na liniji 17
+INFO  18:14:43,074 - izaslo dodatno 2 na liniji 17
+INFO  18:14:43,074 - GLEDAM JEL USLO OVDE na liniji 83
+INFO  18:14:43,074 - Uslo dodatno1 na liniji 28
+INFO  18:14:43,074 - 4haha na liniji 28
+INFO  18:14:43,074 - jel naslo type0 na liniji 28
+INFO  18:14:43,074 - uslo ovde                niz na liniji 28
+INFO  18:14:43,074 - 0velicina na liniji 28
+INFO  18:14:43,074 - 2velicina ovo na liniji 28
+INFO  18:14:43,074 - DA PROVERIM STA SAM NASAO           3 na liniji 28
+INFO  18:14:43,074 - Nadjeno polje klase na liniji 28
+INFO  18:14:43,074 - Ispod nadjeno        noObj na liniji 28
+INFO  18:14:43,074 - niz na liniji 28
+INFO  18:14:43,074 - izaslo dodatno3 na liniji 28
+INFO  18:14:43,074 - uslo dodatno 2 na liniji 28
+INFO  18:14:43,074 - izaslo dodatno 2 na liniji 28
+INFO  18:14:43,074 - GLEDAM JEL USLO OVDE na liniji 83
+INFO  18:14:43,074 - Parametri su ispravni za metodu sum na liniji 83
+INFO  18:14:43,074 - Uslo dodatno1 na liniji 40
+INFO  18:14:43,074 - 4haha na liniji 40
+INFO  18:14:43,075 - jel naslo type0 na liniji 40
+INFO  18:14:43,075 - uslo ovde                niz na liniji 40
+INFO  18:14:43,075 - 0velicina na liniji 40
+INFO  18:14:43,075 - 2velicina ovo na liniji 40
+INFO  18:14:43,075 - DA PROVERIM STA SAM NASAO           3 na liniji 40
+INFO  18:14:43,075 - Nadjeno polje klase na liniji 40
+INFO  18:14:43,075 - Ispod nadjeno        noObj na liniji 40
+INFO  18:14:43,075 - niz na liniji 40
+INFO  18:14:43,075 - izaslo dodatno3 na liniji 40
+INFO  18:14:43,075 - uslo dodatno 2 na liniji 40
+INFO  18:14:43,075 - izaslo dodatno 2 na liniji 40
+INFO  18:14:43,075 - GLEDAM JEL USLO OVDE na liniji 83
+INFO  18:14:43,075 - Parametri su ispravni za metodu sum na liniji 83
+INFO  18:14:43,075 - UAAAA0 na liniji 85
+INFO  18:14:43,075 - UAAAA0 na liniji 86
+INFO  18:14:43,075 - Uslo dodatno1 na liniji 18
+INFO  18:14:43,075 - 4haha na liniji 18
+INFO  18:14:43,075 - jel naslo type0 na liniji 18
+INFO  18:14:43,075 - uslo ovde                niz na liniji 18
+INFO  18:14:43,075 - 0velicina na liniji 18
+INFO  18:14:43,075 - 2velicina ovo na liniji 18
+INFO  18:14:43,075 - DA PROVERIM STA SAM NASAO           3 na liniji 18
+INFO  18:14:43,075 - Nadjeno polje klase na liniji 18
+INFO  18:14:43,075 - Ispod nadjeno        noObj na liniji 18
+INFO  18:14:43,075 - niz na liniji 18
+INFO  18:14:43,075 - izaslo dodatno3 na liniji 18
+INFO  18:14:43,075 - uslo dodatno 2 na liniji 18
+INFO  18:14:43,076 - izaslo dodatno 2 na liniji 18
+INFO  18:14:43,076 - GLEDAM JEL USLO OVDE na liniji 86
+INFO  18:14:43,076 - Parametri su ispravni za metodu inkrement na liniji 86
+INFO  18:14:43,076 - UAAAA0 na liniji 88
+INFO  18:14:43,076 - Jeste klasaTest na liniji 88
+INFO  18:14:43,076 - Uslo dodatno1 na liniji 2
+INFO  18:14:43,076 - 4haha na liniji 2
+INFO  18:14:43,076 - jel naslo type0 na liniji 2
+INFO  18:14:43,076 - uslo ovde                a na liniji 2
+INFO  18:14:43,076 - 0velicina na liniji 2
+INFO  18:14:43,076 - 2velicina ovo na liniji 2
+INFO  18:14:43,076 - DA PROVERIM STA SAM NASAO           1 na liniji 2
+INFO  18:14:43,076 - Nadjeno polje klase na liniji 2
+INFO  18:14:43,076 - Ispod nadjeno        noObj na liniji 2
+INFO  18:14:43,076 - a na liniji 2
+INFO  18:14:43,076 - izaslo dodatno3 na liniji 2
+INFO  18:14:43,076 - Uslo dodatno1 na liniji 2
+INFO  18:14:43,076 - 4haha na liniji 2
+INFO  18:14:43,076 - jel naslo type0 na liniji 2
+INFO  18:14:43,076 - uslo ovde                niz na liniji 2
+INFO  18:14:43,076 - 0velicina na liniji 2
+INFO  18:14:43,076 - 2velicina ovo na liniji 2
+INFO  18:14:43,076 - DA PROVERIM STA SAM NASAO           3 na liniji 2
+INFO  18:14:43,076 - Nadjeno polje klase na liniji 2
+INFO  18:14:43,076 - Ispod nadjeno        noObj na liniji 2
+INFO  18:14:43,076 - niz na liniji 2
+INFO  18:14:43,076 - izaslo dodatno3 na liniji 2
+INFO  18:14:43,076 - UAAAA0 na liniji 91
+INFO  18:14:43,076 - Uslo dodatno1 na liniji 3
+INFO  18:14:43,076 - 4haha na liniji 3
+INFO  18:14:43,077 - jel naslo type0 na liniji 3
+INFO  18:14:43,077 - uslo ovde                niz na liniji 3
+INFO  18:14:43,077 - 0velicina na liniji 3
+INFO  18:14:43,077 - 2velicina ovo na liniji 3
+INFO  18:14:43,077 - DA PROVERIM STA SAM NASAO           3 na liniji 3
+INFO  18:14:43,077 - Nadjeno polje klase na liniji 3
+INFO  18:14:43,077 - Ispod nadjeno        noObj na liniji 3
+INFO  18:14:43,077 - niz na liniji 3
+INFO  18:14:43,077 - izaslo dodatno3 na liniji 3
+ERROR 18:14:43,077 - Greska, neterminal Expr mora biti tipa int! na liniji 3
+INFO  18:14:43,077 - UAAAA0 na liniji 93
+ERROR 18:14:43,077 - Greska, mora biti niz!t2 na liniji 93
+INFO  18:14:43,077 - t2iznad element na liniji 93
+INFO  18:14:43,077 - Jeste null na liniji 93

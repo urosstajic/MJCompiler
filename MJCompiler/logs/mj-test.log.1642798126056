@@ -1,0 +1,150 @@
+INFO  21:47:33,498 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  21:47:33,568 - #2 program
+INFO  21:47:33,568 - #48 test302
+INFO  21:47:33,568 - #35 const
+INFO  21:47:33,570 - #48 int
+INFO  21:47:33,570 - #48 jedan
+INFO  21:47:33,572 - #7 =
+INFO  21:47:33,572 - #45 1
+INFO  21:47:33,572 - #6 ;
+INFO  21:47:33,573 - #48 int
+INFO  21:47:33,574 - #48 ha
+INFO  21:47:33,575 - #6 ;
+INFO  21:47:33,578 - #16 {
+INFO  21:47:33,580 - #19 void
+INFO  21:47:33,581 - #48 main
+INFO  21:47:33,581 - #3 (
+INFO  21:47:33,582 - #4 )
+INFO  21:47:33,583 - #16 {
+INFO  21:47:33,587 - #48 ha
+INFO  21:47:33,588 - #7 =
+INFO  21:47:33,591 - #48 ord
+INFO  21:47:33,592 - #3 (
+INFO  21:47:33,593 - #46 'v'
+INFO  21:47:33,593 - #4 )
+INFO  21:47:33,595 - #6 ;
+INFO  21:47:33,595 - #17 }
+INFO  21:47:33,597 - #17 }
+INFO  21:47:33,606 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList2(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        ConstIzraz(
+         jedan
+          TipConst1(
+           1
+          ) [TipConst1]
+        ) [ConstIzraz]
+        DodatnoCD1(
+        ) [DodatnoCD1]
+      ) [ConstDecl]
+    ) [DeclarationList2]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa1(
+        SamoJedno1(
+          GlobalDeclName(
+            GlobalDeclImeProm(
+             ha
+            ) [GlobalDeclImeProm]
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [SamoJedno1]
+      ) [GlobalNakonTipa1]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      UMetodi(
+      ) [UMetodi]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Designator(
+                DesignatorName(
+                 ha
+                ) [DesignatorName]
+                NoDesDodatno(
+                ) [NoDesDodatno]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+              Expr2(
+                Term2(
+                  Fac8(
+                    Designator(
+                      DesignatorName(
+                       ord
+                      ) [DesignatorName]
+                      NoDesDodatno(
+                      ) [NoDesDodatno]
+                    ) [Designator]
+                    AP1(
+                      Expr2(
+                        Term2(
+                          Fac1(
+                            TipConst2(
+                             'v'
+                            ) [TipConst2]
+                          ) [Fac1]
+                        ) [Term2]
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                      ) [Expr2]
+                    ) [AP1]
+                  ) [Fac8]
+                ) [Term2]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [Expr2]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  21:47:33,627 - ===================================
+INFO  21:47:33,636 - Dodat je const simbol sa imenomjedan na liniji 7
+INFO  21:47:33,638 - Deklarisana promenljiva ha na liniji 8
+INFO  21:47:33,639 - Obradjuje se funkcija main na liniji 13
+INFO  21:47:33,639 - TIP DESIGNATOR1 na liniji 15
+INFO  21:47:33,639 - TIP DESIGNATOR1 na liniji 15
+INFO  21:47:33,639 - ha     imeee     1 na liniji 15
+INFO  21:47:33,639 - TIPOVI SU KOMPATIBILNI! na liniji 15
+INFO  21:47:33,639 - Postoji main
+INFO  21:47:33,640 - ===================================
+INFO  21:47:33,657 - Parsiranje uspesno zavrseno!

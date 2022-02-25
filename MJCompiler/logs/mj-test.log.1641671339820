@@ -1,0 +1,210 @@
+INFO  20:48:41,278 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  20:48:41,450 - #2 program
+INFO  20:48:41,451 - #48 mojProg
+INFO  20:48:41,451 - #36 class
+INFO  20:48:41,454 - #48 neka
+INFO  20:48:41,454 - #16 {
+INFO  20:48:41,456 - #48 int
+INFO  20:48:41,457 - #48 fff
+INFO  20:48:41,460 - #6 ;
+INFO  20:48:41,463 - #17 }
+INFO  20:48:41,467 - #48 int
+INFO  20:48:41,468 - #48 a
+INFO  20:48:41,472 - #6 ;
+INFO  20:48:41,476 - #35 const
+INFO  20:48:41,478 - #48 int
+INFO  20:48:41,479 - #48 b
+INFO  20:48:41,490 - #7 =
+INFO  20:48:41,490 - #45 5
+INFO  20:48:41,492 - #6 ;
+INFO  20:48:41,496 - #16 {
+INFO  20:48:41,506 - #19 void
+INFO  20:48:41,507 - #48 main
+INFO  20:48:41,510 - #3 (
+INFO  20:48:41,512 - #4 )
+INFO  20:48:41,512 - #16 {
+INFO  20:48:41,514 - #48 a
+INFO  20:48:41,515 - #8 ++
+INFO  20:48:41,519 - #6 ;
+INFO  20:48:41,519 - #17 }
+INFO  20:48:41,520 - #48 char
+INFO  20:48:41,523 - #48 funck
+INFO  20:48:41,523 - #3 (
+INFO  20:48:41,523 - #4 )
+INFO  20:48:41,523 - #48 int
+INFO  20:48:41,524 - #48 c
+INFO  20:48:41,524 - #6 ;
+INFO  20:48:41,524 - #16 {
+INFO  20:48:41,524 - #26 return
+INFO  20:48:41,524 - #46 'v'
+INFO  20:48:41,524 - #6 ;
+INFO  20:48:41,529 - #17 }
+INFO  20:48:41,530 - #17 }
+INFO  20:48:41,538 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      DeclarationList3(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        ClassDecl1(
+          ClassName(
+           neka
+          ) [ClassName]
+          NoIzvodjenje(
+          ) [NoIzvodjenje]
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+             fff
+              Zagrade2(
+              ) [Zagrade2]
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          NoUnutarKlase(
+          ) [NoUnutarKlase]
+        ) [ClassDecl1]
+      ) [DeclarationList3]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          PovrTip1(
+          ) [PovrTip1]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        KrajMetode(
+        ) [KrajMetode]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip2(
+          Type(
+           char
+          ) [Type]
+        ) [PovrTip2]
+       funck
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+         c
+          Zagrade2(
+          ) [Zagrade2]
+          NoViseVarDecl(
+          ) [NoViseVarDecl]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                  TipConst2(
+                   'v'
+                  ) [TipConst2]
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+      KrajMetode(
+      ) [KrajMetode]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+  KrajPrograma(
+  ) [KrajPrograma]
+) [Program]
+INFO  20:48:41,556 - ===================================
+INFO  20:48:41,576 - Dodata klasa na liniji 3
+INFO  20:48:41,577 - Deklarisana promenljiva a na liniji 7
+INFO  20:48:41,577 - Dodat je const simbol sa imenomb na liniji 8
+INFO  20:48:41,583 - Obradjuje se funkcija main na liniji 12
+INFO  20:48:41,583 - Obradjuje se funkcija funck na liniji 18
+INFO  20:48:41,584 - ovo je currMeth 2 na liniji 20
+INFO  20:48:41,584 - ovo je sstat7 2 na liniji 20
+INFO  20:48:41,584 - Postoji main
+INFO  20:48:41,584 - ===================================

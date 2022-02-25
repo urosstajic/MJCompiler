@@ -1,0 +1,72 @@
+INFO  21:14:38,402 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  21:14:38,466 - #2 program
+INFO  21:14:38,466 - #38 mojProg
+INFO  21:14:38,466 - #16 {
+INFO  21:14:38,468 - #38 int
+INFO  21:14:38,469 - #38 pom
+INFO  21:14:38,470 - #3 (
+INFO  21:14:38,470 - #38 int
+INFO  21:14:38,470 - #38 a
+INFO  21:14:38,470 - #24 ,
+INFO  21:14:38,471 - #38 double
+INFO  21:14:38,471 - #38 h
+INFO  21:14:38,471 - #4 )
+INFO  21:14:38,471 - #16 {
+INFO  21:14:38,472 - #38 nesto
+INFO  21:14:38,472 - #8 ++
+INFO  21:14:38,473 - #6 ;
+INFO  21:14:38,473 - #17 }
+INFO  21:14:38,474 - #17 }
+INFO  21:14:38,478 - Program(
+  PName(
+   mojProg
+  ) [PName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     pom
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDeclDerived1(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclDerived1]
+          ) [SingleFormalParamDecl]
+          FormalParamDeclDerived1(
+            Type(
+             double
+            ) [Type]
+           h
+          ) [FormalParamDeclDerived1]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statementss(
+        NoStmt(
+        ) [NoStmt]
+        Stat2(
+          SStat1(
+            DStat2(
+              Des1(
+               nesto
+              ) [Des1]
+            ) [DStat2]
+          ) [SStat1]
+        ) [Stat2]
+      ) [Statementss]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:14:38,479 - ===================================
+INFO  21:14:38,482 -  Print count calls = 0
+INFO  21:14:38,483 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,106 @@
+INFO  16:01:42,482 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  16:01:42,598 - #2 program
+INFO  16:01:42,598 - #48 mojProg
+INFO  16:01:42,598 - #48 int
+INFO  16:01:42,600 - #48 i
+INFO  16:01:42,602 - #6 ;
+INFO  16:01:42,606 - #35 const
+INFO  16:01:42,607 - #48 int
+INFO  16:01:42,607 - #48 b
+INFO  16:01:42,608 - #7 =
+INFO  16:01:42,608 - #45 5
+INFO  16:01:42,608 - #6 ;
+INFO  16:01:42,610 - #16 {
+INFO  16:01:42,611 - #19 void
+INFO  16:01:42,612 - #48 main
+INFO  16:01:42,613 - #3 (
+INFO  16:01:42,614 - #4 )
+INFO  16:01:42,615 - #16 {
+INFO  16:01:42,617 - #26 return
+INFO  16:01:42,618 - #45 5
+INFO  16:01:42,618 - #6 ;
+INFO  16:01:42,620 - #17 }
+INFO  16:01:42,621 - #17 }
+INFO  16:01:42,625 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               i
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat7(
+            Expr2(
+              Term2(
+                Fac1(
+                 5
+                ) [Fac1]
+              ) [Term2]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [Expr2]
+          ) [SStat7]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:01:42,636 - ===================================
+INFO  16:01:42,642 - Deklarisana promenljiva i na liniji 2
+INFO  16:01:42,643 - Dodat je const simbol sa imenomb na liniji 3
+INFO  16:01:42,643 - Obradjuje se funkcija main na liniji 6
+ERROR 16:01:42,643 - Greska na liniji 7 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije main
+INFO  16:01:42,644 - Postoji main na liniji 1
+INFO  16:01:42,644 - ===================================

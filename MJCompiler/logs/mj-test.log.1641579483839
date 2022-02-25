@@ -1,0 +1,159 @@
+INFO  18:06:43,972 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  18:06:44,087 - #2 program
+INFO  18:06:44,087 - #48 mojProg
+INFO  18:06:44,087 - #48 int
+INFO  18:06:44,089 - #48 a
+INFO  18:06:44,091 - #6 ;
+INFO  18:06:44,093 - #35 const
+INFO  18:06:44,094 - #48 int
+INFO  18:06:44,095 - #48 b
+INFO  18:06:44,095 - #7 =
+INFO  18:06:44,095 - #45 5
+INFO  18:06:44,096 - #6 ;
+INFO  18:06:44,097 - #16 {
+INFO  18:06:44,098 - #19 void
+INFO  18:06:44,099 - #48 main
+INFO  18:06:44,099 - #3 (
+INFO  18:06:44,100 - #4 )
+INFO  18:06:44,100 - #16 {
+INFO  18:06:44,101 - #48 a
+INFO  18:06:44,102 - #8 ++
+INFO  18:06:44,105 - #6 ;
+INFO  18:06:44,105 - #10 if
+INFO  18:06:44,106 - #3 (
+INFO  18:06:44,106 - #48 b
+INFO  18:06:44,107 - #37 ==
+INFO  18:06:44,108 - #45 5
+INFO  18:06:44,109 - #4 )
+INFO  18:06:44,109 - #16 {
+INFO  18:06:44,110 - #17 }
+INFO  18:06:44,110 - #17 }
+INFO  18:06:44,111 - #17 }
+INFO  18:06:44,114 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList2(
+    DeclarationList1(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      GlobalDecl(
+        GlobalType(
+          Type(
+           int
+          ) [Type]
+        ) [GlobalType]
+        GlobalNakonTipa1(
+          SamoJedno1(
+            GlobalDeclName(
+              GlobalDeclImeProm(
+               a
+              ) [GlobalDeclImeProm]
+              Zagrade2(
+              ) [Zagrade2]
+            ) [GlobalDeclName]
+          ) [SamoJedno1]
+        ) [GlobalNakonTipa1]
+      ) [GlobalDecl]
+    ) [DeclarationList1]
+    ConstDecl(
+      ConstType(
+        Type(
+         int
+        ) [Type]
+      ) [ConstType]
+      ConstIzraz(
+       b
+        TipConst1(
+         5
+        ) [TipConst1]
+      ) [ConstIzraz]
+      DodatnoCD1(
+      ) [DodatnoCD1]
+    ) [ConstDecl]
+  ) [DeclarationList2]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Statement3(
+            SStat1(
+              DesignatorStatement4(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DDodatno3(
+                  ) [DDodatno3]
+                ) [Designator]
+              ) [DesignatorStatement4]
+            ) [SStat1]
+          ) [Statement3]
+        ) [Statements]
+        Statement3(
+          SStat2(
+            ZaCond(
+              Cond1(
+                CondTerm1(
+                  CondFact1(
+                    Expr2(
+                      Term2(
+                        Fac7(
+                          Designator(
+                            DesignatorName(
+                             b
+                            ) [DesignatorName]
+                            DDodatno3(
+                            ) [DDodatno3]
+                          ) [Designator]
+                        ) [Fac7]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                    Relop1(
+                    ) [Relop1]
+                    Expr2(
+                      Term2(
+                        Fac1(
+                         5
+                        ) [Fac1]
+                      ) [Term2]
+                      NoAddTerm(
+                      ) [NoAddTerm]
+                    ) [Expr2]
+                  ) [CondFact1]
+                ) [CondTerm1]
+              ) [Cond1]
+            ) [ZaCond]
+            Statement2(
+              Statements1(
+                NoStmt(
+                ) [NoStmt]
+              ) [Statements1]
+            ) [Statement2]
+            NoElse(
+            ) [NoElse]
+          ) [SStat2]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:06:44,123 - ===================================
+INFO  18:06:44,128 - Deklarisana promenljiva a na liniji 2
+INFO  18:06:44,128 - Dodat je const simbol sa imenomb na liniji 3
+INFO  18:06:44,128 - Obradjuje se funkcija main na liniji 5

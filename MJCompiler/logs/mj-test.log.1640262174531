@@ -1,0 +1,83 @@
+INFO  13:21:35,265 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:21:35,342 - #2 program
+INFO  13:21:35,342 - #48 mojProg
+INFO  13:21:35,342 - #35 const
+INFO  13:21:35,344 - #48 int
+INFO  13:21:35,344 - #48 size
+INFO  13:21:35,345 - #7 =
+INFO  13:21:35,345 - #45 10
+INFO  13:21:35,345 - #6 ;
+INFO  13:21:35,346 - #31 record
+INFO  13:21:35,347 - #48 Board
+INFO  13:21:35,347 - #16 {
+INFO  13:21:35,347 - #48 int
+INFO  13:21:35,347 - #48 rows
+INFO  13:21:35,347 - #22 ,
+INFO  13:21:35,349 - #48 columns
+INFO  13:21:35,349 - #6 ;
+INFO  13:21:35,349 - #17 }
+INFO  13:21:35,350 - #16 {
+INFO  13:21:35,350 - #48 int
+INFO  13:21:35,350 - #48 main
+INFO  13:21:35,351 - #3 (
+INFO  13:21:35,351 - #4 )
+INFO  13:21:35,351 - #16 {
+INFO  13:21:35,352 - #17 }
+INFO  13:21:35,352 - #17 }
+INFO  13:21:35,354 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList4(
+    DeclarationList2(
+      NoDeclList(
+      ) [NoDeclList]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       size
+        TipConst1(
+         10
+        ) [TipConst1]
+        DodatnoCD1(
+        ) [DodatnoCD1]
+      ) [ConstDecl]
+    ) [DeclarationList2]
+    RDecl2(
+     Board
+      VarDeclDerived1(
+        Type(
+         int
+        ) [Type]
+       rows
+        Zagrade2(
+        ) [Zagrade2]
+        ViseVarDeklarisane(
+          NoViseVarDecl(
+          ) [NoViseVarDecl]
+         columns
+          Zagrade2(
+          ) [Zagrade2]
+        ) [ViseVarDeklarisane]
+      ) [VarDeclDerived1]
+      NoViseVarDecl(
+      ) [NoViseVarDecl]
+    ) [RDecl2]
+  ) [DeclarationList4]
+  ZaM2(
+    Method2(
+      PovrTip2(
+       int
+      ) [PovrTip2]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoStatement(
+      ) [NoStatement]
+    ) [Method2]
+  ) [ZaM2]
+) [Program]
+INFO  13:21:35,354 - ===================================
+INFO  13:21:35,358 -  Print count calls = 0
+INFO  13:21:35,358 -  Deklarisanih promenljivih ima = 0

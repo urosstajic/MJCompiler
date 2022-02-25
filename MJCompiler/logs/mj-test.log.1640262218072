@@ -1,0 +1,97 @@
+INFO  13:23:11,367 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  13:23:11,432 - #2 program
+INFO  13:23:11,432 - #48 mojProg
+INFO  13:23:11,433 - #35 const
+INFO  13:23:11,435 - #48 int
+INFO  13:23:11,435 - #48 size
+INFO  13:23:11,436 - #7 =
+INFO  13:23:11,436 - #45 10
+INFO  13:23:11,436 - #6 ;
+INFO  13:23:11,438 - #31 record
+INFO  13:23:11,439 - #48 Board
+INFO  13:23:11,439 - #16 {
+INFO  13:23:11,440 - #48 int
+INFO  13:23:11,440 - #48 rows
+INFO  13:23:11,440 - #22 ,
+INFO  13:23:11,442 - #48 columns
+INFO  13:23:11,442 - #6 ;
+INFO  13:23:11,443 - #17 }
+INFO  13:23:11,443 - #48 Table
+INFO  13:23:11,445 - #48 val
+INFO  13:23:11,445 - #6 ;
+INFO  13:23:11,445 - #48 Board
+INFO  13:23:11,446 - #48 board
+INFO  13:23:11,446 - #6 ;
+INFO  13:23:11,446 - #16 {
+INFO  13:23:11,446 - #17 }
+INFO  13:23:11,450 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    DeclarationList1(
+      DeclarationList4(
+        DeclarationList2(
+          NoDeclList(
+          ) [NoDeclList]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           size
+            TipConst1(
+             10
+            ) [TipConst1]
+            DodatnoCD1(
+            ) [DodatnoCD1]
+          ) [ConstDecl]
+        ) [DeclarationList2]
+        RDecl2(
+         Board
+          VarDeclDerived1(
+            Type(
+             int
+            ) [Type]
+           rows
+            Zagrade2(
+            ) [Zagrade2]
+            ViseVarDeklarisane(
+              NoViseVarDecl(
+              ) [NoViseVarDecl]
+             columns
+              Zagrade2(
+              ) [Zagrade2]
+            ) [ViseVarDeklarisane]
+          ) [VarDeclDerived1]
+          NoViseVarDecl(
+          ) [NoViseVarDecl]
+        ) [RDecl2]
+      ) [DeclarationList4]
+      VarDeclDerived1(
+        Type(
+         Table
+        ) [Type]
+       val
+        Zagrade2(
+        ) [Zagrade2]
+        NoViseVarDecl(
+        ) [NoViseVarDecl]
+      ) [VarDeclDerived1]
+    ) [DeclarationList1]
+    VarDeclDerived1(
+      Type(
+       Board
+      ) [Type]
+     board
+      Zagrade2(
+      ) [Zagrade2]
+      NoViseVarDecl(
+      ) [NoViseVarDecl]
+    ) [VarDeclDerived1]
+  ) [DeclarationList1]
+  ZaM1(
+  ) [ZaM1]
+) [Program]
+INFO  13:23:11,450 - ===================================
+INFO  13:23:11,453 -  Print count calls = 0
+INFO  13:23:11,453 -  Deklarisanih promenljivih ima = 0

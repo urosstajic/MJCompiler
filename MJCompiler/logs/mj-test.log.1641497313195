@@ -1,0 +1,214 @@
+INFO  20:28:00,009 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  20:28:00,205 - #2 program
+INFO  20:28:00,205 - #48 mojProg
+INFO  20:28:00,205 - #48 int
+INFO  20:28:00,207 - #48 nesto
+INFO  20:28:00,210 - #22 ,
+INFO  20:28:00,213 - #48 iny
+INFO  20:28:00,214 - #48 a
+ERROR 20:28:00,214 - 
+Sintaksna greska na liniji 2
+INFO  20:28:00,214 - #22 ,
+INFO  20:28:00,214 - #48 ooo
+INFO  20:28:00,214 - #6 ;
+INFO  20:28:00,215 - #16 {
+ERROR 20:28:00,215 - Izvrsen oporavak do , zarez u liniji 2
+INFO  20:28:00,218 - #19 void
+INFO  20:28:00,219 - #48 main
+INFO  20:28:00,220 - #3 (
+INFO  20:28:00,222 - #48 uuu
+INFO  20:28:00,222 - #22 ,
+ERROR 20:28:00,222 - 
+Sintaksna greska na liniji 4
+INFO  20:28:00,223 - #48 int
+INFO  20:28:00,223 - #48 b
+INFO  20:28:00,223 - #4 )
+ERROR 20:28:00,224 - Izvrsen oporavak do , zbog loseg parametra funkcije u liniji 4
+INFO  20:28:00,227 - #16 {
+INFO  20:28:00,229 - #10 if
+INFO  20:28:00,231 - #3 (
+INFO  20:28:00,231 - #48 a
+INFO  20:28:00,231 - #37 ==
+INFO  20:28:00,234 - #45 5
+INFO  20:28:00,237 - #4 )
+INFO  20:28:00,237 - #16 {
+INFO  20:28:00,237 - #48 b
+INFO  20:28:00,238 - #7 =
+INFO  20:28:00,238 - #45 5
+INFO  20:28:00,239 - #6 ;
+INFO  20:28:00,240 - #17 }
+INFO  20:28:00,240 - #11 else
+INFO  20:28:00,241 - #16 {
+INFO  20:28:00,241 - #48 c
+INFO  20:28:00,241 - #7 =
+INFO  20:28:00,241 - #45 9
+INFO  20:28:00,241 - #6 ;
+INFO  20:28:00,241 - #17 }
+INFO  20:28:00,242 - #17 }
+INFO  20:28:00,242 - #17 }
+INFO  20:28:00,248 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+           nesto
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa2(
+          ErrorStmt2(
+          ) [ErrorStmt2]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+               ooo
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalNakonTipa2]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      MultipleFormParam(
+        FormalParamDecls(
+          ErrorStmt5(
+          ) [ErrorStmt5]
+          SingleFormalParamDecl(
+            OneFormalP(
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               b
+                Zagrade2(
+                ) [Zagrade2]
+              ) [FormalParamDecl]
+            ) [OneFormalP]
+          ) [SingleFormalParamDecl]
+        ) [FormalParamDecls]
+      ) [MultipleFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat2(
+            ZaCond(
+              Cond1(
+                CondTerm1(
+                  CondFact1(
+                    Expr3(
+                      Term2(
+                        Fac7(
+                          Des1(
+                           a
+                            DDodatno3(
+                            ) [DDodatno3]
+                          ) [Des1]
+                        ) [Fac7]
+                      ) [Term2]
+                    ) [Expr3]
+                    Relop1(
+                    ) [Relop1]
+                    Expr3(
+                      Term2(
+                        Fac1(
+                         5
+                        ) [Fac1]
+                      ) [Term2]
+                    ) [Expr3]
+                  ) [CondFact1]
+                ) [CondTerm1]
+              ) [Cond1]
+            ) [ZaCond]
+            Statement2(
+              Statements1(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  Statement3(
+                    SStat1(
+                      DesignatorStatement1(
+                        Des1(
+                         b
+                          DDodatno3(
+                          ) [DDodatno3]
+                        ) [Des1]
+                        Assignop(
+                        ) [Assignop]
+                        Expr3(
+                          Term2(
+                            Fac1(
+                             5
+                            ) [Fac1]
+                          ) [Term2]
+                        ) [Expr3]
+                      ) [DesignatorStatement1]
+                    ) [SStat1]
+                  ) [Statement3]
+                ) [Statements]
+              ) [Statements1]
+            ) [Statement2]
+            ElseGrana1(
+              Statement2(
+                Statements1(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Statement3(
+                      SStat1(
+                        DesignatorStatement1(
+                          Des1(
+                           c
+                            DDodatno3(
+                            ) [DDodatno3]
+                          ) [Des1]
+                          Assignop(
+                          ) [Assignop]
+                          Expr3(
+                            Term2(
+                              Fac1(
+                               9
+                              ) [Fac1]
+                            ) [Term2]
+                          ) [Expr3]
+                        ) [DesignatorStatement1]
+                      ) [SStat1]
+                    ) [Statement3]
+                  ) [Statements]
+                ) [Statements1]
+              ) [Statement2]
+            ) [ElseGrana1]
+          ) [SStat2]
+        ) [Statement3]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:28:00,252 - ===================================
+INFO  20:28:00,260 -  Print count calls = 0
+INFO  20:28:00,260 -  Deklarisanih promenljivih ima = 0

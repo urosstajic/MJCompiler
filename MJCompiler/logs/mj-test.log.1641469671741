@@ -1,0 +1,106 @@
+INFO  12:47:44,131 - Compiling source file: C:\Users\Uros\Desktop\pp\workspace\novi\test\program.mj
+INFO  12:47:44,217 - #2 program
+INFO  12:47:44,217 - #48 mojProg
+INFO  12:47:44,217 - #48 int
+INFO  12:47:44,218 - #48 nesto
+INFO  12:47:44,220 - #22 ,
+INFO  12:47:44,221 - #48 iny
+INFO  12:47:44,222 - #48 a
+ERROR 12:47:44,222 - 
+Sintaksna greska na liniji 2
+INFO  12:47:44,222 - #22 ,
+INFO  12:47:44,222 - #48 ooo
+INFO  12:47:44,222 - #6 ;
+INFO  12:47:44,223 - #16 {
+ERROR 12:47:44,223 - Izvrsen oporavak do , zarez u liniji 2
+INFO  12:47:44,225 - #19 void
+INFO  12:47:44,226 - #48 main
+INFO  12:47:44,226 - #3 (
+INFO  12:47:44,227 - #4 )
+INFO  12:47:44,228 - #16 {
+INFO  12:47:44,228 - #48 x
+INFO  12:47:44,229 - #7 =
+INFO  12:47:44,230 - #45 5
+INFO  12:47:44,231 - #6 ;
+INFO  12:47:44,232 - #17 }
+INFO  12:47:44,233 - #17 }
+INFO  12:47:44,235 - Program(
+  ProgName(
+   mojProg
+  ) [ProgName]
+  DeclarationList1(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    GlobalDecl(
+      GlobalType(
+        Type(
+         int
+        ) [Type]
+      ) [GlobalType]
+      GlobalNakonTipa2(
+        ViseGlobalZ(
+          GlobalDeclName(
+           nesto
+            Zagrade2(
+            ) [Zagrade2]
+          ) [GlobalDeclName]
+        ) [ViseGlobalZ]
+        GlobalNakonTipa2(
+          ErrorStmt2(
+          ) [ErrorStmt2]
+          GlobalNakonTipa1(
+            SamoJedno1(
+              GlobalDeclName(
+               ooo
+                Zagrade2(
+                ) [Zagrade2]
+              ) [GlobalDeclName]
+            ) [SamoJedno1]
+          ) [GlobalNakonTipa1]
+        ) [GlobalNakonTipa2]
+      ) [GlobalNakonTipa2]
+    ) [GlobalDecl]
+  ) [DeclarationList1]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    Method1(
+      MethodTypeName(
+        PovrTip1(
+        ) [PovrTip1]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Statement3(
+          SStat1(
+            DesignatorStatement1(
+              Des1(
+               x
+                DDodatno3(
+                ) [DDodatno3]
+              ) [Des1]
+              Assignop(
+              ) [Assignop]
+              Expr3(
+                Term2(
+                  Fac1(
+                   5
+                  ) [Fac1]
+                ) [Term2]
+              ) [Expr3]
+            ) [DesignatorStatement1]
+          ) [SStat1]
+        ) [Statement3]
+      ) [Statements]
+    ) [Method1]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:47:44,236 - ===================================
+INFO  12:47:44,240 -  Print count calls = 0
+INFO  12:47:44,240 -  Deklarisanih promenljivih ima = 0
